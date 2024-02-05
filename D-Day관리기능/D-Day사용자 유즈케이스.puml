@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+title D-Day 유즈케이스 다이어그램
+
+:사용자: as User
+(일정 앱) as (app1)
+
+
+note "지정일, 메모, 알람지정" as UserReq
+note " D-day까지 남은 일수 계산\n 정보 출력" as Service
+
+User . (UserReq)
+(UserReq) -> (app1)
+(app1) .. Service
+Service -> User
+
+@enduml
