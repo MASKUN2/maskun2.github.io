@@ -5,13 +5,13 @@ date:   2024-01-18 00:00:00 +0900
 categories: 
 ---
 ### 패키지 구조
-![img.png](/img/img.png)
+![img.png](/document/img/img.png)
 - 클라이언트와 API의 패키지가 혼재
 - 중복된 영역을 다루는API가 발생 [EmpService.java] ,[EmployeeApiService.java] , [FranchiseBranchService.java] , [BranchApiService.java].
 - 패키지 구조, 공통 API 대한 소통이 부족했다고 생각
 
 ### common API
-![img_1.png](/img/img_1.png)
+![img_1.png](/document/img/img_1.png)
 - 로그인 세션관리는 통일된 클래스로 바꾸면 좋지 않았을까 생각
 - 그 밖에 에러페이지처리, enum, 페이지네이션 등 공통으로 사용될 후보 API도 아쉬움
 - 소통부족
