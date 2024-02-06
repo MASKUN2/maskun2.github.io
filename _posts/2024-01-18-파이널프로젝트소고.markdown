@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "파이널프로젝트 소고"
+date:   2024-01-18 00:00:00 +0900
+categories: 
+---
+### 패키지 구조
+![img.png](/img/img.png)
+- 클라이언트와 API의 패키지가 혼재
+- 중복된 영역을 다루는API가 발생 [EmpService.java] ,[EmployeeApiService.java] , [FranchiseBranchService.java] , [BranchApiService.java].
+- 패키지 구조, 공통 API 대한 소통이 부족했다고 생각
+
+### common API
+![img_1.png](/img/img_1.png)
+- 로그인 세션관리는 통일된 클래스로 바꾸면 좋지 않았을까 생각
+- 그 밖에 에러페이지처리, enum, 페이지네이션 등 공통으로 사용될 후보 API도 아쉬움
+- 소통부족
+
+### 표현과 도메인계층의 분리
+- View에서 비지니스 로직보다는 해당 기능을 RestApi를 통해 도메인 서비스로 위임하기
+- 관심사의 분리에 대한 논의가 부족
+
+---
+
+# 코드리뷰에서 할 얘기
+- 서비스간 의존 관계, 의존방향에 대한 내용
+-  핵심 API의 데이터 매핑방식 (programCalendar)
+-  RestController(programCalendar)
+   -[ResponseEntityGenerator.java]
+-  외부 HTTP 리퀘스트
+- 마이바티스 - app 간 enum TypeHandler
