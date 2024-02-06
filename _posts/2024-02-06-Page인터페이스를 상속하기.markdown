@@ -1,0 +1,232 @@
+---
+layout: post
+title:  "Page인터페이스를 상속하기"
+date:   2024-02-06 10:00:00 +0900
+categories: spring
+---
+# Page인터페이스를 상속하기
+
+### 1.0.0 Pageable
+  `Interface Pageable` 은 스프링 data commons에 포함된 인터페이스다. 구현체로 PageRequest 등이 있다. Pageable을 예시와 같이 컨트롤러의 매개변수로 사용할 경우 URL의 쿼리스트링 중 size, page, sort의 requestParameter와 매칭된다. 셋 중 하나의 값이 없는 경우 기본 값으로 값을 대체한다. 실제로 PageRequest에는 프로퍼티 이름이 각각 pageSize, pageNumber, sort인 것을 볼 수 있는데 spring data의 버전이 2에서 3으로 변경되면서 내부의 프로퍼티명이 변경된 것을 확인 할 수 있었다. 프로퍼티 이름 변경은 통상적으로 ArgumentResolver의 값 바인딩에 영향을 미칠 수 있는데 스프링은 내부적으로 PageableHandlerMethodArgumentResolver가 이 과정을 관리하여 버전의 하위 호환을 달성한 것 같다.
+```java
+public class MemoController {
+    @GetMapping("/memo")//메모 검색페이지
+    public String getMemoList(@SessionAttribute(name = "loginUser") User user,
+                              @RequestParam(name = "keyword") @NotNull String keyword,
+                              @PageableDefault(size = 10, sort = {}) Pageable pageable,
+                              HttpServletRequest request,
+                              Model model) {
+    }
+}
+```
+### 1.0.1 Pageale를 DAO에서의 사용
+ `Interface Pageable`는 JPA Repository 인터페이스 메소드의 마지막 매개변수로 사용할 수 있다. 이경우 메소드의 리턴타입을 Page<T>로 변경해야한다.  
+
+```java
+@Repository
+public interface MemoRepository extends JpaRepository<Memo,Long> {
+    Page<Memo> findMemoByUserIdAndMemoContentContainsOrderByCreatedateDesc(String userId, String keyword, Pageable pageable);
+}
+```
+
+### 1.0.2 Page
+ `Page`또한 인터페이스이며 구현체 PageImpl가 있다. Page는 페이지네이션에 필요한 프로퍼티를 가지고 있다. 대표적으로 현재페이지(getNumber), 총페이지다(getTotalPage).
+```java
+public interface Page<T> extends Slice<T> {
+    static <T> Page<T> empty() {
+        return empty(Pageable.unpaged());
+    }
+
+    static <T> Page<T> empty(Pageable pageable) {
+        return new PageImpl(Collections.emptyList(), pageable, 0L);
+    }
+
+    int getTotalPages();
+
+    long getTotalElements();
+
+    <U> Page<U> map(Function<? super T, ? extends U> converter);
+}
+```
+### 1.0.2 Page의 약간의 단점
+ `Page`는 자체만으로도 사용이 유용하지만 Slice 인터페이스를 상속받기 때문에 시작인덱스가 1이 아닌 0이다. 유저시각에서의 페이징넘버링과는 차이가 있다. 총페이지를 가져오는 경우에는 카운트를 가져오기 때문에 마지막페이지번호와 총 페이지수는 1의 차이가 발생한다.  
+  이런 단점은 페이지네이션으로 URL을 만들어야하는 과정에서의 혼란을 준다. 컨트롤러에서 Pageable로 매핑받는 page 프로퍼티의 값이 0이면 Page인터페이스에서는 0번 인덱스를 의미하고 실제로 웹 클라이언트에서는 1번째 페이지라고 표현해야하기 때문이다. 
+
+### 1.0.3 Page의 개선방법
+ `Page`는 앞서 살펴본대로 Pageable 및 PageableHandlerMethodArgumentResolver 와 라이프사이클을 함께하기 때문에 한 클래스의 수정만으로 인덱싱 페이지번호 0을 1로 바꾸는 것은 불가능하다. 초심자의 입장에서 스프링이 기본으로 제공하는 API를 덮어씌우는 것은 부담이 크다.  
+  [설정으로 변경하는 방법](https://treasurebear.tistory.com/59)  
+  
+### 1.0.4 Page가 아닌 Pagenation에 집중해보기
+ `Page`가 가지는 단점에 대해 얘기했다. 나는 스프링의 기본구성을 변경하지 않고 다만 페이지네이션만 쉽도록해야겠다고 생각했다. 필요한 것은 정확한 페이지 번호를 사용자의 화면에 보여주는 것이며 하이퍼링크를 걸어주는 것이다. Page를 상속받는 Pagination을 만들었다. 
+
+### 1.0.4.1 원하는 값을 담을 값 객체만들기
+ `PageUrl`은 실제 사용자에게 보여지는 페이지 번호와 해당 번호에 맞는 하이퍼링크를 속성으로 가지게 만들었다.
+```java
+//페이지 번호, url
+public record PageUrl(
+        int pageNumber,
+        String urlString
+){}
+```
+### 1.0.4.2 상속
+ `Pagination<T>`를 페이지를 상속받도록 변경했다. 매개변수로는 한번에 가져올 페이지네이션의 한쪽 너비, 기본 URL, 기타 추가될 파라미터 등이다.
+
+```java
+/**
+ * 커스텀 페이지네이션 정보를 담기 Page<T>상속 인터페이스
+ */
+public interface Pagination<T> extends Page<T> {
+
+    List<PageUrl> getPageUrlList(Integer pageOffset, String urlPath, Map<String,String[]> params);
+}
+```
+
+### 1.0.4.3 구현
+ `PaginationImpl`가 Pagination의 구현체다.  
+ fromPage(Page<T> page) 는 Repository로 리턴받는 Page<T>로 부터 생성자를 호출하게된다.  
+ `PaginationImpl`는 필드를 가지지 않지만 상속받는 PageImpl의 프로퍼티를 사용해 getPageUrlList 메소드를 공개 프로퍼티로 제공한다. 따라서 일종의 Wrapper 클래스다. 메소드 시그니처 중 Map<String,String[]> requestParams 은 컨트롤러 메소드의 HttpServletRequest 파라미터의 getParameterMap()을 호출한 경우 리턴타입이다.  
+ getMultiValueMap(@Nullable Map<String, String[]> requestParams)에서는 이를 넘겨받아 UriComponentsBuilder의 queryParams(@Nullable MultiValueMap<String, String> params)에 적합한 Map타입으로 convert한다.
+```java
+
+public class PaginationImpl<T> extends PageImpl<T> implements Pagination<T> {
+
+    private PaginationImpl(List<T> content, Pageable pageable, long total) {
+        super(content, pageable, total);
+    }
+
+
+    public static <T>Pagination<T> fromPage(Page<T> page){
+        return new PaginationImpl<>(page.getContent(), page.getPageable(), page.getTotalElements());
+    }
+
+    /** 페이징 URL을 생성하는 메소드
+     * @param pageOffset half side 간격
+     * @param urlPath 쿼리스트링을 제외한 요청 URL
+     * @param requestParams 쿼리스트링 맵
+     */
+    @Override
+    public List<PageUrl> getPageUrlList(@Nullable Integer pageOffset, String urlPath, @Nullable Map<String,String[]> requestParams) {
+        //nullable 페이지 오프셋 초기화
+        pageOffset = (pageOffset == null) ? 5 : pageOffset;
+        //파라미터 준비
+        MultiValueMap<String, String> params = getMultiValueMap(requestParams);
+        //페이지숫자 정의
+        final int currentPage = getNumber() + 1;
+        final int startPage = currentPage - pageOffset;
+        final int totalPage = getTotalPages();
+
+        //페이지, url 생성
+        List<PageUrl> pageUrlList = new ArrayList<>();
+        for (int i = 0; i <= pageOffset * 2; i++) {
+            int page = startPage + i;
+            if (page >= 1 && page <= totalPage) {
+                int pageIndex = page - 1;
+                String PageUrl = UriComponentsBuilder
+                        .fromHttpUrl(urlPath).queryParams(params)
+                        .replaceQueryParam("page", pageIndex)
+                        .replaceQueryParam("size", getSize())
+                        .toUriString();
+                pageUrlList.add(new PageUrl(page, PageUrl));
+            }
+        }
+        return pageUrlList;
+    }
+
+    /** 리퀘스트 파라미터 맵을를 uri컴포넌트빌더 사용에 적합한 멀티밸류맵으로 전환시킵니다.
+     */
+    private static MultiValueMap<String, String> getMultiValueMap(@Nullable Map<String, String[]> requestParams) {
+        if(requestParams == null){
+            return null;
+        }
+        return requestParams.entrySet().stream()
+                .collect(Collectors.toMap(Map.Entry::getKey, e -> Arrays.asList(e.getValue()),
+                        (existing, replacement) -> existing, LinkedMultiValueMap::new)
+                );
+    }
+}
+```
+
+### 1.0.4.4 구현2
+ `getPageUrlList`메소드는 List<PageUrl> 리턴타입을 가진다. PageUrl의 pageNumber에는 통상적인 1로 시작하는 페이지를, urlString에는 스프링이 기본으로 사용되는 0으로 시작하는 인덱싱을 부여한다. 
+ ```java
+//페이지, url 생성
+        List<PageUrl> pageUrlList = new ArrayList<>();
+        for (int i = 0; i <= pageOffset * 2; i++) {
+            int page = startPage + i;
+            if (page >= 1 && page <= totalPage) {
+                int pageIndex = page - 1;
+                String PageUrl = UriComponentsBuilder
+                        .fromHttpUrl(urlPath).queryParams(params)
+                        .replaceQueryParam("page", pageIndex)
+                        .replaceQueryParam("size", getSize())
+                        .toUriString();
+                pageUrlList.add(new PageUrl(page, PageUrl));
+            }
+        }
+```
+
+### 1.0.5.1사용(서비스)
+ `Service`에서는 Repository로 전달받은 Page를 PaginationImpl.fromPage()로 래핑하여 컨트롤러에 보내줄 수 있다. 
+
+```java
+@Service
+public class MemoService {
+    private final MemoRepository memoRepository;
+    
+    public Pagination<Memo> retrieveUserMemoByKeywordPagination(String userId, String keyword, Pageable pageable) {
+        Page<Memo> memoPage = memoRepository.findMemoByUserIdAndMemoContentContainsOrderByCreatedateDesc(userId, keyword, pageable);
+        return PaginationImpl.fromPage(memoPage);
+    }
+}
+```
+### 1.0.5.2 사용(컨트롤러)
+컨트롤러에서는 request.getRequestURL().toString(), request.getParameterMap() 를 사용하여 `Pagination`의 getPageUrlList()에 필요한 인자를 전달해줄 수 있다. 리턴된 리스트는 model.addAttribute("pageUrlList", pageUrlList)로 모델에 담아 뷰로보내지게 된다.
+```java
+@GetMapping("/memo")//메모 검색페이지
+    public String getMemoList(@SessionAttribute(name = "loginUser")User user,
+                              @RequestParam(name = "keyword") @NotNull String keyword,
+                              @PageableDefault(size = 10, sort = {}) Pageable pageable,
+                              HttpServletRequest request,
+                              Model model){
+        //pageable의 sort 입력을 방지
+        if(pageable.getSort().isSorted()){
+            throw new IllegalArgumentException("쿼리스트링 sort는 forbidden 되었습니다.");
+        }
+        //pagination 가져오기
+        Pagination<Memo> memoPagination = memoService.retrieveUserMemoByKeywordPagination(user.getUserId(),keyword, pageable);
+        //페이지네이션 정보 생성
+        List<PageUrl> pageUrlList = memoPagination.getPageUrlList(5, request.getRequestURL().toString(), request.getParameterMap());
+        log.debug("생성된 페이지네이션 {}", pageUrlList.toString());
+
+        model.addAttribute("retrievedMemoList", memoPagination.getContent());
+        model.addAttribute("pageUrlList", pageUrlList);
+        model.addAttribute("keyword", keyword);
+        return "memo";
+    }
+
+```
+
+### 1.0.5.3 사용(뷰)
+ 뷰에서는 간편하게 각 객체를 나열해주면 끝난다.
+```thymeleafexpressions
+<div class="d-flex justify-content-center">
+    <h5>"<span th:text="${keyword}"/>" 검색결과</h5>
+</div>
+<div class="d-flex justify-content-center mb-3">
+    <a th:each="pageUrl : ${pageUrlList}" th:href="${pageUrl.urlString}" th:text="${pageUrl.pageNumber}" class="mx-1"></a>
+</div>
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <th>날짜</th>
+        <th>내용</th>
+        <th>등록시간</th>
+    </tr>
+```
+
+### 1.0.6 사용자 화면
+
+![img.png](img.png)
+
+### 1.0.7 결론
+ `Page`인터페이스는 스프링이 기본으로 제공해주는 API다. 다만 하위호환을 위해 0으로 시작하는 단점이 있지만 보완해서 사용하면 좋을 것 같다. 여기서는 API가 가진 단점을 수정하기 보다는 우회하여 본질적인 비지니스로직에만 집중하여 `Pagination` 이라는 상속 인터페이스를 설계하고 구현하였다. 이는 OCP에 따라서 확장에 좀더 초점을 둔 개발 방식이다. 아직 보완할게 많은 코드지만 그래도 현재의 수준에서는 쓸만한 코드인 것 같아서 블로그에 게시한다. 
