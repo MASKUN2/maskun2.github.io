@@ -1,0 +1,49 @@
+---
+layout: post
+title:  "스프링 서비스 빈의 메소드 반환타입과 응답에 대한 소고"
+date:   2024-02-08 00:00:00 +0900
+categories: spring
+---
+
+### 1.0.0 배경
+ 계층과 분리되며 잘 예외처리 될 수 있는 방식의 서비스를 만들고 싶었다.
+ 
+### 1.1.0 서비스의 리턴타입
+ In front Of Method signatures of Service Bean show their return type. Let's classify the types.
+ - Object : It's `null`.
+ - Object : It's not `null`.
+ - void
+ - Primitive values
+
+### 1.1.1 컨트롤러 관점에서의 서비스의 리턴타입
+노멀한 경우 웹 애플리케이션에서 컨트롤러가 서비스가 리턴하는 것을 그대로 클라이언트에게 전부 전달하거나 가공해서 전달할 수 있다. It depends on the architecture and requirement. 응답의 형태는 수시로 변경될 수 있다. 애플리케이션의 계층에서 주로 웹 계층에 해당되는 컨트롤러는 수시로 변경이 될 수 있다. 따라서 응답의 형태를 서비스에서 관리하는 것은 부적절하다고 생각된다.
+
+### 1.1.2 컨트롤러와 서비스의 관심사 구분
+ So, Let's separate concerns between controller and service. 
+ Controller : is in the area of Web layer. 클라이언트와 request와 response을 handling 한다. 
+ Service : Response와 Request에는 별다른 신경을 쓰지 않아야 한다. 
+ 
+### 1.1.3 서비스 리턴타입에 대한 제안
+ primitive data types are initialized to their default values if initialization are not performed. 따라서 서비스의 리턴타입을 가지기엔 조금 불리한 측면이 있다.
+  null 또한 마찬가지다. controller가 null을 리턴받는다면 이것이 어떤 의미인지에 대한 규약없이 개발자가 알아차리기 힘들다. Controller cannot determine whether it's actually empty or any a problem occurs. 따라서 null에 대한 공통의 처리를 해야한다고 생각이 든다. 이는 예외로 처리하는 것이 적절하다. 따라서 서비스의 적절한 리턴타입은 1. void 2. null이 아닌 object 여야 한다고 생각된다. 만약 비지니스 로직의 에러가 발생하는 경우 예외를 발생시켜 컨트롤러에게 적절한 응답을 보내도록 유도하는 것이 좋겠다고 생각된다.
+ 
+### 1.1.4 구현에 대하여
+ 기본형을 통제하고 null을 통제하는 기본 기능이 필요하다는 것을 알게되었다. 서비스 계층에서 리턴타입을 지정할 때 기본형을 쓰지 않는 것으로 이를 보완가능하지만 null을 처리하는 것은 다양한 고민을 하게 만든다. 우선 메소드별로 return에 값을 보내기전에 검사하는 것으로는 반복이 발생되며 서비스의 관심사와는 다르다. 따라서 관심사의 분리가 필요해 보이며 AOP에서 메소드의 return을 확인하여 예외를 발생시키는 방식이 좋다고 생각이 들었다. 
+
+### 1.1.4.0 계층 구조
+ 대략적으로 다음과 같은 구조가 적절해보였다.
+
+ web -> java validator -> controller -> service
+ service -> null검사 validator -> controller -> web
+ 
+ 생각해보자면 null의 검사를 위해 컨트롤러와 서비스 사이에 검사 계층을 둔다고 생각했으나 관심사의 분리를 위해 계층을 나눈다는 것이 조금 구조의 복잡도 상으로 불리하다고 느껴졌다.
+ 대신 정책적으로 Service가 null을 리턴하지 않도록 객체를 리턴하는 경우 Optional orThrow 메소드 반드시 사용하는 편이 적합하다고 생각된다. Collection의 경우 내부가 비어있어도 괜찮을 것이다. NullpointException을 상속받는 커스텀 익셉션을 정책적으로 가지는 편도 좋겠다고 생각된다. 대략적인 네이밍은 NullReturnException은 어떨까 한다. 
+
+### 1.1.4.1 구현에 대한 제언
+1. Optional 을 사용한 null 회피
+2. null을 검사하여 예외를 발생시키는 AOP
+
+이중 AOP의 경우 가설이지만 @Transactional 다음 순위로 작동하여 Aspect에서 RuntimeException을 발생시켜서 transaction rollback을 할 가능성이 있다. This Theory need to be verified at any test. When ServiceFacade applied to project, We get the goal just by putting Custom Aop annotation on ServiceFacade Class. 
+
+### 1.2.1 결론
+소규모 프로젝트의 경우 서비스 메소드를 null을 리턴하지 않도록 하는 편이 가독성에서 유리할 것 같다. 다만 반복되는 메세지를 줄이기 위해 메세지 프로퍼티를 활용하는 것이 좋을 듯하다.
