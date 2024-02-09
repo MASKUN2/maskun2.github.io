@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "인터페이스와 추상클래스 전략패턴 구조 정도"
+title:  "공부의 흔적"
 date:   2024-02-05 21:12:58 +0900
 categories: spring
 ---
