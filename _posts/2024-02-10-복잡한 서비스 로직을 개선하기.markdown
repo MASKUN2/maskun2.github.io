@@ -6,11 +6,12 @@ categories: spring
 ---
 ### 1.0.0 문제
  아래 다이어그램은 메모수정의 API를 행위다이어그램으로 그린 것이다.
-![img.png](img.png)
+![img.png](/document/img/메모수정의%20API.png)
  트랜젝션의 시작과 종료는 사이의 과정은 서비스가 수행하는 비지니스 로직이다.
  나는 해당 로직을 서비스 메소드 영역안에서 구현했다. 요청데이터와 실제 DB의 데이터를 대조하여 분류하는데 상당한 노력이 들었고 코드가 좋아보이지 않았다. 다음은 내가 구현한 코드의 일부다.
 ```java
-//데이터가 요청 인증정보와 일관성이 있는지 확인하기
+    public void updateUserDateMemo(String userId, LocalDate date, List<MemoSaveDto> reqMemoList)throws MismatchRequestToDbRecordException{
+        //데이터가 요청 인증정보와 일관성이 있는지 확인하기
         try {
             List<Long> userMemoNoList = reqUserDateMemoList.stream()
                     .map(MemoPutReqDto::memoNo)
@@ -41,6 +42,58 @@ categories: spring
         updateMemosContent(updateReqList);
         //메모를 추가하기
         saveMemos(userId, date, addingList);
+}
+        private void verifyUpdateRequest(String userId, LocalDate date, List<Long> reqMemoNos) throws IllegalArgumentException {
+            List<Memo> orginMemoList = memoRepository.findMemosByUserIdAndMemoDateOrderByCreatedate(userId, date);
+            Set<Long> originMemoNos = orginMemoList.stream().map(Memo::getMemoNo).collect(Collectors.toSet());
+            boolean isMatch = originMemoNos.containsAll(reqMemoNos);
+            if (!isMatch) {
+                throw new IllegalArgumentException("요청 인증정보와 데이터의 일관성이 없습니다. receive=" + reqMemoNos.toString() + "found=" + originMemoNos.toString());
+            }
+        }
+
+        /**
+         * <p> 다수의 메모를 저장합니다.</p>
+         */
+        private void saveMemos(String userId, LocalDate date, List<MemoSaveDto> addingList) {
+            for (MemoSaveDto dto : addingList) {
+                Memo addingMemo = Memo.builder()
+                        .memoDate(date)
+                        .userId(userId)
+                        .memoContent(dto.memoContent())
+                @@ -106,21 +127,31 @@ private void saveMemos(String userId, LocalDate date, List<MemoSaveDto> addingLi
+            }
+        }
+
+        /**
+         * <p> Dirty check, 메모의 내용을 수정합니다.</p>
+         */
+        private void updateMemosContent(List<MemoSaveDto> modifingList) {
+            for (MemoSaveDto dto : modifingList) {
+                Optional<Memo> memo = memoRepository.findMemoByMemoNo(dto.memoNo());
+                memo.ifPresent(m -> m.updateContent(dto.memoContent()));
+            }
+        }
+
+        /**
+         * <p>해당 일자에 저장된 메모 중 남기려는 메모를 제외하고 삭제합니다.</p>
+         *
+         * @param userId        웹 요청의 사용자 아이디
+         * @param date          해당 날짜
+         * @param remainMemoNos 남기고자 하는 메모의 번호리스트
+         */
+        private void removeOtherDateMemos(String userId, LocalDate date, List<Long> remainMemoNos) {
+            List<Memo> memoList = memoRepository.findMemosByUserIdAndMemoDateOrderByCreatedate(userId, date);
+            List<Long> deletingNoList = memoList.stream()
+                    .map(Memo::getMemoNo)
+                    .filter(no -> remainMemoNos.stream().noneMatch(Predicate.isEqual(no)))
+                    .toList();
+
+            if (deletingNoList.isEmpty()) {
+                return;
+            }
+            memoRepository.deleteMemoByMemoNoIn(deletingNoList);
+        }
 ```
 소개되지 않은 다양한 Private 메소드를 호출하고 있다.
 filterNeedToUpdate는 요청받은 dtoList 중 수정해야할 것을 선별하는 메소드다.
@@ -52,4 +105,127 @@ filterNeedToUpdate는 요청받은 dtoList 중 수정해야할 것을 선별하�
  그러나 서버사이드에서 이를 구현하는 것은 보기에 쉬워보이지만 설계의 결함이 있어보인다.
   우선 수정 , 삭제 , 추가를 구분해내는 메소드에서 리턴되는 객체가 그대로 다른 멤버 메소드의 인자로 사용되는 것이 문제였다. 이런 연쇄적인 구조는 작은 변경에도 취약할 것이었다. 만약 dto의 데이터구조나 수정대상을 구분하는 조건을 변경하는 요구사항이 있다면, 개발자는 dto를 변경하고 구분하는 메소드도 변경해야하며 이에 영향받는 수정메소드도 이 변경에 영향을 받지 않는지 검사해야한다. 또한 수정/삭제/구별조건이 각각 독립적이기 때문에 어느 하나의 조건규약이 변경되는 경우 다른 구별조건에 영향을 줄 수도 있다. 외부의 변경에 최대한 영향을 적게 받는 것이 좋은 서비스 메소드라고 생각된다면 이는 좋지 못한 코드임이 분명했다.
  ### 1.0.1 해결의 아이디어
- 
+ 나는 요청데이터의 작업구분을 dto객체가 담당하는 아이디어를 떠올렸다.
+### 1.0.1.1 고민
+- 나는 dto에 해당 메소드를 구현하는 것에 거부감을 가지게 되었다.  
+- DTO 중 특히 웹요청DTO는 클라이언트의 변화에 민감하다. 그것은 html name attribute가 변화함에 따라 objectMapping을 위해서 프로퍼티명도 통일해줘야 하기 때문에 dto변경에 따른 서비스 로직도 영향을 받을 수 있다.
+  - 이를 개선하기 위해 controller - service 사이의 dto를 새로 만드는 것을 생각해봤는데 유지보수성이 좋아지지만 controller에서 파싱이나 래핑이 필요하고 클래스를 늘려 복잡성이 증가하는 단점이 예상되었다.
+### 1.0.2 dto를 개선
+- 나는 상기한 단점을 개선하기 위해 하나의 dto클래스를 사용하되. dto의 패키지 경로를 service 경로로 하였다. 그리고 웹 계층에서 열려있는 프로퍼티와 서비스계층으로 열려있는 프로퍼티를 달리하였다.
+- RequestType을 dto 중첩 이늄클래스로 만들었다. 이러한 설계는 dto 요청으로부터 메모의 삭제, 잔존 및수정, 무시라는 3가지 분류를 dto가 직접 담당하게 하기 위함이었다. 이렇게 하지 않고 서비스가 dto를 분석하는 것은 득보다 실이 크다고 판단했다. 서비스가 dto의 데이터에 직접 접근해 요청작업의 분류를 통해 각각 분류별로 리스트를 분할 하는 것은 지나치게 복잡하며 각 분류작업이 다음 분류작업에 영향을 줄 가능성이 있었다. 따라서 해당 분류작업은 최대한 다른 분류작업에 영향을 주지 않아야하며 다중메소드가 아닌 하나의 메소드를 통해 분류가 이뤄져야만 했다. 그래서 나는 이늄을 도입하기로 했고 dto객체의 불변 멤버변수로 RequestType을 가지게 했다. dto의 요청분류에 대한 정보를 가지고 있을 곳은 dto자체라고 생각했기 때문이다.
+- 핸들러의 매개변수로 사용된 dto생성자는 웹컨트롤러에 의해 수정자등으로 자동바인딩되어 멤버변수가 초기화된다. 나는 일반적인 dto가 아닌 비지니스로직의 일부를 담고 있는 도메인에 가까운 객체를 다루고 있기 때문에 dto를 서비스와 동일 패키지에 두었다. 또한 RequestType , 요청타입은 웹 요청에 함께 포함되어 있을 수 있으나 비지니스룰에 의해 애플리케이션 내부의 도메인로직으로 결정되는 것이 이상적이라고 생각했다. 따라서 생성자는 RequestType을 인자로 받지 않고 대신에 분류작업을 담당하는 정적메소드를 dto에 추가하여 초기화하는 것으로 했다. 
+- dto를 설계하면서 웹계층과 서비스 계층의 접근제어자를 private , package-private으로 분류하여 컨트롤러로는 적게 열려있으며 서비스에게는 좀더 열려있는 구조로 정보은닉을 지정했다. boolean IsReqType{RequestType}() 메소드시리즈가 대표적이다. 서비스에게 열려있고 주로 사용되는 프로퍼티는 memoNo 즉 엔티티의 식별자의 Long이며 그 외 dto가 가지고 있는 다른 프로퍼티에는 관심을 가지지 않아도 된다. 
+- 서비스의 관심영역이 축소되며 또한 boolean값의 프로퍼티를 받기 때문에 분류된 dtoList를 구분하기가 무척 간단해졌다. 스트림 API를 통해 filter(MemoPutReqDto::{열려있는 boolean리턴 프로퍼티})를 하면 쉽게 분리할 수 있기 때문이다.
+- 엔티티를 생성해서 insert하는 작업에서도 서비스가 dto의 프로퍼티에 대한 관심을 가지지 않도록 Memo toEntityForInsert(String userId, LocalDate date)메소드로 생성된 엔터티를 repository에 전달하는 것으로서 복잡성을 감소시켰다.
+```java
+public class MemoPutReqDto{
+    @Getter
+    private final Long memoNo;
+    @Getter(AccessLevel.PACKAGE)
+    private final String memoContent;
+    @Getter(AccessLevel.NONE)
+    private final RequestType requestType;
+
+    public MemoPutReqDto(Long memoNo, String memoContent) {
+        this.memoNo = memoNo;
+        this.memoContent = memoContent;
+        this.requestType = classifyRequestType(memoNo, memoContent);
+    }
+    Memo toEntityForInsert(String userId, LocalDate date){
+        return new Memo(userId, date, memoContent, LocalDateTime.now());
+    }
+    boolean IsReqTypeInsert(){
+        return this.requestType == RequestType.INSERT;
+    }
+    boolean IsReqTypeRemainAndUpdate(){
+        return this.requestType == RequestType.REMAIN_AND_UPDATE;
+    }
+    boolean IsReqTypeIgnore(){
+        return this.requestType == RequestType.IGNORE;
+    }
+
+    private enum RequestType {
+        INSERT,
+        REMAIN_AND_UPDATE,
+        IGNORE
+    }
+    private static RequestType classifyRequestType(Long memoNo, String memoContent){
+        boolean memoNoIsNull = memoNo == null;
+        boolean memoContentHasText = StringUtils.hasText(memoContent);
+        if(memoNoIsNull){
+            return memoContentHasText? RequestType.INSERT : RequestType.IGNORE ;
+        }
+        return memoContentHasText? RequestType.REMAIN_AND_UPDATE : RequestType.IGNORE;
+    }
+}
+```
+### 1.0.2.1 서비스를 개선
+- 90여줄의 코드가 50여줄로 줄었다. 특별히 메인 서비스 메소드는 30여줄에서 10여줄로 줄었다. 하위 메소드는 4개에서 3개로 줄었다.
+- 요청정보의 db와 불일치 오류는 객체조회 후 Optional.orElseThrow를 통해 처리해서 try-catch문을 없앴다.
+- 서비스의 메인 메소드는 각 하위 메소드를 호출만을 하기 때문에 가독성과 유지보수성이 좋아졌다. dto로 구분작업을 담당시켰기 때문에 서비스에서는 구분대로 분리하여 List를 만들고 각각의 하위 메소드의 인자로 전달만 하면된다. 또한 컨트롤러로 받은 요청작업을 스트림 toList로 불변리스트로 만들기 때문에 여러번 분리작업에서 생길 수 있는 모객체의 변경도 방지시켰다. 
+- 만약 웹 클라이언트의 메모 저장시 필요한 프로퍼티가 변경될 경우 분류를 담당하는 RequestType 이늄클래스의 변경이 발생하지 않는다면 dto의 구분용 스태틱 메소드를 변경해주고, dto를 엔티티로 변환해주는 메소드의 인자변경이 필요하다. 그 외로는 서비스이 하위 Update메소드에서 엔티티를 update할 때 추가되거나 변경된 프로퍼티를 지정해주면 완료될 것이다.
+- 분류를 담당하는 RequestType의 추가나 변경이 발생할 경우 전체적인 비지니스 로직이 변경되는 것이므로 아마 서비스의 메인, 하위 메소드 그리고 dto에 이르기까지 광범위한 수정이 필요하다. 다만 여전히 구분분류는 dto가 담당하며 서비스는 이 구분대로 리스트를 분리하여 하위메소드에 전달하는 방식으로 서비스가 동작하므로 유지보수가 어렵지 않을 것으로 판단된다. 
+- 본 서비스의 비지니스 로직은 사용자가 해당 일정에서 삭제하지 않고 남긴 일정을 제외한 Old메모를 모두 삭제하고 추가한 일정메모는 추가하여 사용자가 UI를 통해 구성한대로 그대로 DB에 연동시키는 것이다. 만약 메모를 추가했지만 빈 메모인 경우 자동으로 감지하여 해당 메모 추가가 되지 않도록 무시한다. 또한 사용자 화면에서 스스로 삭제, 수정하여 남겨놓은 메모 외에 다른메모가 DB에 남지 않도록 하였다. controller단, 뷰에서 무엇을 삭제할 것인지에 대해 클라이언트가 세세하게 요청을 보낼 수도 있지만 사용자가 직접 수정한 일정 메모화면의 스냅샷을 그대로 DB에 반영시키는 것이 골자였다. 따라서 요청정보도 단순화할 수 있었다.   
+```java
+
+@Slf4j
+@Transactional(readOnly = true)
+@RequiredArgsConstructor
+@Service
+public class MemoServiceImpl implements MemoService {
+    private final MemoRepository memoRepository;
+
+    @Override
+    @Transactional
+    public void updateUserDateMemoList(String userId, LocalDate date, List<MemoPutReqDto> req) throws IllegalArgumentException {
+        List<MemoPutReqDto> reqDtoList = req.stream().filter(dto -> !dto.IsReqTypeIgnore()).toList();
+        boolean isCleanUpDateMemos = reqDtoList.isEmpty();
+        if (isCleanUpDateMemos) {
+            deleteAllMemoByUserIdAndDate(userId, date);
+            return;
+        }
+        List<MemoPutReqDto> remainAndUpdateList = reqDtoList.stream()
+                .filter(MemoPutReqDto::IsReqTypeRemainAndUpdate)
+                .toList();
+        List<MemoPutReqDto> addList = reqDtoList.stream()
+                .filter(MemoPutReqDto::IsReqTypeInsert)
+                .toList();
+        updateMemosAndDeleteOthers(userId, date, remainAndUpdateList);
+        InsertMemos(userId, date, addList);
+    }
+
+    private void deleteAllMemoByUserIdAndDate(String userId, LocalDate date) {
+        if (memoRepository.findByUserIdAndMemoDate(userId, date).isEmpty()) {
+            return;
+        }
+        memoRepository.deleteAllByUserIdAndMemoDate(userId, date);
+        List<Memo> remainMemoList = memoRepository.findByUserIdAndMemoDate(userId, date);
+        if (remainMemoList.isEmpty()) {
+            return;
+        }
+        throw new DeleteFailureException("삭제를 시도했으나 실제로 삭제되지 않았습니다. 남아있는 메모리스트 : " + remainMemoList.toString());
+    }
+
+    private void updateMemosAndDeleteOthers(String userId, LocalDate date, List<MemoPutReqDto> remainAndUpdateList) throws IllegalArgumentException {
+        List<Long> deleteTargetMemoNos = memoRepository.findByUserIdAndMemoDate(userId, date).stream().map(Memo::getMemoNo).collect(Collectors.toList());
+        for (MemoPutReqDto dto : remainAndUpdateList) {
+            Optional<Memo> memoOpt = memoRepository.findMemoByMemoNo(dto.getMemoNo());
+            Memo foundMemo = memoOpt.orElseThrow(() -> new IllegalArgumentException("해당 엔티티객체를 찾을 수 없습니다. No = " + dto.getMemoNo()));
+            foundMemo.updateContent(dto.getMemoContent());
+            deleteTargetMemoNos.removeIf(Predicate.isEqual(foundMemo.getMemoNo()));
+        }
+        memoRepository.deleteMemosByMemoNoIn(deleteTargetMemoNos);
+    }
+
+    private void InsertMemos(String userId, LocalDate date, List<MemoPutReqDto> addingList) {
+        for (MemoPutReqDto dto : addingList) {
+            Memo addingMemo = dto.toEntityForInsert(userId, date);
+            memoRepository.save(addingMemo);
+        }
+    }
+}
+```
+### 1.0.3 수정된 API 행위다이어그램
+![img_1.png](/document/img/수정된%20API%20행위다이어그램.png)
+
+
