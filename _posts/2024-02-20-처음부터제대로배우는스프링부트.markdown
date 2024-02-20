@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "처음부터 제대로 배우는 스프링부트"
+date:   2024-00-00 00:00:00 +0900
+categories: spring
+---
 ### 5장 설정, 검사
 #### 자동설정리포트 Autoconfigration Report
 빈이 생성 여부를 디버그할 때 `application.properties`에 `debug=true` 한줄 추가. 스프링부트가 match된 것은 생성, 또는 생성하지 않은 것을 로그로 볼 수 있음. 로그에`unconditional classes`은 프레임워크의 Core라서 match없이 무조건 생성한다고 생각하면 됨. 
