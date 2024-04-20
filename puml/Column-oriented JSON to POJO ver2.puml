@@ -1,0 +1,123 @@
+@startuml
+'https://plantuml.com/class-diagram
+title: JsonResponseDomainMapper ver.2
+
+DomainEntity <|-- AAEntity
+DomainEntity <|-- BBEntity
+DomainDTO <|- AADTO
+DomainDTO <|- BBDTO
+DomainDTO <-- DomainDTOMapper
+DomainDTOMapper <-- DomainDTOMapperFactory
+DomainCode <-- RowMapperSupplier
+
+AADTOMapStrategy <--o DomainCode
+BBDTOMapStrategy <--o DomainCode
+AADTO <-o DomainCode
+BBDTO <-o DomainCode
+AADTO <--o AADTOMapStrategy
+BBDTO <--o BBDTOMapStrategy
+
+
+AAEntity <-- AADTO
+
+BBEntity <-- BBDTO
+
+Project <-- AADTO
+Project <-- BBDTO
+Project <-- DomainDTO
+DomainEntity <-- DomainDTO
+
+Project <--o DomainEntity
+
+
+
+
+JsonResponseDomainMapper <.u. JsonResponseDomainDTOMapperImpl
+JsonResponse <-l- JsonResponseDomainDTOMapperImpl
+
+DomainDTOMapperFactory <-- JsonResponseDomainDTOMapperImpl
+DomainDTOMapper <-- JsonResponseDomainDTOMapperImpl
+ColumnDomainMapStrategy <.. AADTOMapStrategy
+ColumnDomainMapStrategy <.. BBDTOMapStrategy
+DomainCode <-- DomainDTOMapperFactory
+RowMapperSupplier <-- DomainDTOMapperFactory
+
+ColumnDomainMapStrategy <-- RowMapperSupplier
+
+class JsonResponse{
+{field} String domainId
+{field} List<String> columns
+{field} List<List<String>> rows
+}
+
+interface JsonResponseDomainMapper{
++ List<DomainDTO> mapToDomainDTO(List<JsonResponse> jsonResponse)
+}
+
+interface ColumnDomainMapStrategy{
++ BiConsumer<DomainDTO, String> getColumnMapper(String columnName)
+}
+
+
+class RowMapperSupplier{
++ List<BiConsumer<DomainDTO,String>> getRowMapper(DomainCode domainCode, List<String> columnNameList)
+}
+
+
+class JsonResponseDomainDTOMapperImpl{
++ List<DomainDTO> mapToDomainDTO(List<JsonResponse> jsonResponse)
+}
+
+class DomainDTOMapperFactory {
++ DomainDTOMapper getDomainMapper(String domainId, List<String> columns, List<List<String>> rows)
+}
+
+class DomainDTOMapper {
+- Class <? extend DomainDTO> domainDTOClass
+- List<List<String>> rows
+- List<BiConsumer<DomainDTO, String> RowMapper
++ List<DomainDTO> doMap()
+- DomainDTO getNewInstance()
+- DomainDTO mapRow ()
+}
+
+class AADTOMapStrategy {
+}
+class BBDTOMapStrategy {
+}
+
+
+
+class Project{
+}
+
+class DomainDTO{
++ DomainEntity toDomainEntity()
++ Project toProject()
+}
+
+class AADTO {
++ AAEntity toDomainEntity()
++ Project toProject()
+}
+
+class BBDTO {
++ AAEntity toDomainEntity()
++ Project toProject()
+}
+
+class AAEntity {
+}
+
+class BBEntity {
+}
+
+enum DomainCode {
++{field}AA(AADTO.class, AADTOMapStrategy)
++{field}BB(BBDTO.class, BBDTOMapStrategy)
++ DomainCode getFromString(String code)
++ DomainDTO getDomainClass(DomainCode domainCode)
++ ColumnDomainMapStrategy getMapStrategy(DomainCode domaincode)
+}
+
+@enduml

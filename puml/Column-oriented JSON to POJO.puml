@@ -1,0 +1,88 @@
+@startuml
+'https://plantuml.com/class-diagram
+title: JsonResponseDomainMapper
+
+DomainEntity <|-- AAEntity
+DomainEntity <|-- BBEntity
+DomainEntity <-- DomainMapper
+DomainMapper <-- DomainMapperFactory
+AAEntity <-- AAMapStrategy
+BBEntity <-- BBMapStrategy
+DomainCode <-- RowMapperSupplier
+AAEntity <--o DomainCode
+BBEntity <--o DomainCode
+AAMapStrategy <--o DomainCode
+BBMapStrategy <--o DomainCode
+
+JsonResponseDomainMapper <.u. JsonResponseDomainMapperImpl
+JsonResponse <--l-- JsonResponseDomainMapperImpl
+
+DomainMapperFactory <-- JsonResponseDomainMapperImpl
+DomainMapper <-- JsonResponseDomainMapperImpl
+ColumnDomainMapStrategy <.u. AAMapStrategy
+ColumnDomainMapStrategy <.u. BBMapStrategy
+DomainCode <-- DomainMapperFactory
+RowMapperSupplier <-- DomainMapperFactory
+
+ColumnDomainMapStrategy <-- RowMapperSupplier
+
+class JsonResponse{
+{field} String domainId
+{field} List<String> columns
+{field} List<List<String>> rows
+}
+
+interface JsonResponseDomainMapper{
++ List<DomainEntity> mapToDomainEntity(List<JsonResponse> jsonResponse)
+}
+
+interface ColumnDomainMapStrategy{
++ BiConsumer<DomainEntity, String> getColumnMapper(String columnName)
+}
+
+
+class RowMapperSupplier{
++ List<BiConsumer<DomainEntity,String>> getRowMapper(DomainCode domainCode, List<String> columnNameList)
+}
+
+
+class JsonResponseDomainMapperImpl{
++ List<DomainEntity> mapToDomainEntity(List<JsonResponse> jsonResponse)
+}
+
+class DomainMapperFactory {
++ DomainMapper getDomainMapper(String domainId, List<String> columns, List<List<String>> rows)
+}
+
+class DomainMapper {
+- Class <? extend DomainEntity> domainEntityClass
+- List<List<String>> rows
+- List<BiConsumer<DomainEntity, String> RowMapper
++ List<DomainEntity> doMap()
+- DomainEntity getNewInstance()
+- DomainEntity mapRow ()
+}
+
+class AAMapStrategy {
+}
+class BBMapStrategy {
+}
+
+class DomainEntity{
+}
+
+class AAEntity {
+}
+
+class BBEntity {
+}
+
+enum DomainCode {
++{field}AA(AAEntity.class, AAMapStrategy)
++{field}BB(AAEntity.class, BBMapStrategy)
++ DomainCode getFromString(String code)
++ DomainEntity getDomainClass(DomainCode domainCode)
++ ColumnDomainMapStrategy getMapStrategy(DomainCode domaincode)
+}
+
+@enduml
