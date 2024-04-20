@@ -256,6 +256,6 @@ public class MemoServiceImpl implements MemoService {
 
 ### 1.0.3 수정된 API 행위다이어그램
 
-![img_1.png](/document/img/수정된%20API%20행위다이어그램.png)
+![img_1.png](/img/수정된%20API%20행위다이어그램.png)
 
 
