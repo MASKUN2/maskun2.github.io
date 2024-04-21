@@ -85,4 +85,16 @@ Our project has been using JPA, so I need to make each Entity class from this.
 
 ![설계2](/img/Column-oriented%20JSON%20to%20POJO%20ver2-JsonResponseDomainDTOMapper_ver_2.png)
 
- 이 설계는 엔티티를 DTO를 매개로 함으로 업무로직이 엔티티 클래스와 의존하지 않게 했다. 대신 DTO가 의존을 담당하며 실질적인 엔티티 객체의 생성에 관여한다. 클라이언트는 JsonResponseDomainDTOMapper 로부터 받은 DTO로 목적하는 엔티티 객체와 연관관계가 있는 다른 엔티티 객체도 생성 가능하다. 
+ 이 설계는 엔티티를 DTO를 매개로 함으로 업무로직이 엔티티 클래스와 의존하지 않게 했다. 대신 DTO가 의존을 담당하며 실질적인 엔티티 객체의 생성에 관여한다. 클라이언트는 JsonResponseDomainDTOMapper 로부터 받은 DTO로 목적하는 엔티티 객체와 연관관계가 있는 다른 엔티티 객체도 생성 가능하다. 엔티티 객체를 생성할 때에 엔티티가 지닌 생성자나 빌더를 모두 사용가능하다. OCP를 위한 설계다.
+ 
+### 3 
+ 앞서 만든 설계에는 입력타입에 의한 근본적인 문제가 있다. JsonResponse 는 3개의 필드를 가지고 있다. 이는 칼럼이 수시로 변경될 수 있기 때문에 각 리스트의 제네릭 타입을 특별히 한정할 수가 없다. 따라서 프로퍼티 값이 무엇이건간에 JSON null, 빈문자열, 문자열, 숫자, 날짜를 모두 우선 담을 수 있는 String으로 우선 응답을 받을 필요가 있다. 어떤 타입이 올지 모르기 때문에 DomainDTOMapperFactory 가 매핑 업무를 수행하기전에 유효성검사를 해야만 한다. 이것을 타입에 대한 취약점이라고 하자.
+
+  또한 DomainDTOMapper 의 List<DomainDTO> doMap() 메소드는 Row의 size 가 column 의 사이즈가 같다는 가정하에 작동한다. 만약 다를 경우 out of bound index 예외가 발생할 취약점을 가지고 있다. 이 또한 사전에 유효성 검사를 해야한다. 이것을 리스트 사이즈에 대한 취약성이라고 하자.  
+
+ 또한 JsonResponse 의 String domainId 가 지원되지 않는 경우의 조건도 생각해서 예외처리를 해야한다. 이를 지원되지 않는 도메인 타입의 취약성이라고 하자.
+
+또한 String domainId 와 리스트 사이즈가 모두 동일한 경우, 리스트 사이즈가 0이거나 모든 값이 null 또는 빈 문자열이여서 업무적으로 의미있는 도메인 객체 생성이 불가능할 경우도 상정해야한다. 이를 빈 데이터의 취약성 이라고 하자.
+
+
+ 
