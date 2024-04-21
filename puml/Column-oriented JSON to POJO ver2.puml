@@ -1,6 +1,6 @@
 @startuml
 'https://plantuml.com/class-diagram
-title: JsonResponseDomainMapper ver.2
+title: JsonResponseDomainDTOMapper ver.2
 
 DomainEntity <|-- AAEntity
 DomainEntity <|-- BBEntity
@@ -32,7 +32,7 @@ Project <--o DomainEntity
 
 
 
-JsonResponseDomainMapper <.u. JsonResponseDomainDTOMapperImpl
+JsonResponseDomainDTOMapper <.u. JsonResponseDomainDTOMapperImpl
 JsonResponse <-l- JsonResponseDomainDTOMapperImpl
 
 DomainDTOMapperFactory <-- JsonResponseDomainDTOMapperImpl
@@ -50,7 +50,7 @@ class JsonResponse{
 {field} List<List<String>> rows
 }
 
-interface JsonResponseDomainMapper{
+interface JsonResponseDomainDTOMapper{
 + List<DomainDTO> mapToDomainDTO(List<JsonResponse> jsonResponse)
 }
 

@@ -59,6 +59,8 @@ Our project has been using JPA, so I need to make each Entity class from this.
 
 
 ### 1
+요구사항을 만족하기 위한 모듈의 클래스 설계를 다음과 같이 했다.
+
 ![클래스 설계](/img/Column-oriented%20JSON%20to%20POJO-JsonResponseDomainMapper.png)
 
 모듈의 워크플로우는 다음과 같다. JsonResponseDomainMapper 가 외부로부터 가져온 JsonResponse 인자로 구현체를 통해 각각의 단위에 따라 DomainMapperFactory를 호출한다. 호출된 DomainMapperFactory 는 적절한 DomainMapper 를 조립하기 위해 넘겨받은 DomainCode를 통해 domainId 문자열로 타입을 정하고 타입과 컬럼리스트를 가지고 RowMapperSupplier 를 통해 컬럼을 각각 순서대로 매핑할 람다함수 리스트인 rowMapper를 얻는다. 마지막으로 앞서 넘겨받은 Rows까지 3개의 인자로 DomainMapper 를 생성해 클라이언트인 JsonResponseDomainMapperImpl 에게 전달해준다. JsonResponseDomainMapperImpl 는 전달받은 DomainMapper를 모아서 doMap()으로 List<DomainEntity>를 만들 수 있다. 결과적으로 JsonResponse 의 items 은 각 타입에 맞는 AAEntity 또는 BBEntity 로 매핑되어 하나의 List<DomainEntity>로 반환된다. JsonResponseDomainMapper의 클라이언트는 해당 List<DomainEntity>를 활용하여 DB에 SAVE 할 수 있다.
@@ -81,4 +83,6 @@ Our project has been using JPA, so I need to make each Entity class from this.
 
 아래는 설계도이다.
 
-![설계2](/img/Column-oriented%20JSON%20to%20POJO%20ver2-JsonResponseDomainMapper_ver_2.png)
+![설계2](/img/Column-oriented%20JSON%20to%20POJO%20ver2-JsonResponseDomainDTOMapper_ver_2.png)
+
+ 이 설계는 엔티티를 DTO를 매개로 함으로 업무로직이 엔티티 클래스와 의존하지 않게 했다. 대신 DTO가 의존을 담당하며 실질적인 엔티티 객체의 생성에 관여한다. 클라이언트는 JsonResponseDomainDTOMapper 로부터 받은 DTO로 목적하는 엔티티 객체와 연관관계가 있는 다른 엔티티 객체도 생성 가능하다. 
