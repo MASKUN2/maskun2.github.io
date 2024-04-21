@@ -25,10 +25,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   방대한 문서보다 용어와 추상화된 개념을 중심으로 구조화되고 실무적인 지식을 기록하고자 합니다. 
   이력서와 협업에 대한 경험, 노하우도 기록하고자 합니다.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://maskun2.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  MASKUN2
-
 # Build settings
 theme: minima
 plugins:
