@@ -96,11 +96,29 @@ Our project has been using JPA, so I need to make each Entity class from this.
 
 또한 String domainId 와 리스트 사이즈가 모두 동일한 경우, 리스트 사이즈가 0이거나 모든 값이 null 또는 빈 문자열이여서 업무적으로 의미있는 도메인 객체 생성이 불가능할 경우도 상정해야한다. 이를 빈 데이터의 취약성 이라고 하자.
 
-
-### 4
  이쯤에서 요구사항을 다시 분석하게 되었다. 추가적으로 달성해야할 요구사항 목표는 다음과 같았다.
 1. 외부API 최초 포맷은 불변하지만 내부의 컬럼과 값은 수시로 변경될 수 있다.
 2. 변경되는 컬럼에 따른 가변적인 매핑을 제공해야한다.
 3. 외부 API 포맷과 무관하게 전처리를 거쳐 유니버셜하게 객체를 매핑할 수있는 모듈의 기능이 보장되어야한다.
 4. 매핑되는 도메인 엔티티의 변경에도 OCP에 따른 유지보수가 편한 구조여야한다.
 
+앞서 enum을 활용하여 도메인 유형에 따라서 다른 매핑 전략객체를 반환받아서 객체매핑에 사용하는 것은 유용했다. 하지만 다음과 같은 문제점이 있었다. 우선 도메인 유형에 추가될 때마다 DomainCode에 추가 상수를 입력하고 DTO를 추가로 생성하여 참조시켜야했고 해당 MapStrategy객체를 생성하여 참조시켜야했다. 이는 너무 많은 변경에 대한 영향을 초래했다. DomainEntity 추가와 별개로 Entity의 필드 이름과 타입이 변경되는 경우 RowMapperSupplier는 해당 사실을 인지하지 않고 문자열 기반의 비교만 수행하기 때문에 제대로된 RowMapper를 생성하지 못하고 db에 데이터 저장시 변경된 데이터가 빠질 수 있다. 이는 결국 엔티티의 변경이 그를 의존하는 enum과 여러 매핑객체의 변경으로 자동적으로 업데이트 되지 않기 때문이다. 따라서 현재 설계방식은 유연하지 않고 변경에도 취약하다. 따라서 Enity 매핑은 Entity 클래스 정의에 따라 자동으로 변경되어야했다. 부모 DomainEntity를 상속받는 구체화클래스의 추가에서도 자동으로 변경되어야했다. 따라서 엔티티를 정의하는 클래스의 정보가 필요했기 때문에 리플렉션으로 클래스의 정보를 파악하여 이를 동적으로 활용하는 편이 유연성이 높다고 판단되었다.
+
+ 더불어 외부 API의 컬럼이 수시로 변경될 수 있다는 말은 문자열 기반의 매핑을 수행하는 방식에서 하드코딩된 MapStrategy에 수정이 불가피하여 반복적인 배포가 수반된다는 말이다. 따라서 해당 MapStrategy의 핵심 정보는 외부소스로 빼는 방법을 고안했다.
+
+ 아래는 핵심내용을 담은 새로운 설계이다.
+ 
+![설계3](/img/Column-oriented%20JSON%20to%20POJO%20ver3-UniverseDomainMapper_ver_3.png)
+
+우선 JsonResponse 와 같은 외부API 응답DTO는 이 설계에서 제외했다. 본 설계는 인터페이스가 요구하는 UniverseDataUnit 객체만 UniverseDomainMapper에 제공하면 그에 따른 도메인 엔티티 객체를 반환시켜준다. 이는 인터페이스를 구현하는 행위와 비슷하다. 외부 API에서는 UniverseDataUnit를 제공할 때 컬럼과 값을 Map<String,String>형태로 제공하면된다. 하나의 row는 하나의 Map객체이다. 그리고 해당 데이터 단위의 도메인코드를 찾아서 구현되어있는 DynamicMappingSchemaRepository 를 통해 Schema를 찾아서 넣어주면 된다.
+
+ UniverseDomainMapperImpl는 실질적인 구현체이다. 그러나 인터페이스를 통해 넘겨받은 UniverseDataUnit 의 DomainEntity provide()를 실행하여 반환시켜줄 뿐이다. 실질적인 도메인 매핑로직은 UniverseDataUnit 가 직접 수행한다. DomainCode.entitySupplier 를 통해 신규 인스턴스를 생성하고 DomainCode.fields 를 통해 해당 도메인의 목표하는 필드목록을 가져온다. DynamicMappingSchema를 통해 필드이름(internalColumName)과 일치하는 externalColumnName 를 찾고 UniverseDataUnit.DataMap에서 값을 찾는다. 해당 값을 covertStringToType(Class<?> clazz, String inputString) 하여 해당 필드에 맞는 타입으로 변환하여 리플렉션으로 매핑한다. 일반적으로 enum타입의 값 매핑의 경우 별다른 조작업이 Enum이 지원하는 정적메소드인 ValueOf(String name)으로 enum클래스는 모두 매핑가능하다. 실질적인 매핑에 필요한 타입정보, Field나 Supplier 등은 모두 도메인 엔티티를 참조하는 DomainCode로 접근가능하다. 
+ 
+ 이러한 리플렉션 도입 설계는 DomainEntity 의 CCEntity가 늘어도 해당 객체를 참조하는 CC(CC.Entity.class, ()-> CCEntity.Builder.build()) 만 DomainCode 클래스에 넣어주기만 하면 된다. 앞선 설계에 대하여 DTO및 MapStrategy를 하드코딩해야하는 방식과는 달리 해당 엔티티의 매핑에 필요한 필드정보는 DomainCode 의 constructor가 자동으로 가져오며 해당 Field정보로 타입을 조회할 수 있다. 개발자가 추가해야하는 것은 DB에 저장된 DynamicMappingSchema 의 추가된 도메인의 내, 외부 컬럼 정보 일부다.
+ 
+ 최종적으로는 해당 인터페이스를 어떠한 외부API의 DTO타입과 무관하게 제공하는게 목표이므로 다음과같이 만들 수 있다. 
+
+ ![설계4](/img/Column-oriented%20JSON%20to%20POJO%20ver4-UniverseDomainMapper_ver_4.png)
+ 
+리플렉션을 사용함에 따라 여러 장단점이 생긴다. 가장 큰 단점은 성능이다. 클래스 분석를 줄이기 위해 정적Field리스트를 로딩시키고 빈번한 db 조회인 Schema조회도 같은 domainCode라면 캐싱된 것을 사용하게끔 바꾼다면 성능을 향상시킬 수 있을 것이다.
+ 본 프로젝트의 요구사항에서 하루에 입력되는 데이터가 1만건 이내이며 그것도 몇번에 나누어 입력 되므로 성능적인 부담은 적었다.

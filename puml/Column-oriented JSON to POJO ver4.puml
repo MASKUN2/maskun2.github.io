@@ -1,0 +1,75 @@
+@startuml
+'https://plantuml.com/class-diagram
+title: UniverseDomainMapper ver.4
+
+DomainEntity <|-- AAEntity
+DomainEntity <|-- BBEntity
+DynamicMappingSchema <-- UniverseDataUnit
+AAEntity <-- DomainCode
+BBEntity <-- DomainCode
+MapStrategy <-- DynamicMappingSchema
+DomainEntity <-- UniverseDataUnit
+DomainCode <-- DynamicMappingSchema
+DynamicMappingSchema <-l- DynamicMappingSchemaRepository
+UniverseDataUnit <-- UniverseDataUnitCreator
+UniverseDataUnitCreator <.. UniverseDataUnitCreator1Impl
+UniverseDataUnitCreator <.. UniverseDataUnitCreator2Impl
+
+interface UniverseDataUnitCreator<T>{
++ UniverseDataUnit createMapper(T inputData)
+}
+
+class UniverseDataUnitCreator1Impl<JsonResponse>{
++ UniverseDataUnit createMapper(JsonResponse inputData)
+}
+
+class UniverseDataUnitCreator2Impl<DataFrameDto>{
++ UniverseDataUnit createMapper(DataFrameDto inputData)
+}
+
+
+
+interface DynamicMappingSchemaRepository{
++findByDomainCode(DomainCode domainCode)
+}
+
+
+class DomainEntity{
++ DomainEntity toDomainEntity()
+}
+
+class UniverseDataUnit{
++ DynamicMappingSchema schema
++ Map<String,String> DataMap
++ DomainEntity provide()
+- {static} covertStringToType(Class<?> clazz, String inputString)
+- mapVal(Field field)
+}
+
+class DynamicMappingSchema{
++ DomainCode domainCode
++ List<MapStrategy> MapStrategyList
+}
+
+class AAEntity {
+}
+
+class BBEntity {
+}
+
+class MapStrategy{
++ String internalColumnName
++ String externalColumnName
+}
+
+enum DomainCode {
++{field}AA(AAEntity.class,()-> AAEntity.Builder.build())
++{field}BB(BBEntity.class,()-> BBEntity.Builder.build() )
++ Class<? extends DomainEntity> clazz
++ Supplier<DomainEntity> entitySupplier
++ List<Field> fields
++ DomainCode getFromString(String code)
++ DomainEntity getDomainClass(DomainCode domainCode)
+}
+
+@enduml
