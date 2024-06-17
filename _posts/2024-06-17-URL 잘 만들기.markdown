@@ -1,0 +1,52 @@
+---
+layout: post
+title:  "URL 잘 만들기"
+date:   2024-06-17 00:00:00 +0900
+categories: 
+---
+
+[stackoverflow::confusion-between-noun-vs-verb-in-rest-urls](https://stackoverflow.com/questions/27121749/confusion-between-noun-vs-verb-in-rest-urls)
+
+[티스토리::REST API 설계 원칙](https://kmkunk.tistory.com/139)
+
+[restfulapi.net](https://restfulapi.net/)
+
+국내 블로그에서는 RESTFUL API의 원칙을 소개하면서도 한국어로 된 자료를 일부만 스크랩하여 블로그에 개시하다보니 URL document나 store controller의 개념과 활용을 제대로 다루지 않는 포스트가 많았다. 문제는 검색을 하면서 이것들이 최상단에 있다보니 실무에서 API를 설계할 때 혼동이 된다는 것이다.
+
+ 내가 겪고 개선한 사례를 가상의 예시를 통해 풀어본다.
+
+ 개발자 쿤은 실무에서 유저계정을 비활성화 시키는 API endpoint를 다음과 같이 설계했다. 
+
+ ```http request
+POST {hostdomain}/users/{user-pk}
+
+{
+ "active":true || false
+}
+```
+ 쿤이 보기엔 만족스러웠다. 하지만 이내 문제가 드러난다. 단일리소스를 나타내는 URL에 POST는 의미가 불분명하다. POST는 생성을 나타내기 때문에 user-pk의 해당하는 리소스가 없지 않은 이상 단일 식별정보로 리소스를 추가 생성한다는 것은 말이 안된다. 
+
+ ```http request
+PUT {hostdomain}/users/{user-pk}
+
+{
+ "active":true || false
+}
+```
+ 쿤은 수정을 할때는 PUT요청을 사용해야한다고 알게되었다. 수정을 했다. 쿤이 보기엔 만족스러웠다. 하지만 이내 문제가 드러난다. PUT은 해당 리소스를 전체를 대체한다. 따라서 유저 정보가 모두 소실되고 활성화만 수정되었다. 쿤은 상사에게 혼났다.
+
+ ```http request
+PATCH {hostdomain}/users/{user-pk}
+
+{
+ "active":true || false
+}
+```
+ 쿤은 리소스의 일부만 수정할때는 PATCH를 보내야함을 알게 되었다. 수정을 마쳤고 모든게 좋아보였다. 이정도 수정으로 충분하지만 요구사항이 추가 되었다. 예전에는 유저의 active 프로퍼티만 true || false 중 하나로 변경하면 되었지만 앞으로는 비활성화 작업이 되면 애플리케이션 내부적으로 변경해야할 것들이 늘었다. 작업과 프로퍼티를 혼동하여 요청본문에 넣는것은 자칫 혼란스러웠다. 
+
+ ```http request
+PATCH {hostdomain}/users/{user-pk}/deactivate
+```
+ 쿤은 유저를 비활성화 작업을 인터페이스. 추상화했다. restful가이드에서 명사가 아닌 동사가 허용되는 control를 url에 사용하게 되었다. 이제는 클라이언트가 해당 URL로 요청을보내면 본문과 관련 없이 비활성화작업을 애플리케이션 자체적으로 수행가능하다. 멱등성의 명시를 위해 PUT으로 요청유형을 변경하는 것도 고려했으나 좋은 생각이 아니라고 판단했다. PUT은 언제나 리소스를 대체한다는 의미를 가지므로 요청본문에 리소스의 대체할 정보를 기입해줘야한다. PATCH가 멱등성을 명시적으로 보장하지는 않지만 요청본문이 없는 추상화된 요청인 현재와 같은 경우는 이것이 더 적합하다는 판단을 했다.
+
+ 쿤은 만족하며 개발일과를 마무리했다.
