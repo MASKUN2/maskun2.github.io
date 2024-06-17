@@ -18,7 +18,7 @@ categories:
  개발자 쿤은 실무에서 유저계정을 비활성화 시키는 API endpoint를 다음과 같이 설계했다. 
 
 
- ```http request
+```
 POST {hostdomain}/users/{user-pk}
 
 {
@@ -30,7 +30,7 @@ POST {hostdomain}/users/{user-pk}
  쿤이 보기엔 만족스러웠다. 하지만 이내 문제가 드러난다. 단일리소스를 나타내는 URL에 POST는 의미가 불분명하다. POST는 생성을 나타내기 때문에 user-pk의 해당하는 리소스가 없지 않은 이상 단일 식별정보로 리소스를 추가 생성한다는 것은 말이 안된다. 
 
 
- ```http request
+```
 PUT {hostdomain}/users/{user-pk}
 
 {
@@ -42,7 +42,7 @@ PUT {hostdomain}/users/{user-pk}
  쿤은 수정을 할때는 PUT요청을 사용해야한다고 알게되었다. 수정을 했다. 쿤이 보기엔 만족스러웠다. 하지만 이내 문제가 드러난다. PUT은 해당 리소스를 전체를 대체한다. 따라서 유저 정보가 모두 소실되고 활성화만 수정되었다. 쿤은 상사에게 혼났다.
 
 
- ```http request
+```
 PATCH {hostdomain}/users/{user-pk}
 
 {
@@ -54,7 +54,7 @@ PATCH {hostdomain}/users/{user-pk}
  쿤은 리소스의 일부만 수정할때는 PATCH를 보내야함을 알게 되었다. 수정을 마쳤고 모든게 좋아보였다. 이정도 수정으로 충분하지만 요구사항이 추가 되었다. 예전에는 유저의 active 프로퍼티만 true || false 중 하나로 변경하면 되었지만 앞으로는 비활성화 작업이 되면 애플리케이션 내부적으로 변경해야할 것들이 늘었다. 작업과 프로퍼티를 혼동하여 요청본문에 넣는것은 자칫 혼란스러웠다. 
 
 
- ```http request
+```
 PATCH {hostdomain}/users/{user-pk}/deactivate
 ```
 
