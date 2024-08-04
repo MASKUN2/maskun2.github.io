@@ -1,0 +1,10 @@
+@startchen
+
+entity Person {
+}
+entity Location {
+}
+
+Person -N- Location
+
+@endchen
