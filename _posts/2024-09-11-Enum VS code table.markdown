@@ -50,8 +50,8 @@ enum 상수는 네이밍 규칙을 가진다. 따라서 숫자로 시작하거�
 ```java
 // 특수문자를 대체하기
 enum Unit {
-    VOLUME_PER_VOLUME_PERCENT('v/v%'),
-    _1_PER_100_MM('1/100mm')
+    VOLUME_PER_VOLUME_PERCENT("v/v%"),
+    _1_PER_100_MM("1/100mm")
     ;
     //생성자 메소드 생략.. 약 500개
 }
@@ -91,6 +91,8 @@ enum 직급{
 이것을 해결하기 위해서는 몇가지 방법이 있다.
 - supplier 를 활용
   - 단 순서의 제약을 받음
+
+
 ```java
 enum 직급{
     사원(()-> null),
@@ -106,6 +108,8 @@ enum 직급{
 
 - 정적 블록 사용
   - 순서에 지장을 받지 않음 단 분리됨
+
+
 ```java
 enum 직급{
     부장, 
