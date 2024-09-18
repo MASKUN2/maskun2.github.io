@@ -38,5 +38,6 @@ categories: 스터디
 
 9월  
 - 4회:DTO와 객체 지향을 통한 의존관계 분리, Enum vs Code Table, enum 활용하기
-10월
+
+10월  
 - 5회:
