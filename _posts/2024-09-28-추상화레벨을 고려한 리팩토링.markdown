@@ -6,15 +6,212 @@ categories:
 ---
 상당히 길고 복잡한 기능을 수행하는 로직을 만들고 해당 로직을 담을 컴포넌트 빈을 만들었다. 최근 요구사항이 변경되면서 엔티티 설계가 함께 변경되었는데 이때 만든 로직이 스파게티코드처럼 수정이 어려웠다. 이때의 리팩토링의 경험을 공유해본다. 
 
-첫번째 로직을 차례로 설명하면 이렇다.  
 
-1. String type의 HTML fragment를 인자를 받는다. 이것은 Full HTML이 아니라 <div> 등에 포함될 본문과 같은 것이다. 이것은 게시글의 본문 영역에 해당되는 HTML 형식의 데이터다.
-2. 본문에 포함된 내용 중 Base64로 인코딩된 이미지 태그를 검색한다. ex. \<img src="data:image/<이미지확장자>;base64,<data코드>")  
-3. 이미지 태그에 있는 Base64를 디코딩하고 이미지 파일로 s3에 저장시킨다.
-4. 저장시킨 정보로 s3파일정보를 저장할 파일 엔티티를 생성하고 랜덤한 Key를 생성한다.
-5. 랜덤한 키를 기존 img 태그의 src attribute에 덮어씌운다.
-6. 수정된 HTML fragment를 리턴한다.
+### 접근제한자 public 과 private으로 추상화레벨을 구분하기  
+이팩티브자바, 클린코드 등에서 메소드의 추상화 레벨을 통일해야한다고 말한다. 클래스 내부의 추상화레벨은 기본적으로 2가지(public, private)로 구분하는 편이 가독성이 좋아보인다.  
 
-두번째 로직은 다음과 같다.
+```java  
+class CoffeeMachine {
 
-수정된 html
+    //추상화 수준 높음
+    public void makeCoffee() {
+        brewCoffee();
+        pourCoffee();
+    }
+
+    //추상화 수준 낮음
+    private void brewCoffee() {
+    }
+
+    private void pourCoffee() {
+    }
+}
+```
+
+### 세부적으로 추상화 레벨을 구분하려면 클래스를 분리하기  
+그러나 모든 로직이 저렇게 단 2개의 추상화 레벨만 가진다면 좋겠지만 이미 한번 추상화 레벨을 분리한 private 메소드에서 다시 저수준의 메소드를 분리할 수 있다. 같은 클래스 내에서 이렇게 하면 private 메소드의 추상화 레벨이 저수준과 중수준이 혼재된다. 즉 접근제한자로 추상화 레벨을 구분한 의미가 없어진다. 이럴 때는 클래스를 분리하고 필드로서 분리된 클래스를 의존하는 편이 좋다고 생각된다.
+
+
+```java  
+class CoffeeMaker {
+
+    //추상화 수준 높음
+    public void makeCoffee() {
+        brewCoffee();
+        pourCoffee();
+    }
+
+    //추상화 수준 중간 // private 메소드 내에서 수준이 혼재
+    private void brewCoffee() {
+        getHotWaterPot();
+        dripCoffee();
+    }
+
+    private void pourCoffee() {
+        getMugCup();
+        transferCoffeeToCup();
+    }
+    
+    //추상화 수준 낮음 // private 메소드 내에서 수준이 혼재
+    private getHotWaterPot(){}
+    private dripCoffee(){}
+    private getMugCup(){}
+    private transferCoffeeToCup(){}
+}
+```
+
+```java  
+class CoffeeMaker {
+    private BrewingSupporter brewingSupporter;
+    private PouringSupporter pouringSupporter;
+    
+    public void makeCoffee() {
+        brewingSupporter.brewCoffee();
+        pouringSupporter.pourCoffee();
+    }
+    
+}
+
+class BrewingSupporter{ // 클래스분리
+    
+    public void brewCoffee() {
+        getHotWaterPot();
+        dripCoffee();
+    }
+    
+    private getHotWaterPot(){}
+    private dripCoffee(){}
+
+}
+
+class PouringSupporter{ // 클래스분리
+    
+    public void pourCoffee() {
+        getMugCup();
+        transferCoffeeToCup();
+    }
+
+    private getMugCup(){}
+    private transferCoffeeToCup(){}
+}
+
+
+```
+
+### 접근제한자로 추상화레벨을 구분한다는 것의 생각  
+사실 접근제한자는 캡슐화를 위한 것이다. 캡슐화는 노출되어야할 메소드와 그렇지 않을 메소드를 분리하는 것이다. 추상화레벨을 구분할 목적으로 만든 것이 아니지만 결국 객체간의 호출되는 메소드는 외부로 노출되어야함과 동시에 추상화 레벨이 높은 메소드가 일종의 창구역할을 하기 때문에 어찌보면 당연하기 때문에 통용적으로 그렇게 사용하는 것 같다.
+
+### 클래스 간의 추상화레벨은 패키지로 정리하기  
+앞서 얘기한 것처럼 한 클래스 내부의 3개 이상의 추상화 레벨이 존재할 경우 클래스를 분리하는 것이 좋다고 얘기했다. 그러나 클래스가 하나 더 생기게 되고 클래스간의 추상화 레벨이 다르지만 같은 패키지에 혼재되어 있는 문제가 생긴다.  
+
+```java
+
+package cafe.coffee;
+
+public class CoffeeMaker {
+    private BrewingSupporter brewingSupporter;
+    private PouringSupporter pouringSupporter;
+    
+}
+
+package cafe.coffee;
+
+public class BrewingSupporter{  //외부노출
+}
+
+package cafe.coffee;
+
+public class PouringSupporter{// 외부 노출
+}
+
+```
+
+만약 다른 패키지인 cafe.Barista 에서 cafe.coffee 를 바라볼 때 3개의 클래스 모두 개방되어 있다면 커피를 만들기 위해서 추상화가 낮은 BrewingSupporter 나 PouringSupporter를 직접 사용하게 허용하는 문제가 발생한다. 따라서 클래스의 접근제한자도 제한해두는 것이 좋다. 또는 메소드의 접근제한자도 조작가능하다.
+
+
+```java
+
+package cafe.coffee;
+
+public class CoffeeMaker {
+    private BrewingSupporter brewingSupporter;
+    private PouringSupporter pouringSupporter;
+    
+}
+
+package cafe.coffee;
+
+default class BrewingSupporter{  //외부노출 안됨
+}
+
+package cafe.coffee;
+
+default class PouringSupporter{// 외부 노출 안됨
+}
+
+```
+
+### 클래스에서 싱글톤 빈으로  
+추상화레벨이 높고 외부로 노출되는 퍼블릭 클래스라면 스프링에서 빈으로 등록될 후보가 된다. 그러나 챗지피티가 설명해주는 것처럼 꼭 빈으로 등록해야할지는 고민해야한다. 
+
+```text
+// from GPT-4o
+. 빈으로 등록할 필요가 있는 경우:
+의존성 주입이 필요한 경우: 다른 클래스에 의존하는 서비스나 컴포넌트들은 스프링이 제공하는 의존성 주입(DI)을 활용할 수 있도록 빈으로 등록하는 것이 좋습니다. 이는 테스트 용이성과 유지보수성을 높여줍니다.
+트랜잭션 관리가 필요한 경우: 데이터베이스 연동 로직이나 트랜잭션 관리가 필요한 경우, 스프링의 @Transactional 같은 어노테이션을 활용할 수 있는 빈 등록이 적합합니다.
+AOP 적용이 필요한 경우: 로깅, 보안, 트랜잭션과 같은 횡단 관심사(Aspect-Oriented Programming, AOP)를 적용하려면 대상 클래스가 스프링 빈으로 등록되어야 합니다.
+상태가 없는 서비스 로직: 주로 비즈니스 로직을 처리하는 서비스 계층(예: @Service)은 상태가 없는 경우가 많으며, 이러한 로직은 스프링 빈으로 관리하여 재사용성과 테스트 용이성을 높일 수 있습니다.
+스프링 컨테이너에서 관리되어야 할 필요가 있을 때: 다른 스프링 기능을 활용해야 하거나 생명주기, 프로파일 등에 따른 설정이 필요하다면 빈으로 등록하는 것이 적합합니다.
+2. 빈으로 등록할 필요가 없는 경우:
+단순한 헬퍼 유틸리티 클래스: 계산, 포맷팅, 변환 등 간단한 헬퍼 메서드를 포함한 클래스들은 굳이 스프링 빈으로 등록할 필요가 없습니다. 스태틱 메서드로 구현하거나, 로직이 명확한 경우 직접 호출하여 사용할 수 있습니다.
+상태를 가지는 객체: 스프링 빈은 주로 상태가 없는(stateless) 로직에 적합합니다. 상태를 가지는 객체(예: 사용자 세션 관리 등)는 빈으로 등록하는 것이 적절하지 않을 수 있습니다. 이런 경우는 별도의 인스턴스를 생성하여 사용하거나 상태 관리 전략을 따로 적용하는 것이 더 좋습니다.
+성능 이슈가 발생할 수 있는 경우: 일부 로직은 빈으로 등록하지 않고 필요한 곳에서 직접 생성하는 것이 성능에 유리할 수 있습니다. 예를 들어, 초기화가 복잡하고 자주 사용되지 않는 객체는 스프링이 관리하지 않고 필요할 때마다 생성하는 방식이 적합할 수 있습니다.
+3. 추가 고려사항:
+스프링 빈 수 증가에 따른 오버헤드: 너무 많은 클래스를 빈으로 등록하면 애플리케이션 시작 시 스프링 컨텍스트 초기화 시간이 늘어나거나, 메모리 사용량이 증가할 수 있습니다.
+로직의 독립성: 빈으로 관리되지 않는 클래스는 스프링 컨텍스트와 독립적으로 동작할 수 있으므로, 애플리케이션 내부적으로 독립적이어야 하는 컴포넌트들은 빈으로 등록하지 않는 것이 유리할 수 있습니다.
+```
+
+따라서 모든 클래스를 빈으로 등록하는 것보다. 상태를 저장하지 않는 유틸리티 클래스이거나 외부 의존성 주입이 없는 경우는 그대로 두거나 사용되는 메소드를 static으로 두는것이 현명하다. 
+
+```java
+
+package cafe.coffee;
+
+@Component
+public class CoffeeMaker {
+    //필드 참조가 사라짐. 
+    //private BrewingSupporter brewingSupporter;
+    //private PouringSupporter pouringSupporter;
+
+    public void makeCoffee() {
+        BrewingSupporter.brewCoffee();
+        PouringSupporter.pourCoffee();
+    }
+    
+}
+
+default class BrewingSupporter{ 
+
+    protected static void brewCoffee() {
+        getHotWaterPot();
+        dripCoffee();
+    }
+
+    private static getHotWaterPot(){}
+    private static dripCoffee(){}
+
+}
+
+default class PouringSupporter{ 
+
+    protected static pourCoffee() {
+        getMugCup();
+        transferCoffeeToCup();
+    }
+
+    private static getMugCup(){}
+    private static transferCoffeeToCup(){}
+}
+
+
+```
