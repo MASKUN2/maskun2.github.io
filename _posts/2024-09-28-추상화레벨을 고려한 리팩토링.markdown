@@ -301,7 +301,7 @@ public class HtmlContent {
     }
 
 
-    private static boolean isCompatible(String source) {
+    private boolean isCompatible(String source) {
         //html 소스를 검증함
     }
 
