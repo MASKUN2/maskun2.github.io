@@ -7,6 +7,8 @@ categories:
 상당히 길고 복잡한 기능을 수행하는 로직을 만들고 해당 로직을 담을 컴포넌트 빈을 만들었다. 최근 요구사항이 변경되면서 엔티티 설계가 함께 변경되었는데 이때 만든 로직이 스파게티코드처럼 수정이 어려웠다. 이때의 리팩토링의 경험을 공유해본다. 
 
 
+
+
 ### 접근제한자 public 과 private으로 추상화레벨을 구분하기  
 이팩티브자바, 클린코드 등에서 메소드의 추상화 레벨을 통일해야한다고 말한다. 클래스 내부의 추상화레벨은 기본적으로 2가지(public, private)로 구분하는 편이 가독성이 좋아보인다.  
 
@@ -27,6 +29,9 @@ class CoffeeMachine {
     }
 }
 ```
+
+
+
 
 ### 세부적으로 추상화 레벨을 구분하려면 클래스를 분리하기  
 그러나 모든 로직이 저렇게 단 2개의 추상화 레벨만 가진다면 좋겠지만 이미 한번 추상화 레벨을 분리한 private 메소드에서 다시 저수준의 메소드를 분리할 수 있다. 같은 클래스 내에서 이렇게 하면 private 메소드의 추상화 레벨이 저수준과 중수준이 혼재된다. 즉 접근제한자로 추상화 레벨을 구분한 의미가 없어진다. 이럴 때는 클래스를 분리하고 필드로서 분리된 클래스를 의존하는 편이 좋다고 생각된다.
@@ -98,8 +103,14 @@ class PouringSupporter{ // 클래스분리
 
 ```
 
+
+
+
 ### 접근제한자로 추상화레벨을 구분한다는 것의 생각  
 사실 접근제한자는 캡슐화를 위한 것이다. 캡슐화는 노출되어야할 메소드와 그렇지 않을 메소드를 분리하는 것이다. 추상화레벨을 구분할 목적으로 만든 것이 아니지만 결국 객체간의 호출되는 메소드는 외부로 노출되어야함과 동시에 추상화 레벨이 높은 메소드가 일종의 창구역할을 하기 때문에 어찌보면 당연하기 때문에 통용적으로 그렇게 사용하는 것 같다.
+
+
+
 
 ### 클래스 간의 추상화레벨은 패키지로 정리하기  
 앞서 얘기한 것처럼 한 클래스 내부의 3개 이상의 추상화 레벨이 존재할 경우 클래스를 분리하는 것이 좋다고 얘기했다. 그러나 클래스가 하나 더 생기게 되고 클래스간의 추상화 레벨이 다르지만 같은 패키지에 혼재되어 있는 문제가 생긴다.  
@@ -150,6 +161,9 @@ default class PouringSupporter{// 외부 노출 안됨
 }
 
 ```
+
+
+
 
 ### 클래스에서 싱글톤 빈으로  
 추상화레벨이 높고 외부로 노출되는 퍼블릭 클래스라면 스프링에서 빈으로 등록될 후보가 된다. 그러나 챗지피티가 설명해주는 것처럼 꼭 빈으로 등록해야할지는 고민해야한다. 
@@ -215,3 +229,94 @@ default class PouringSupporter{
 
 
 ```
+
+
+
+
+### 추상화 레벨에 맞는 파라미터와 메서드 시그니처 책임분리
+만약 게시글의 본문 HTML 을 process할 기능을 도입한다고 하자. html 문자열을 받아서 내부의 다양한 종류 태그를 삭제하는 로직을 구현하는 스프링 빈 컴포넌트를 설계한다면 다음과 같은 모습으로 나올 수 있다. 
+
+```java
+
+@Component
+public class ContentProcessor{
+    
+    public String process(String html){
+        validateHtmlCompatibility(html);
+        return deleteImgTagFrom(html);
+    }
+    
+    private validateHtmlCompatibility(String html) throws IllegalArgumentException{
+        //
+    }
+    
+    private String deleteImgTagFrom(String html){
+        //
+    }
+    
+}
+
+```
+
+보기엔 별 문제가 없어보이지만 나는 다음 과 같은 방식이 더 올바르다고 생각한다.
+
+```java
+
+@Component
+public class ContentProcessor {
+
+    public HtmlContent process(HtmlContent html) {
+        return html.deleteTag("img");
+    }
+
+}
+
+
+public class HtmlContent {
+    private String source;
+
+    public HtmlContent(String source) {
+        if (!isCompatible(source)) {
+            throw new IllegalArgumentException();
+        }
+
+        this.source = source;
+    }
+
+
+    private static boolean isCompatible(String source) {
+        //html 소스를 검증함
+    }
+
+    public void deleteTag(String tagName) {
+        //source 필드의 태그를 찾고 태그를 제거한 후 업데이트함
+    }
+}
+
+```
+- 파라미터로 받는 String은 HtmlContent라는 좀더 높은 추상화 레벨의 DTO로 변경했다. 따라서 ContentProcessor 를 사용하는 비지니스 로직에서는 좀 더 급이 맞는 객체를 다룰 수 있다. 
+- String을 래핑한 dto인 HtmlContent 생성자에서 문자열 소스의 검증을 한다. 따라서 ContentProcessor 검증을 할 책임을 제거할 수 있다.
+- ContentProcessor 는 process()는 HtmlContent Dto를 파라미터로 갖는다. String 타입으로 인자를 받는 것보다 가독성이 좋다. 또한 부분별한 문자열이 들어가는 것을 막는다. 
+- ContentProcess는 HtmlContent의 메소드를 사용한다. 만약 Process할때 다른 태그를 삭제하거나 넣거나 하는 작업이 생긴다면 HtmlContent에 추가 메소드를 생성하고 HtmlContent에서는 그 메소드를 사용해서 Process()를 구현하면 된다. 
+
+물론 ContentProcess의 process()를 그냥 HtmlContent에 두는 방법도 있다. 하지만 이 방법은 좋지 못하다. 우선 만약 컨텐츠를 프로세싱 하는 것이 비니지스 로직과 관련되어 있다면 Dto가 비지니스 로직을 갖게 된다. 이는 DTO의 변경이 비니지스 로직의 변경을 초래한다. 이 경우 DTO는 엔티티가 되므로 신중해야한다. 또한 해당 로직이 다른 객체와의 협력이 필요한 경우 DTO가 다른 외부 클래스에 대한 의존성을 갖게된다. 이러한 의존성은 최소화하는게 중요하다.
+
+DTO에 넣어두는 메소드는 요구사항에 따라서 변경가능성이 낮고 외부 클래스의 의존성이 낮은 메소드여야 한다고 생각한다. 
+
+
+
+
+### 리팩토링에 따라 증가되는 레이어  
+
+https://geminikims.medium.com/%EC%A7%80%EC%86%8D-%EC%84%B1%EC%9E%A5-%EA%B0%80%EB%8A%A5%ED%95%9C-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%EB%A5%BC-%EB%A7%8C%EB%93%A4%EC%96%B4%EA%B0%80%EB%8A%94-%EB%B0%A9%EB%B2%95-97844c5dab63
+
+나는 김재민님의 글을 보면서 레이어드 아키텍처에 대해서 많은 고민을 하게 되었다. 앞서 진행한 리팩토링들은 모두 클래스를 증가시킨다. 이렇게 하나씩 낮은 레벨의 클래스를 증가시키면 이를 수용할 레이어는 어디로 해야할까?
+
+늘상하게 되는 고민이지만 정답은 없는 것 같다. 다만 분리한 낮은 레벨의 구현 레벨의 클래스가 다른 곳에 사용되지 않는다면 그것을 사용하는 클래스에 가까이 두는 것이 좋다고 생각한다. 앞서 커피머신의 기능 중 Brew 와 Pour 기능을 분리한 클래스의 경우 접근제한자로 외부노출을 차단시키고 같은 레이어와 패키지 안에 두었다. 
+
+그러나 외부에서, 다른 도메인에서 그 기능을 불러오게 된다면 로직의 변경가능성을 고려해서 이것을 누구나 접근가능한 util 클래스로 두는 방법도 있다. 이런 경우 패키지는 달라지며 접근제한자도 개방된다. 이렇게 된다면 아마도 Implement 레이어에 그대로 위치시키되 그 아래에 utility 레이어를 추가로 두는 방향이 있을 것이다.
+
+
+
+### 핵심은 읽기 좋고 변경에 강한 코드  
+ 지금까지 추상화 레벨 관점에서의 리팩토링을 해보았다. 어디까지난 읽기 좋고 변경에 유연한 코드를 만드는 것이 핵심이다. 
