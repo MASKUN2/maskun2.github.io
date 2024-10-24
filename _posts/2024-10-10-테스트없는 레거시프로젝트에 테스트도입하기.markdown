@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "테스트없는 레거시프로젝트에 테스트 도입하기"
-date:   2024-00-00 00:00:00 +0900
+date:   2024-10-19 00:00:00 +0900
 categories: 
 ---
 
 ### 배경
 
-회사에서 내가 담당하는 프로젝트에 테스트 코드가 없었다. 대신에 로컬환경으로 서버를 돌리고 포스트맨으로 엔드포인트를 테스트 했다. 이 방법은 간단했고 테스트 케이스가 모두 머릿속에 있었기 때문에 충분히 가능했다. 그러나 요구하는 기능과 복잡성이 시간이 지남에 따라 점점 가중되었다. 이런 방식으로는 테스트를 지속할 수 없었다. 테스트 비용이 너무 높았기 때문이다. 그래서 자동화된 테스트를 고민하게 되었고 테스트에 대한 여러 영상과 자료를 찾아 보게 되었다. 그 때 찾아본 자료들은 대략 다음과 같다.
+회사에서 내가 담당하는 프로젝트에 테스트 코드가 없었다. 대신에 로컬환경으로 서버를 돌리고 포스트맨으로 엔드포인트를 테스트 했다. 이 방법은 간단했고 테스트 케이스가 모두 머릿속에 있었기 때문에 어려움이 없었다. 그러나 요구하는 기능과 복잡성이 시간이 지남에 따라 점점 가중되었다. 테스트 비용이 너무 높아졌기 때문에 더이상 이 방식을 지속할 수 없었다. 그래서 자동화된 테스트를 고민하게 되었고 테스트에 대한 여러 영상과 자료를 찾아 보게 되었다. 그 때 찾아본 자료들은 대략 다음과 같다.
 
 - [2024년 인프콘 후기 - #4 클린 스프링](https://velog.io/@joshuara7235/2024%EB%85%84-%EC%9D%B8%ED%94%84%EC%BD%98-%ED%9B%84%EA%B8%B0-4-%ED%81%B4%EB%A6%B0-%EC%8A%A4%ED%94%84%EB%A7%81)
 - [단위 테스트의 가성비를 10초만에 판단하는 법](https://www.youtube.com/watch?v=qECd2q3USqA)
@@ -17,7 +17,13 @@ categories:
 - [Test Code Why? What? How?](https://kakaoentertainment-tech.tistory.com/78)
 
 
-다양한 Scope의 테스트가 있고 어떤 테스트를 도입할 것인지에 대해서 고민이 되지만 우선 필요한 테스트를 도입하는 것이 좋겠다고 생각했다. 우선 기능을 구현하면서 단위테스트 또는 기능테스트가 필요했다. 그리고 사용자 유즈케이스 시나리오에 따라서 기능을 검증할 인수테스트가 필요했다. 단 UI는 포함하지 않고 E2E 영역만을 테스트 하려고 생각했다. 아래는 챗 지피티가 알려준 각 테스트의 차이다.
+다양한 Scope의 테스트가 있고 어떤 테스트를 도입할 것인지에 대해서 고민이 되었지만 나는 우선 필요한 테스트를 도입하는 것이 좋겠다고 생각했다. 
+- 우선 기능을 구현하면서 보다 작은 단위로 검증하기 위한 `단위테스트` 또는 `기능테스트`가 필요했다. 
+- 그리고 사용자 시나리오에 따라서 기능 작동을 검증할 `인수테스트`가 필요했다. 
+  - 단 E2E의 UI는 포함하지 않고 API를 테스트 하려고 생각했다.
+  - UI를 포함하지 않는 테스트를 `인수테스트`라고 부를 수 있을지 고민을 했지만 서버사이드 개발의 종단이 API이기 때문에 많은 사례들이 서버 사이드의 인수테스트를 API까지 테스트하고 있었다. 나는 이를 `서버사이드 인수테스트`라고 구분하면 좋겠다고 생각했다.  [[3월 우아한테크세미나] 우아한ATDD](https://www.youtube.com/watch?v=ITVpmjM4mUE) 
+
+아래는 챗 지피티가 알려준 각 테스트의 차이다.
 
 
 | **구분**         | **단위 테스트 (Unit Test)**                     | **기능 테스트 (Functional Test)**                        | **인수 테스트 (Acceptance Test)**                         |
@@ -34,7 +40,26 @@ categories:
 
 
 ### 테스트 도입하기 : 테스트에 필요한 Application Properties로 분리하기
-내가 맡은 프로젝트는 application.yml, application-local.yml, application-prod.yml, application-dev.yml 로 각 Stage 마다 설정파일을 구분하고 있다. application.yml은 기본으로 공통로드 되는 설정이며 application.yml에 Stage마다 spring.profiles.active={profileName}를 변경해서 다른 설정을 덮어 씌운다. 보통 Docker로 서버를 올리기 때문에 각 인스턴스의 docker-compose.yml에 해당 설정 값을 변경해서 사용한다. 단 Local 즉 수동으로 하는 테스트 환경에서는 -Dspring.profiles.active=local 로 시스템 속성을 지정했었다.
+내가 맡은 프로젝트는 application.yml, application-local.yml, application-prod.yml, application-dev.yml 로 각 Stage 마다 설정파일을 구분하고 있다. 
 
- 테스트용 설정파일은 src/test/resources/에 위치시킨다. 기본적으로 @Spring
+application.yml은 기본으로 공통로드 되는 설정이며 application.yml에 Stage마다 spring.profiles.active={profileName}를 변경해서 다른 설정을 덮어 씌운다.  
+보통 Docker로 서버를 올리기 때문에 각 인스턴스의 docker-compose.yml에 해당 설정 값을 변경해서 사용한다. 
 
+ 테스트용 설정파일은 src/test/resources/에 위치시킨다. 기본적으로 @SpringBootTest는 자동으로 application.properties 를 로드한다. 내가 쓰는 인텔리제이의 환경에서는 src/test/resources/application.properties 를 찾고 없으면 src/main/resources/application.properties 를 가져온다. 
+
+ 따라서 굳이 src/test/resources/ 에 프로퍼티 공통 프로퍼티 파일을 위치시키지 않고 application-test.properties 만 저장해두고 @SpringBootTest(properties = "spring.profiles.active=test")로 테스트용 프로퍼티 파일만 따로 불러오는 것이 좋을 수 있다.  
+ 이 경우 공통 프로퍼티는 src/main/resources/application.properties 의 전적인 책임으로 맡기고 테스트용 프로퍼티만 명시적으로 애노테이션에서 지정해두는 것으로 메인 공통 프로퍼티의 변경으로 인한 환경 변화를 즉시 테스트 환경에 적용 가능하다.
+
+ 만약 테스트 환경의 변화로 `src/main/resources/application.properties` 가 아닌 다른 것을 사용해야 한다면 `src/test/resources/application.properties` 를 새롭게 둘 수 있다. 이런 경우 main 프로퍼티의 변경이 즉시 테스트 환경에 반영되지 않으므로 주의해야한다. 따라서 꼭 구분해둘 것이 아니면 변경된 프로퍼티는 `src/test/resources/application-test.properties` 에 지정해 두는 것이 좋다고 생각한다. 
+
+또한 `@ActiveProfile({profileName})` 을 사용하면 기본 프로퍼티 외 다른 프로퍼티파일을 로드할 수 있다. 하지만 이는 런타임에 애노테이션을 읽고 로드하므로 프로퍼티 변수인 `${spring.profiles.active}`에 값이 지정되지 않는다. 따라서 어플리케이션에서 해당 변수를 사용하여 스프링 빈 등의 configuration이나 초기화를 실행하는 경우 문제가 생길 수 있다. 따라서 이런 경우 테스트 환경구축을 위해서 처음부터 일반적인 운영이나 개발 서버의 동작환경인 `-Dspring.profiles.active` 과 유사하도록 `@SpringBootTest(properties = "spring.profiles.active=")` attribute 를 지정하는 것이 좋다고 생각한다.
+
+또한 추가적으로 staging 
+
+> references
+>> - [Override default Spring-Boot application.properties settings in Junit Test
+](https://stackoverflow.com/questions/29669393/override-default-spring-boot-application-properties-settings-in-junit-test)
+>> - [[Spring] @Profile, @ActiveProfiles 에 대해](https://bepoz-study-diary.tistory.com/371)
+>> - [Baeldung - Spring Profiles](https://velog.io/@baekrang256/Baeldung-Spring-Profiles)
+
+###  테스트 도입하기 : 테스트할 데이터 베이스 방식 선택하기
