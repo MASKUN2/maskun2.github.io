@@ -54,7 +54,6 @@ application.yml은 기본으로 공통로드 되는 설정이며 application.yml
 
 또한 `@ActiveProfile({profileName})` 을 사용하면 기본 프로퍼티 외 다른 프로퍼티파일을 로드할 수 있다. 하지만 이는 런타임에 애노테이션을 읽고 로드하므로 프로퍼티 변수인 `${spring.profiles.active}`에 값이 지정되지 않는다. 따라서 어플리케이션에서 해당 변수를 사용하여 스프링 빈 등의 configuration이나 초기화를 실행하는 경우 문제가 생길 수 있다. 따라서 이런 경우 테스트 환경구축을 위해서 처음부터 일반적인 운영이나 개발 서버의 동작환경인 `-Dspring.profiles.active` 과 유사하도록 `@SpringBootTest(properties = "spring.profiles.active=")` attribute 를 지정하는 것이 좋다고 생각한다.
 
-또한 추가적으로 staging 
 
 > references
 >> - [Override default Spring-Boot application.properties settings in Junit Test
