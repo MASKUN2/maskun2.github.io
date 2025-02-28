@@ -1,0 +1,51 @@
+@startuml
+
+' === 인터페이스 정의 ===
+interface DomainRecordValidator{
+   + boolean isTarget(@NonNull Map<String, Object> data)
+
+}
+
+class SpecificDomainValidator{
+   - List<RecordValidator> validators
+   + boolean isTarget(@NonNull Map<String, Object> data)
+   + ValidationResult validate(@NonNull Map<String, Object> data)
+}
+
+
+interface RecordValidator {
+함수형 인터페이스
+    + ValidationResult validate(@NonNull Map<String, Object> data)
+}
+
+' === ValidationResult 클래스 ===
+class ValidationResult {
+    + List<ValidationResult> childResults
+    + static ValidationResult pass()
+    + static ValidationResult fail(String message, LogLevel level)
+}
+
+' === KeyBaseRecordValidatorBuilder 클래스 ===
+class KeyBaseRecordValidatorBuilder {
+    - String targetKey
+    - List<RecordValidator> validators
+    + static KeyBaseRecordValidatorBuilder forKey(String key)
+    + KeyBaseRecordValidatorBuilder isPresent()
+    + KeyBaseRecordValidatorBuilder ifPresent()
+    + KeyBaseRecordValidatorBuilder isChar()
+    + KeyBaseRecordValidatorBuilder isNum()
+    + KeyBaseRecordValidatorBuilder isIn(Set<String> codes)
+    + RecordValidator build()
+}
+
+
+' === 관계 정의 ===
+
+KeyBaseRecordValidatorBuilder o- RecordValidator : 임시로 accumulate 함
+KeyBaseRecordValidatorBuilder ..> RecordValidator : 빌더로 파이프라인화된 Validator를 만들어줌
+SpecificDomainValidator ...right..|> DomainRecordValidator
+SpecificDomainValidator o-- RecordValidator
+DomainRecordValidator --|> RecordValidator
+RecordValidator --> ValidationResult
+
+@enduml
