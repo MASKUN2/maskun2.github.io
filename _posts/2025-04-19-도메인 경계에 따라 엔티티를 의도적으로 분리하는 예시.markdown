@@ -1,0 +1,185 @@
+---
+layout: post
+title:  "도메인 경계에 따라 엔티티를 의도적으로 분리하는 예시"
+date:   2025-04-19 00:00:00 +0900
+categories: 
+---
+출처가 정확히 기억나지 않지만 어느 금융 시스템이 있었다고 한다. 그 금융 시스템은 엔티티 간의 결합도가 높았고 비지니스가 성장함에 따라 하나의 엔티티에서 여러 역할를 동시에 수행하게 되는 등 유지보수에 문제가 있었다고 한다. 하나의 애그리거트가 수많은 하위 애그리거트를 관리하는 것을 넘어서 애그리거트 루트간의 상하관계도 존재했을 것이다. 아무튼 그 시스템은 이후 도메인 설계를 시작해 바운디드 컨텍스트를 분석하며 점점 애그리거트 루트와 바운디드 컨택스트에 따라 분리하게 되었는데 결과적으로 성공했다. 변모한 시스템은 70% 이상이 단 하나의 엔티티 만을 도메인 경계 안에서 사용하게 되어 작고 가벼우며 유연해졌다.
+
+ 나는 이 이야기를 좋아한다. 그리고 나는 OOP를 좋아하기에 객체(엔티티)간의 결합도는 낮고 또한 응집도는 높이고 싶어한다. JPA를 통한 도메인 모델링도 예외는 아니다. 
+ 
+내가 맡았던 시스템의 코드에서는 소위 '마스터 엔티티' 들이 존재했었는데 이 애그리거트 루트는 시스템에 쓰이는 거의 대부분의 핵심 애그리거트 루트를 필드로서 다양한 연관관계로 참조하고 있었다. 이 엔티티는 심지어 상속를 사용하고 있었으며 작성된 코드가 1000줄 가까이 되었다. 손을 대기가 무척 싫은 그런 코드이다. 수정은 차치하고 테스트에도 큰 영향을 주었는데 이 '마스터 엔티티'를 참조해야하는 테스트를 작성할 때마다 그 수많은 필드들을 채워서 생성해야만 했다. 나는 다른 가벼운 다른 엔티티를 테스트할 때 그 엔티티가 하필 '마스터 엔티티'를 참조하기 때문에 테스트 코드의 절반은 픽스쳐를 만드는데 사용해야했다.
+
+처음부터 '마스터 엔티티'는 '마스터 엔티티'가 아니었을 것이다. 아마도 처음에는 가벼운 엔티티로 시작했을 것이다. 점차 요구사항이 추가되고 구체화됨에 따라 생기는 문제와 기능을 넣다보니 이와 같이 비대해졌을 것이다. 마치 이것은 공구상자와 같다. 해야할 일이 다양해지고 점차 공구를 많이 산다. 이 공구를 쓰던 공구 상자에 던져놓으면 공구가 섞이고 깔리게 되어 다시 원하는 공구를 꺼내기 위해서는 공구상자를 쏟아내야하는 비효율이 생기는 것과 같다. 문제는 공구를 사는 것이 아니라 공구상자의 상태를 수시로 체크하고 컨택스트에 맞도록 공구들의 위치를 분리하는 것이다. 이것을 하지 않았기 때문에, 또는 그것을 하는 순간 발생될 수 있는 여러 운영상의 문제가 두려워서 그것을 분리하지 않고 두었을 것이다. 결국 작은 의미의 기술부채인 것이다.
+
+나는 가볍고 잘 분리된 엔티티가 도메인 경계를 잘 분리하는 것에서 만들어진다고 생각한다. 우리가 만드는 엔티티가 사실은 여러 도메인 경계가 뒤섞인 것은 아닌지 늘 경계하는 자세가 앞서 설명한 문제를 줄이는 예방책이라고 생각한다.
+
+나는 최근 자체적으로 회원 도메인을 구상하면서 스스로가 회원 도메인 구성에 필요한 소셜, 인증토큰 등의 도메인을 하나의 회원 엔티티 안에 섞었다는 사실을 깨닫고 이를 분리하기 위해서 노력하고 있다. 대략적으로 다음과 같은 예시로 설명을 하고자 한다.
+
+각 엔티티는 분리되며 회원 엔티티ID를 간접 참조한다. 단 여기서는 Long 타입의 ID를 필드로서 참조하지만 실제 나의 프로젝트에서는 @EmbeddedId를 사용했다. 이 방식은 나중에 유지보수할 때 어느 엔티티가 해당 ID를 참조하는지 찾기가 무척 수월하다. 추천한다.
+
+
+
+### Before:
+모든 정보가 통합된 회원 엔티티.  
+* 문제점:
+* 1. Member 엔티티가 너무 많은 책임을 가짐 (회원 관리, 소셜 인증, 토큰 관리).
+* 2. 소셜 계정이 여러 개가 되면 구조가 복잡해짐 (List<SocialInfo> 같은 형태 필요).
+* 3. 토큰 정보가 늘어나면 (예: 모든 발급 이력) Member 테이블이 불필요하게 커짐.
+* 4. 각 책임 영역의 변경이 서로에게 영향을 줄 수 있음 (낮은 응집도, 높은 결합도).
+```java
+import javax.persistence.*;
+import java.time.Instant;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.UUID;
+
+@Entity
+@Table(name = "members_before") // 테이블명 예시
+public class MemberBefore {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    // --- 1. 회원의 기본 정보 ---
+    @Column(nullable = false, unique = true)
+    private String email;
+
+    @Column(nullable = false)
+    private String nickname;
+
+    private String profileImageUrl;
+
+    @Enumerated(EnumType.STRING)
+    private MemberStatus status = MemberStatus.ACTIVE; // 예시 상태
+
+    // --- 2. 회원의 소셜 계정 정보 (단순화를 위해 하나의 소셜 계정만 가정) ---
+    @Enumerated(EnumType.STRING)
+    private OAuthProvider oauthProvider; // 예: GOOGLE, KAKAO
+
+    private String oauthSubjectId; // 소셜 계정 제공자가 주는 고유 ID
+
+    // --- 3. 회원이 발급한 토큰 정보 (단순화를 위해 가장 최근 토큰 정보만 저장) ---
+    private UUID latestRefreshTokenId; // 가장 최근 발급된 리프레시 토큰 UUID
+
+    private Instant refreshTokenExpiration; // 해당 토큰 만료 시간
+
+    // 생성자, Getter, Setter 등 생략
+
+    // --- 예시 Enum ---
+    public enum MemberStatus { ACTIVE, DORMANT, WITHDRAWN }
+    public enum OAuthProvider { GOOGLE, NAVER, KAKAO }
+}
+```
+
+
+#### After: 
+책임에 따라 분리된 엔티티. 각 엔티티가 명확한 책임을 가짐
+```java
+import javax.persistence.*;
+
+@Entity
+@Table(name = "members")
+public class Member {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id; // 애플리케이션 고유 회원 ID
+
+    @Embedded // 기본 정보를 Embeddable 객체로 분리
+    private MemberBasicInfo basicInfo;
+
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    private MemberStatus status = MemberStatus.ACTIVE;
+
+    // 생성자, Getter 등 생략
+
+    // --- 예시 Enum ---
+    public enum MemberStatus { ACTIVE, DORMANT, WITHDRAWN }
+}
+
+@Embeddable // 회원 기본 정보
+public class MemberBasicInfo {
+    @Column(nullable = false, unique = true)
+    private String email;
+
+    @Column(nullable = false)
+    private String nickname;
+
+    private String profileImageUrl;
+
+    // 생성자, Getter 등 생략
+}
+```
+
+
+#### 소셜 계정 엔티티 (SocialAccount)
+
+```java
+import javax.persistence.*;
+import java.io.Serializable;
+import java.util.Objects;
+
+@Entity
+@Table(name = "social_accounts")
+public class SocialAccount{
+
+    @EmbeddedId // 복합키 사용 (Provider + SubjectId)
+    private SocialAccountId id;
+
+    @Column(nullable = false)
+    private Long memberId; // Member 엔티티의 ID (간접 참조)
+
+    // 소셜 계정 관련 추가 정보 (예: 마지막 로그인 시간 등)
+    // private Instant lastLoginAt;
+
+    // 생성자, Getter 등 생략
+
+    // --- 예시 Enum ---
+    public enum OAuthProvider { GOOGLE, NAVER, KAKAO }
+}
+
+@Embeddable // SocialAccount의 복합키 클래스
+public class SocialAccountId implements Serializable {
+
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
+    private SocialAccount.OAuthProvider provider;
+
+    @Column(nullable = false)
+    private String subjectId; // 소셜 계정 제공자가 주는 고유 ID
+
+}
+```
+
+3. 토큰 정보 엔티티 (IssuedRefreshToken)
+
+```java
+import javax.persistence.*;
+import java.time.Instant;
+import java.util.UUID;
+
+@Entity
+@Table(name = "issued_refresh_tokens")
+public class IssuedRefreshToken {
+
+    @Id
+    private UUID id; // 토큰 자체의 UUID를 PK로 사용
+
+    @Column(nullable = false)
+    private Long memberId; // Member 엔티티의 ID (간접 참조)
+
+    @Column(nullable = false)
+    private Instant issuedAt; // 발급 시간
+
+    @Column(nullable = false)
+    private Instant expiration; // 만료 시간
+
+    @Column(nullable = false)
+    private boolean revoked = false; // 폐기 여부
+
+    private Instant revokedAt; // 폐기 시간 (nullable)
+
+```
