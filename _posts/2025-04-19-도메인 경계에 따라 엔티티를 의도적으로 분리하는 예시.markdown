@@ -27,13 +27,9 @@ categories:
 * 2. 소셜 계정이 여러 개가 되면 구조가 복잡해짐 (List<SocialInfo> 같은 형태 필요).
 * 3. 토큰 정보가 늘어나면 (예: 모든 발급 이력) Member 테이블이 불필요하게 커짐.
 * 4. 각 책임 영역의 변경이 서로에게 영향을 줄 수 있음 (낮은 응집도, 높은 결합도).
-```java
-import javax.persistence.*;
-import java.time.Instant;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.UUID;
 
+
+```java
 @Entity
 @Table(name = "members_before") // 테이블명 예시
 public class MemberBefore {
@@ -77,8 +73,6 @@ public class MemberBefore {
 #### After: 
 책임에 따라 분리된 엔티티. 각 엔티티가 명확한 책임을 가짐
 ```java
-import javax.persistence.*;
-
 @Entity
 @Table(name = "members")
 public class Member {
@@ -118,10 +112,6 @@ public class MemberBasicInfo {
 #### 소셜 계정 엔티티 (SocialAccount)
 
 ```java
-import javax.persistence.*;
-import java.io.Serializable;
-import java.util.Objects;
-
 @Entity
 @Table(name = "social_accounts")
 public class SocialAccount{
@@ -180,6 +170,6 @@ public class IssuedRefreshToken {
     @Column(nullable = false)
     private boolean revoked = false; // 폐기 여부
 
-    private Instant revokedAt; // 폐기 시간 (nullable)
-
+    private Instant revokedAt; // 폐기 시간 
+}
 ```
