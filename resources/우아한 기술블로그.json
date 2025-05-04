@@ -1,0 +1,2762 @@
+[
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "첫 Java 프로젝트의 생생한 후기",
+    "url": "https://techblog.woowahan.com/2504/",
+    "description": "처음으로 Java 8 + Spring Boot + JPA 를 이용하여 프로젝트를 진행 하였는데, 그 때 느꼈던 점을 공유 하고자 합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "좋은 퍼블리셔란 무엇일까?",
+    "url": "https://techblog.woowahan.com/2503/",
+    "description": "수상소감이라고 쓰는 개인적인 소회"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "생각하라, 객체지향처럼",
+    "url": "https://techblog.woowahan.com/2502/",
+    "description": "2년차 쪼랩이가 객체지향을 처음으로 접하고 공부를 하면서 나름대로 정리해보았습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한형제들의 Baby Steps",
+    "url": "https://techblog.woowahan.com/2501/",
+    "description": "우아한형제들은, 어제보다 성장함에 의미를 두고,함께 성장하는 것을 꿈꾸는 조직입니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "IntelliJ 의 VIM 플러그인 마개조하기",
+    "url": "https://techblog.woowahan.com/2500/",
+    "description": "마개조 그거슨 개발자의 로망...이 아니라, 불편한 것을 고쳐 씁시다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "스타워즈 깨어난 포스 리뷰",
+    "url": "https://techblog.woowahan.com/2499/",
+    "description": "우아한형제들의 CTO실 사람들이 새로운 기술이나 개발 코드만 얘기하지는 않습니다.여행담이나 새로 산 전자 기기에 대한 얘기, 영화에 대한 감상도 많이 나눕니다.작년 겨울 개봉했던 스타워즈 깨어난 포스에 대한 리뷰를 적어봅니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Google Apps Script 사용 이야기 (3/3)",
+    "url": "https://techblog.woowahan.com/2498/",
+    "description": "우아한형제들은 협업 도구로 Google Apps를 사용하고 있습니다.사내 업무를 손쉽게 자동화하기 위하여 Apps Script를 도입한 이야기를 소개합니다.<마지막 이야기>"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Google Apps Script 사용 이야기 (2/3)",
+    "url": "https://techblog.woowahan.com/2497/",
+    "description": "우아한형제들은 협업 도구로 Google Apps를 사용하고 있습니다.사내 업무를 손쉽게 자동화하기 위하여 Apps Script를 도입한 이야기를 소개합니다.<두 번째 이야기>"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Google Apps Script 사용 이야기 (1/3)",
+    "url": "https://techblog.woowahan.com/2496/",
+    "description": "우아한형제들은 협업 도구로 Google Apps를 사용하고 있습니다.사내 업무를 손쉽게 자동화하기 위하여 Apps Script를 도입한 이야기를 소개합니다.<첫 번째 이야기>"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[우아한 인터뷰] 신입사원 김용대 편",
+    "url": "https://techblog.woowahan.com/2495/",
+    "description": "우아한형제들의 기술 블로그를 열었습니다.이 곳에 차곡차곡 쌓여갈 글들은 기술공유와 더불어 우아한형제들의 개발부서인 CTO실 사람들의 이야기를 담을 예정입니다.그 시작으로 최근에 입사한 신입사원 김용대님을 인터뷰했습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "누군가에게는 빼빼로데이. 누군가에게는?",
+    "url": "https://techblog.woowahan.com/2514/",
+    "description": "배달의 민족 2016년 11월 11일 빼빼로데이 이벤트 구현기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "AWS IoT 버튼을 활용하여 차임벨 만들기",
+    "url": "https://techblog.woowahan.com/2513/",
+    "description": "AWS 서비스, LINE Messaging API, 그리고 약간의(?) 인력을 활용하여 불편함을 해결하기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Sql server 2012 / Event ID 36888 Schannel Error",
+    "url": "https://techblog.woowahan.com/2512/",
+    "description": "좌충우돌 장애 대처 : Event ID 36888. Schannel Error – The following fatal alert was generated: 20. The internal error state is 960"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "배달의민족 연성체를 맞이하며",
+    "url": "https://techblog.woowahan.com/2511/",
+    "description": "연성체 때문에 행복한 연성이 아빠가"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "9X년생 개발자 모임 참석 후기",
+    "url": "https://techblog.woowahan.com/2510/",
+    "description": "9X년생 개발자 모임 5회차 참석 후기입니다"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "다 때가 있다 – 우아한형제들 개발자 모집",
+    "url": "https://techblog.woowahan.com/2509/",
+    "description": "우아한형제들에서 같이 일하고 함께 성장할 개발자분들을 모십니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[공유] 소프트웨어 팀을 위한 컨플루언스 가이드",
+    "url": "https://techblog.woowahan.com/2508/",
+    "description": "컨플루언스를 좀 더 효과적으로 활용할 수 있는 방안을 정리한 문서를 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한, WoowahanJS",
+    "url": "https://techblog.woowahan.com/2507/",
+    "description": "우아한 듯, 우아하지 않은, 우아한 자바스크립트 프레임워크 이야기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Happy Code",
+    "url": "https://techblog.woowahan.com/2506/",
+    "description": "개발 자의 잉여 나눔. 틈 날 때 만든 작은 코드로 소소한 행복 나누기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "쉽고 재밌는 정규식 이야기",
+    "url": "https://techblog.woowahan.com/2505/",
+    "description": "정규식 VS 자유도 만땅 주소 입력시스템과의 사투"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "배달의민족 안드로이드 7.27.0 장애 회고",
+    "url": "https://techblog.woowahan.com/2524/",
+    "description": "다시는 만나고 싶지 않은 재앙"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "배민 API GATEWAY – spring cloud zuul 적용기",
+    "url": "https://techblog.woowahan.com/2523/",
+    "description": "Microservice Architecture의 시작 - Legacy API 서버 고립기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[모집] 우아한테크캠프 참가자를 모집합니다.",
+    "url": "https://techblog.woowahan.com/2522/",
+    "description": "우아한테크캠프에서 참가자를 모집합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "프로세스 개선이 현업에서 정착되려면",
+    "url": "https://techblog.woowahan.com/2521/",
+    "description": "프로세스의 개선은 말로만 하지 말고 행동으로 보여 주어야 하며, 끈기있게 물고 늘어져야 한다"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "배민 신춘문예 개발기",
+    "url": "https://techblog.woowahan.com/2520/",
+    "description": "함께해서 즐거웠고 다시 만나지 맙시다"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "OSORI 권한관리 플랫폼",
+    "url": "https://techblog.woowahan.com/2519/",
+    "description": "MSA환경에 특화된 권한관리 플랫폼."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "AWS KMS를 이용한 암호화 API 구축하기",
+    "url": "https://techblog.woowahan.com/2518/",
+    "description": "서버 없이 쉽고 빠르게 암복호화 API를 만들어 봅니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "빌링 시스템 장애, 이러지 말란 Maria~",
+    "url": "https://techblog.woowahan.com/2517/",
+    "description": "mariadb-connector-j와 관련된 빌링 시스템 장애이야기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "소소한 배민라이더스 BROS 2.0 오픈 이야기",
+    "url": "https://techblog.woowahan.com/2516/",
+    "description": "BROS 2.0 프로젝트를 진행하며 겪었던 여러 가지 이야기를 풀어봅니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "좌충우돌 실전 프로젝트 개발 스토리",
+    "url": "https://techblog.woowahan.com/2515/",
+    "description": "배달의 민족 통합인증 프로젝트 구축기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "QR코드 속 보물찾기",
+    "url": "https://techblog.woowahan.com/2535/",
+    "description": "딱 2시간만 운영하는 매우 작은 서비스 이야기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "QA != 통합테스트",
+    "url": "https://techblog.woowahan.com/2534/",
+    "description": "QA업무를 하면서 나는 왜 힘든 것인가에 관한 고찰"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "좋은 동료와 함께 성장하는 기쁨",
+    "url": "https://techblog.woowahan.com/2533/",
+    "description": "약 1년 동안의 사내 스터디를 마치며.."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "똑똑, 프로젝트에 코틀린을 도입하려고 합니다.",
+    "url": "https://techblog.woowahan.com/2532/",
+    "description": "배프 메인개편 프로젝트에 코틀린을 도입하며"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "이직초보 어느 개발자의 이력서 만들기",
+    "url": "https://techblog.woowahan.com/2531/",
+    "description": "보기 좋은 이력서가 면접에 가깝다"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "훅으로 Git에 훅 들어가기",
+    "url": "https://techblog.woowahan.com/2530/",
+    "description": "Git의 Hook 기능을 이용해 Git에 훅 빠져봅니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "아이튠즈커넥트의 신기능 – 자동업데이트 사용자를 대상으로 점진적출시",
+    "url": "https://techblog.woowahan.com/2529/",
+    "description": "“새로 배포하는 버전에 문제가 있을지도 몰라..”"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Java Enum 활용기",
+    "url": "https://techblog.woowahan.com/2527/",
+    "description": "상태와 기능을 한곳에서!"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "레거시 코드를 파괴하는 Vim 벽돌 깨기",
+    "url": "https://techblog.woowahan.com/2526/",
+    "description": "혼돈! 파괴! Vim!"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우리가 부르는 시니어 개발자는 누구인가?",
+    "url": "https://techblog.woowahan.com/2525/",
+    "description": "한번쯤은 누구나 고민해 볼만한 이야기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "넌 강해졌다, 돌격해!",
+    "url": "https://techblog.woowahan.com/2545/",
+    "description": "우아한테크캠프를 마치며"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한테크캠프 – 8월의 일기",
+    "url": "https://techblog.woowahan.com/2544/",
+    "description": "우아한테크캠프의 8월을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Mqtt Stress Test",
+    "url": "https://techblog.woowahan.com/2543/",
+    "description": "Mqtt 서버요? 몇 Connection까지 알아보고 오셨어요?"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Hystrix! API Gateway를 도와줘!",
+    "url": "https://techblog.woowahan.com/2542/",
+    "description": "API Gateway가 장애를 만난 사례와 Hystrix 설정으로 문제를 해결한 경험을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "개발환경을 한 방에! 쉘 스크립트의 힘",
+    "url": "https://techblog.woowahan.com/2541/",
+    "description": "쉘 스크립트로 개발환경을 한 방에 셋팅해 봅시다!"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "MQTT 적용을 통한 중계시스템 개선",
+    "url": "https://techblog.woowahan.com/2540/",
+    "description": "다양한 중계채널에 빠르고 정확하게 주문을 전파하라!!"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Elastic Beanstalk Configuration files(.ebextensions)",
+    "url": "https://techblog.woowahan.com/2539/",
+    "description": "AWS Elastic Beanstalk 설정을 커스터마이징 할수 있는 ebextension 에 대해서 알아봅시다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "인(人)턴(Turn) – 당신 인생의 전환점",
+    "url": "https://techblog.woowahan.com/2538/",
+    "description": "우아한테크캠프의 7월을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Swift가 진화하는 법",
+    "url": "https://techblog.woowahan.com/2537/",
+    "description": "사용하는 언어의 발전에 참여할 수 있다는 것은 참 즐겁습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "로그 데이터로 유저 이해하기",
+    "url": "https://techblog.woowahan.com/2536/",
+    "description": "데이터로 어떻게 인간의 행태를 이해하고 서비스를 개선할 수 있을까?"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "학습에 실패한 이야기",
+    "url": "https://techblog.woowahan.com/2555/",
+    "description": "학습하고, 학습에 실패한 경험을 공유합니다"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "신선함으로 다가온 ES6 경험",
+    "url": "https://techblog.woowahan.com/2554/",
+    "description": "ECMAScript 6 경험기입니다"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우린 Git-flow를 사용하고 있어요",
+    "url": "https://techblog.woowahan.com/2553/",
+    "description": "배달의민족 안드로이드 파트의 브랜치 전략 이야기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "코딩테스트 연기 건 사과 드립니다.",
+    "url": "https://techblog.woowahan.com/2552/",
+    "description": "코딩테스트 연기 건 사과 드립니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "자바 직렬화, 그것이 알고싶다. 실무편",
+    "url": "https://techblog.woowahan.com/2551/",
+    "description": "자바 직렬화 기술에 대한 이야기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "자바 직렬화, 그것이 알고싶다. 훑어보기편",
+    "url": "https://techblog.woowahan.com/2550/",
+    "description": "자바 직렬화 기술에 대한 이야기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "배민 ‘앱 친구’의 스프린트 이야기",
+    "url": "https://techblog.woowahan.com/2549/",
+    "description": "이 글을 보고나면 배달의민족 앱 개발은 이렇게 한대~ 라고 주변에 말하고 싶어질꺼예요"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "데일리 미팅! 플래닝 포커! 회고!",
+    "url": "https://techblog.woowahan.com/2548/",
+    "description": "처음 경험하는 애자일 방법론, 데일리 미팅, 플래닝 포커 그리고 회고에 대한 회고"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "실시간 서비스 경험기(배달운영시스템)",
+    "url": "https://techblog.woowahan.com/2547/",
+    "description": "실시간 이벤트를 이용한 라이더 관제와 배달 운영 시스템 개발 경험기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한테크캠프: 좋은 개발자가 되고 싶다면",
+    "url": "https://techblog.woowahan.com/2546/",
+    "description": "우아한테크캠프를 통해 얻은 소중한 것들을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Hybrid-Cloud 환경에서 보안인증 준비 하기",
+    "url": "https://techblog.woowahan.com/2565/",
+    "description": "ISMS 인증심사 준비하면서 생겼던 고민거리들 가볍게 정리해보기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[번역] SIL(Swift Intermediate Language), 일단 시작해보기까지",
+    "url": "https://techblog.woowahan.com/2564/",
+    "description": "Swift 언어를 사용중에 명확하게 판별하기 힘든 문제는 SIL을 살펴보면 어떨까?"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "SIL(Swift Intermediate Language)을 통한 Swift debugging",
+    "url": "https://techblog.woowahan.com/2563/",
+    "description": "스위프트를 더 깊이 알아가는 방법"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "쿠버네티스를 이용해 테스팅 환경 구현해보기",
+    "url": "https://techblog.woowahan.com/2562/",
+    "description": "실제로 서비스에 도입해보기 전에 쿠버네티스를 유용하게 사용해 볼 수 있는 방법 중에 하나가 아닐까."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "안정된 의존관계 원칙과 안정된 추상화 원칙에 대하여",
+    "url": "https://techblog.woowahan.com/2561/",
+    "description": "밥 아저씨의 Stable Dependencies Principle과 Stable Abstraction Principle로 인터페이스를 만들지 여부를 결정해보기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Spock으로 테스트코드를 짜보자",
+    "url": "https://techblog.woowahan.com/2560/",
+    "description": "Spock 테스트 프레임워크 맛보기!"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "MySQL에서 ‘a’ = ‘a ‘가 true로 평가된다?",
+    "url": "https://techblog.woowahan.com/2559/",
+    "description": "DB 알못의 어떤 리서치"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "AWS에서 네트워크 공격 자동차단 하기",
+    "url": "https://techblog.woowahan.com/2558/",
+    "description": "GuardDuty에서 탐지된 공격을 NACL을 이용하여 자동차단 하기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "내 안의 가짜를 부수고 진짜 사용자를 만나는 방법",
+    "url": "https://techblog.woowahan.com/2557/",
+    "description": "배민찬 앱의 사용성 평가를 해봤습니다"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Presto 쿼리 실행계획 겉핥기",
+    "url": "https://techblog.woowahan.com/2556/",
+    "description": "Presto를 보다 유용하게 사용하기 위한 실행 계획 보는 법"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "주소검색서버(woowahan-juso) 개발기(上)",
+    "url": "https://techblog.woowahan.com/2575/",
+    "description": "부제: SpringBoot Batch를 이용하여 주소DB 구축하기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Google I/O 2018 에 다녀오다!",
+    "url": "https://techblog.woowahan.com/2574/",
+    "description": "Google I/O, 저도 다녀왔습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "라이더스앱(iOS) 개발기",
+    "url": "https://techblog.woowahan.com/2573/",
+    "description": "React Native로 만들어보았습니다"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "결제 시스템 성능, 부하, 스트레스 테스트",
+    "url": "https://techblog.woowahan.com/2572/",
+    "description": "결제 시스템을 개비하며 진행한 성능, 부하, 스트레스 테스트 경험기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한테크캠프 참가자에서 우아한개발자가 되기까지",
+    "url": "https://techblog.woowahan.com/2571/",
+    "description": "2017 우아한테크캠프 참가자에서 우아한형제들에 입사하기까지의 경험을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한개발자가 되기 위한 우아한테크캠프",
+    "url": "https://techblog.woowahan.com/2570/",
+    "description": "우아한(Woowa) 개발자가 되고 싶은 이들을 위한 우아한테크캠프 2기를 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Java, max user processes, open files",
+    "url": "https://techblog.woowahan.com/2569/",
+    "description": "Linux의 max user processes, open files와 Java의 관계를 알아보자"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한형제들의 Developer Relations",
+    "url": "https://techblog.woowahan.com/3799/",
+    "description": "투자가를 대상으로 한 IR(Investor Relations) 이야기가 아닌,  개발자를 대상으로 한 DR(Developer Relations) 이야기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Hello, Geo-fence!",
+    "url": "https://techblog.woowahan.com/2567/",
+    "description": "Geo-fence를 활용하여 시스템을 발전시키자"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "신입개발자 교육 후기",
+    "url": "https://techblog.woowahan.com/2566/",
+    "description": "신입개발자 교육에 대해 간단히 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "새로운 오피스, 작은집",
+    "url": "https://techblog.woowahan.com/2585/",
+    "description": "우아한 형제들의 새로운 오피스 공간을 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "JDBC로 실행되는 SQL에 자동으로 프로젝트 정보 주석 남기기",
+    "url": "https://techblog.woowahan.com/2584/",
+    "description": "Java에서 JDBC Driver를 통해 실행되는 모든 SQL 구문에 자동으로 프로젝트 이름 등의 호출자 정보를 자동으로 남기게 해봅니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "나를 술푸게 하는 고민들",
+    "url": "https://techblog.woowahan.com/2583/",
+    "description": "병아리개발자는 어떤 고민을 하나요?"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "파이썬으로 Linear Regression 해보기",
+    "url": "https://techblog.woowahan.com/2582/",
+    "description": "선형대수로 풀어보는 선형회귀"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한 개발자 경력 공채",
+    "url": "https://techblog.woowahan.com/2581/",
+    "description": "우아한 개발자 경력 공채를 진행합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "AWS에서 서버(EC2) 패킷 미러링 하기",
+    "url": "https://techblog.woowahan.com/2580/",
+    "description": "AWS에서 iptables TEE를 이용하여 Linux 기반 인스턴스 패킷 미러링"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "라이더스 개발팀 모바일에서 CI/CD 도입",
+    "url": "https://techblog.woowahan.com/2579/",
+    "description": "라이더스개발팀 모바일에서CI/CD 도입배경 및 설치"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한테크캠프를 통해 내가 얻은 것들",
+    "url": "https://techblog.woowahan.com/2578/",
+    "description": "우아한테크캠프 참가자에서 우아한개발자가 되기까지 part.2"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "배민찬은 Vue를 어떻게 사용하나요?",
+    "url": "https://techblog.woowahan.com/2577/",
+    "description": "제이쿼리, PHP 기반의 쇼핑몰 서비스에 Vue를 도입한 사례를 정리한 내용입니다"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "장애와 관련된 XtraBackup 적용기",
+    "url": "https://techblog.woowahan.com/2576/",
+    "description": "CTO님 이거 올려도 되나요?"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "기존 Express 서버에 Vue.js 적용해보기 (feat.EJS)",
+    "url": "https://techblog.woowahan.com/2596/",
+    "description": "기존 프로젝트에 Vue.js를 도입"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한 Developer Relations 두번째 이야기",
+    "url": "https://techblog.woowahan.com/2594/",
+    "description": "모든 사람을 대상으로 한 PR(Public Relations)에서 배운,  개발자를 대상으로 한 DR(Developer Relations) 이야기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Performance Insight 써도 돼요?",
+    "url": "https://techblog.woowahan.com/2593/",
+    "description": "AWS RDS 모니터링 기능인 Performance Insight 사용에 따른 성능 테스트를 해보았습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한 파일럿 프로젝트 2기(feat.고독한개발자)",
+    "url": "https://techblog.woowahan.com/2591/",
+    "description": "우리 팀의 신입 개발자 교육과정 이야기2"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "파일럿 프로젝트와 함께 우아한개발자 되어가기",
+    "url": "https://techblog.woowahan.com/2592/",
+    "description": "우리 팀의 신입 개발자 교육과정 이야기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "프로젝트가 장난이야?!",
+    "url": "https://techblog.woowahan.com/2590/",
+    "description": "장난인 프로젝트, 토이 프로젝트를 추천합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "배달의민족 앱에 적용된 오프라인 모드에 대하여",
+    "url": "https://techblog.woowahan.com/2589/",
+    "description": "서버에서 응답이 없어도 우리의 주문은 계속 되어야 한다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "신규 포인트 시스템 전환기 #2 – 오픈 준비 단계",
+    "url": "https://techblog.woowahan.com/2588/",
+    "description": "신규 포인트 시스템 전환기 중 오픈 준비 이야기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "신규 포인트 시스템 전환기 #1 – 개발 단계",
+    "url": "https://techblog.woowahan.com/2587/",
+    "description": "신규 포인트 시스템 전환기 중 개발 이야기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Real-time Service Configuration으로 Consul을 신주소 서비스에 적용한 사례",
+    "url": "https://techblog.woowahan.com/2586/",
+    "description": "Real-time Service Configuration으로 Consul을 신주소 서비스에 적용한 사례"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "SQL Server 에게 String 이란? (NVARCHAR 인가 VARCHAR 인가)",
+    "url": "https://techblog.woowahan.com/2605/",
+    "description": "SQL Server JDBC Driver 를 사용하면서 배운, 그리고 주의해야 할 특징"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "재해복구(DR)를 위한 오로라 데이터베이스 구성",
+    "url": "https://techblog.woowahan.com/2604/",
+    "description": "재해복구를 위해 AWS에서 제공하는 리전 간 데이터베이스 동기화 기능을 비교해봤습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "AWS에서 보안 감사 및 이상징후 탐지",
+    "url": "https://techblog.woowahan.com/2603/",
+    "description": "cloudtrail log를 수집/분석하여 보안 감사와 이상징후 탐지를 수행하기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "클린 아키텍처와 함께하는 배민앱 (Android)",
+    "url": "https://techblog.woowahan.com/2602/",
+    "description": "배달의민족 안드로이드앱은 이런 구조로 만들어져 있어요."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Legacy DB의 JPA Entity Mapping (Enum Converter 편)",
+    "url": "https://techblog.woowahan.com/2600/",
+    "description": "Enum과 DB 코드값을 연결해주는 Converter"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Spring 의 Cache 추상화를 사용하면서, 단건/다건 key 에 대한 동일 저장소 사용하기",
+    "url": "https://techblog.woowahan.com/2601/",
+    "description": "Request / Response 가 단순히 단건/다건일때 하나 저장소에 캐시값 저장하기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Legacy DB의 JPA Entity Mapping (복합키 매핑 편)",
+    "url": "https://techblog.woowahan.com/2595/",
+    "description": "Entity의 복합키(Composite Key) 설정 이렇게 해보세요."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "React에서 Mobx 경험기 (Redux와 비교기)",
+    "url": "https://techblog.woowahan.com/2599/",
+    "description": "React에서 상태관리 라이브러리 Mobx를 적용해보고 느낀 Redux와의 차이점과 장점을 살펴보자."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한형제들 JPA 강의 소감과 적용 사례",
+    "url": "https://techblog.woowahan.com/2598/",
+    "description": "우아한형제들에 외부 개발자분들을 초대해서 JPA 기본기를 강의한 소감배달의민족 내부 시스템 JPA 적용 사례 공유"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Spring Rest Docs 적용",
+    "url": "https://techblog.woowahan.com/2597/",
+    "description": "기존 프로젝트에 SpringRestDocs 적용"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "로봇 개발 어떻게 해야되죠? (1/2) – AWS RoboMaker 따라하기 (ROS 어플리케이션 개발과 시뮬레이션 편)",
+    "url": "https://techblog.woowahan.com/2615/",
+    "description": "AWS RoboMaker를 사용해 ROS 어플리케이션 개발부터 시뮬레이션, Fleet 관리, OTA 배포까지 쭉~ 따라 해봅니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "코드리뷰 적응기(feat. 파일럿 프로젝트)",
+    "url": "https://techblog.woowahan.com/2614/",
+    "description": "멘탈 바사삭 경험을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "테스트 코드 없이 레거시 코드를 다 감수하시겠습니까?",
+    "url": "https://techblog.woowahan.com/2613/",
+    "description": "레거시코드 활용 전략을 읽고 실제로 레거시 코드에 적용한 사례를 공유해보려고 합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "콜라 좀… 쉽게 담을 수 없나요, 쓰앵님",
+    "url": "https://techblog.woowahan.com/2612/",
+    "description": "안드로이드 클라이언트에서 메뉴탐색 기능을 개선하기 위해 메뉴검색과 퀵메뉴를 만들었던 썰입니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "리모트 컨피그 서버 구축기",
+    "url": "https://techblog.woowahan.com/2611/",
+    "description": "배달의민족 앱에서 사용하는 설정값들을 관리해주는 서버를 구축한 내용을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Spring 웹 애플리케이션에서 사용하지 않는 API를 찾아보자",
+    "url": "https://techblog.woowahan.com/2610/",
+    "description": "Spring의 Controller에서 처리하게되는 Http Request에 대한 요청을 기록하고, 불필요한 코드를 추적하여 삭제해봅니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "‘우아한테크코스 – 웹 백엔드’ 과정에 참여할 사람을 모집합니다.",
+    "url": "https://techblog.woowahan.com/2609/",
+    "description": "우아한테크코스는 우아한형제들에서 새롭게 시작하는 교육 과정으로프로그래밍을 배워 프로그래머로서의 삶을 살고 싶은 사람들을 대상으로 하는 프로그래밍 교육 과정입니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "배달아~ 배달 가는길 알려줘!(단호함)",
+    "url": "https://techblog.woowahan.com/2608/",
+    "description": "업소에서 고객님께 가는 거리에 대한 심사숙고한 최단거리 이야기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "데이터 베이스의 자동증가 값을 기본키로 사용할 수 없을때는?",
+    "url": "https://techblog.woowahan.com/2607/",
+    "description": "하이버네이트의 IdentifierGenerator 를 사용해 보았습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "응? 이게 왜 롤백되는거지?",
+    "url": "https://techblog.woowahan.com/2606/",
+    "description": "속지 말아야 할 스프링의 숨은 디폴트값"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "‘Gradle Kotlin DSL’ 이야기",
+    "url": "https://techblog.woowahan.com/2625/",
+    "description": "그레이들 5.0 부터 지원되기 시작한 Gradle Kotlin DSL 을 이야기한다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Packer와 Ansible을 이용한 표준 AMI 만들기",
+    "url": "https://techblog.woowahan.com/2624/",
+    "description": "Packer와 Ansible을 이용해 코드 레벨로 AMI를 생성/관리한 경험을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "파일럿 프로젝트를 통한 배치경험기!",
+    "url": "https://techblog.woowahan.com/2623/",
+    "description": "신입개발자의 배치프로젝트 경험을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "리모트 컨피그 앱 개발기",
+    "url": "https://techblog.woowahan.com/2622/",
+    "description": "배달의민족 앱의 많은 설정들을 동적으로 제어하기 위한 기능 개발 이야기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Aurora 로컬 스토리지 성능 테스트",
+    "url": "https://techblog.woowahan.com/2621/",
+    "description": "인스턴스 타입에 따라 로컬 스토리지의 성능이 얼마나 차이가 나는지 테스트한 결과입니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "개발 미션과 함께 읽는 클린 코드",
+    "url": "https://techblog.woowahan.com/2620/",
+    "description": "신입 개발자가 클린 코드를 읽고 코드 수준에서 겪은 변화를 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "3월 우아한 Tech 세미나 후기",
+    "url": "https://techblog.woowahan.com/2619/",
+    "description": "토비(이일민)님의 스프링 리액티브 프로그래밍 세미나"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "구글플레이 권한 정책 지키기",
+    "url": "https://techblog.woowahan.com/2618/",
+    "description": "구글플레이에서 민감한 권한으로 지정된 SMS 권한을 배달의민족 안드로이드 앱에서 제거하면서 겪은 이야기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "aop를 이용한 oauth2 캐시 적용하기",
+    "url": "https://techblog.woowahan.com/2617/",
+    "description": "오픈소스에 캐시 적용하는 방법과 주의할 점에 대한 경험과 생각"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "3월 우아한 Tech 세미나",
+    "url": "https://techblog.woowahan.com/2616/",
+    "description": "우아한 형제들이 긴 시간 고민하고 계획해 온 DR 활동의 시작을 알리고자 합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Dll을 이용하여 배달대행 주문정보 연동",
+    "url": "https://techblog.woowahan.com/2635/",
+    "description": "오래된 기술을 새로운 시스템에 적용해봅시다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Spring Boot에서 Repository로 DynamoDB 조작하기 (2) – Gradle을 활용해 실행 & 테스팅 환경 구축",
+    "url": "https://techblog.woowahan.com/2634/",
+    "description": "Gradle을 활용해 자동으로 DynamoDB를 실행하고 테이블을 생성합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Spring Boot에서 Repository로 DynamoDB 조작하기 (1) – 설정부터 실행까지",
+    "url": "https://techblog.woowahan.com/2633/",
+    "description": "DyanmoDB를 조작할 수 있는 인터페이스들의 사용법을 정리했습니다. spring-data-dynamodb를 사용해 쿼리 메서드를 사용할 수 있습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "입사 후, 벌써 1년",
+    "url": "https://techblog.woowahan.com/2632/",
+    "description": "SI 회사를 다니다가 우아한형제들에 입사한지 1년이 지난 경력개발자의 회고입니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "MySQL을 이용한 분산락으로 여러 서버에 걸친 동시성 관리",
+    "url": "https://techblog.woowahan.com/2631/",
+    "description": "MySQL을 이용하여 데이터 중복 생성을 방지해 보았습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한 feign 적용기",
+    "url": "https://techblog.woowahan.com/2630/",
+    "description": "배민에 feign 을 적용하면서 겪었던 것들에 대해서"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한테크캠프는 2020년에 진행됩니다.",
+    "url": "https://techblog.woowahan.com/2629/",
+    "description": "우아한테크캠프는 아쉽게도 2019년에는 진행되지 않습니다. 2020년에 더 나은 모습으로 찾아오겠습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "도움이 될수도 있는 JVM memory leak 이야기",
+    "url": "https://techblog.woowahan.com/2628/",
+    "description": "작년 말에 발생했던 JVM memory leak 원인 분석과 해결 방법에 대한 이야기 입니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "5월 우아한 Tech 세미나 후기",
+    "url": "https://techblog.woowahan.com/2627/",
+    "description": "이상민님의 개발자/운영자를 위한 자바,성능,모니터링 세미나"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "목적의식 있는 연습을 통한 효과적인 학습",
+    "url": "https://techblog.woowahan.com/2626/",
+    "description": "우아한테크코스의 선발 과정을 목적의식 있는 연습으로 설계한 내용과목적의식 있는 연습으로 진행했을 때의 학습 효과에 대해 다루고 있습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "개발자 머피의 법칙",
+    "url": "https://techblog.woowahan.com/2645/",
+    "description": "개발자 머피에게 닥친 머피의 법칙"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "병아리 개발자의 걸음마 한 발짝 (feat. 파일럿 프로젝트)",
+    "url": "https://techblog.woowahan.com/2644/",
+    "description": "신입 개발자의 파일럿 프로젝트 진행과정과 느낀점"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한테크코스 : 나만의 항로 찾기",
+    "url": "https://techblog.woowahan.com/2643/",
+    "description": "우테코를 통해 찾은 학습법에 대해 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "회사 눈치 안 보고 투잡하기",
+    "url": "https://techblog.woowahan.com/2642/",
+    "description": "코드 리뷰어 활동에 대한 경험 공유"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "결팀소: 결제시스템팀을 소개합니다.",
+    "url": "https://techblog.woowahan.com/2640/",
+    "description": "어떻게 해서든 기술과 비벼보자"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "SwiftLint와 Git Hook을 이용해서 코딩 스타일 관리하기",
+    "url": "https://techblog.woowahan.com/2641/",
+    "description": "SwiftLint와 Git Hook을 이용해서 코딩 스타일 관리하는 방법에 대한 경험 공유 글입니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Dagger 적용기",
+    "url": "https://techblog.woowahan.com/2639/",
+    "description": "최근 적용한 dagger에 대해서 이야기합니다"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "LocalStack을 활용한 Integration Test 환경 만들기",
+    "url": "https://techblog.woowahan.com/2638/",
+    "description": "LocalStack을 활용하여 Integration Test 및 로컬개발환경을 구축해봅니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "멀티모듈 설계 이야기 with Spring, Gradle",
+    "url": "https://techblog.woowahan.com/2637/",
+    "description": "Spring Framework 와 함께하는 Gradle Multi Module 설계 경험기입니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한테크코스 : 항해의 시작",
+    "url": "https://techblog.woowahan.com/2636/",
+    "description": "우아한테크코스 크루들의 한 달 생활기를 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Spock Extension과 Elasticsearch + Kibana 조합으로 테스트 결과를 빠르게 피드백 받기",
+    "url": "https://techblog.woowahan.com/2655/",
+    "description": "테스트를 자동화하고 빠르게 피드백 받기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "이 회사, 이 세상 쿨함이 아니다",
+    "url": "https://techblog.woowahan.com/2654/",
+    "description": "우아한테크코스 ‘오픈 리크루팅 데이' 현장 스케치"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Aurora MySQL를 운영하면서 알면 좋을 것 같은 미세한 팁",
+    "url": "https://techblog.woowahan.com/2653/",
+    "description": "우아한형제들에서 Aurora MySQL을 운영하면서 겪었던 사소한 사례를 공유하고자 합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한테크코스 : 나의 북극성을 찾아서",
+    "url": "https://techblog.woowahan.com/2652/",
+    "description": "우아한테크코스 크루들의 꿈을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "대놓고 자랑하는 글",
+    "url": "https://techblog.woowahan.com/2651/",
+    "description": "**경고 : 해당 글은 겨울방학 공지 받은 우아한형제들 구성원이 애사심에 충만하여 작성한 글입니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "스프링부트에서 DbUnit 을 이용하여 DB 테스트해 보기",
+    "url": "https://techblog.woowahan.com/2650/",
+    "description": "스프링부트에서 DbUnit 을 이용하여 DB 테스트를 해보았습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "‘우아한테크코스 – 웹 백엔드’ 2기 과정에 참여할 사람을 모집합니다.",
+    "url": "https://techblog.woowahan.com/2649/",
+    "description": "우아한테크코스는 우아한형제들에서 진행하는 교육 과정으로프로그래밍을 배워 프로그래머로서의 삶을 살고 싶은 사람들을 대상으로 하는 프로그래밍 교육 과정입니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "How to onboard a new hire / 신규입사자 조직안착 과정",
+    "url": "https://techblog.woowahan.com/2648/",
+    "description": "온보딩프로세스 : 조직이 신규 입사자를 채용하고 조직에 적응하기 까지 지원하는 일련의 과정"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "주니어 개발자의 클린 아키텍처 맛보기",
+    "url": "https://techblog.woowahan.com/2647/",
+    "description": "서비스를 개발하면서 경계 분리의 중요성을 깨달았던 경험을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "좌충우돌 Terraform 입문기",
+    "url": "https://techblog.woowahan.com/2646/",
+    "description": "신규 서비스를 개발하면서 Terraform을 적용했던 경험을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "AWS 멀티 계정 환경에서 취약한 Security Group 설정 모니터링",
+    "url": "https://techblog.woowahan.com/2665/",
+    "description": ""
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "HikariCP Dead lock에서 벗어나기 (실전편)",
+    "url": "https://techblog.woowahan.com/2663/",
+    "description": "메세지 플랫폼 장애 원인을 통해 HikariCP Dead lock을 피하는 방법을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "HikariCP Dead lock에서 벗어나기 (이론편)",
+    "url": "https://techblog.woowahan.com/2664/",
+    "description": "메세지 플랫폼 장애 원인을 통해 HikariCP Dead lock을 피하는 방법을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Spring Batch와 Querydsl",
+    "url": "https://techblog.woowahan.com/2662/",
+    "description": "Spring Batch를 위한 QuerydslItemReader(+ No Offset) 개발기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Gradle 프로젝트에 JaCoCo 설정하기",
+    "url": "https://techblog.woowahan.com/2661/",
+    "description": "코드 커버리지를 높이기 위한 첫걸음"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "모두를 위한 배달의민족",
+    "url": "https://techblog.woowahan.com/2660/",
+    "description": "2020년엔 앱 접근성 개선해보는 것 어떠세요 :^) ?"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "ELK 셋팅부터 알람까지",
+    "url": "https://techblog.woowahan.com/2659/",
+    "description": "ELK 를 좀 더 잘 쓰기 위한 노력"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Cucumber + Appium을 통해 Android 앱 테스트",
+    "url": "https://techblog.woowahan.com/2658/",
+    "description": "반복되는 앱 배포에서 품질안정성 확보를 위한 노력"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "feign 좀더 나아가기",
+    "url": "https://techblog.woowahan.com/2657/",
+    "description": "이전 feign 게시글에서 좀더 상세하게"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "메인 데이터베이스 IDC 탈출 성공기",
+    "url": "https://techblog.woowahan.com/2656/",
+    "description": "우아한형제들이 어떻게 메인 데이터베이스를 IDC 환경에서 탈출시켰는지, 그 과정을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "코틀린에서 하이버네이트를 사용할 수 있을까?",
+    "url": "https://techblog.woowahan.com/2675/",
+    "description": "코틀린에서 하이버네이트를 함께 사용해 보았습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "교육코스개발팀의 항해 일지",
+    "url": "https://techblog.woowahan.com/2674/",
+    "description": "본격 프로그래밍 교육자 섭외하기 프로젝트!"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "가게노출 파트의 조금은 색다른 파일럿 프로젝트, 그리고 첫 업무까지의 이야기",
+    "url": "https://techblog.woowahan.com/2673/",
+    "description": "입사 후 네 달 간의 여정"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Todo list 만들기는 이제 그만",
+    "url": "https://techblog.woowahan.com/2672/",
+    "description": "프론트엔드 세계의 Hello World인 Todo list가 지겨운 당신께"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[모집] 우아한테크캠프 3기",
+    "url": "https://techblog.woowahan.com/2671/",
+    "description": "2020년 4월 20일 우아한테크캠프 3기 모집이 시작됩니다. 🥳🎉"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한테크코스 : 새로운 시작",
+    "url": "https://techblog.woowahan.com/2670/",
+    "description": "우테크루즈 출항! 🚀"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "알람에 관하여",
+    "url": "https://techblog.woowahan.com/2669/",
+    "description": "우아한형제들의 DBA에게 알람이란?"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "정산지기를 향한 첫걸음 (feat. 파일럿 프로젝트)",
+    "url": "https://techblog.woowahan.com/2668/",
+    "description": "잊을만하면 돌아오는 정산팀의 파일럿 프로젝트 후기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "배달의민족 최전방 시스템! ‘가게노출 시스템’을 소개합니다.",
+    "url": "https://techblog.woowahan.com/2667/",
+    "description": "(WebFlux/DynamoDB/Redis/Resilience4j/Micrometer) '가게노출 시스템'의 탄생 후 1년을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한형제들 Developer Relations 2019 회고",
+    "url": "https://techblog.woowahan.com/2666/",
+    "description": "우아한형제들 Developer Relations 2019 회고 / 소제목 :  2019년 DR 활동 회고를 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "유니티와 함께하는 안드로이드",
+    "url": "https://techblog.woowahan.com/2685/",
+    "description": "Unity 에 U 자도 모르는 안드로이드 개발자의 Unity 적용기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "시의적절한 커스텀 어노테이션",
+    "url": "https://techblog.woowahan.com/2684/",
+    "description": "custom annotation으로 간결하고 의도가 명확한 코드 작성하기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우테코에서 찾은 나만의 효과적인 공부법",
+    "url": "https://techblog.woowahan.com/2682/",
+    "description": "우테코를 통해 찾은 학습법에 대해 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "백엔드 개발자의 웹 프론트엔드 개발기",
+    "url": "https://techblog.woowahan.com/2683/",
+    "description": "맨땅에 헤딩하며 채팅까지 웹뷰로 만들었던 경험을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우리도 채팅있으면 좋을 것 같아요.",
+    "url": "https://techblog.woowahan.com/2681/",
+    "description": "Netty를 이용한 채팅 서버 구축 경험기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "코드리뷰 모음 서비스를 소개합니다.",
+    "url": "https://techblog.woowahan.com/2680/",
+    "description": "코드리뷰 피드백 모음 서비스 javable"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "간단하게 만드는 이상한 알람",
+    "url": "https://techblog.woowahan.com/2679/",
+    "description": "이상점 탐지를 위한 간단한 지표 분석"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "팀 문화의 탄생",
+    "url": "https://techblog.woowahan.com/2677/",
+    "description": "Keep/Problem/Try 를 통한 상품시스템팀 팀 문화의 탄생/변화/소멸"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Spring REST Docs에 날개를… (feat: Popup)",
+    "url": "https://techblog.woowahan.com/2678/",
+    "description": "Spring REST Docs 반영 이후. 사소한 불편함."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한테크코스 교육 설명회에 초대합니다.",
+    "url": "https://techblog.woowahan.com/2676/",
+    "description": "본격 프로그래밍 교육자 섭외하기 프로젝트 2탄!"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "MySQL 환경의 스프링부트에 하이버네이트 배치 설정해 보기",
+    "url": "https://techblog.woowahan.com/2695/",
+    "description": "MySQL 환경의 스프링부트에 하이버네이트 배치를 설정하여 보았습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한테크캠프 인턴들의 8월의 마지막 회고",
+    "url": "https://techblog.woowahan.com/2694/",
+    "description": "함께 성장하는 개발자를 꿈꾸는 분들과 공유하고 싶은 글"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "2020 우아한테크캠프 3기 8월의 일기",
+    "url": "https://techblog.woowahan.com/2693/",
+    "description": "우아한형제들의 교육형 인턴프로그램 우아한테크캠프 3기의 8월 생활기를 전합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "팀 프로젝트가 나에게 남긴 것",
+    "url": "https://techblog.woowahan.com/2692/",
+    "description": "우테코에서 8주간 진행했던 크루들의 프로젝트 경험담을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한테크캠프 인턴들의 7월의 회고",
+    "url": "https://techblog.woowahan.com/2691/",
+    "description": "우아한테크캠프 3기 교육생분들이 7월 교육을 마치고 직접 작성한 7월의 회고글을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "2020 우아한테크캠프3기 7월의 일기",
+    "url": "https://techblog.woowahan.com/2690/",
+    "description": "우아한형제들의 교육형 인턴프로그램 우아한테크캠프 3기의 7월 생활기를 전합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한형제들의 기술이사 다섯분을 소개합니다.",
+    "url": "https://techblog.woowahan.com/2689/",
+    "description": "우아한형제들의 기술이사제도 그리고 기술이사 다섯분을 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "DB분산처리를 위한 sharding",
+    "url": "https://techblog.woowahan.com/2687/",
+    "description": "DB 분산 처리를 위한 샤딩 적용 경험을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Thiiing(띠잉) iOS 앱 개발기",
+    "url": "https://techblog.woowahan.com/2688/",
+    "description": "3개월 동안 신규 앱을 만들었던 경험을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "데이터분석가로서 업무 과정과 경험, 배움을 공유합니다",
+    "url": "https://techblog.woowahan.com/2686/",
+    "description": "데이터분석 업무를 어떻게 진행했고 그 과정에서 얻은 경험과 배움을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "안심번호(050) 시스템 #1 – 시스템 구축 스토리",
+    "url": "https://techblog.woowahan.com/2705/",
+    "description": "오픈소스 엔진들을 활용하여 안심번호(050) 시스템을 직접 구축한 내용에 대해 공유합니다"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "iOS Networking and Testing",
+    "url": "https://techblog.woowahan.com/2704/",
+    "description": "iOS Networking and Testing"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "내가 꿈꾸는 프로그래머로서의 삶",
+    "url": "https://techblog.woowahan.com/2703/",
+    "description": "우테코 크루들의 꿈에 대해 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "독서가 내게 가져다 준 것들",
+    "url": "https://techblog.woowahan.com/2702/",
+    "description": "개발자, 책을 읽다!"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "정산시스템팀을 소개합니다.",
+    "url": "https://techblog.woowahan.com/2701/",
+    "description": "배달의 민족 지급/정산을 담당하는 정산시스템팀을 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "SRE 팀에서 장애의 root cause를 찾고 재발방지 하는 방법",
+    "url": "https://techblog.woowahan.com/2700/",
+    "description": "SRE 팀에서 장애의 원인을 찾고 이를 재발방지하기 위한 노력에 대해 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "AWS WAF 운영에 대한 이야기",
+    "url": "https://techblog.woowahan.com/2699/",
+    "description": "AWS WAF 운영 경험을 공유하고 싶습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "아 엑셀다운로드 개발,,, 쉽고 빠르게 하고 싶다 (feat. 엑셀 다운로드 모듈 개발기)",
+    "url": "https://techblog.woowahan.com/2698/",
+    "description": "Annotation과 Reflection을 활용해 엑셀 다운로드 하는법을 공개합니다 > <"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한테크코스 3기 과정에 참여할 사람을 모집합니다.",
+    "url": "https://techblog.woowahan.com/2697/",
+    "description": "우아한테크코스는 우아한형제들에서 진행하는 교육 과정으로프로그래밍을 배워 프로그래머로서의 삶을 살고 싶은 사람들을 대상으로 하는 프로그래밍 교육 과정입니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우리는 불편함을 어떻게 마주하고 있는가",
+    "url": "https://techblog.woowahan.com/2696/",
+    "description": "띠잉셀에서 시스템을 개선하며 했던 고민과 삽질의 과정에서 얻은 것은 무엇이었는지 공유하고자 합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "알아두면 쓸모 있는 Swift의 기능들",
+    "url": "https://techblog.woowahan.com/2715/",
+    "description": "KeyPath, dynamicMemberLookup, property wrapper, result builder"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "2021 우아한형제들 경력 개발자 인터뷰 #1편",
+    "url": "https://techblog.woowahan.com/2714/",
+    "description": "좋은 것을 더 좋게! 우아한형제들의 도전은 오늘도 계속됩니다.우아한형제들의 서비스를 더 가치있게 만들기 위해 대용량 트래픽과 대규모 인프라를 관리하며 도전하는 우아한형제들의 개발자분들!그 중 다섯분을 인재영입팀에서 만나봤습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[함께 일하기] 온라인 근무와 회고",
+    "url": "https://techblog.woowahan.com/2713/",
+    "description": "온라인 근무를 길게 하게 되면서, 팀이 함께 일하기 위해 고민했던 것들을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "코드리뷰가 쏘아올린 작은공",
+    "url": "https://techblog.woowahan.com/2712/",
+    "description": "회고에서 툭던져진 주제가 코드리뷰를 낳았습니다"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "잊을만 하면 돌아오는 정산 신병들",
+    "url": "https://techblog.woowahan.com/2711/",
+    "description": "또 다른 정산팀 신병의 파일럿 프로젝트"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "제2회 우아톤2020 일지",
+    "url": "https://techblog.woowahan.com/2710/",
+    "description": "2020년 12월 온라인으로 진행된 우아~한 해커톤!  열정 넘쳤던 제2회 우아톤의 기록을 여러분들께 공유합니다"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "선물하기 시스템의 상품 재고는 어떻게 관리되어질까?",
+    "url": "https://techblog.woowahan.com/2709/",
+    "description": "선물하기 상품시스템의 재고관리 설계에 대한 경험을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "배민상품시스템팀에서 1년동안 배운 것들",
+    "url": "https://techblog.woowahan.com/2708/",
+    "description": "배민상품시스템팀에서 1년 동안 배운 내용을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "크롬 확장 플러그인 톺아보기",
+    "url": "https://techblog.woowahan.com/2707/",
+    "description": "크롬 확장 플러그인을 개발하면서 배운 점을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "만화경 Android App 설정하고 개발하기",
+    "url": "https://techblog.woowahan.com/2706/",
+    "description": "만화경 Android를 혼자서 개발한 경험에 대해 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한형제들 Developer Relations-Updated",
+    "url": "https://techblog.woowahan.com/4091/",
+    "description": "DR파트가 되기까지 2년간의 우아한형제들 Developer Relations의 성장을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[모집] 2021우아한테크캠프 4기",
+    "url": "https://techblog.woowahan.com/2724/",
+    "description": "우아한개발자가 되고 싶은 이들을 위한 우아한테크캠프 4기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "퇴사 부검",
+    "url": "https://techblog.woowahan.com/2723/",
+    "description": "2021.04.19 퇴사자가 마지막까지 쓰고 가는 글"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "제모옥은 젠킨스 조회로직 개선으로 하겠습니다. 근데 이제 비동기를 곁들인",
+    "url": "https://techblog.woowahan.com/2722/",
+    "description": "혼자 만들고 개선하고 장애내고 다시 개선하는 북치고 장구친 경험을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한테크코스 한 달 생활기",
+    "url": "https://techblog.woowahan.com/2721/",
+    "description": "우테코 3기 크루들의 한 달 생활기를 공유합니다"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한테크캠프 Pro 후기",
+    "url": "https://techblog.woowahan.com/2720/",
+    "description": "우아한테크캠프 Pro는 우아한형제들과 NEXTSTEP이 공동으로 진행한 교육 과정으로 4년 이상의 경력 개발자를 대상으로 진행한 취업 연계 교육 과정입니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "프로모션용 웹앱 빌더, 만다오",
+    "url": "https://techblog.woowahan.com/2719/",
+    "description": "배달의민족의 프로모션 페이지를 손쉽게 만들 수 있는 WYSIWYG 에디터를 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "검색을 위한 데이터 다루기",
+    "url": "https://techblog.woowahan.com/2718/",
+    "description": "배달의민족에서 검색과 리스팅을 위해 필요한 데이터를 다루는 방법을 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "가게 배달지역 관리방식 개편 프로젝트",
+    "url": "https://techblog.woowahan.com/2717/",
+    "description": "가게 배달지역 관리방식 개편 프로젝트의 마이그레이션을 진행했던 경험을 공유하고자 합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "시스템신뢰성개발팀을 소개합니다.",
+    "url": "https://techblog.woowahan.com/2716/",
+    "description": "좋은 음식을 '먹고 싶을 때' 먹고 싶은 곳에"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "한명의 개발자를 양성하기까지",
+    "url": "https://techblog.woowahan.com/5977/",
+    "description": "우아한테크코스 4기를 모집합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "스프링에서 코틀린 스타일 테스트 코드 작성하기",
+    "url": "https://techblog.woowahan.com/5825/",
+    "description": "스프링에서 코틀린 스타일로 테스트를 작성하는 방법에 대해 알아봅니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "2021 우아한형제들 경력 개발자 인터뷰 #2편",
+    "url": "https://techblog.woowahan.com/5345/",
+    "description": "2021 우아한형제들 경력직 개발자 인터뷰 #2편"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한테크러닝 4기 후기",
+    "url": "https://techblog.woowahan.com/5240/",
+    "description": "내외부 개발자가 함께하는 교육 \"우아한테크러닝\"의 생생한 후기를 전해드립니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "팀 프로젝트가 나에게 남긴 것",
+    "url": "https://techblog.woowahan.com/5226/",
+    "description": "프로젝트 활동을 통한 크루들의 ‘셀프 회고’를 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "첫 회사를 우아한형제들에서 시작한 아가 개발자의 걸음마 떼기",
+    "url": "https://techblog.woowahan.com/5143/",
+    "description": "배민주문서비스팀 신규 입사자의 파일럿 프로젝트 경험을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "가정의 달 이벤트가 쏘아올린 배민선물하기 대란.ssul",
+    "url": "https://techblog.woowahan.com/5073/",
+    "description": "선물하기 무상상품권 프로젝트 후기 풀어요."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아~한 장애대응",
+    "url": "https://techblog.woowahan.com/4886/",
+    "description": "장애를 대하는 우리의 자세"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우테코에서 찾은 나만의 효과적인 공부법",
+    "url": "https://techblog.woowahan.com/4159/",
+    "description": "우테코를 통해 찾은 학습법에 대해 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한형제들 기획자 소개와 개발자와의 협업문화 인터뷰",
+    "url": "https://techblog.woowahan.com/4122/",
+    "description": "끊임없이 도전하고 혁신하는 우아한형제들! 그 중심에는 가치 있는 서비스를 설계하며 ‘좋은 것을 더 좋게’ 만들기 위해 도전하는 기획자분들이 있습니다. 이번 인터뷰에서는 기획자분들을 만나보겠습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "제품 운영 잘하기",
+    "url": "https://techblog.woowahan.com/6465/",
+    "description": "제품 운영 노하우를 개발자/운영자 관점에서 정리해 보겠습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우리는 모의장애훈련에 진심입니다 – Part 1",
+    "url": "https://techblog.woowahan.com/6557/",
+    "description": "장애, 막을 수 없다면 장애시간을 최대한 줄여야겠죠. 누구나 장애를 미리 겪고 경험치를 쌓아서 노련하게 대응할 수 있게 된다면? 그런 고민에서 시작한 2년간의 모의장애 훈련의 모든 것을 풀어냅니다. 접근했던 과정, 진행하는 단계, 참여자들의 의견까지 모두 설명 드리겠습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "내가 꿈꾸는 프로그래머로서의 삶",
+    "url": "https://techblog.woowahan.com/6401/",
+    "description": "우테코 3기 크루들의 꿈을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Store에서 비동기 통신 분리하기 (feat. React Query)",
+    "url": "https://techblog.woowahan.com/6339/",
+    "description": "우리는 스토어를 스토어답게 쓰고 있나요?"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "사례별로 알아본 안전한 S3 사용 가이드",
+    "url": "https://techblog.woowahan.com/6217/",
+    "description": "사례로 알아본 S3를 안전하게 운영하기 위한 가이드"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "별로 안 궁금했지만 막상 들어보니 은근 궁금했던 개발 이야기",
+    "url": "https://techblog.woowahan.com/6042/",
+    "description": "하나의 유기적인 '팀'으로 존재하기 위한 작은 노력을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "셀프서비스 디자인시스템 #2 – 개발자 편",
+    "url": "https://techblog.woowahan.com/5327/",
+    "description": "셀프서비스를 만들면서 적용했던 디자인시스템에 대한 이야기를 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "셀프서비스 디자인시스템 #1 – 디자이너 편",
+    "url": "https://techblog.woowahan.com/6305/",
+    "description": "일을 더 잘하기 위해 만들어진 \"디자인시스템\"에 대해 소개하려 합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "배민쇼핑라이브를 만드는 기술: 채팅 편",
+    "url": "https://techblog.woowahan.com/5268/",
+    "description": "쇼핑라이브가 채팅을 자체 구현하게 된 배경과 문제 해결 경험을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "크롬 익스텐션에서 데이터를 어떻게 다룰 것인가? (피트스탑과제 – 크롬 익스텐션 개발기)",
+    "url": "https://techblog.woowahan.com/5900/",
+    "description": "팀의 생산성을 높이기 위한 크롬 익스텐션 개발기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "배민광고리스팅 개발기(feat. 코프링과 DSL 그리고 코루틴)",
+    "url": "https://techblog.woowahan.com/7349/",
+    "description": "배민광고리스팅 시스템을 개발하면서 사용한 코틀린과 코루틴 그리고 DSL에 대한 경험담을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "훈련은 실전처럼, 실전은…… 싫어요",
+    "url": "https://techblog.woowahan.com/7346/",
+    "description": "서비스 장애 대응팀과 모의장애훈련 이야기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "HDCON 해킹방어대회 대상! ‘ㅋㅋ팀’을 만나 듣는 그 뒷 이야기",
+    "url": "https://techblog.woowahan.com/7239/",
+    "description": "우아한형제들 인프라보안팀 4인의 수상 비하인드와 도전기, 지금 함께 만나보시죠!"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "절대적 Rule을 지켜 – Config Checker 개발기",
+    "url": "https://techblog.woowahan.com/7242/",
+    "description": "Rule을 기반으로 Spring Boot 애플리케이션의 설정값을 체크하는 Config Checker 개발기를 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "공통시스템개발팀 코드 리뷰 문화 개선 이야기",
+    "url": "https://techblog.woowahan.com/7152/",
+    "description": "적은 노력으로 리뷰 잘하기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "내가 경험한 B마트 프론트엔드의 온보딩 프로세스",
+    "url": "https://techblog.woowahan.com/6851/",
+    "description": "B마트 프론트엔드의 온보딩 프로세스"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "웹툰도 같이 봐요: 만화경 구름톡",
+    "url": "https://techblog.woowahan.com/6803/",
+    "description": "웹툰도 같이 봐요! 만화경 구름톡 기능 개발 이야기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Aurora MySQL vs Aurora PostgreSQL",
+    "url": "https://techblog.woowahan.com/6550/",
+    "description": "MySQL의 한계를 PostgreSQL로 극복할 수 있을까?"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "외부 시스템 장애에 대처하는 우리의 자세",
+    "url": "https://techblog.woowahan.com/6447/",
+    "description": "우아한형제들이 안정적인 서비스 제공을 위해서 어떻게 외부 시스템을 연동하고 있는지, 어떤 고민을 하고 있는지 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "자동화된 UI 회귀테스트 도입하기",
+    "url": "https://techblog.woowahan.com/6460/",
+    "description": "사용자와 상호작용하는 Front-end의 검증간 활용 가능한 UI 자동화 Test 도입 배경과 준비 과정의 경험 공유코자 작성하였습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "서로 다른 소속 개발자가 모여 함께한 우아한멘토링 후기",
+    "url": "https://techblog.woowahan.com/8196/",
+    "description": "우아한형제들 내외부 개발자 11명이 함께한 우아한멘토링 참여 후기 인터뷰 내용을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "구름톡 업데이트 48시간 전, 그 치열함에 대하여",
+    "url": "https://techblog.woowahan.com/7949/",
+    "description": "만화경 구름톡 기능 구현 중 발생했던 이슈를 회고하고 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "신입 백엔드 개발자 혼돈의 파일럿 프로젝트 돌아보기 (feat.정산플랫폼팀)",
+    "url": "https://techblog.woowahan.com/7828/",
+    "description": "신입 백엔드 개발자가 정산플랫폼팀에 입사하고 겪은 파일럿 프로젝트 후기입니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[다시보기] 4월 우아한테크세미나｜지속가능한 SW개발을 위한 코드리뷰",
+    "url": "https://techblog.woowahan.com/8159/",
+    "description": "2022.4.27(수) 저녁 7시~9시, 온라인 라이브로 만나요!"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[모집] 2022우아한테크캠프 5기",
+    "url": "https://techblog.woowahan.com/8154/",
+    "description": "올해도 어김없이 돌아온 우아한테크캠프 5기 모집 소식"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Yarn berry workspace를 활용한 프론트엔드 모노레포 구축기",
+    "url": "https://techblog.woowahan.com/7976/",
+    "description": "프론트엔드 프로젝트들을 모노레포로 모았던 경험을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "회원시스템 이벤트기반 아키텍처 구축하기",
+    "url": "https://techblog.woowahan.com/7835/",
+    "description": "배달의민족 회원시스템 이벤트 기반 아키텍처 구축하기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "실시간 인덱싱을 위한 Elasticsearch 구조를 찾아서",
+    "url": "https://techblog.woowahan.com/7425/",
+    "description": "Elasticsearch 구조 개편과 성능 최적화, 그리고 next-level 검색 시스템의 출현"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[다시보기] 3월 우아한테크세미나｜실시간 음식배달 플랫폼에서 활용한 분산 이벤트 스트리밍",
+    "url": "https://techblog.woowahan.com/7894/",
+    "description": "2022.3.31(목) 저녁 7시~9시, 온라인 라이브로 만나요!"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "메시지 발송 이중화 여정기",
+    "url": "https://techblog.woowahan.com/7724/",
+    "description": "메시지 발송 이중화 프로젝트를 진행한 경험을 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[다시보기] 7월 우아한테크세미나 토크쇼 | 개발자도 글을 잘 써야 한다고요?!: 개발자를 위한 글쓰기 코칭의 시간",
+    "url": "https://techblog.woowahan.com/8917/",
+    "description": "개발자는 개발만 잘 하면 되는 줄 알았는데 말이죠...🤔"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "React 개발자를 위한 피그마 플러그인 개발(feat. 온보딩)",
+    "url": "https://techblog.woowahan.com/8339/",
+    "description": "온보딩으로 진행한 피그마 플러그인 리서치 결과를 정리해, React 기반으로 피그마 플러그인을 개발한 경험을 튜토리얼 형태로 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[이벤트] 우아한테크세미나 알찬 후기 공모전!",
+    "url": "https://techblog.woowahan.com/8878/",
+    "description": "블로그에 알찬 후기 남기고 로지텍 기계식키보드&마우스를 GET-?!"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "만들어 가며 알아보는 React: React는 왜 성공했나",
+    "url": "https://techblog.woowahan.com/8311/",
+    "description": "왜 React는 인기를 얻게 되었고, React는 자바스크립트로 어떻게 구현했는지 알아보겠습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "사장님용 통계 데이터 서빙하기",
+    "url": "https://techblog.woowahan.com/8240/",
+    "description": "사장님용 통계 데이터 서비스, 우리가게NOW 프로젝트 작업기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우당탕탕 정산어드민 시스템 파일럿 프로젝트 도전기(feat. 정산플랫폼팀)",
+    "url": "https://techblog.woowahan.com/8357/",
+    "description": "정산플랫폼팀에 합류하여 진행한 파일럿 프로젝트 후기입니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우테코에서 찾은 나만의 효과적인 공부법",
+    "url": "https://techblog.woowahan.com/8484/",
+    "description": "4기 크루들이 우테코를 통해 찾은 학습법을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Hygen을 이용한 컴포넌트 템플릿 만들기",
+    "url": "https://techblog.woowahan.com/12548/",
+    "description": "Hygen을 이용해서 컴포넌트 템플릿을 생성하는 방법에 대한 가이드와 데모를 제공합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[다시보기] 6월 우아한테크세미나 토크쇼 | 프로덕트를 만드는 사람들: 안 된다고 하지 말아요, 개발자/디자이너/기획자 삼파전",
+    "url": "https://techblog.woowahan.com/8617/",
+    "description": "2022.6.29(수) 저녁 7시~9시, 유튜브 라이브로 만나요!"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[다시보기] 5월 우아한테크세미나 토크쇼 | 우아한형제들 개발자가 푸는, 공부하고 성장하는 노하우?!",
+    "url": "https://techblog.woowahan.com/8298/",
+    "description": "2022.5.30(월) 저녁7시, 유튜브 라이브! 알림설정하고 본방사수!"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "작고 아기자기하지만, 개발조직의 문화 만들기 [ep 1. 웹프론트개발그룹 운영진을 소개합니다]",
+    "url": "https://techblog.woowahan.com/9347/",
+    "description": "웹프론트엔드그룹의 문화를 만들기 위한 활동을 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우리는 모의장애훈련에 진심입니다 – Part 2",
+    "url": "https://techblog.woowahan.com/9314/",
+    "description": "모의 장애 훈련에서 사용한 정량적 지표 수립 및 활용 방안과 훈련 후기를 생생하게 전해 드립니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아콘 2022에 지금 등록하세요!",
+    "url": "https://techblog.woowahan.com/9249/",
+    "description": "“뭐? 배민이 ㅇㅇ도 한다고?!” 우아한테크콘서트, 우아콘 2022에서 확인하세요"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "가파르게 성장하는 서비스를 담당한, 한 품질담당자의 회고",
+    "url": "https://techblog.woowahan.com/9220/",
+    "description": "그 어느 때보다 빠르게 지나간 지난 날의 QA 업무 회고"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[다시보기] 9월 우아한테크세미나 | 디벨로퍼 릴레이션! 개발자, 커뮤니티, 기업을 잇다",
+    "url": "https://techblog.woowahan.com/9199/",
+    "description": "2022.9.27(목) 저녁 7시, 유튜브 라이브로 만나요!"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "팀 프로젝트가 나에게 남긴 것",
+    "url": "https://techblog.woowahan.com/9162/",
+    "description": "프로젝트 활동을 통한 크루들의 ‘셀프 회고’를 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한 개발자들, 어떻게 성장해요?(a.k.a. 개발조직의 제도와 문화)",
+    "url": "https://techblog.woowahan.com/9059/",
+    "description": "우아한 개발자들의 성장을 위한 사내 제도와 개발 문화에 대한 생생한 이야기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[다시보기] 8월 우아한테크세미나 | 개발자가 꼭 알아야 할 애플리케이션 보안: 입문부터 놓치면 안될 트렌드까지?!",
+    "url": "https://techblog.woowahan.com/9135/",
+    "description": "2022.8.31(수) 저녁 7시~9시, 온라인 라이브로 만나요!"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "단위 테스트로 복잡한 도메인의 프론트 프로젝트 정복하기(feat. Jest)",
+    "url": "https://techblog.woowahan.com/8942/",
+    "description": "SCM 프론트 프로젝트에 단위 테스트를 도입하여 안전하게 리팩토링을 한 경험을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "나의 첫 프론트엔드 개발팀 이야기",
+    "url": "https://techblog.woowahan.com/8649/",
+    "description": "'우아한형제들에 이렇게 특색있고 재미있는 팀이 있구나!'하는 것을 알게 되실 거예요."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "콘텐츠 브로드캐스팅이 가능한 CMS 만들기: 배민외식업광장 슬롯화",
+    "url": "https://techblog.woowahan.com/9521/",
+    "description": "배민외식업광장 메인 화면을 슬롯화한 이야기를 들려 드립니다. CMS 슬롯화가 어떤 프로젝트이고 앞으로 CMS를 어떻게 발전시켜 나가려고 하는지를 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Kotlin 테스트 코드 자동화 Intellij 플러그인 개발기",
+    "url": "https://techblog.woowahan.com/9440/",
+    "description": "더 효율적인 개발을 위한 Kotlin(코틀린) 테스트 플러그인 개발기를 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "PostgreSQL Vacuum에 대한 거의 모든 것",
+    "url": "https://techblog.woowahan.com/9478/",
+    "description": "PostgreSQL의 Vacuum의 개념과 튜닝방법을 살펴봅니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "작고 아기자기하지만, 개발조직의 문화 만들기 [ep 3. 소소한 단기 프로젝트]",
+    "url": "https://techblog.woowahan.com/9766/",
+    "description": "웹프론트개발그룹 운영진 1기의 소소한 단기 프로젝트 이야기를 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한형제들 네트워크 인증시스템 교체기",
+    "url": "https://techblog.woowahan.com/9694/",
+    "description": "새로운 사내 네트워크가 왔어요! 네트워크 인증시스템 변경을 통해 ‘무엇을 하고 싶었는지’ 그리고 ‘단계별로 어느 것을 고려하였는지’ 간략히 그 내용을 들려 드립니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "작고 아기자기하지만, 개발조직의 문화 만들기 [ep 2. 장기프로젝트 기획하고 운영하기]",
+    "url": "https://techblog.woowahan.com/9644/",
+    "description": "우아한형제들 웹프론트개발자들을 위한 조직문화를 위해 장기프로젝트를 기획하고 운영한 경험을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아콘2022 비하인드: 작은 경험도 괜찮아, 기술로 함께 문제를 풀어가는 이야기",
+    "url": "https://techblog.woowahan.com/9524/",
+    "description": "“나의 작은 경험이, 누군가의 성장이 되기를.” 그런 마음으로 올해도 우아한형제들이 준비한 우아콘2022, 그 비하인드!"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "내가 꿈꾸는 프로그래머로서의 삶",
+    "url": "https://techblog.woowahan.com/9433/",
+    "description": "우테코 4기 크루들의 꿈을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Actuator 안전하게 사용하기",
+    "url": "https://techblog.woowahan.com/9232/",
+    "description": "Spring Actuator는 개발자에게 편리함을 제공하지만 잘못 사용하면 매우 위험할 수 있습니다. 이 글에서는 Actuator를 안전하게 사용하는 방법을 설명합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한테크코스 교육의 확대",
+    "url": "https://techblog.woowahan.com/9395/",
+    "description": "우아한테크코스 5기에서 변화가 있는 교육 분야 및 프리코스 확대에 대해 중점적으로 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "원하는 곳 어디서든 일할 수 있다면, 근무지 자율선택제",
+    "url": "https://techblog.woowahan.com/10504/",
+    "description": "올해부터 우아한형제들 구성원은 자율적으로 근무지를 선택할 수 있게 되었습니다. 제주도, 네덜란드, 호주, 일본, 집, 사무실 등, 일을 더 잘할 수 있는 환경을 직접 선택한 분들의 이야기를 들어보실래요?"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Spark on Kubernetes로 이관하기",
+    "url": "https://techblog.woowahan.com/10291/",
+    "description": "대용량 데이터 처리를 위해 Spark on Kubernetes 환경을 도입한 과정과 운영 경험에 대해 소개해 드립니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "EKS Anywhere 구축기",
+    "url": "https://techblog.woowahan.com/10221/",
+    "description": "EKS Anywhere를 소개하고 구축하면서 마주했던 문제들과 이를 해결한 과정을 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Building event-driven architecture for member system",
+    "url": "https://techblog.woowahan.com/10320/",
+    "description": "We'd like to introduce how Baemin is handling event-based architecture on one system."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "실험과 기능플래그를 위한 실험플랫폼 구축하기",
+    "url": "https://techblog.woowahan.com/9935/",
+    "description": "실험 플랫폼에서 제공하는 실험과 기능 플래그를 소개하고 실험 플랫폼을 구축한 과정을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "함께 배달주문할 때는? 함께주문! (함께주문 오픈 이야기)",
+    "url": "https://techblog.woowahan.com/10232/",
+    "description": "10월 4일, 배민앱에 함께주문 기능이 오픈되었습니다. 이 기능은 오픈 후 주변에서 가장 반응이 좋았던 기능인데요. 이 편한 기능이 왜 이제서야 생겼는지, 어떻게 만들었는지 함께주문 시작부터 끝까지 프로젝트 전반을 소개해드리고자 합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "만드는 사람이 수고로운 UX 개발기",
+    "url": "https://techblog.woowahan.com/10145/",
+    "description": "백오피스 서비스의 UX를 개선하여 사용성을 향상시킨 사례와 경험을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "작고 아기자기하지만, 개발조직의 문화 만들기 [ep 4. 정기 밋업]",
+    "url": "https://techblog.woowahan.com/10182/",
+    "description": "웹프론트개발그룹 운영진 1기의 정기 밋업 이야기를 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "CDC 너두 할 수 있어(feat. B2B 알림 서비스에 Kafka CDC 적용하기)",
+    "url": "https://techblog.woowahan.com/10000/",
+    "description": "B2B 알림 서비스의 예시를 통해 Kafka CDC를 활용해 코드를 어떻게 작성하는지, Kafka CDC를 사용할 때 주의할 것은 무엇인지 알아봅니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우리 팀의 우아한 타입스크립트 컨벤션 정하기 여정",
+    "url": "https://techblog.woowahan.com/9804/",
+    "description": "우리 팀에서 우아한 TypeScript(타입스크립트) 컨벤션을 정해 나간 여정을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Slack에 ChatGPT를 연결하여 업무에 활용해 보기",
+    "url": "https://techblog.woowahan.com/11072/",
+    "description": "ChatGPT를 처음 접하고 우아현형제들의 업무에 적용해 보기까지의 과정입니다. 반복적인 IT 지원 요청을 처리하기 위해 ChatGPT를 활용하였고, Slack 채널에 상주하며 필요할 때 호출되는 ChatGPT를 적용하였습니다. 이번 경험을 바탕으로 앞으로 더 다양한 상황에서 ChatGPT를 포함한 인공지능을 활용하고자 합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[다시보기] 3월 우아한테크세미나: 테크 리더 3인이 전하는 “개발자 원칙”",
+    "url": "https://techblog.woowahan.com/11045/",
+    "description": "3월 29일 수요일, 3월 우아한테크세미나가 열립니다. \"개발자 원칙\"의 저자 세 분을 모시고 개발자의 생존과 성장 원칙에 관해 깊이 있는 이야기를 나눕니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "프로모션 시스템 엿보기: 파일럿 프로젝트",
+    "url": "https://techblog.woowahan.com/10795/",
+    "description": "배민푸드서비스개발팀 신입 개발자 적응기를 공유합니다. (2탄)"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "병아리 개발자의 첫 웹뷰 개발기: 파일럿 프로젝트",
+    "url": "https://techblog.woowahan.com/10774/",
+    "description": "배민푸드서비스개발팀 신입 개발자 적응기를 공유합니다. (1탄)"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "뭐 이런 것도 다 픽업됩니다!(배민스토어 픽업 플랫폼 및 셀러서비스편)",
+    "url": "https://techblog.woowahan.com/10593/",
+    "description": "배민스토어 픽업서비스 오픈이야기 시즌2! 셀러서비스 및 픽업을 담기 위한 기반을 만드는 플랫폼 PM의 이야기. 플랫폼 PM은 어떤 일을 하는지 궁금하시죠? 그 궁금증을 해결해 드리겠습니다!"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "리뷰프로덕트팀 신입 개발자의 파일럿 프로젝트",
+    "url": "https://techblog.woowahan.com/10600/",
+    "description": "리뷰 시스템 적응기 🐣, 파일럿 프로젝트 경험을 공유합니다!"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "뭐 이런 것도 다 픽업 되나요? (배민스토어 픽업 고객 서비스편)",
+    "url": "https://techblog.woowahan.com/10567/",
+    "description": "2023년 1월 5일, 배민스토어 픽업 서비스가 세상 밖으로 나오게 되었습니다. 저는 픽업을 하기 위해 고객이 거쳐야 하는 모든 접점 화면들을 담당하는 PM이었는데요, 고객 대상 서비스의 PM으로서 프로젝트를 진행해나간 과정, 어려운 점을 극복하며 배운 점들을 공유해보려고 합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[다시보기] 2월 우아한테크세미나: 우아한형제들의 RDS Aurora Graviton2 성능 이슈 해결 사례와 RDS를 모니터링하는 방법",
+    "url": "https://techblog.woowahan.com/10645/",
+    "description": "우아한형제들의 RDS Aurora Graviton2 성능 이슈 해결 사례와 RDS를 모니터링하는 방법을 설명해 드립니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[다시보기] 1월 우아한테크세미나: 배민송년회 퀴즈 서비스, 한 달 안에 만들기",
+    "url": "https://techblog.woowahan.com/10430/",
+    "description": "[다시보기] 2023년 1월 우아한테크세미나는 2,000명 동접 퀴즈 서비스를 한 달 안에 만든 개발기를 다룹니다. 우아한형제들의 송년회 문화도 함께 들려 드립니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Developers of Woowa, how do they grow? (a.k.a. system and culture of the development organization)",
+    "url": "https://techblog.woowahan.com/10538/",
+    "description": "Here is a variety of systems that enable every developer who joins Woowa Brothers to have a pleasant experience in the hiring process, find satisfaction in their work, and continuously grow within the technical organization of Woowa Brothers."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "왕초보 신입 개발자의 우당탕탕 이력서 작성기",
+    "url": "https://techblog.woowahan.com/11998/",
+    "description": "취준생에서 우아한형제들에 취직하기까지. 이력서를 작성했던 경험에 대해 공유하는 글입니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한형제들에서 PM끼리 소통하는 법 – 카르페피엠",
+    "url": "https://techblog.woowahan.com/11642/",
+    "description": "우아한형제들에서 PM끼리 소통하는 방식을 공유하고자 합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "배민상회와 검색플랫폼 연동기",
+    "url": "https://techblog.woowahan.com/11732/",
+    "description": "배민상회는 사장님들을 위한 쇼핑몰입니다! 사장님들이 좀 더 효율적으로 쇼핑할 수 있도록 배민상회와 우아한형제들의 검색플랫폼을 연동한 이야기를 들려 드립니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "배민 앱 리뷰 품질을 향상시킨 방법은? 머신 러닝 X 네트워크 탐지 모델 도입",
+    "url": "https://techblog.woowahan.com/11829/",
+    "description": "이 글은 배민 앱의 리뷰 품질을 향상시키고자 개발한 '리뷰 조작 업체 탐지 모델'에 대한 소개 글입니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "배민 앱에도 AI 서비스가? AI 서비스와 MLOps 도입기",
+    "url": "https://techblog.woowahan.com/11582/",
+    "description": "이 글은 AI 서비스 개발 과정과 MLOps의 필요성, 그리고 AI 서비스 개발자를 위한 MLOps 플랫폼에 대한 설명을 담고 있습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[종료] 우아한스터디 2023 여름시즌",
+    "url": "https://techblog.woowahan.com/11528/",
+    "description": "우아한형제들 구성원과 함께하는 우아한스터디 멤버를 모집합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[모집] 2023 우아한테크캠프 6기",
+    "url": "https://techblog.woowahan.com/11427/",
+    "description": "2023년 4월 26일 우아한테크캠프 6기 모집이 시작됩니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "2023 우아한테크캠프, ‘Java 백엔드 교육’으로 새롭게 돌아옵니다.",
+    "url": "https://techblog.woowahan.com/11411/",
+    "description": "2023 우아한테크캠프, ‘Java 백엔드 교육’으로 새롭게 돌아옵니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한테크코스 한 달 생활기",
+    "url": "https://techblog.woowahan.com/11309/",
+    "description": "우테코 5기 크루들의 한 달 생활기를 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[다시 보기] 4월 우아한테크세미나: 우아한 테크리더 4인의 “공감 토크쇼”",
+    "url": "https://techblog.woowahan.com/11323/",
+    "description": "4월 우아한테크세미나는 우아한형제들 테크리더 4인을 모시고, 시니어 개발자로 살아가면서 느끼는 고민들을 함께 공유하고 공감하는 교류의 장을 준비했습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[배민스토어] 서비스개발 팀장의 일반셀러 프로젝트 진행기",
+    "url": "https://techblog.woowahan.com/13030/",
+    "description": "배민스토어의 일반셀러 도입 프로젝트를 진행하며 두 마리 토끼(비즈니스와 기술)를 잡기 위해 고군분투하는 에피소드와 그 과정에서 만들어간 저희 팀 문화에 대한 이야기입니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "나 4년 차 서버개발자, 배달의민족의 지리 체계를 뒤흔들다",
+    "url": "https://techblog.woowahan.com/11238/",
+    "description": "'지리 관리 기준 체계 변경 프로젝트'를 진행하면서 4년 차 서버개발자가 겪은 경험을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[다시 보기] 7월 우아한테크세미나: MLOps를 활용한 AI 서비스 개발 스토리",
+    "url": "https://techblog.woowahan.com/12924/",
+    "description": "7월 우아한테크세미나에서는 우아한형제들 3명의 개발자와 함께 우형의 AI 서비스에서부터 MLOps 구축 과정을 살펴봅니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Spring Boot Kotlin Multi Module로 구성해보는 헥사고날 아키텍처",
+    "url": "https://techblog.woowahan.com/12720/",
+    "description": "Kotlin Gradle Multi Module로 헥사고날 아키텍처를 구성한 경험을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "PM이 사용자가 아닌 서비스는 어떻게 만들까? : 배민외식업광장 ‘장사캘린더’ 오픈부터 개선까지",
+    "url": "https://techblog.woowahan.com/12417/",
+    "description": "배민외식업광장 PM의 장사캘린더 서비스 오픈부터 개선까지의 이야기를 담았습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[다시 보기] 6월 우아한테크세미나: GenAI의 시대, 치열해진 시장의 미래 전략",
+    "url": "https://techblog.woowahan.com/12745/",
+    "description": "6월 우아한테크세미나에서는 삼성SDS 조남호 님과 함께 Generative AI를 더욱 폭넓게 이해하기 위한 시간을 가져봅니다!"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한형제들에서 시니어 개발자로 일하면 어떨까? – (2) 문화",
+    "url": "https://techblog.woowahan.com/12292/",
+    "description": "시니어 개발자의 시선으로 바라본 우아한형제들의 개발문화와 근무환경에 대한 이야기를 담았습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한형제들에서 시니어 개발자로 일하면 어떨까? – (1) 일",
+    "url": "https://techblog.woowahan.com/12250/",
+    "description": "우아한형제들 시니어 개발자로서의 성장과 동료에 대한 이야기를 담았습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "디자인 전공 출신 신입, 백엔드 PM 으로 살아남기",
+    "url": "https://techblog.woowahan.com/12044/",
+    "description": "디자인을 전공했지만 백엔드 PM으로 입사하기까지의 과정과 신입 PM으로서 가졌던 고민을 담아낸 글입니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[다시 보기] 5월 우아한테크세미나: 사례별로 알아보는 안전한 S3 보안 가이드",
+    "url": "https://techblog.woowahan.com/12200/",
+    "description": "5월 우아한테크세미나는 우아한형제들의 이주호 님과 AWS Simple Storage Service(S3)를 안전하게 사용하기 위한 가이드를 알아봅니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한테크코스 5기 크루들의 서비스 출시!",
+    "url": "https://techblog.woowahan.com/13604/",
+    "description": "우테코 5기 크루들의 팀 프로젝트 진행 후기를 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "실험 0건인 조직에서, 가장 실험을 활발하게 하는 조직 되기 (B마트의 실험문화 빌드업 과정)",
+    "url": "https://techblog.woowahan.com/13726/",
+    "description": "실험문화의 성숙 단계를 지나온 과정들을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "누구나 할 수 있는 10배 더 빠른 배치 만들기",
+    "url": "https://techblog.woowahan.com/13569/",
+    "description": "하루 한 번 주기로 실행되는 배치를 최적화한 경험을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한형제들 PM의 이야기- “배민 기획자의 일”",
+    "url": "https://techblog.woowahan.com/13027/",
+    "description": "우아한형제들 PM(Product Manager)는 어떻게 일할까? 실제 이야기를 담은 책 \"배민 기획자의 일\" PM들과 함께 나눈 이야기를 담았습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[다시 보기] 8월 우아한테크세미나: 행정동을 법정동으로, 배민 지리 체계 프로젝트 살펴보기",
+    "url": "https://techblog.woowahan.com/13547/",
+    "description": "이번 8월 우아한테크세미나에서는 배달의민족에서 '지리 관리 기준 체계 변경 프로젝트'를 진행한 우아한형제들 김효건 님과 함께 프로젝트 진행 배경과 과정을 살펴봅니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "현실 타협은 후퇴다! 안 되는 일을 되게 만드는 PM이란?",
+    "url": "https://techblog.woowahan.com/13249/",
+    "description": "프로젝트 진행 시 생겨나는 다양한 이슈를 지혜롭게 풀어나가는 법"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한테크캠프 6기 교육생들의 7월 회고",
+    "url": "https://techblog.woowahan.com/13374/",
+    "description": "우테캠 6기 교육생분들의 생생한 7월 회고 글을 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[배민스토어] 신입 개발자 배민스토어 6개월 생존기",
+    "url": "https://techblog.woowahan.com/12987/",
+    "description": "신입 개발자 배민스토어 6개월 생존기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[배민스토어] 배민스토어에 이벤트 기반 아키텍처를 곁들인…",
+    "url": "https://techblog.woowahan.com/13101/",
+    "description": "배민스토어에서 전시 영역의 이벤트 기반 아키텍처를 어떻게 다루고 있는지 설명합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[배민스토어] 우리만의 자유로운 WebFlux Practices",
+    "url": "https://techblog.woowahan.com/12903/",
+    "description": "배민스토어 전시 코드에 WebFlux를 전면 도입한 과정 및 나름대로 만들어간 WebFlux 관례들을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[다시 보기] 10월 우아한테크세미나: 글 쓰는 우아한 개발자",
+    "url": "https://techblog.woowahan.com/14513/",
+    "description": "10월 우아한테크세미나에서는 글로 소통하는 문화를 가꿔 온 우아한형제들이 펴낸 두 권의 책을 소개하고, 집필에 참여한 구성원과 함께  책 준비 과정, 글쓰기의 어려움과 나만의 극복 방법 등을 들려 드립니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "굴러가는 자동차에 안전하게 타이어 교체하기(w. CMS 기능 개발)",
+    "url": "https://techblog.woowahan.com/14301/",
+    "description": "배민외식업광장서비스팀에서 관리하는 CMS 기능을, 좌충우돌 우당탕탕하게 개발한 이야기를 전해 드립니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "레퍼런스 없이 000 만들기, 아이디어는 어디에서 왔을까?",
+    "url": "https://techblog.woowahan.com/14107/",
+    "description": "ChatGPT, GA, Figma, miro 등 다양한 도구를 활용하여 그룹웨어를 리뉴얼한 과정을 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[모집] 우아한테크코스 2024 신입생을 모집합니다",
+    "url": "https://techblog.woowahan.com/14072/",
+    "description": "2023년 10월 6일, 우아한테크코스 2024 신입생 모집이 시작됩니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[모집 마감] 우아한스터디 2023 겨울시즌",
+    "url": "https://techblog.woowahan.com/14224/",
+    "description": "우아한형제들 구성원과 함께하는 우아한스터디 멤버를 모집합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Spring Boot에서 S3에 파일을 업로드하는 세 가지 방법",
+    "url": "https://techblog.woowahan.com/11392/",
+    "description": "Spring Boot에서 S3에 파일을 업로드하는 세 가지 방법에 대해 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "PM스터디 그것이 알고싶다. 오늘의 PM, 내일의 서비스",
+    "url": "https://techblog.woowahan.com/13977/",
+    "description": "우아한스터디 - PM편!"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[모여서 각자 글쓰기] 온라인 출판기념회",
+    "url": "https://techblog.woowahan.com/12947/",
+    "description": "우아한스터디 2023 여름시즌에 진행되었던 `모여서 각자 글쓰기`(모각글) 스터디 참가자 5명의 이야기를 담았습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "로그 및 SQL 진입점 정보 추가 여정",
+    "url": "https://techblog.woowahan.com/13429/",
+    "description": "SQL과 로그에서 그 코드/SQL를 유발한 진입점을 남겨서 추적성을 높인 이야기를 들려 드립니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "밤샘의 추억, 생성 AI 해커톤 “우아톤 2023”",
+    "url": "https://techblog.woowahan.com/13929/",
+    "description": "우아한형제들 사내 해커톤, 우아톤 2023의 준비 과정과 수상팀 인터뷰를 공개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "웹프론트개발팀에서 배민 커머스 어드민을 개발하는 방법",
+    "url": "https://techblog.woowahan.com/15084/",
+    "description": "순수 프론트엔드 개발자로만 구성된 팀에서는 어떤 방식으로 어드민을 개발하는지 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "배민앱에서 대용량특가를 만나기까지",
+    "url": "https://techblog.woowahan.com/15268/",
+    "description": "우리가 배민앱에서 대용량특가를 만나기까지"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한테크캠프 6기 교육생들의 최종 회고",
+    "url": "https://techblog.woowahan.com/14969/",
+    "description": "우아한테크캠프 6기 교육생들의 최종 회고를 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "서버사이드 테스트 파랑새를 찾아서",
+    "url": "https://techblog.woowahan.com/14874/",
+    "description": "테스트 환경 개선을 시도하면서 겪은 경험담을 전합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "너 혹시 T(Tester)야? : 테스트 효율을 높이는 Charles 툴 활용기",
+    "url": "https://techblog.woowahan.com/14550/",
+    "description": "더욱 효율적으로 품질을 확보하기 위해 Charles 툴을 사용하여 클라이언트 중심의 QA 접근 방법을 했던 사례에 대해 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "따끈따끈한 전사 로그 시스템 전환기: ELK Stack에서 Loki로 전환한 이유",
+    "url": "https://techblog.woowahan.com/14505/",
+    "description": "ELK에서 Grafana Loki로 전환을 했던 계기와 전환 후 성과를 설명합니다. 그리고 변화된 환경에서 로그 시스템을 어떻게 새롭게 구축했는지 함께 살펴보겠습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "요즘 협업 잘하는 팀은 이렇게 일합니다.",
+    "url": "https://techblog.woowahan.com/14671/",
+    "description": "'혼자 일하고 싶다' 보다는 '함께 일해서 다행이다'는 마음이 들 수 있도록, 최고의 팀웍을 기반으로 협업하기 위한 세일즈서비스팀 PM들의 다양한 시도를 소개해요."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "스토리지 최적의 스펙 관리 시스템 만들기",
+    "url": "https://techblog.woowahan.com/13539/",
+    "description": "스토리지 서비스의 스펙을 관리할 수 있는 자동화 시스템 구축 경험에 대해 공유하고자 합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한테크콘퍼런스, WOOWACON 2023에 지금 등록하세요!",
+    "url": "https://techblog.woowahan.com/14644/",
+    "description": "우아한테크콘퍼런스, WOOWACON 2023에 지금 등록하세요!"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "“일단 백로그에 넣어두고 여유 있을 때 보는 걸로 할까요?” : 백로그를 백로그로 두지 않는 법",
+    "url": "https://techblog.woowahan.com/14484/",
+    "description": "백로그를 통해 프로덕트를 개선해 나가는 과정을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[다시 보기] 2월 우아한테크세미나: 글로벌 개발자로 성장하는 소프트웨어 실무 영어",
+    "url": "https://techblog.woowahan.com/15983/",
+    "description": "2월 우아한테크세미나에서는 긱하우스 장진호님과 함께 개발자에게 도움이 될 만한 소프트웨어 실무 영어 지식을 살펴봅니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "배달의민족 광고데이터 이관기",
+    "url": "https://techblog.woowahan.com/14041/",
+    "description": "배달의민족의 광고데이터를 이관한 경험담을 들려 드립니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "고르곤졸라는 되지만 고르곤 졸라는 안 돼! 배달의민족에서 금칙어를 관리하는 방법",
+    "url": "https://techblog.woowahan.com/15764/",
+    "description": "배달의민족 서비스 내에서 금칙어를 통합 관리하는 통합금칙어시스템에 대해 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "개발자 의식의 흐름대로 적용해보는 서킷브레이커",
+    "url": "https://techblog.woowahan.com/15694/",
+    "description": "서로 다른 시스템 간의 동기적인 연동 시 서킷브레이커를 사용하여 장애 전파를 막을 수 있습니다. 개발자 관점에서 같이 구현해 봅시다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "웹 접근성 준수를 통한 모두에게 배달되는 일상의 행복",
+    "url": "https://techblog.woowahan.com/15541/",
+    "description": "웹 접근성 적용 사례를 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "표준 개발 환경 개선 되돌아보기",
+    "url": "https://techblog.woowahan.com/15572/",
+    "description": "표준 개발 환경 개선에 대해 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[트러블슈팅기] CSR에서 동적 OG 메타태그 적용하기",
+    "url": "https://techblog.woowahan.com/15469/",
+    "description": "배민우리동네팀에서 OpenGraph을 적용하면서 마주한 실패담을 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "결제는 계속된다: 결제 담당자가 장애에 대응하는 방법",
+    "url": "https://techblog.woowahan.com/15236/",
+    "description": "결제 서비스를 안정적으로 제공하기 위한 장애 대응 방안에 대해 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[다시 보기] 12월 우아한테크세미나: WOOWACON 2023 리캡",
+    "url": "https://techblog.woowahan.com/15488/",
+    "description": "12월 우아한테크세미나에서는 지난 우아콘2023 리캡으로, 1부 <대규모 트랜잭션을 처리하는 배민 주문시스템 규모에 따른 진화> 세션과 2부 <프론트엔드 개발의 미래, Module Federation의 적용> 세션을 준비했습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Java의 미래, Virtual Thread",
+    "url": "https://techblog.woowahan.com/15398/",
+    "description": "JDK21에 공식 feature로 추가된 Virtual Thread에 대해 알아보고, Thread, Reactive Programming, Kotlin coroutines와 비교해 봅니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[다시 보기] 4월 우아한테크세미나: Java의 미래, Virtual Thread",
+    "url": "https://techblog.woowahan.com/17163/",
+    "description": "4월 우아한테크세미나에서는 Java의 경량스레드 모델인 Virtual Thread에 대해 알아보는 시간을 준비했습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한형제들 PM들은 어떤 책을 읽을까?",
+    "url": "https://techblog.woowahan.com/16917/",
+    "description": "우아한형제들 PM(product manager)들이 직접 읽고 추천하는 'PM 업무에 도움 되는 책'들을 모아봤습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "리뷰를 재료로 GPT가 뚝딱뚝딱 만들어낸 메뉴추천, 메뉴뚝딱AI",
+    "url": "https://techblog.woowahan.com/16877/",
+    "description": "3월 20일, 서울 전 지역에 선을 보이는 GPT 기반 메뉴 추천 서비스 메뉴뚝딱AI가 어떤 고민을 거쳐 세상에 태어나게 되었는지 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[모집 마감] 2024 우아한테크캠프 7기",
+    "url": "https://techblog.woowahan.com/16979/",
+    "description": "2024 우아한테크캠프 7기 모집을 시작합니다!"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "셀프서비스, 챗봇에게 물어보세요",
+    "url": "https://techblog.woowahan.com/16021/",
+    "description": "배민사장님을 위한 셀프서비스 챗봇, 어떻게 개발했을까요?"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "셸 스크립트를 몰라도 자동화는 하고 싶어, ChatGPT를 활용한 git flow 관리 스크립트 자동화 진행기",
+    "url": "https://techblog.woowahan.com/16044/",
+    "description": "자동화는 하고 싶은데 모르는 게 많아 두렵다면? ChatGPT와 협력해 git 커맨드라인 자동화를 진행한 수기입니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "갤럭시 S24가 찾아준 배민커넥트 Android 성능 이슈 해결기(feat. React Native)",
+    "url": "https://techblog.woowahan.com/15883/",
+    "description": "배민커넥트 앱에서 발생했던 Android 성능 이슈 사례를 공유합니다(feat. react-native, 갤럭시 S24)."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "프론트엔드 개발자들의 즐거운 상상 🎈 – 쓰면글림체 사이드 프로젝트 이야기",
+    "url": "https://techblog.woowahan.com/16547/",
+    "description": "'쓰면글림체' 사이드 프로젝트 이야기 🎈 상상만으로도 마음 한편이 설레는 순간이 있나요? 어떤 사용자 경험을 만들 수 있을지 설레는 마음으로, 즐거운 상상을 담아 '쓰면글림체'를 만들었어요. 우아한형제들 2명의 프론트엔드 개발자가 함께했습니다(김하루, 장해민)"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "사이드 프로젝트는 사이드가 아니다",
+    "url": "https://techblog.woowahan.com/16158/",
+    "description": "1초 만에 Slack 커스텀 이모티콘을 만들어주는 서비스, everymoji를 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "가입은 쉽게, 로그인은 실패 없이! 휴대폰번호로 계속하기",
+    "url": "https://techblog.woowahan.com/15895/",
+    "description": "휴대폰번호로 배민 서비스에 가입할 수 있는 기능을 기획하고 오픈한 과정을 생생하게 들려 드립니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[다시 보기] 6월 우아한테크세미나 : 글로벌 개발자로 성장하는 법",
+    "url": "https://techblog.woowahan.com/17713/",
+    "description": "6월 우아한테크세미나는 업젠 한기용 님과 '글로벌 개발자로 성장하는 법'의 이야기를 듣고, 다양한 고민 상담을 나눠보는 시간을 가져봅니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "운송 관리 시스템(TMS)의 탄생부터 현장에서 사용하기까지",
+    "url": "https://techblog.woowahan.com/17466/",
+    "description": "'현장'과의 '공감'을 통해 문제를 해결한 PM의 경험을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "코드와 함께 살펴보는 프론트엔드 단위 테스트 – Part 1. 이론 편",
+    "url": "https://techblog.woowahan.com/17404/",
+    "description": "테스트에 대해 고민하고 계신가요? 그런 분들을 위해 준비했습니다!"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "웹 애플리케이션 페이지를 패키지로 개발해 본 경험 공유",
+    "url": "https://techblog.woowahan.com/16910/",
+    "description": "분리된 레포지토리에서 개발하고 패키지로 배포하여 적용해 본 경험을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[모집 마감] 우아한스터디 2024 여름시즌",
+    "url": "https://techblog.woowahan.com/17328/",
+    "description": "우아한형제들 구성원과 함께하는 우아한스터디 멤버를 모집합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한스터디 2023 여름시즌 후기: 쏙쏙 들어오는 함수형 코딩",
+    "url": "https://techblog.woowahan.com/15660/",
+    "description": "2023년 8월에 진행된 우아한스터디, 쏙쏙 들어오는 함수형 코딩 스터디 후기입니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "배민선물하기 AI 메시지 제작기: 생성 AI가 센스 있는 선물 메시지를 대신 쓰기까지",
+    "url": "https://techblog.woowahan.com/17241/",
+    "description": "생성 AI가 사용자를 대신해서 센스 있는 선물 메시지를 쓰게 되기까지 시행착오를 거쳐 알게 된 생성 AI에게 효과적으로 질문하는 방법에 대해 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "JPA에서 아이디를 자동증가 값으로 사용 시 하이버네이트의 @NaturalId 사용해 보기",
+    "url": "https://techblog.woowahan.com/17221/",
+    "description": "하이버네이트의 @NaturalId라는 걸 사용해 보았습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우리 팀을 위한 ESLint, Prettier 공유 컨피그 만들어보기",
+    "url": "https://techblog.woowahan.com/15903/",
+    "description": "rushstack의 eslint-config 패키지를 기반으로 ESLint/Prettier 공유 컨피그 패키지를 만드는 과정을 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한형제들 디자인 시스템에 시각적 회귀 테스트 적용하기",
+    "url": "https://techblog.woowahan.com/17081/",
+    "description": "디자인 시스템에 시각적 회귀 테스트를 적용하여 안정적이고 일관된 시각적 경험을 제공하게된 이야기를 소개합니다"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "실시간 배달 상황이 궁금해! 배달 인프라 레벨 구축 경험담",
+    "url": "https://techblog.woowahan.com/18254/",
+    "description": "주관적인 배달상황을 측정 가능한 지표로 새롭게 정의한 프로젝트 경험담을 들려드려요."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "실시간 반응형 추천 개발 일지 1부: 프로젝트 소개",
+    "url": "https://techblog.woowahan.com/17383/",
+    "description": "새로운 추천 시스템을 설계하고 개발한 경험을 공유합나디."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "B마트 주문 유실을 없애보자: 네트워크 편",
+    "url": "https://techblog.woowahan.com/17911/",
+    "description": "비마트 비즈니스 연속성을 높이기 위해 네트워크 인프라에 어떤 노력을 기울였는지, 최근 1년의 운영 성과를 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "맞춤형 콘텐츠, 배민은 사장님께 어떻게 제공할까? :  배민외식업광장 세그먼트 적용기",
+    "url": "https://techblog.woowahan.com/17980/",
+    "description": "배민외식업광장팀의 사장님별 맞춤형 콘텐츠 제공을 위한 세그먼트 적용기를 들려드립니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "야, 너도 WireMock으로 테스트할 수 있어",
+    "url": "https://techblog.woowahan.com/17674/",
+    "description": "Spring Boot 환경에서 WireMock으로 외부 API 호출에 대한 테스트 코드를 작성한 '썰'을 풉니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "마케팅 타깃팅 툴 BUDS 제작기, 탄생부터 수출 역군이 되기까지",
+    "url": "https://techblog.woowahan.com/17765/",
+    "description": "SQL을 몰라도 누구나 쉽고 빠르게 data-driven 마케팅을 할 수 있어요."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Vite로 구버전 브라우저 지원하기",
+    "url": "https://techblog.woowahan.com/17710/",
+    "description": "Vite 레거시 플러그인을 활용하여 구버전 브라우저 이슈를 해결하고, 모던 브라우저와 레거시 브라우저 모두에서 안정적으로 동작하는 웹 애플리케이션을 개발한 경험을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우리 팀은 카프카를 어떻게 사용하고 있을까",
+    "url": "https://techblog.woowahan.com/17386/",
+    "description": "배민배달을 담당하는 딜리버리서비스팀에서는 카프카를 어떻게 사용하고 있는지 소개하는 글입니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "코드와 함께 살펴보는 프론트엔드 단위 테스트 – Part 2. 실전 편",
+    "url": "https://techblog.woowahan.com/17721/",
+    "description": "테스트 코드 작성에 어려움을 겪고 계신가요? 실전 예제와 함께 테스트 코드 한 번 같이 작성해 봅시다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "WMS 재고 이관을 위한 분산 락 사용기",
+    "url": "https://techblog.woowahan.com/17416/",
+    "description": "WMS 재고 이관을 위한 분산 락 사용기를 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한테크캠프 7기: 데모데이 1위 팀의 로그 매니저 프로젝트를 소개합니다!",
+    "url": "https://techblog.woowahan.com/19370/",
+    "description": "우아한테크캠프 7기에서 1위를 차지한 프로젝트 'Log bat'를 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "로봇 ML 모델의 경량화 1부: 훈련 후 양자화",
+    "url": "https://techblog.woowahan.com/18980/",
+    "description": "머신러닝 모델의 경량화 방법 중 하나인 훈련 후 양자화에 대해 다룹니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[다시 보기] 8월 우아한테크세미나: 생성AI로 똑똑하게 일하는 법",
+    "url": "https://techblog.woowahan.com/19317/",
+    "description": "8월 우아한테크세미나는 생성형 AI에 대해 더 가깝게 다가가는 시간을 준비했습니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "AI 데이터 분석가 ‘물어보새’ 등장 – 2부. Data Discovery",
+    "url": "https://techblog.woowahan.com/18362/",
+    "description": "우아한형제들의 데이터 리터러시를 향상시켜 줄 LLM 기반 에이전트 프로덕트 개발 스토리를 공개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Elasticsearch 병렬 테스트를 향한 여정",
+    "url": "https://techblog.woowahan.com/18486/",
+    "description": "검색시스템에서 Elasticsearch 병렬 테스트를 통한 테스트 성능 최적화 과정을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "B마트 테마관 개선기 : 오픈이 끝? No. 함께하는 동료들과 프로덕트 꾸준히 발전시키기",
+    "url": "https://techblog.woowahan.com/18719/",
+    "description": "B마트 테마관 오픈 이후, 데이터 분석부터 성과 공유까지 동료들과 만들어 간 과정을 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Polars로 데이터 처리를 더 빠르고 가볍게 with 실무 적용기",
+    "url": "https://techblog.woowahan.com/18632/",
+    "description": "Pandas의 고통에서 구원해줄 Polars에 대해 소개하고 이를 업무에 활용한 경험기를 공유드립니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "로봇을 위한 MLOps #2: 엣지 파이프라인의 구성",
+    "url": "https://techblog.woowahan.com/17827/",
+    "description": "로봇을 위한 MLOps 시스템에서 엣지 파이프라인에 사용된 도구들과 그 특징들을 설명한 후, 엣지 파이프라인의 구성을 공개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "로봇을 위한 MLOps #1: Edge device와 K3s, Airflow",
+    "url": "https://techblog.woowahan.com/17647/",
+    "description": "로봇을 위한 MLOps 시스템을 구축하는 과정에 대해 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "AI 데이터 분석가 ‘물어보새’ 등장 – 1부. RAG와 Text-To-SQL 활용",
+    "url": "https://techblog.woowahan.com/18144/",
+    "description": "우아한형제들의 데이터 리터러시를 향상시켜 줄 LLM 기반 에이전트 프로덕트 개발 스토리를 공개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "How Our Team Uses Kafka",
+    "url": "https://techblog.woowahan.com/20078/",
+    "description": "This article introduces how the Delivery Service team, responsible for Baemin in-house delivery, uses Kafka."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "최적화된 인스턴스 추천을 위한 Rightsizing Recommendations 시스템 개발 여정",
+    "url": "https://techblog.woowahan.com/19685/",
+    "description": "우아한형제들의 클라우드 비용 절감을 위해 자동화된 Rightsizing Recommendation 시스템을 구축하여 인프라 효율성을 높인 사례입니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "‘대략’이 아닌 ‘정확한’ 데이터로!:  생산성 측정 지표 개발기",
+    "url": "https://techblog.woowahan.com/20029/",
+    "description": "승인 생산성 데이터와 근무 이력 조회 기능 개발 스토리를 들려드립니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "생성형 AI 서비스: 게이트웨이로 쉽게 시작하기",
+    "url": "https://techblog.woowahan.com/19915/",
+    "description": "생성형 AI 서비스 개발을 도와주는 AI API Gateway 개발 경험과 기능을 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "제목은 안정적인 AI 서빙 시스템으로 하겠습니다. 근데 이제 자동화를 곁들인…",
+    "url": "https://techblog.woowahan.com/19548/",
+    "description": "AI플랫폼에서 AI서비스를 안정적이고 빠르게 서빙하기 위한 자동화 시스템을 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "만드는 사람이 수고로우면 쓰는 사람이 편하다: 사용자경험관리TF 활동 이야기",
+    "url": "https://techblog.woowahan.com/19575/",
+    "description": "사용자들의 '행복하고 편리한' 배달의민족 앱 사용을 위해 노력 중인 사용자경험TF의 따끈따끈한 이야기를 전해드립니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "프론트엔드 통합 테스트로 더 안전한 웹 서비스 개발하기",
+    "url": "https://techblog.woowahan.com/19509/",
+    "description": "여러분의 테스트코드를 얼마나 신뢰하시나요?"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Spring Statemachine 도입기",
+    "url": "https://techblog.woowahan.com/19491/",
+    "description": "로봇의 배달 여정을 관리하는 서비스에 Spring Statemachine을 도입한 경험을 공유드립니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[신청 마감] WOOWACON 2024에 지금 등록하세요!",
+    "url": "https://techblog.woowahan.com/19470/",
+    "description": "우아한테크콘퍼런스, WOOWACON 2024가 열립니다!"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "승인 프로세스 뒤에 숨겨진 일꾼들: 사장님 입점요청 승인툴 고도화 프로젝트 경험담",
+    "url": "https://techblog.woowahan.com/19415/",
+    "description": "사장님이 배달의 민족에 가게를 노출하기 위해 등록하는 정보들을 승인하고 검수하는  툴을 고도화하는 과정에서, 고민하고 배운 것들을 이야기합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "WOOWACON 2024 발표 영상, 지금 바로 만나 보세요!",
+    "url": "https://techblog.woowahan.com/20789/",
+    "description": "WOOWACON 2024 오프닝노트와 다양한 기술 세션 영상을 우아한테크 YouTube 채널과 공식 웹 사이트에서 만나 보세요."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "postgres_fdw로 마이그레이션 생산성 높이기",
+    "url": "https://techblog.woowahan.com/20371/",
+    "description": "배달의민족 커머스 서비스의 ‘상품’ 도메인 통합 프로젝트에서 postgres_fdw를 활용해 별도의 배치 애플리케이션 없이 PostgreSQL DB를 마이그레이션한 경험을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "PM, 디자이너, 개발자가 함께한 배달의민족 입점 과정 개선기",
+    "url": "https://techblog.woowahan.com/20627/",
+    "description": "PM, PD, 개발자의 시선에서 바라보는 온라인 입점 신청 개선 프로젝트를 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[다시 보기] 12월 우아한테크세미나: 올해의 기술 콘퍼런스, 핵심만 골라봤습니다 – LLM 편",
+    "url": "https://techblog.woowahan.com/20702/",
+    "description": "12월 우아한테크세미나가 2024년 기술 콘퍼런스 리캡으로 진행됩니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "이 과제의 성과는 뭔가요? 지표 중심 커뮤니케이션이 불러온 변화",
+    "url": "https://techblog.woowahan.com/20386/",
+    "description": "'프로덕트 성과를 어떻게 측정할 수 있을까?' 성과 지표를 만들어 협업 효율을 개선하는 과정 속 프로덕트 매니저(PM)의 성장기"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "WOOWACON 2024, 배달 기술의 모든 것을 담다",
+    "url": "https://techblog.woowahan.com/20430/",
+    "description": "WOOWACON 2024의 특별한 하루를 소개합니다!"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "검색 성능 개선을 위한 Elasticsearch 인덱스 구조와 쿼리 최적화",
+    "url": "https://techblog.woowahan.com/20161/",
+    "description": "배달의민족 커머스 검색 API 성능 개선을 위한 Elasticsearch 인덱스 구조와 쿼리 최적화 이야기를 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "왜 이미지만 700MB를 다운로드하는 거죠?: 배민우리동네 콘텐츠 피드 이미지 최적화 사례",
+    "url": "https://techblog.woowahan.com/20228/",
+    "description": "화면에도 안 보이는 이미지가 700MB를 잡아먹고 있었다고? 🤔 배민우리동네 개발팀의 성능 최적화 이야기. 숨겨진 이미지 로딩 문제를 발견하고 90% 용량을 줄이기까지! 🚀"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아콘 웹사이트에 사용된 폰트는 무엇일까?",
+    "url": "https://techblog.woowahan.com/20142/",
+    "description": "우아콘 웹사이트에 사용된 Interop 폰트를 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "API 모킹으로 테스트를 더 편리하게, Mock Service GUI 소개",
+    "url": "https://techblog.woowahan.com/20154/",
+    "description": "이미 구축된 API 모킹 환경을 개발자 친화적으로 개선해 나가는 과정을 다룹니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "RADIUS 인증 실패 분석 및 해결 사례",
+    "url": "https://techblog.woowahan.com/21324/",
+    "description": "RADIUS/EAP 네트워크 인증 서버에서 공인인증서 갱신 시 발생한 RADIUS 단말인증 실패와 해결 과정을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "코파일럿 “열일”하게 만드는 방법",
+    "url": "https://techblog.woowahan.com/21240/",
+    "description": "코파일럿에게 최대한 많은 일을 떠넘기고 싶은 개발자의 코파일럿 활용기."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "로봇 ML 모델의 경량화 2부: 양자화 인식 훈련",
+    "url": "https://techblog.woowahan.com/21176/",
+    "description": "머신러닝 모델의 경량화 방법 중 하나인 양자화 인식 훈련에 대해 다룹니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "프로덕트 전략, 어떻게 시작해야 할까?",
+    "url": "https://techblog.woowahan.com/21115/",
+    "description": "선택과 집중, 목표 달성으로 이어지는 프로덕트 전략 그리고 로드맵을 수립하는 방법에 대해 알려드릴게요."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "실시간 반응형 추천 개발 일지 2부: 벡터 검색, 그리고 숨겨진 요구사항과 기술 도입 의사 결정을 다루는 방법",
+    "url": "https://techblog.woowahan.com/21027/",
+    "description": "지난 \"실시간 반응형 추천 개발 일지 #1. 프로젝트 소개\" 글에서 실시간 반응형 추천 시스템 오픈 당시의 전체 구성 요소에 대해 알아보았다면, 이번 글에서는 실시간 반응형 추천 프로젝트의 요구사항을 어떻게 기술 컴포넌트로 환원하고 새로운 기술 요소를 도입하는지 알아봅니다. 또한, 벡터 유사도 검색 컴포넌트를 사례로 기술 요소 도입을 자세히 살펴봅니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "카프카 컨슈머에 동적 쓰로틀링 적용하기",
+    "url": "https://techblog.woowahan.com/20156/",
+    "description": "카프카를 사용하는 스프링 환경에서 메시지 처리 속도를 동적으로 조절해야 하는 상황과 여러 기법들을 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "이젠 보내줄 때가 되었다. 대규모 트래픽의 C++ 시스템 Java로 전환하기",
+    "url": "https://techblog.woowahan.com/20763/",
+    "description": "대규모 트래픽을 처리하는 C++ 웹 애플리케이션을 Java 기반으로 전환하였던 경험을 공유드립니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "2024 선물카드 제목 짓기 대회가 탄생하기까지: 운영, PM, 개발 이야기",
+    "url": "https://techblog.woowahan.com/20938/",
+    "description": "약 20일 만에 12만 건 넘게 접수된 화제의 이벤트! 배민선물하기 카드 제목 짓기 대회의 비하인드 스토리를 들려 드립니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "프롬프트 엔지니어링으로 메뉴 이미지 품질 검수하기: GPT 기반 업무 자동화",
+    "url": "https://techblog.woowahan.com/20408/",
+    "description": "프롬프트 엔지니어링과 하이브리드 접근법으로 메뉴 이미지 검수를 자동화하는 방법을 소개합니다. GPT를 활용한 이미지 검수 도입 배경과 과정, 그리고 이를 통해 얻은 성과와 교훈을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "우아한히트텍: 직군을 넘어, 개발자를 하나로 잇다",
+    "url": "https://techblog.woowahan.com/20841/",
+    "description": "우아한형제들 사내 개발자 밋업 \"우아한히트텍\"의 준비 과정과 현장 이야기를 들려 드립니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "Gemini와 삽질로 개발자의 뒤죽박죽, 개발자의 뒤죽박죽 업무 메모 AI로 심폐소생 시키기",
+    "url": "https://techblog.woowahan.com/21905/",
+    "description": "Gemini를 중앙 정보 저장소로 활용해 흩어진 업무 메모의 비효율을 개선하는 실험을 진행했습니다. 단일 과제 관리에는 효과가 있었지만, 대규모 도메인 지식 관리에서는 환각 문제를 겪었고, 수작업 입력이 가장 큰 병목으로 남았습니다. 자동화(MCP 등)의 필요성을 절감한 개발자의 솔직한 삽질기입니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "디자인 생산성을 높이는 피그마 플러그인을 만들어보자 2부: 개발 편",
+    "url": "https://techblog.woowahan.com/21850/",
+    "description": "디자인 생산성을 높이기 위한 피그마 플러그인 '데이터브릿지'의 개발 여정을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "디자인 생산성을 높이는 피그마 플러그인을 만들어보자 1부: 디자인 편",
+    "url": "https://techblog.woowahan.com/21918/",
+    "description": "반복 작업을 줄이고 UT 몰입도를 높이기 위해, 디자인옵스TF는 ‘데이터브릿지’라는 피그마 플러그인을 만들었습니다. 실제 데이터를 클릭 한 번으로 적용해 더 빠르고 몰입감 있는 프로토타이핑이 가능해졌고, 협업 방식에도 작지만 의미 있는 변화가 생겼습니다. 디자이너가 본질적인 일에 집중할 수 있도록 만들어가는 옵스의 개발과정을 들려드릴게요!"
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "선제적 장애 대응을 위한 Sentry 최적화 적용기",
+    "url": "https://techblog.woowahan.com/21604/",
+    "description": "선제적 장애 대응을 위한 Sentry 최적화 적용기를 공유합니다. 에러 수집의 고도화부터 담당자 알림까지 이어지는 여정에 참여해 주세요."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "GuardDuty 이벤트 분석으로 살펴보는 침해대응 아키텍처 고도화 사례",
+    "url": "https://techblog.woowahan.com/21544/",
+    "description": "GuardDuty:EC2/MaliciousIPCaller.Custom 이벤트 분석 과정에서 도출된 인사이트를 바탕으로 효율적인 모니터링 및 선제적 침해 대응 아키텍처 전략을 제시합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "[모집] Hero Tech Course 2025, 글로벌 교육생을 모집합니다",
+    "url": "https://techblog.woowahan.com/21647/",
+    "description": "우아한테크코스의 글로벌 도전! Hero Tech Course 교육생 모집을 시작합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "기술블로그를 책으로, “요즘 우아한 AI 개발” 출간!",
+    "url": "https://techblog.woowahan.com/21584/",
+    "description": "기술블로그에서 다룬 AI·데이터·로봇 이야기를 한 권의 책으로 담은 \"요즘 우아한 AI 개발\"을 소개합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "GPT를 활용한 카탈로그 아이템 생성",
+    "url": "https://techblog.woowahan.com/21294/",
+    "description": "GPT 및 AI/ML 기술을 활용하여 상품 카탈로그를 생성하는 과정을 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "데이터카탈로그에서 DataHub를 이용하는 방법",
+    "url": "https://techblog.woowahan.com/21434/",
+    "description": "사내 데이터 디스커버리 도구인 데이터카탈로그에서 오픈소스 DataHub를 어떻게 이용하고 있는지 공유합니다."
+  },
+  {
+    "domain": "techblog.woowahan.com",
+    "title": "데이터카탈로그 PM이 ‘데이터 디스커버리’라는 가치를 풀어내는 방법",
+    "url": "https://techblog.woowahan.com/21353/",
+    "description": "원하는 데이터를 쉽고 빠르게 찾고 이를 활용할 수 있도록 데이터카탈로그를 기획하고 고도화한 여정을 나눕니다."
+  }
+]

@@ -1,0 +1,2257 @@
+[
+  {
+    "title": "YOBI Meets Atlassian (1)",
+    "url": "https://www.youtube.com/watch?v=RkME1aMxycI",
+    "publishedAt": "2014-05-30T07:10:04Z"
+  },
+  {
+    "title": "YOBI Meets Atlassian (2)",
+    "url": "https://www.youtube.com/watch?v=bEia028H8RI",
+    "publishedAt": "2014-05-30T07:10:04Z"
+  },
+  {
+    "title": "세션5 Yobi를 활용한 개발자 협업 및 배포 프로세스",
+    "url": "https://www.youtube.com/watch?v=UWIQAw0BtH8",
+    "publishedAt": "2014-08-05T04:59:48Z"
+  },
+  {
+    "title": "세션4 백엔드 아키텍쳐",
+    "url": "https://www.youtube.com/watch?v=Jh12dAVOub8",
+    "publishedAt": "2014-08-05T05:00:07Z"
+  },
+  {
+    "title": "세션3 Arcus",
+    "url": "https://www.youtube.com/watch?v=WXE7iDugmUA",
+    "publishedAt": "2014-08-05T05:00:25Z"
+  },
+  {
+    "title": "세션2 네이버 프론트엔드 개발 이야기 발표자료",
+    "url": "https://www.youtube.com/watch?v=WOWqvA3kGbQ",
+    "publishedAt": "2014-08-05T05:01:31Z"
+  },
+  {
+    "title": "세션1 반응형 웹 개발전략 및 사례",
+    "url": "https://www.youtube.com/watch?v=wv9-UpPcL9U",
+    "publishedAt": "2014-08-05T05:01:46Z"
+  },
+  {
+    "title": "세션3 웹뷰 기반의 하이브리드 앱 개발 노하우",
+    "url": "https://www.youtube.com/watch?v=NiX2vh6JY6s",
+    "publishedAt": "2014-08-25T06:11:11Z"
+  },
+  {
+    "title": "세션4 네이티브 어플리케이션에서 데이터 저장과 통신",
+    "url": "https://www.youtube.com/watch?v=Y91HeyI5J0k",
+    "publishedAt": "2014-08-25T06:11:11Z"
+  },
+  {
+    "title": "세션2 다양한 모바일 웹 디버깅 방법 및 사례",
+    "url": "https://www.youtube.com/watch?v=uwUHX_zImEg",
+    "publishedAt": "2014-08-25T06:11:11Z"
+  },
+  {
+    "title": "세션1 모바일웹 반응형 무한스크롤 개발 및 성능 튜닝",
+    "url": "https://www.youtube.com/watch?v=yH7P14025RQ",
+    "publishedAt": "2014-08-25T06:11:11Z"
+  },
+  {
+    "title": "세션 5 Robolectric을 활용한 안드로이드 쾌속 테스팅",
+    "url": "https://www.youtube.com/watch?v=PxYG_aEse6Q",
+    "publishedAt": "2014-08-28T05:35:18Z"
+  },
+  {
+    "title": "DEVIEW 2014",
+    "url": "https://www.youtube.com/watch?v=uc27IyZwSLI",
+    "publishedAt": "2015-04-29T15:25:32Z"
+  },
+  {
+    "title": "광운대학교 바람 KIRC 출전 - HELPER: 사용자와 협업하는 Robot Arm",
+    "url": "https://www.youtube.com/watch?v=y8dGVKm1G3I",
+    "publishedAt": "2015-11-04T01:39:07Z"
+  },
+  {
+    "title": "DEVIEW 2015",
+    "url": "https://www.youtube.com/watch?v=iG2MyBtFyYo",
+    "publishedAt": "2016-07-11T07:58:14Z"
+  },
+  {
+    "title": "DEVIEW 2016",
+    "url": "https://www.youtube.com/watch?v=rpidVwo_GXM",
+    "publishedAt": "2017-06-22T09:32:56Z"
+  },
+  {
+    "title": "Deep Learning, Where are you going?",
+    "url": "https://www.youtube.com/watch?v=soZXAH3leeQ",
+    "publishedAt": "2017-08-22T09:28:02Z"
+  },
+  {
+    "title": "1시간만에 GAN(Generative Adversarial Network) 완전 정복하기",
+    "url": "https://www.youtube.com/watch?v=odpjk7_tGY0",
+    "publishedAt": "2017-08-28T05:12:08Z"
+  },
+  {
+    "title": "Introduction of Deep Reinforcement Learning",
+    "url": "https://www.youtube.com/watch?v=dw0sHzE1oAc",
+    "publishedAt": "2017-09-05T02:15:18Z"
+  },
+  {
+    "title": "RLCode와 A3C 쉽고 깊게 이해하기",
+    "url": "https://www.youtube.com/watch?v=gINks-YCTBs",
+    "publishedAt": "2017-09-08T01:13:41Z"
+  },
+  {
+    "title": "알아두면 쓸 데있는 신기한 강화학습",
+    "url": "https://www.youtube.com/watch?v=NGGO0zdzhVQ",
+    "publishedAt": "2017-09-11T09:17:07Z"
+  },
+  {
+    "title": "Learning to reason by reading text and answering questions",
+    "url": "https://www.youtube.com/watch?v=r0veZ_WV0sA",
+    "publishedAt": "2017-09-20T01:30:00Z"
+  },
+  {
+    "title": "Step-by-step approach to question answering",
+    "url": "https://www.youtube.com/watch?v=JDi_P54NvsE",
+    "publishedAt": "2017-10-13T08:51:59Z"
+  },
+  {
+    "title": "조음 Goodness Of Pronunciation 자질을 이용한 영어 학습자의 조음 오류 진단",
+    "url": "https://www.youtube.com/watch?v=CYTVZwlhCJ0",
+    "publishedAt": "2017-10-19T07:57:51Z"
+  },
+  {
+    "title": "Finding connections among images using CycleGAN",
+    "url": "https://www.youtube.com/watch?v=Fkqf3dS9Cqw",
+    "publishedAt": "2017-10-24T05:11:44Z"
+  },
+  {
+    "title": "Multimodal Sequential Learning for Video QA",
+    "url": "https://www.youtube.com/watch?v=3xEKKViJA44",
+    "publishedAt": "2017-10-27T06:50:31Z"
+  },
+  {
+    "title": "딥러닝을 활용한 비디오 스토리 질의응답 뽀로로QA와 심층 임베딩 메모리망",
+    "url": "https://www.youtube.com/watch?v=EHiGjiP3FbY",
+    "publishedAt": "2017-10-31T09:32:49Z"
+  },
+  {
+    "title": "DEVIEW 10th ANNIVERSARY",
+    "url": "https://www.youtube.com/watch?v=lVQscXADh8Y",
+    "publishedAt": "2017-11-01T08:36:43Z"
+  },
+  {
+    "title": "Video Object Segmentation in Videos",
+    "url": "https://www.youtube.com/watch?v=0X-J5kNNSZw",
+    "publishedAt": "2017-11-02T02:01:19Z"
+  },
+  {
+    "title": "Online video object segmentation via convolutional trident network",
+    "url": "https://www.youtube.com/watch?v=lZAP6uhsIAo",
+    "publishedAt": "2017-11-07T02:03:47Z"
+  },
+  {
+    "title": "Contour Constrained Superpixels for Image and Video Processing",
+    "url": "https://www.youtube.com/watch?v=1aYzDwjOnls",
+    "publishedAt": "2017-11-10T02:14:57Z"
+  },
+  {
+    "title": "Learning where and how to look for weakly supervised visual recognition",
+    "url": "https://www.youtube.com/watch?v=XoeRG_nplQQ",
+    "publishedAt": "2017-11-14T09:01:51Z"
+  },
+  {
+    "title": "Variational Autoencoded Regression of Visual Data with Generative Adversarial Loss",
+    "url": "https://www.youtube.com/watch?v=O5gR5y760Cw",
+    "publishedAt": "2017-11-16T09:44:02Z"
+  },
+  {
+    "title": "DEVIEW 2017 키노트",
+    "url": "https://www.youtube.com/watch?v=F2i0AV5esNA",
+    "publishedAt": "2017-11-17T06:11:54Z"
+  },
+  {
+    "title": "Day2, 3-4.  멀티테넌트 하둡 클러스터 운영 경험기",
+    "url": "https://www.youtube.com/watch?v=DJyDpnyFFqA",
+    "publishedAt": "2017-11-20T09:46:00Z"
+  },
+  {
+    "title": "Day2, 2-2. Neural Machine Translation (NMT) 동작의 시각화 및 분석 방법",
+    "url": "https://www.youtube.com/watch?v=PhGRwIKHF8I",
+    "publishedAt": "2017-11-20T09:46:00Z"
+  },
+  {
+    "title": "Day1, 4-2.  생체 이해에 기반한 로봇 – 고성능 로봇에게 인간의 유연함과 안전성 부여하기",
+    "url": "https://www.youtube.com/watch?v=_Rw3hpN8YHg",
+    "publishedAt": "2017-11-20T09:46:00Z"
+  },
+  {
+    "title": "Day2, 1-5.  Streetwise Machine Learning for Painless Parking",
+    "url": "https://www.youtube.com/watch?v=tcn14QkFekY",
+    "publishedAt": "2017-11-20T09:46:00Z"
+  },
+  {
+    "title": "Day2, 3-1.  운영체제 수준에서의 데이터베이스 성능 분석과 최적화",
+    "url": "https://www.youtube.com/watch?v=0I4KdReFr84",
+    "publishedAt": "2017-11-20T09:46:01Z"
+  },
+  {
+    "title": "Day2, 1-4.  유연하고 확장성 있는 빅데이터 처리",
+    "url": "https://www.youtube.com/watch?v=0iRTGeNW4uo",
+    "publishedAt": "2017-11-20T09:46:01Z"
+  },
+  {
+    "title": "Day2, 4-1. Large-scale Search with Polysemous Codes",
+    "url": "https://www.youtube.com/watch?v=8sedBoFxYBQ",
+    "publishedAt": "2017-11-20T09:46:01Z"
+  },
+  {
+    "title": "Day, 2-6. 백억 개의 로그를 모아 검색하고 분석하고 학습도 시켜보자: 로기스",
+    "url": "https://www.youtube.com/watch?v=8xIdhh-3IkE",
+    "publishedAt": "2017-11-20T09:46:01Z"
+  },
+  {
+    "title": "Day2, 1-3.  Building AI to Recreate our Visual World",
+    "url": "https://www.youtube.com/watch?v=A2wXl7cpajs",
+    "publishedAt": "2017-11-20T09:46:01Z"
+  },
+  {
+    "title": "Day1, 3-3.  웨일 브라우저 보안 이야기",
+    "url": "https://www.youtube.com/watch?v=C6MCJFFA5DU",
+    "publishedAt": "2017-11-20T09:46:01Z"
+  },
+  {
+    "title": "Day2, 1-6.  네이버 검색 사용자를 만족시켜라! - 의도파악과 의미검색",
+    "url": "https://www.youtube.com/watch?v=G4jr6hhswxQ",
+    "publishedAt": "2017-11-20T09:46:01Z"
+  },
+  {
+    "title": "Day1, 4-4.  밑바닥부터 시작하는 360 뷰어",
+    "url": "https://www.youtube.com/watch?v=NH36PxIKI8Y",
+    "publishedAt": "2017-11-20T09:46:01Z"
+  },
+  {
+    "title": "Day1, 3-5. 오픈소스 데이터베이스, 은행 서비스에 첫발을 내밀다",
+    "url": "https://www.youtube.com/watch?v=OlkzeyqAw9s",
+    "publishedAt": "2017-11-20T09:46:01Z"
+  },
+  {
+    "title": "Day1, 3-4. TABS 넌 누구니?",
+    "url": "https://www.youtube.com/watch?v=PqzN6ZpNlVw",
+    "publishedAt": "2017-11-20T09:46:01Z"
+  },
+  {
+    "title": "Day2, 4-2.  OpenStack Neutron - Dataplane 구현",
+    "url": "https://www.youtube.com/watch?v=SxKGWg-teFA",
+    "publishedAt": "2017-11-20T09:46:01Z"
+  },
+  {
+    "title": "Day2, 2-1. 똑똑한 인공지능 DJ 비서 Clova Music",
+    "url": "https://www.youtube.com/watch?v=XBv5uAGS-TM",
+    "publishedAt": "2017-11-20T09:46:01Z"
+  },
+  {
+    "title": "Day2, 4-4. 네트워크 모니터링 시스템(NMS)을 지탱하는 기술",
+    "url": "https://www.youtube.com/watch?v=YK88bAfISbQ",
+    "publishedAt": "2017-11-20T09:46:01Z"
+  },
+  {
+    "title": "Day2, 1-1.  HBase 기반 검색 데이터 저장소",
+    "url": "https://www.youtube.com/watch?v=c_l7Xr8VP1U",
+    "publishedAt": "2017-11-20T09:46:01Z"
+  },
+  {
+    "title": "Day2, 2-5. 빅데이터를 위한 분산 딥러닝 플랫폼 만들기",
+    "url": "https://www.youtube.com/watch?v=escL66RGHhw",
+    "publishedAt": "2017-11-20T09:46:01Z"
+  },
+  {
+    "title": "Day2, 2-3. 샤딩을 지원하는 오픈소스 관계형 DBMS",
+    "url": "https://www.youtube.com/watch?v=jNQlvLdAepU",
+    "publishedAt": "2017-11-20T09:46:01Z"
+  },
+  {
+    "title": "Day2, 4-6. Reasoning, Attention and Memory - Toward Differentiable Reasoning Machines",
+    "url": "https://www.youtube.com/watch?v=l-VNRyzQi7A",
+    "publishedAt": "2017-11-20T09:46:01Z"
+  },
+  {
+    "title": "Day2, 3-6.  인공지능 추천 시스템 AiRS 개발기: 모델링과 시스템",
+    "url": "https://www.youtube.com/watch?v=oTuM8WDI3nA",
+    "publishedAt": "2017-11-20T09:46:01Z"
+  },
+  {
+    "title": "Day1, 4-3.  알파글래스의 개발과정으로 알아보는 AR 스마트글래스 광학 시스템",
+    "url": "https://www.youtube.com/watch?v=qN1CyBbrvsQ",
+    "publishedAt": "2017-11-20T09:46:01Z"
+  },
+  {
+    "title": "Day2, 1-2. Big Models Without Big Data: Using Domain-specific Deep Networks in Data-scarce Settings",
+    "url": "https://www.youtube.com/watch?v=skIaL6LLAnY",
+    "publishedAt": "2017-11-20T09:46:01Z"
+  },
+  {
+    "title": "Day2, 3-3.  의료 AI를 위해 세상에 없는 양질의 Data 만드는 도구 제작하기",
+    "url": "https://www.youtube.com/watch?v=ss-VTkISf1o",
+    "publishedAt": "2017-11-20T09:46:01Z"
+  },
+  {
+    "title": "Day2, 3-2.  MIST: 고성능 IoT 스트림 처리 시스템",
+    "url": "https://www.youtube.com/watch?v=wfhdT_0Aazo",
+    "publishedAt": "2017-11-20T09:46:01Z"
+  },
+  {
+    "title": "Day1, 4-5.  웨일 브라우저의 성능 및 메모리 최적화 (고래는 느리고 무겁다?)",
+    "url": "https://www.youtube.com/watch?v=xEA75V5kIB8",
+    "publishedAt": "2017-11-20T09:46:01Z"
+  },
+  {
+    "title": "Day2, 2-4. NSML: 상상하는 모든 것이 이루어지는 스마트한 클라우드 머신러닝 플랫폼",
+    "url": "https://www.youtube.com/watch?v=3Ry8maPHP9g",
+    "publishedAt": "2017-11-20T09:46:02Z"
+  },
+  {
+    "title": "Day1, 3-2.  웨일 브라우저 1년 그리고 미래",
+    "url": "https://www.youtube.com/watch?v=Sw-oiKjFQQI",
+    "publishedAt": "2017-11-20T09:46:02Z"
+  },
+  {
+    "title": "Day1, 2-5,  머신러닝으로 쏟아지는 유저 CS 답변하기",
+    "url": "https://www.youtube.com/watch?v=FuyHUw1UWeY",
+    "publishedAt": "2017-11-20T09:47:43Z"
+  },
+  {
+    "title": "Day1, 1-3.  Realm은 어떻게 효율적인 데이터베이스를 만들었나?",
+    "url": "https://www.youtube.com/watch?v=I6Q0TE-c3V8",
+    "publishedAt": "2017-11-20T09:47:43Z"
+  },
+  {
+    "title": "Day1, 2-2.  그런 REST API로 괜찮은가",
+    "url": "https://www.youtube.com/watch?v=RP_f5dMoHFc",
+    "publishedAt": "2017-11-20T09:47:43Z"
+  },
+  {
+    "title": "Day1, 1-2.  Clova Platform: 인공지능을 엮는 기술",
+    "url": "https://www.youtube.com/watch?v=chCedhWYPyI",
+    "publishedAt": "2017-11-20T09:47:43Z"
+  },
+  {
+    "title": "Day1, 2-1.  책 읽어주는 딥러닝",
+    "url": "https://www.youtube.com/watch?v=klnfWhPGPRs",
+    "publishedAt": "2017-11-20T09:47:43Z"
+  },
+  {
+    "title": "Day1, 3-1.  Chromium Binding 기술을 활용하여 Node.js와 네이티브 모듈 우아하게 연동하기",
+    "url": "https://www.youtube.com/watch?v=qB4zdjhVLu4",
+    "publishedAt": "2017-11-20T09:47:43Z"
+  },
+  {
+    "title": "Day1, 1-4.  오픈소스를 쓰려는 자, 리베이스의 무게를 견뎌라",
+    "url": "https://www.youtube.com/watch?v=qPJ5-lojSBU",
+    "publishedAt": "2017-11-20T09:47:43Z"
+  },
+  {
+    "title": "Day1, 1-1. Open, Share, Enjoy : 네이버의 오픈소스 활동",
+    "url": "https://www.youtube.com/watch?v=ImlXWHU1_dE",
+    "publishedAt": "2017-11-20T09:47:44Z"
+  },
+  {
+    "title": "Day1, 2-3.  동네 커피샵도 사이렌오더를 쓸 수 있을까?",
+    "url": "https://www.youtube.com/watch?v=L5dEdYEPKNI",
+    "publishedAt": "2017-11-20T09:47:44Z"
+  },
+  {
+    "title": "Day1, 2-4.  자율주행과 기계학습",
+    "url": "https://www.youtube.com/watch?v=PpPfcC4u6zc",
+    "publishedAt": "2017-11-20T09:47:44Z"
+  },
+  {
+    "title": "Day1, 1-5.  14일 만에 GitHub 스타 천 개 받은 차트 오픈소스 개발기 (billboard.js)",
+    "url": "https://www.youtube.com/watch?v=UkM2zlvLJKE",
+    "publishedAt": "2017-11-20T09:47:44Z"
+  },
+  {
+    "title": "AUPAIR: The Personal Home Service Robot that Won the RoboCup@Home League",
+    "url": "https://www.youtube.com/watch?v=a5XErsq0Ot8",
+    "publishedAt": "2017-11-23T03:51:24Z"
+  },
+  {
+    "title": "Day1, 4-1. 네이버랩스의 로보틱스 연구 소개",
+    "url": "https://www.youtube.com/watch?v=im0Xpmn_in0",
+    "publishedAt": "2017-11-27T02:44:30Z"
+  },
+  {
+    "title": "사람 뽑는 기계 만들기 (Using Machine Learning to Hire On-demand Workforce)",
+    "url": "https://www.youtube.com/watch?v=7ddH6u7b6A8",
+    "publishedAt": "2017-11-28T02:30:05Z"
+  },
+  {
+    "title": "NAVER 테크톡 소개",
+    "url": "https://www.youtube.com/watch?v=Q6-OWJ2vzgk",
+    "publishedAt": "2017-11-28T02:53:12Z"
+  },
+  {
+    "title": "기계학습을 이용하여 정적 분석기의 안전성을 선별적으로 조절하는 방법",
+    "url": "https://www.youtube.com/watch?v=71rReJrf_6Q",
+    "publishedAt": "2017-12-01T09:28:46Z"
+  },
+  {
+    "title": "Recommender system for education",
+    "url": "https://www.youtube.com/watch?v=v_wnkwuoHew",
+    "publishedAt": "2017-12-05T01:21:50Z"
+  },
+  {
+    "title": "Speeding Up Distributed Machine Learning Using Codes",
+    "url": "https://www.youtube.com/watch?v=vaRFKTcJxFQ",
+    "publishedAt": "2017-12-08T02:55:42Z"
+  },
+  {
+    "title": "2017 R-Biz Challange 터틀봇3 오토레이스",
+    "url": "https://www.youtube.com/watch?v=dzLN3UM2PrA",
+    "publishedAt": "2017-12-12T02:02:59Z"
+  },
+  {
+    "title": "그림 그리는 AI",
+    "url": "https://www.youtube.com/watch?v=RYRgX3WD178",
+    "publishedAt": "2017-12-14T08:58:48Z"
+  },
+  {
+    "title": "블록과 함께하는 케라스와 태양에서 세포까지 활용사례",
+    "url": "https://www.youtube.com/watch?v=6KyRCeqvjEA",
+    "publishedAt": "2017-12-19T08:37:30Z"
+  },
+  {
+    "title": "Deepmind StarCraft II AI",
+    "url": "https://www.youtube.com/watch?v=eKA4EPpLCIU",
+    "publishedAt": "2017-12-22T04:43:20Z"
+  },
+  {
+    "title": "Enhanced Deep Residual Networks for Single Image Super-Resolution",
+    "url": "https://www.youtube.com/watch?v=OMIqkn2DCUk",
+    "publishedAt": "2017-12-26T10:00:40Z"
+  },
+  {
+    "title": "Semantic Line Detection and Its Applications",
+    "url": "https://www.youtube.com/watch?v=cxNBogb9chw",
+    "publishedAt": "2018-01-05T02:03:15Z"
+  },
+  {
+    "title": "미등록단어 문제 해결을 위한 비지도학습 기반 한국어자연어처리 방법론 및 응용",
+    "url": "https://www.youtube.com/watch?v=Vj55zaDvn4Q",
+    "publishedAt": "2018-01-15T11:38:34Z"
+  },
+  {
+    "title": "Fast and Noise Robust Depth from Focus using Ring Difference Filter with Your Mobile Phone",
+    "url": "https://www.youtube.com/watch?v=oY357SiJPQM",
+    "publishedAt": "2018-01-18T08:14:43Z"
+  },
+  {
+    "title": "NIPS2017 - 사진으로 돌아보는 이번 NIPS",
+    "url": "https://www.youtube.com/watch?v=CyMPT2k3Gyw",
+    "publishedAt": "2018-01-19T07:05:10Z"
+  },
+  {
+    "title": "NIPS2017 - Vision in NIPS2017",
+    "url": "https://www.youtube.com/watch?v=2FhDJCQnfpM",
+    "publishedAt": "2018-01-19T07:05:42Z"
+  },
+  {
+    "title": "NIPS2017 - Image to Image & Creativity",
+    "url": "https://www.youtube.com/watch?v=8u-z8LLZrg8",
+    "publishedAt": "2018-01-19T07:06:33Z"
+  },
+  {
+    "title": "NIPS2017 - VAEs and GANs for NLP",
+    "url": "https://www.youtube.com/watch?v=kf7zkS5QcEc",
+    "publishedAt": "2018-01-19T07:06:33Z"
+  },
+  {
+    "title": "Text2Action: Generative Adversarial Synthesis from Language to Action",
+    "url": "https://www.youtube.com/watch?v=9xqplYzPrEk",
+    "publishedAt": "2018-01-23T07:04:40Z"
+  },
+  {
+    "title": "3D Mapping Science and Spatial Data Science for \"smart and connected\" future world",
+    "url": "https://www.youtube.com/watch?v=4Kf6sMsR6Fk",
+    "publishedAt": "2018-01-26T04:39:36Z"
+  },
+  {
+    "title": "The effects of noisy labels on deep convolutional neural networks for music tagging",
+    "url": "https://www.youtube.com/watch?v=nR4NuLo8a5g",
+    "publishedAt": "2018-01-30T05:46:48Z"
+  },
+  {
+    "title": "정말 딥러닝은 사람처럼 세상을 인식하고 있을까?",
+    "url": "https://www.youtube.com/watch?v=76-Zuskj03c",
+    "publishedAt": "2018-01-31T01:28:55Z"
+  },
+  {
+    "title": "Human Action Recognition",
+    "url": "https://www.youtube.com/watch?v=KSy7flzu4Es",
+    "publishedAt": "2018-02-01T05:57:45Z"
+  },
+  {
+    "title": "이벤트 소싱 원리와 구현",
+    "url": "https://www.youtube.com/watch?v=Yd7TXUdcaUQ",
+    "publishedAt": "2018-02-06T08:58:22Z"
+  },
+  {
+    "title": "Go를 프로젝트에 적용한다는 것은",
+    "url": "https://www.youtube.com/watch?v=B5WKKyPkJxc",
+    "publishedAt": "2018-02-06T08:58:23Z"
+  },
+  {
+    "title": "Fuse Pro를 활용한 모바일 앱 프로토타이핑 및 개발",
+    "url": "https://www.youtube.com/watch?v=IO6A7P3NlNE",
+    "publishedAt": "2018-02-06T08:58:23Z"
+  },
+  {
+    "title": "Build the RIGHT thing - 린 & 애자일 사례 공유 @ Pivotal Labs SF",
+    "url": "https://www.youtube.com/watch?v=MJ7K-A1QWMU",
+    "publishedAt": "2018-02-06T08:58:23Z"
+  },
+  {
+    "title": "[Fuse 실습] 1. Fuse Studio 설명",
+    "url": "https://www.youtube.com/watch?v=9o51_OGWiOw",
+    "publishedAt": "2018-02-09T01:28:41Z"
+  },
+  {
+    "title": "[Fuse 실습] 2.  Fuse를 활용한 레이아웃 및 에니메이션 구현",
+    "url": "https://www.youtube.com/watch?v=lFCtMZFKaDc",
+    "publishedAt": "2018-02-09T01:28:41Z"
+  },
+  {
+    "title": "[Fuse 실습] 3. Javascript를 활용한 로직 추가 및 인티그레이션 기능 활용",
+    "url": "https://www.youtube.com/watch?v=uapL0ZfnZb4",
+    "publishedAt": "2018-02-09T01:28:41Z"
+  },
+  {
+    "title": "필요한 리소스만을 요청하고 사용하는 API 만들기",
+    "url": "https://www.youtube.com/watch?v=9xvfU-btGkU",
+    "publishedAt": "2018-02-13T00:51:23Z"
+  },
+  {
+    "title": "Node.js API 서버 성능 개선기",
+    "url": "https://www.youtube.com/watch?v=3AMqUmrNido",
+    "publishedAt": "2018-02-13T00:51:24Z"
+  },
+  {
+    "title": "운영체제 수준에서의 데이터베이스 성능 분석과 최적화",
+    "url": "https://www.youtube.com/watch?v=QfBuEj0Vf4c",
+    "publishedAt": "2018-02-13T00:51:24Z"
+  },
+  {
+    "title": "멀티코어를 활용한 리얼타임 시스템 개발과 무인자동차 사례 연구",
+    "url": "https://www.youtube.com/watch?v=bE600oXWtBg",
+    "publishedAt": "2018-02-13T00:51:24Z"
+  },
+  {
+    "title": "3D 프린터로 새 삶을 출력하다.",
+    "url": "https://www.youtube.com/watch?v=Y1LEdmqZZPg",
+    "publishedAt": "2018-03-06T05:22:30Z"
+  },
+  {
+    "title": "바이오해ㅋ – 실리콘 밖의 장난감",
+    "url": "https://www.youtube.com/watch?v=AZVTTomnWmM",
+    "publishedAt": "2018-03-06T06:24:29Z"
+  },
+  {
+    "title": "[9회-1]Node 서버를 이용한 SSR 사용기",
+    "url": "https://www.youtube.com/watch?v=5M58QWto4s0",
+    "publishedAt": "2018-03-08T01:34:04Z"
+  },
+  {
+    "title": "[10회-2]TypeScript와 Flow: 자바스크립트 개발에 정적 타이핑 도입하기",
+    "url": "https://www.youtube.com/watch?v=H16gTwa2J7g",
+    "publishedAt": "2018-03-08T01:34:04Z"
+  },
+  {
+    "title": "[10회-3]통합검색 레이어 페이지",
+    "url": "https://www.youtube.com/watch?v=WdF3yytaYqw",
+    "publishedAt": "2018-03-08T01:34:04Z"
+  },
+  {
+    "title": "[10회-1]Say Hello to Storybook: 스토리북을 통한 React UI 컴포넌트 개발",
+    "url": "https://www.youtube.com/watch?v=jc9xKzdkYDg",
+    "publishedAt": "2018-03-08T01:34:04Z"
+  },
+  {
+    "title": "[9회-3]그 날 본 에러의 이유를 나는 아직 모른다: react-native의 실체와 공략법",
+    "url": "https://www.youtube.com/watch?v=lbLq0mtH7iQ",
+    "publishedAt": "2018-03-08T01:34:04Z"
+  },
+  {
+    "title": "[9회-2]Writing desktop application with Electron",
+    "url": "https://www.youtube.com/watch?v=yMhfAT0YO0k",
+    "publishedAt": "2018-03-08T01:34:04Z"
+  },
+  {
+    "title": "Interpretable deep learning for healthcare",
+    "url": "https://www.youtube.com/watch?v=R86GDuPrCEc",
+    "publishedAt": "2018-03-15T08:55:49Z"
+  },
+  {
+    "title": "MarioQA(ICCV 2017) & Visual reference resolution(NIPS 2017)",
+    "url": "https://www.youtube.com/watch?v=xbWPGK3FMzM",
+    "publishedAt": "2018-03-16T08:11:41Z"
+  },
+  {
+    "title": "스마트폰 위의 딥러닝",
+    "url": "https://www.youtube.com/watch?v=w0W76PSN1Gs",
+    "publishedAt": "2018-03-22T07:44:57Z"
+  },
+  {
+    "title": "밑바닥부터 시작하는 의료 AI",
+    "url": "https://www.youtube.com/watch?v=EM1uBl5T09c",
+    "publishedAt": "2018-03-23T01:09:09Z"
+  },
+  {
+    "title": "대용량의 동적인 그래프 및 텐서 마이닝 (Mining Large Dynamic Graphs and Tensors)",
+    "url": "https://www.youtube.com/watch?v=laaRfuoikQs",
+    "publishedAt": "2018-03-26T02:35:05Z"
+  },
+  {
+    "title": "아마존의 딥러닝 기술 활용 사례",
+    "url": "https://www.youtube.com/watch?v=RonzxMpdTDk",
+    "publishedAt": "2018-04-04T04:18:13Z"
+  },
+  {
+    "title": "Open domain dialogue Chatbot(잡담봇 삽질기)",
+    "url": "https://www.youtube.com/watch?v=jFafFDzzl0A",
+    "publishedAt": "2018-04-06T08:36:42Z"
+  },
+  {
+    "title": "Recommender Systems with Implicit Feedback Challenges, Techniques, and Applications",
+    "url": "https://www.youtube.com/watch?v=IegId_GenC0",
+    "publishedAt": "2018-04-10T01:01:08Z"
+  },
+  {
+    "title": "Efficient and Effective Influence Maximization in Social Networks: Hybrid Approach",
+    "url": "https://www.youtube.com/watch?v=xeTCcBgvGzg",
+    "publishedAt": "2018-04-12T01:42:12Z"
+  },
+  {
+    "title": "Gradient-based Meta-learning with learned layerwise subspace and metric",
+    "url": "https://www.youtube.com/watch?v=bMpdIPKEa7E",
+    "publishedAt": "2018-04-17T02:06:42Z"
+  },
+  {
+    "title": "Visual recognition of human communications",
+    "url": "https://www.youtube.com/watch?v=lFgt9pvf8LA",
+    "publishedAt": "2018-04-27T01:59:36Z"
+  },
+  {
+    "title": "영유아 발달 증진을 위한 모바일 시스템 디자인",
+    "url": "https://www.youtube.com/watch?v=6zqBnuT0MtY",
+    "publishedAt": "2018-05-02T08:42:54Z"
+  },
+  {
+    "title": "ClojureScript: A better JavaScript for React/Redux",
+    "url": "https://www.youtube.com/watch?v=Ug3UhInjrA8",
+    "publishedAt": "2018-05-08T07:02:19Z"
+  },
+  {
+    "title": "Scaling Collaborative Editing by Five Orders of Magnitude",
+    "url": "https://www.youtube.com/watch?v=UAYn7lp0p3U",
+    "publishedAt": "2018-05-08T07:02:23Z"
+  },
+  {
+    "title": "오토인코더의 모든 것 - 3/3",
+    "url": "https://www.youtube.com/watch?v=LeVkjCuUdRs",
+    "publishedAt": "2018-05-10T01:53:40Z"
+  },
+  {
+    "title": "오토인코더의 모든 것 - 1/3",
+    "url": "https://www.youtube.com/watch?v=o_peo6U7IRM",
+    "publishedAt": "2018-05-10T01:53:40Z"
+  },
+  {
+    "title": "오토인코더의 모든 것 - 2/3",
+    "url": "https://www.youtube.com/watch?v=rNh2CrTFpm4",
+    "publishedAt": "2018-05-10T01:53:40Z"
+  },
+  {
+    "title": "Data Science for Naver and Future Convergence with AI",
+    "url": "https://www.youtube.com/watch?v=E7I0wVAW2Tk",
+    "publishedAt": "2018-05-16T03:44:25Z"
+  },
+  {
+    "title": "초단타매매 전략 소개 및 트렌드",
+    "url": "https://www.youtube.com/watch?v=_3nWYUtameM",
+    "publishedAt": "2018-05-21T06:06:57Z"
+  },
+  {
+    "title": "Acceleration of Deep Neural Networks Using Stochastic Computing (확률컴퓨팅을 이용한 딥뉴럴넷 가속)",
+    "url": "https://www.youtube.com/watch?v=RlBuEWE7vgQ",
+    "publishedAt": "2018-05-24T01:41:45Z"
+  },
+  {
+    "title": "[Android]테스트, 왜 해야 하는걸까? feat. 안드로이드 개발자가 바라본 테스트",
+    "url": "https://www.youtube.com/watch?v=GwaRaoxGXHA",
+    "publishedAt": "2018-05-24T08:36:51Z"
+  },
+  {
+    "title": "[Android]Notification 개발 시 주의사항",
+    "url": "https://www.youtube.com/watch?v=Z1X_PhMPCgk",
+    "publishedAt": "2018-05-24T08:36:51Z"
+  },
+  {
+    "title": "[Android]접근성 개선하기",
+    "url": "https://www.youtube.com/watch?v=cakuVlFh4sM",
+    "publishedAt": "2018-05-24T08:36:51Z"
+  },
+  {
+    "title": "[Android]인스턴트앱 개발 시행착오 및 장단점",
+    "url": "https://www.youtube.com/watch?v=2ldGAfDRKSg",
+    "publishedAt": "2018-05-24T08:36:52Z"
+  },
+  {
+    "title": "Designing the HCI Technology for Flexible, Semi-Automated Personal Tracking Experience",
+    "url": "https://www.youtube.com/watch?v=oc0F8_GHK7E",
+    "publishedAt": "2018-05-29T09:48:44Z"
+  },
+  {
+    "title": "SafeguardAI and Surprise Based Learning -- Protect your AI solutions from Unintended Behavior",
+    "url": "https://www.youtube.com/watch?v=bFlwt3bujOk",
+    "publishedAt": "2018-06-01T09:51:02Z"
+  },
+  {
+    "title": "3D 딥러닝 동향",
+    "url": "https://www.youtube.com/watch?v=rqR-z2mNqmM",
+    "publishedAt": "2018-06-04T02:28:33Z"
+  },
+  {
+    "title": "Deep Learning Practitioner의 캐글 2회 참가기",
+    "url": "https://www.youtube.com/watch?v=zNzAAStE66o",
+    "publishedAt": "2018-06-08T02:36:38Z"
+  },
+  {
+    "title": "Advanced Inverse Rendering for Computer Graphics",
+    "url": "https://www.youtube.com/watch?v=hUrrc9vuKFo",
+    "publishedAt": "2018-06-12T09:56:23Z"
+  },
+  {
+    "title": "Deep Domain Adaptation Network for Face Recognition with Single Sample Per Person",
+    "url": "https://www.youtube.com/watch?v=SYki6jXs5eI",
+    "publishedAt": "2018-06-15T08:50:58Z"
+  },
+  {
+    "title": "Political Science and Machine Learning - Neural Ideal Point Estimation Network",
+    "url": "https://www.youtube.com/watch?v=cCwxMRbpj6g",
+    "publishedAt": "2018-06-19T02:52:35Z"
+  },
+  {
+    "title": "[11회-3]React vs Vue",
+    "url": "https://www.youtube.com/watch?v=ME-GQ-mAB2k",
+    "publishedAt": "2018-06-20T08:04:00Z"
+  },
+  {
+    "title": "[11회-2]Vue.js 길라잡이",
+    "url": "https://www.youtube.com/watch?v=EOo844GSSDY",
+    "publishedAt": "2018-06-20T08:04:01Z"
+  },
+  {
+    "title": "군중정보를 이용한 가짜뉴스의 탐지와 확산방지 알고리즘",
+    "url": "https://www.youtube.com/watch?v=WGA-ddSnjeU",
+    "publishedAt": "2018-06-21T05:09:47Z"
+  },
+  {
+    "title": "Predictive uncertainty of deep models and its applications",
+    "url": "https://www.youtube.com/watch?v=YSIDnnXHEaI",
+    "publishedAt": "2018-07-02T09:36:52Z"
+  },
+  {
+    "title": "Temporal Superpixels Based on Proximity-Weighted Patch Matching",
+    "url": "https://www.youtube.com/watch?v=0RkWEZ3DkGo",
+    "publishedAt": "2018-07-05T09:55:07Z"
+  },
+  {
+    "title": "정밀의료 시대의 딥러닝",
+    "url": "https://www.youtube.com/watch?v=UOMQntj6dJE",
+    "publishedAt": "2018-07-13T08:45:43Z"
+  },
+  {
+    "title": "Analysis of end-to-end audio classification models",
+    "url": "https://www.youtube.com/watch?v=fGz4EGCD7Yk",
+    "publishedAt": "2018-07-20T09:30:25Z"
+  },
+  {
+    "title": "NFL, DL, and Financial Sector",
+    "url": "https://www.youtube.com/watch?v=_FcsupHoXMg",
+    "publishedAt": "2018-07-25T01:55:11Z"
+  },
+  {
+    "title": "Transferring Singing Expressions from One Voice to Another for a Given Song",
+    "url": "https://www.youtube.com/watch?v=VxlpQxwYbCo",
+    "publishedAt": "2018-07-30T01:31:26Z"
+  },
+  {
+    "title": "[네이버AI해커톤]어떻게 걱정을 멈추고 베이스라인을 사랑하는 법을 배우게 되었는가",
+    "url": "https://www.youtube.com/watch?v=5TC7lSCqUfI",
+    "publishedAt": "2018-08-03T02:30:20Z"
+  },
+  {
+    "title": "어떻게 해야 기계에게 글을 잘 읽고 말할 수 있게 할까?",
+    "url": "https://www.youtube.com/watch?v=XBCkJck0cdY",
+    "publishedAt": "2018-08-08T02:14:08Z"
+  },
+  {
+    "title": "[GAN by Hung-yi Lee]Part 1: General introduction of GAN",
+    "url": "https://www.youtube.com/watch?v=CG1XNHRRbQI",
+    "publishedAt": "2018-08-10T01:40:24Z"
+  },
+  {
+    "title": "[GAN by Hung-yi Lee]Part 2: The application of GAN to speech and text processing",
+    "url": "https://www.youtube.com/watch?v=Ikr2a0xgwY0",
+    "publishedAt": "2018-08-10T01:40:24Z"
+  },
+  {
+    "title": "[GAN by Hung-yi Lee]Part 3: The recent research of my group",
+    "url": "https://www.youtube.com/watch?v=ge04NjEnrCs",
+    "publishedAt": "2018-08-10T01:40:24Z"
+  },
+  {
+    "title": "Yandex Open Source Security Projects",
+    "url": "https://www.youtube.com/watch?v=gY0WYKlQkKY",
+    "publishedAt": "2018-08-14T08:59:16Z"
+  },
+  {
+    "title": "SDL process at Yandex Browser and SAST advantages and disadvantages",
+    "url": "https://www.youtube.com/watch?v=Dq-k4Pc7qc0",
+    "publishedAt": "2018-08-14T08:59:17Z"
+  },
+  {
+    "title": "[CVPR 2018] Utilizing unlabeled or noisy labeled data (classification, detection task)",
+    "url": "https://www.youtube.com/watch?v=Bvp6RrU2zHw",
+    "publishedAt": "2018-08-17T02:19:02Z"
+  },
+  {
+    "title": "[CVPR 2018] Visual Search (Image Retrieval) and Metric Learning",
+    "url": "https://www.youtube.com/watch?v=iW_9fvw6YtI",
+    "publishedAt": "2018-08-17T02:19:05Z"
+  },
+  {
+    "title": "[CVPR 2018] Face Generation",
+    "url": "https://www.youtube.com/watch?v=X8bKEe9hGQM",
+    "publishedAt": "2018-08-17T02:19:08Z"
+  },
+  {
+    "title": "[CVPR 2018] OCR",
+    "url": "https://www.youtube.com/watch?v=gsZxtO7Unyg",
+    "publishedAt": "2018-08-17T02:19:13Z"
+  },
+  {
+    "title": "머신 러닝과 애널리틱스의 미래를 지원하는 빅데이터 진화의 기술과 데이터의 윤리적 사용법",
+    "url": "https://www.youtube.com/watch?v=CgeaccMIdik",
+    "publishedAt": "2018-08-21T05:09:57Z"
+  },
+  {
+    "title": "Impala at scale",
+    "url": "https://www.youtube.com/watch?v=VxqJf99lDp8",
+    "publishedAt": "2018-08-21T05:11:10Z"
+  },
+  {
+    "title": "Hierarchical Novelty Detection for Visual Object Recognition",
+    "url": "https://www.youtube.com/watch?v=gvVFZNEw9Mw",
+    "publishedAt": "2018-08-28T07:04:41Z"
+  },
+  {
+    "title": "블록체인과 보안",
+    "url": "https://www.youtube.com/watch?v=iWpMvpzvqQo",
+    "publishedAt": "2018-08-30T04:27:40Z"
+  },
+  {
+    "title": "11번가 Spring Cloud 기반 MSA로의 전환 - 지난 1년간의 이야기",
+    "url": "https://www.youtube.com/watch?v=J-VP0WFEQsY",
+    "publishedAt": "2018-08-30T04:27:41Z"
+  },
+  {
+    "title": "Consumer Driven Contract 기법을 활용한 마이크로서비스 API의 진화",
+    "url": "https://www.youtube.com/watch?v=i3UEZAVP3fk",
+    "publishedAt": "2018-08-30T04:27:41Z"
+  },
+  {
+    "title": "Learning to Find and Match Interest Points",
+    "url": "https://www.youtube.com/watch?v=EnVMnVPhPYE",
+    "publishedAt": "2018-09-03T04:44:20Z"
+  },
+  {
+    "title": "Lifelong Learning for Dynamically Expandable Networks",
+    "url": "https://www.youtube.com/watch?v=MEWUZRMxdwU",
+    "publishedAt": "2018-09-11T01:43:16Z"
+  },
+  {
+    "title": "Next Generation Spring Security OAuth 2.0",
+    "url": "https://www.youtube.com/watch?v=nRc2rlcc98g",
+    "publishedAt": "2018-09-11T07:52:48Z"
+  },
+  {
+    "title": "Maglev Hashing Scheduler in IPVS, Linux Kernel",
+    "url": "https://www.youtube.com/watch?v=e6D0HKgu_RE",
+    "publishedAt": "2018-09-11T07:58:31Z"
+  },
+  {
+    "title": "Contribution, 그 전쟁의 서막 : Apache OpenWhisk 성능 개선",
+    "url": "https://www.youtube.com/watch?v=L54vEXA3PiY",
+    "publishedAt": "2018-09-11T08:04:39Z"
+  },
+  {
+    "title": "Learning to reason for robot task and motion planning problems",
+    "url": "https://www.youtube.com/watch?v=ow0UiXysoJI",
+    "publishedAt": "2018-09-18T09:42:58Z"
+  },
+  {
+    "title": "화자인식 기술 및 관련 연구 소개",
+    "url": "https://www.youtube.com/watch?v=HzgCnlre4EE",
+    "publishedAt": "2018-10-01T02:35:42Z"
+  },
+  {
+    "title": "Efficient end-to-end learning for quantizable representations",
+    "url": "https://www.youtube.com/watch?v=9gKepiVBmJI",
+    "publishedAt": "2018-10-04T01:06:20Z"
+  },
+  {
+    "title": "Navigation 상세 리뷰",
+    "url": "https://www.youtube.com/watch?v=-hcGfTSPVpk",
+    "publishedAt": "2018-10-19T02:39:04Z"
+  },
+  {
+    "title": "Android JetPack 및 신규 Support Library (AndroidX) 상세 리뷰",
+    "url": "https://www.youtube.com/watch?v=G8zWHkV3tiA",
+    "publishedAt": "2018-10-19T02:39:04Z"
+  },
+  {
+    "title": "WorkManager 상세 리뷰",
+    "url": "https://www.youtube.com/watch?v=z3sJ7BBZ1pk",
+    "publishedAt": "2018-10-19T02:39:04Z"
+  },
+  {
+    "title": "리액트 네이티브(React Native) 제대로 알고 시작하기",
+    "url": "https://www.youtube.com/watch?v=LqiP8HDDue8",
+    "publishedAt": "2018-10-19T02:39:05Z"
+  },
+  {
+    "title": "Android Studio 3.2 변경 사항 소개",
+    "url": "https://www.youtube.com/watch?v=RyQl30GW15M",
+    "publishedAt": "2018-10-19T02:39:05Z"
+  },
+  {
+    "title": "스크롤 인터셉트",
+    "url": "https://www.youtube.com/watch?v=j5uIR6eLt7E",
+    "publishedAt": "2018-10-19T02:39:05Z"
+  },
+  {
+    "title": "그린팩토리 주차층 관리앱 개발기 (Bluetooth, Beacon 연동 개발시 겪은 일들)",
+    "url": "https://www.youtube.com/watch?v=ni2o8KXUPCw",
+    "publishedAt": "2018-10-19T02:39:05Z"
+  },
+  {
+    "title": "App Action, Slice 상세 리뷰",
+    "url": "https://www.youtube.com/watch?v=unVy19JT0vo",
+    "publishedAt": "2018-10-19T02:39:05Z"
+  },
+  {
+    "title": "향상된 안드로이드 테스팅 방법 소개",
+    "url": "https://www.youtube.com/watch?v=91LZEoZGO40",
+    "publishedAt": "2018-10-19T02:39:06Z"
+  },
+  {
+    "title": "What's new in Android Apps for Chrome OS",
+    "url": "https://www.youtube.com/watch?v=u_ojLnHxA1w",
+    "publishedAt": "2018-10-19T02:39:06Z"
+  },
+  {
+    "title": "SNS 인플루언서 마케팅 - 지난 3년간의 경험과 노하우",
+    "url": "https://www.youtube.com/watch?v=zx1JwrY7FJg",
+    "publishedAt": "2018-10-19T10:22:55Z"
+  },
+  {
+    "title": "강화학습을 자연어 처리에 이용할 수 있을까? (보상의 희소성 문제와 그 방안)",
+    "url": "https://www.youtube.com/watch?v=8SCzCkkeymA",
+    "publishedAt": "2018-10-23T10:39:40Z"
+  },
+  {
+    "title": "Deep-Learning Based Stereo Super-Resolution",
+    "url": "https://www.youtube.com/watch?v=QljtzMEuA34",
+    "publishedAt": "2018-10-23T10:39:42Z"
+  },
+  {
+    "title": "대용량 데이터 분석을 위한 병렬 Clustering 알고리즘 최적화",
+    "url": "https://www.youtube.com/watch?v=aAG122iLBP8",
+    "publishedAt": "2018-10-23T10:39:45Z"
+  },
+  {
+    "title": "[ACL 2018] Tutorials",
+    "url": "https://www.youtube.com/watch?v=APzy8ypS90w",
+    "publishedAt": "2018-10-25T07:46:41Z"
+  },
+  {
+    "title": "[ACL 2018] Machine translation",
+    "url": "https://www.youtube.com/watch?v=DxKpca127X4",
+    "publishedAt": "2018-10-25T07:46:41Z"
+  },
+  {
+    "title": "[ACL 2018] Semantic parsing",
+    "url": "https://www.youtube.com/watch?v=uFQn9JW5rYk",
+    "publishedAt": "2018-10-25T07:46:41Z"
+  },
+  {
+    "title": "[ACL 2018] Dialogue",
+    "url": "https://www.youtube.com/watch?v=y7vn51PNrNA",
+    "publishedAt": "2018-10-25T07:46:41Z"
+  },
+  {
+    "title": "[ACL 2018] Workshop",
+    "url": "https://www.youtube.com/watch?v=yKdFQli3ox4",
+    "publishedAt": "2018-10-25T07:46:41Z"
+  },
+  {
+    "title": "[ACL 2018] Summarization",
+    "url": "https://www.youtube.com/watch?v=ftr3P7UZyqc",
+    "publishedAt": "2018-10-25T07:46:42Z"
+  },
+  {
+    "title": "[ACL 2018] Overview",
+    "url": "https://www.youtube.com/watch?v=ucc0nBFs6Vw",
+    "publishedAt": "2018-10-26T09:01:05Z"
+  },
+  {
+    "title": "캡슐 네트워크를 이용한 엔드투엔드 음성 단어 인식",
+    "url": "https://www.youtube.com/watch?v=iFtZqjedoWE",
+    "publishedAt": "2018-11-05T00:51:09Z"
+  },
+  {
+    "title": "Deep Learning Based Voice Activity Detection and Speech Enhancement",
+    "url": "https://www.youtube.com/watch?v=j_ukcJoNVV8",
+    "publishedAt": "2018-11-07T01:57:03Z"
+  },
+  {
+    "title": "Learning to Rank QA Pairs using Hierarchical Recurrent Encoder with Latent Topic Clustering",
+    "url": "https://www.youtube.com/watch?v=ir-AqEaCn7Y",
+    "publishedAt": "2018-11-12T02:42:13Z"
+  },
+  {
+    "title": "Additional Information Understanding for Effective Supervision in NLP Tasks",
+    "url": "https://www.youtube.com/watch?v=KcY0cjqYJ5E",
+    "publishedAt": "2018-11-14T01:13:18Z"
+  },
+  {
+    "title": "Visual Odometry & SLAM Utilizing Indoor Structured Environments",
+    "url": "https://www.youtube.com/watch?v=CwWYwqMHCD4",
+    "publishedAt": "2018-11-15T02:07:38Z"
+  },
+  {
+    "title": "더 효율적이고 경량화된 Convolution Neural Network 설계 기법",
+    "url": "https://www.youtube.com/watch?v=ijvZsH4TlZc",
+    "publishedAt": "2018-11-16T01:10:54Z"
+  },
+  {
+    "title": "금융과 Technology 의 만남 - 로보 어드바이저의 가능성과 한계",
+    "url": "https://www.youtube.com/watch?v=H-5OsqeY6uU",
+    "publishedAt": "2018-11-21T04:45:43Z"
+  },
+  {
+    "title": "V2V-PoseNet: Voxel-to-Voxel Prediction Network for Accurate 3D Hand and Human Pose Estimation",
+    "url": "https://www.youtube.com/watch?v=Y8ce9mEZGLw",
+    "publishedAt": "2018-11-23T01:20:31Z"
+  },
+  {
+    "title": "SeedNet: Automatic Seed Generation",
+    "url": "https://www.youtube.com/watch?v=G9joX71dq0Y",
+    "publishedAt": "2018-11-26T02:07:33Z"
+  },
+  {
+    "title": "VS^3-NET for Machine Reading Comprehension Question Answering",
+    "url": "https://www.youtube.com/watch?v=GrMKKcShUZI",
+    "publishedAt": "2018-11-28T01:58:39Z"
+  },
+  {
+    "title": "Multi-lingual Text Processing",
+    "url": "https://www.youtube.com/watch?v=nYV9heR_nBY",
+    "publishedAt": "2018-11-30T00:45:58Z"
+  },
+  {
+    "title": "[ICML 2018] AutoML",
+    "url": "https://www.youtube.com/watch?v=F4K1Qc2F8fU",
+    "publishedAt": "2018-12-03T01:30:44Z"
+  },
+  {
+    "title": "[ICML 2018] Multi-task learning",
+    "url": "https://www.youtube.com/watch?v=klFFAndQia8",
+    "publishedAt": "2018-12-03T01:30:54Z"
+  },
+  {
+    "title": "[ICML 2018] Reinforcement learning",
+    "url": "https://www.youtube.com/watch?v=VYvtqXsdoyE",
+    "publishedAt": "2018-12-03T01:31:04Z"
+  },
+  {
+    "title": "[ICML 2018] ML Security",
+    "url": "https://www.youtube.com/watch?v=A96AzX0_7UY",
+    "publishedAt": "2018-12-03T01:31:12Z"
+  },
+  {
+    "title": "[ICML 2018] Music/Audio",
+    "url": "https://www.youtube.com/watch?v=lywSmdxlsGs",
+    "publishedAt": "2018-12-03T01:31:21Z"
+  },
+  {
+    "title": "[ICML 2018] Generative model",
+    "url": "https://www.youtube.com/watch?v=3C67TDSV6YY",
+    "publishedAt": "2018-12-03T01:31:30Z"
+  },
+  {
+    "title": "딥러닝 Super Resolution, 어디까지 왔니?",
+    "url": "https://www.youtube.com/watch?v=nvsYKSHw0jo",
+    "publishedAt": "2018-12-05T00:53:06Z"
+  },
+  {
+    "title": "VAE말고 Auto-encoding variational bayes를 알아보자",
+    "url": "https://www.youtube.com/watch?v=SAfJz_uzaa8",
+    "publishedAt": "2018-12-07T00:59:28Z"
+  },
+  {
+    "title": "Attentive Semantic Alignment with Offset-Aware Correlation Kernels",
+    "url": "https://www.youtube.com/watch?v=4OozCgE95P8",
+    "publishedAt": "2018-12-10T01:25:58Z"
+  },
+  {
+    "title": "[12회-1] History of Redux at Vingle",
+    "url": "https://www.youtube.com/watch?v=KmJ8eTKsAf4",
+    "publishedAt": "2018-12-11T04:41:27Z"
+  },
+  {
+    "title": "[12회-2] MobX & MST : 편안한 State Management",
+    "url": "https://www.youtube.com/watch?v=4yUgM7SaYUU",
+    "publishedAt": "2018-12-11T04:41:30Z"
+  },
+  {
+    "title": "CPlaNet: Enhancing Image Geolocalization by Combinatorial Partitioning of Maps",
+    "url": "https://www.youtube.com/watch?v=o0roeXOcZNc",
+    "publishedAt": "2018-12-12T00:24:43Z"
+  },
+  {
+    "title": "Statistical Analysis for Information Access Evaluation",
+    "url": "https://www.youtube.com/watch?v=Dy2rL5SYt7k",
+    "publishedAt": "2018-12-14T00:52:02Z"
+  },
+  {
+    "title": "Introduction to deep learning based voice activity detection",
+    "url": "https://www.youtube.com/watch?v=RusQYxl_xEo",
+    "publishedAt": "2018-12-17T01:42:29Z"
+  },
+  {
+    "title": "ACMMM 논문 리뷰",
+    "url": "https://www.youtube.com/watch?v=oxY6t8Ry-v0",
+    "publishedAt": "2018-12-31T04:26:06Z"
+  },
+  {
+    "title": "Language as a Scaffold for Visual Perception",
+    "url": "https://www.youtube.com/watch?v=xGrKhdlD6n8",
+    "publishedAt": "2019-01-02T01:37:29Z"
+  },
+  {
+    "title": "Learning from Computer Simulation to Tackle Real-World Problems",
+    "url": "https://www.youtube.com/watch?v=KM6QfhkRDxM",
+    "publishedAt": "2019-01-04T01:17:44Z"
+  },
+  {
+    "title": "HTTP Live Streaming (HLS)",
+    "url": "https://www.youtube.com/watch?v=Z3eRwICG4OU",
+    "publishedAt": "2019-01-08T07:08:13Z"
+  },
+  {
+    "title": "SiriKit 소개",
+    "url": "https://www.youtube.com/watch?v=Y4jdJGlXKL4",
+    "publishedAt": "2019-01-08T07:08:16Z"
+  },
+  {
+    "title": "영어 변수명을 잘 지어보자",
+    "url": "https://www.youtube.com/watch?v=rbSnkiqPnJI",
+    "publishedAt": "2019-01-08T07:08:19Z"
+  },
+  {
+    "title": "Architecture + Clean Swift",
+    "url": "https://www.youtube.com/watch?v=GXAGCTsnShI",
+    "publishedAt": "2019-01-08T07:08:22Z"
+  },
+  {
+    "title": "Color and 3D Semantic Reconstruction of Indoor Scenes from RGB-D stream",
+    "url": "https://www.youtube.com/watch?v=seSoytmMisU",
+    "publishedAt": "2019-01-10T06:46:55Z"
+  },
+  {
+    "title": "구글 AMP 소개",
+    "url": "https://www.youtube.com/watch?v=iVlzgFpZxo4",
+    "publishedAt": "2019-01-16T02:32:18Z"
+  },
+  {
+    "title": "구글 PWA 소개, 배포/관리, Case Study Part.1",
+    "url": "https://www.youtube.com/watch?v=lCpc_Wqi6R0",
+    "publishedAt": "2019-01-16T04:00:57Z"
+  },
+  {
+    "title": "구글 PWA 소개, 배포/관리, Case Study Part.2",
+    "url": "https://www.youtube.com/watch?v=dsybgTpCc1s",
+    "publishedAt": "2019-01-16T04:31:08Z"
+  },
+  {
+    "title": "Webconf ASIA 참관후기 : CSS그리드 레이아웃",
+    "url": "https://www.youtube.com/watch?v=OGOmPQeLC9g",
+    "publishedAt": "2019-01-16T04:48:26Z"
+  },
+  {
+    "title": "Flexbox로 만들 수 있는 10가지 레이아웃",
+    "url": "https://www.youtube.com/watch?v=vpiPtkAJwW8",
+    "publishedAt": "2019-01-16T04:52:55Z"
+  },
+  {
+    "title": "Webconf ASIA 참관후기 : 웹 애니메이션 방법&웹폰트 최적화",
+    "url": "https://www.youtube.com/watch?v=1sD7sZ8okxM",
+    "publishedAt": "2019-01-16T04:54:27Z"
+  },
+  {
+    "title": "Canvas & WebGL을 이용한 이미지 필터 제작",
+    "url": "https://www.youtube.com/watch?v=EGk-Q9f0Nqg",
+    "publishedAt": "2019-01-16T04:55:29Z"
+  },
+  {
+    "title": "모두의 클라우드 딥러닝 - AWS 위에서 비용 효율적, 안정적으로 딥러닝 서비스 운영하기",
+    "url": "https://www.youtube.com/watch?v=PdZQx0pxTrE",
+    "publishedAt": "2019-01-18T06:02:15Z"
+  },
+  {
+    "title": "paGAN: Real-time Avatars Using Dynamic Textures",
+    "url": "https://www.youtube.com/watch?v=0YtqBPWYdqA",
+    "publishedAt": "2019-01-21T00:30:02Z"
+  },
+  {
+    "title": "Visual Analytics for Comments Analysis",
+    "url": "https://www.youtube.com/watch?v=vb6CAKM3VrU",
+    "publishedAt": "2019-01-23T09:38:59Z"
+  },
+  {
+    "title": "Comparative Studies on Detecting Abusive Language on Twitter",
+    "url": "https://www.youtube.com/watch?v=NhFQmZOiSIE",
+    "publishedAt": "2019-01-25T05:52:12Z"
+  },
+  {
+    "title": "Towards Speech Intention Understanding in Korean",
+    "url": "https://www.youtube.com/watch?v=ymTL8p50N00",
+    "publishedAt": "2019-01-28T01:10:20Z"
+  },
+  {
+    "title": "nnstreamer: Stream Pipeline for Arbitrary Neural Networks",
+    "url": "https://www.youtube.com/watch?v=XvXxcnbRjgU",
+    "publishedAt": "2019-01-30T01:03:01Z"
+  },
+  {
+    "title": "Fraud Detection - online game과 결제를 중심으로",
+    "url": "https://www.youtube.com/watch?v=cZFnAa-1BKM",
+    "publishedAt": "2019-02-01T04:49:08Z"
+  },
+  {
+    "title": "[제13회-2] Vue.js를 이용한 백오피스 제작 경험 공유",
+    "url": "https://www.youtube.com/watch?v=_WACO1jIIhE",
+    "publishedAt": "2019-02-07T09:36:35Z"
+  },
+  {
+    "title": "[제13회-1] Ride the lightning: 폴리머 기반 서비스 개발기",
+    "url": "https://www.youtube.com/watch?v=J-mGnngTdWs",
+    "publishedAt": "2019-02-07T09:37:53Z"
+  },
+  {
+    "title": "[제13회-3] 서비스에 함수형 / 동시성 적용사례",
+    "url": "https://www.youtube.com/watch?v=Y8d5P9M51xs",
+    "publishedAt": "2019-02-07T09:49:19Z"
+  },
+  {
+    "title": "Toward WaveNet speech synthesis",
+    "url": "https://www.youtube.com/watch?v=m2A9g6Xu91I",
+    "publishedAt": "2019-02-08T00:38:12Z"
+  },
+  {
+    "title": "함수형 프로그래밍과 ES6+",
+    "url": "https://www.youtube.com/watch?v=4sO0aWTd3yc",
+    "publishedAt": "2019-02-11T06:37:12Z"
+  },
+  {
+    "title": "Monad란 무엇인가?",
+    "url": "https://www.youtube.com/watch?v=jI4aMyqvpfQ",
+    "publishedAt": "2019-02-12T01:19:16Z"
+  },
+  {
+    "title": "Akka, Lambda에서는 어떻게 쓰고 있나?",
+    "url": "https://www.youtube.com/watch?v=_tS3FJoDmWA",
+    "publishedAt": "2019-02-12T01:32:47Z"
+  },
+  {
+    "title": "위상학적 자료 분석(Topological Data Analysis)의 통계적 추정",
+    "url": "https://www.youtube.com/watch?v=dv5W-_kWRYM",
+    "publishedAt": "2019-02-13T00:21:19Z"
+  },
+  {
+    "title": "Context-aware Synthesis and Placement of Object Instances",
+    "url": "https://www.youtube.com/watch?v=N-HFsnx9rY0",
+    "publishedAt": "2019-02-15T00:26:48Z"
+  },
+  {
+    "title": "Paraphrasing Complex Network: Network Compression via Factor Transfer",
+    "url": "https://www.youtube.com/watch?v=aet_Pj08_Ck",
+    "publishedAt": "2019-02-20T01:55:23Z"
+  },
+  {
+    "title": "Research of Adversarial Example on a Deep Neural Network",
+    "url": "https://www.youtube.com/watch?v=8XcqJrygM10",
+    "publishedAt": "2019-02-27T00:11:45Z"
+  },
+  {
+    "title": "Alternatives to JPA",
+    "url": "https://www.youtube.com/watch?v=2zQdmC0vnFU",
+    "publishedAt": "2019-02-28T09:30:42Z"
+  },
+  {
+    "title": "한국어 MRC 연구를 위한 표준 데이터셋(KorQuAD) 소개 및 B2B를 위한 MRC 연구 사례",
+    "url": "https://www.youtube.com/watch?v=ntGwv6Ifoe8",
+    "publishedAt": "2019-03-04T01:37:45Z"
+  },
+  {
+    "title": "Learning to learn unlearned feature for segmentation",
+    "url": "https://www.youtube.com/watch?v=2RjlYsPwWKc",
+    "publishedAt": "2019-03-06T05:33:28Z"
+  },
+  {
+    "title": "이더리움 geth 클라이언트 코드로 이해하는 Go",
+    "url": "https://www.youtube.com/watch?v=4SOSY0gNy2g",
+    "publishedAt": "2019-03-08T05:38:47Z"
+  },
+  {
+    "title": "한글라이즈 재제작기",
+    "url": "https://www.youtube.com/watch?v=6rRSRtu3z3c",
+    "publishedAt": "2019-03-08T05:55:57Z"
+  },
+  {
+    "title": "Golang on Analytics & Blockchain",
+    "url": "https://www.youtube.com/watch?v=B7TF6yIRsWs",
+    "publishedAt": "2019-03-08T06:01:39Z"
+  },
+  {
+    "title": "오픈소스 프로젝트 운영 경험 공유",
+    "url": "https://www.youtube.com/watch?v=-DYPcz14U4Q",
+    "publishedAt": "2019-03-11T01:00:54Z"
+  },
+  {
+    "title": "Relational Knowledge Distillation",
+    "url": "https://www.youtube.com/watch?v=AI5m8XotWvs",
+    "publishedAt": "2019-03-11T04:13:48Z"
+  },
+  {
+    "title": "Minimax learning: with implications on domain adaptation and adversarial attack",
+    "url": "https://www.youtube.com/watch?v=ivxMPzDj6U0",
+    "publishedAt": "2019-03-15T01:26:04Z"
+  },
+  {
+    "title": "PARN: Pyramidal Affine Regression Networks for Semantic Correspondence",
+    "url": "https://www.youtube.com/watch?v=CAgbUDnIT0o",
+    "publishedAt": "2019-03-18T00:50:55Z"
+  },
+  {
+    "title": "Projection Mapping and Augmented Reality for Pervasive AR Environment",
+    "url": "https://www.youtube.com/watch?v=5LCvNufbzyQ",
+    "publishedAt": "2019-03-20T00:17:05Z"
+  },
+  {
+    "title": "금융과 딥러닝 - 금융 영역에서의 딥러닝은 어떻게 다른가?",
+    "url": "https://www.youtube.com/watch?v=dB8cpsnZ5FA",
+    "publishedAt": "2019-03-27T01:08:45Z"
+  },
+  {
+    "title": "Network Recasting: A Universal Method for Network Architecture Transformation",
+    "url": "https://www.youtube.com/watch?v=cYzqE13zdVQ",
+    "publishedAt": "2019-03-29T01:22:49Z"
+  },
+  {
+    "title": "위조된 JPEG 이미지 탐지 (Detecting fake JPEG images)",
+    "url": "https://www.youtube.com/watch?v=wnhTclpgRfk",
+    "publishedAt": "2019-04-03T08:26:03Z"
+  },
+  {
+    "title": "Improving Neural Question Generation using Answer Separation",
+    "url": "https://www.youtube.com/watch?v=JNVBxVparr0",
+    "publishedAt": "2019-04-05T07:23:00Z"
+  },
+  {
+    "title": "Number Sequence Prediction Problems for Evaluating Computational Powers of Neural Networks",
+    "url": "https://www.youtube.com/watch?v=BL1cwcb-CZ4",
+    "publishedAt": "2019-04-08T02:37:40Z"
+  },
+  {
+    "title": "짚으면 찾아주는 사전 - Just Point It와 모바일 머신러닝",
+    "url": "https://www.youtube.com/watch?v=Jq5L_5bRBR0",
+    "publishedAt": "2019-04-10T01:31:05Z"
+  },
+  {
+    "title": "Backbone Can Not be Trained at Once: Rolling Back to Pre-trained Network for Person ReID",
+    "url": "https://www.youtube.com/watch?v=8C6GqGdI-xU",
+    "publishedAt": "2019-04-16T06:03:31Z"
+  },
+  {
+    "title": "TECH CONCERT: FRONT END 2019 - 플랫폼 UI 개발 전략의 모든 것",
+    "url": "https://www.youtube.com/watch?v=2hHqtB_usRo",
+    "publishedAt": "2019-04-23T08:55:08Z"
+  },
+  {
+    "title": "TECH CONCERT: FRONT END 2019 - 주니어 개발자의 성장에 대한 뻔하지만 뻔하지않은 이야기",
+    "url": "https://www.youtube.com/watch?v=nKKlYEVMhhY",
+    "publishedAt": "2019-04-23T08:57:53Z"
+  },
+  {
+    "title": "TECH CONCERT: FRONT END 2019 - 데이터 상태 관리. 그것을 알려주마",
+    "url": "https://www.youtube.com/watch?v=o4meZ7MRd5o",
+    "publishedAt": "2019-04-23T09:07:12Z"
+  },
+  {
+    "title": "TECH CONCERT: FRONT END 2019 - 일 만드는 개발자 vs. 일 부풀리는 개발자",
+    "url": "https://www.youtube.com/watch?v=4EtvuzPgShw",
+    "publishedAt": "2019-04-23T09:07:48Z"
+  },
+  {
+    "title": "TECH CONCERT: FRONT END 2019 - 빠르게 훑어보는 웹 개발 트렌드",
+    "url": "https://www.youtube.com/watch?v=BXOH9b177ho",
+    "publishedAt": "2019-04-23T09:08:53Z"
+  },
+  {
+    "title": "TECH CONCERT: FRONT END 2019 - 오늘부터 나도 FE 성능분석가",
+    "url": "https://www.youtube.com/watch?v=cpE1dwJgS4c",
+    "publishedAt": "2019-04-23T09:34:58Z"
+  },
+  {
+    "title": "폰트 렌더링의 이해 (폰트 렌더링의 UI 차이점)",
+    "url": "https://www.youtube.com/watch?v=K5cHpsMKzxI",
+    "publishedAt": "2019-05-16T01:52:39Z"
+  },
+  {
+    "title": "디자이너가 알아두면 좋을 개발자도구 활용법",
+    "url": "https://www.youtube.com/watch?v=1Q9OzwyjpZI",
+    "publishedAt": "2019-05-16T02:10:15Z"
+  },
+  {
+    "title": "canvas를 이용한 인터렉티브 콘텐츠 소개",
+    "url": "https://www.youtube.com/watch?v=48veati0ukI",
+    "publishedAt": "2019-05-16T02:25:53Z"
+  },
+  {
+    "title": "제플린 200% 활용하기",
+    "url": "https://www.youtube.com/watch?v=nDBwuaZ0zyQ",
+    "publishedAt": "2019-05-16T02:34:44Z"
+  },
+  {
+    "title": "Jenkins Pipeline + BlueOcean dashboard를 사용해 Android CI 구축하기",
+    "url": "https://www.youtube.com/watch?v=0Wo5OipNK-A",
+    "publishedAt": "2019-05-22T02:25:19Z"
+  },
+  {
+    "title": "Paging Library 먼지팁",
+    "url": "https://www.youtube.com/watch?v=c_v0y2k-bww",
+    "publishedAt": "2019-05-22T04:14:11Z"
+  },
+  {
+    "title": "코드랩으로 알아보는 Android Navigation",
+    "url": "https://www.youtube.com/watch?v=G67sUjEpsGQ",
+    "publishedAt": "2019-05-22T04:39:47Z"
+  },
+  {
+    "title": "Android Studio 설정 다시 한번 볼까요?",
+    "url": "https://www.youtube.com/watch?v=SBiH_B5d-6I",
+    "publishedAt": "2019-05-22T05:01:27Z"
+  },
+  {
+    "title": "[14회-1] Beyond TensorBoard: AutoML을 위한 interactive visual analytics 서비스 개발 경험 공유",
+    "url": "https://www.youtube.com/watch?v=49af9705nFE",
+    "publishedAt": "2019-05-28T04:56:39Z"
+  },
+  {
+    "title": "[14회-2] tfjs 를 이용한 모델 비교 & 데이터 분석 툴 개발 경험 공유",
+    "url": "https://www.youtube.com/watch?v=HShwEsLujnw",
+    "publishedAt": "2019-05-28T04:56:43Z"
+  },
+  {
+    "title": "[14회-3] 생각보다 쉬운 webGL - 인터렉티브에 저널리즘 녹이기",
+    "url": "https://www.youtube.com/watch?v=R8qtkP8F97M",
+    "publishedAt": "2019-05-28T04:56:47Z"
+  },
+  {
+    "title": "Clean swift architecture",
+    "url": "https://www.youtube.com/watch?v=3jRxPM3xBnY",
+    "publishedAt": "2019-06-04T06:08:27Z"
+  },
+  {
+    "title": "iOS 프로젝트에 Unity를 붙일 수 있을까?",
+    "url": "https://www.youtube.com/watch?v=9t9SV5mySao",
+    "publishedAt": "2019-06-04T06:23:52Z"
+  },
+  {
+    "title": "옆집사는 ‘함수’형 탐방기",
+    "url": "https://www.youtube.com/watch?v=1u_iCHOE8sE",
+    "publishedAt": "2019-06-04T06:48:50Z"
+  },
+  {
+    "title": "Raw waveform을 이용한 화자 인증 및 짧은/원거리 발성에 대한 보상 연구 소개",
+    "url": "https://www.youtube.com/watch?v=g0pvHkq-BIA",
+    "publishedAt": "2019-06-19T05:00:08Z"
+  },
+  {
+    "title": "SQream DB, GPU-accelerated data warehouse",
+    "url": "https://www.youtube.com/watch?v=pMoLTvZ9FLI",
+    "publishedAt": "2019-06-21T01:47:42Z"
+  },
+  {
+    "title": "Google I/O 2019 웹 세션 요약",
+    "url": "https://www.youtube.com/watch?v=xKZ0933D7hk",
+    "publishedAt": "2019-07-17T00:58:45Z"
+  },
+  {
+    "title": "Unifying Human and Statistical Evaluation for Natural Language Generation",
+    "url": "https://www.youtube.com/watch?v=GPlIB7_p_3w",
+    "publishedAt": "2019-08-06T03:51:07Z"
+  },
+  {
+    "title": "AI Ethics 관련 세계적 동향 및 대응 방안",
+    "url": "https://www.youtube.com/watch?v=MjZuoKsomQc",
+    "publishedAt": "2019-08-07T00:46:17Z"
+  },
+  {
+    "title": "CocoaPods 제거를 통한 블로그 빌드 속도 개선",
+    "url": "https://www.youtube.com/watch?v=6rCZihURb9U",
+    "publishedAt": "2019-08-14T04:27:59Z"
+  },
+  {
+    "title": "Multiplatform Architecture RIBs in Swift",
+    "url": "https://www.youtube.com/watch?v=FmnshYCDeW8",
+    "publishedAt": "2019-08-14T06:14:06Z"
+  },
+  {
+    "title": "Visual Geometry with Deep Learning",
+    "url": "https://www.youtube.com/watch?v=87DcC8ksRHs",
+    "publishedAt": "2019-08-28T06:50:32Z"
+  },
+  {
+    "title": "A Neural Grammatical Error Correction built on Better Pre-training and Sequential Transfer Learning",
+    "url": "https://www.youtube.com/watch?v=EQFTRYwEZ5Q",
+    "publishedAt": "2019-08-30T04:18:11Z"
+  },
+  {
+    "title": "Learning Loss for Active Learning",
+    "url": "https://www.youtube.com/watch?v=9oWC8S2gpyk",
+    "publishedAt": "2019-09-09T04:59:22Z"
+  },
+  {
+    "title": "모두를 위한 기계번역",
+    "url": "https://www.youtube.com/watch?v=N4E53ZcUBJs",
+    "publishedAt": "2019-09-19T01:39:24Z"
+  },
+  {
+    "title": "How can speech technologies support learners to improve their skills",
+    "url": "https://www.youtube.com/watch?v=NdiQ0W5xI58",
+    "publishedAt": "2019-09-20T05:42:40Z"
+  },
+  {
+    "title": "딥러닝 솔루션을 통한 효율적인 외환 관리 (Efficient FX management with deep learning)",
+    "url": "https://www.youtube.com/watch?v=_8hdnuQZU9k",
+    "publishedAt": "2019-09-23T05:22:06Z"
+  },
+  {
+    "title": "Depth estimation: Do we need to throw old things away?",
+    "url": "https://www.youtube.com/watch?v=qs_aI40WrX8",
+    "publishedAt": "2019-09-24T05:28:46Z"
+  },
+  {
+    "title": "Recent Advances in Deep Recommender Systems",
+    "url": "https://www.youtube.com/watch?v=1fhNX_JFaow",
+    "publishedAt": "2019-09-25T06:27:11Z"
+  },
+  {
+    "title": "Deep learning based drug-protein interaction",
+    "url": "https://www.youtube.com/watch?v=negb7DMWzSc",
+    "publishedAt": "2019-09-27T07:29:55Z"
+  },
+  {
+    "title": "Eat Your Own Dog Food: Using MongoDB at MongoDB",
+    "url": "https://www.youtube.com/watch?v=MhbCtqlqbrY",
+    "publishedAt": "2019-09-30T06:27:27Z"
+  },
+  {
+    "title": "Introduction to Kotlin",
+    "url": "https://www.youtube.com/watch?v=dMLUoZUeeyA",
+    "publishedAt": "2019-10-10T01:05:36Z"
+  },
+  {
+    "title": "Introduction to Kotlin coroutines",
+    "url": "https://www.youtube.com/watch?v=VPTcj1mU-5c",
+    "publishedAt": "2019-10-10T01:31:40Z"
+  },
+  {
+    "title": "[15회-1] Less is More: UI덜어내기",
+    "url": "https://www.youtube.com/watch?v=C73YT-rF1eQ",
+    "publishedAt": "2019-10-18T04:43:39Z"
+  },
+  {
+    "title": "[15회-2] 적정 UX @ 제품 만드는 스타트 업",
+    "url": "https://www.youtube.com/watch?v=XuVqRoD-6kc",
+    "publishedAt": "2019-10-18T04:43:42Z"
+  },
+  {
+    "title": "음향 상황인식과 교사-학생 학습의 적용",
+    "url": "https://www.youtube.com/watch?v=2FMeJdYh5Sc",
+    "publishedAt": "2019-11-08T02:58:20Z"
+  },
+  {
+    "title": "Modeling Perceptual Similarity and Shift-Invariance in Deep Networks",
+    "url": "https://www.youtube.com/watch?v=0xmVraAvAAc",
+    "publishedAt": "2019-11-21T05:02:42Z"
+  },
+  {
+    "title": "A Comprehensive Overhaul of Feature Distillation",
+    "url": "https://www.youtube.com/watch?v=yZkb0YS-FNI",
+    "publishedAt": "2019-11-26T07:48:27Z"
+  },
+  {
+    "title": "Kotlin Flow API 살펴보기",
+    "url": "https://www.youtube.com/watch?v=D8rUDoYCZlo",
+    "publishedAt": "2019-12-02T07:48:14Z"
+  },
+  {
+    "title": "Android : DocumentFile을 사용한 SD카드 영역에 파일 쓰기",
+    "url": "https://www.youtube.com/watch?v=LNjRF4YcGlQ",
+    "publishedAt": "2019-12-02T07:48:37Z"
+  },
+  {
+    "title": "Synthesizing Pseudo-2.5D Content from Monocular Videos for Mixed Reality",
+    "url": "https://www.youtube.com/watch?v=jJ0z4fb02VU",
+    "publishedAt": "2019-12-26T09:31:59Z"
+  },
+  {
+    "title": "Line Entry의 Atomic Design 적용기",
+    "url": "https://www.youtube.com/watch?v=33yj-Q5v8mQ",
+    "publishedAt": "2020-01-21T07:01:48Z"
+  },
+  {
+    "title": "새로운 웹 스타일링, 안 본 사람 없게 해주세요",
+    "url": "https://www.youtube.com/watch?v=WRBCkEGf4AI",
+    "publishedAt": "2020-01-21T07:17:57Z"
+  },
+  {
+    "title": "Keep 서비스 Sticky UI 적용 사례",
+    "url": "https://www.youtube.com/watch?v=vUALSqATP50",
+    "publishedAt": "2020-01-21T07:35:04Z"
+  },
+  {
+    "title": "GraalVM: The Universal Runtime for hybrid workloads (On-Premises and Cloud Native)",
+    "url": "https://www.youtube.com/watch?v=rs_rpR1Yuy4",
+    "publishedAt": "2020-01-29T02:04:13Z"
+  },
+  {
+    "title": "An expanding and expansive view of computing research",
+    "url": "https://www.youtube.com/watch?v=UMzR3UITDxc",
+    "publishedAt": "2020-02-07T05:29:04Z"
+  },
+  {
+    "title": "Learning Disentangled Representation for Robust Person Re-identification",
+    "url": "https://www.youtube.com/watch?v=_bQvGy80MS0",
+    "publishedAt": "2020-03-25T08:01:59Z"
+  },
+  {
+    "title": "리덕스를 도입할 때 주저하게 만드는 장벽들",
+    "url": "https://www.youtube.com/watch?v=ZQ6nrKRju84",
+    "publishedAt": "2020-04-17T02:05:06Z"
+  },
+  {
+    "title": "MotionLayout 튜토리얼 및 적용기",
+    "url": "https://www.youtube.com/watch?v=3nc_vXejN8k",
+    "publishedAt": "2020-04-17T04:38:07Z"
+  },
+  {
+    "title": "최신 AndroidX 체크",
+    "url": "https://www.youtube.com/watch?v=uGchtYhpFvg",
+    "publishedAt": "2020-04-17T05:18:04Z"
+  },
+  {
+    "title": "아파치 네모로 빠르고 효율적으로 빅데이터 처리하기",
+    "url": "https://www.youtube.com/watch?v=Gc4-o8n762I",
+    "publishedAt": "2020-08-06T06:45:38Z"
+  },
+  {
+    "title": "당장 적용하는 SwiftUI의 아이디어",
+    "url": "https://www.youtube.com/watch?v=7fanl8FrAbY",
+    "publishedAt": "2020-08-18T05:45:06Z"
+  },
+  {
+    "title": "MotionLayout",
+    "url": "https://www.youtube.com/watch?v=4HWNjdoqke8",
+    "publishedAt": "2020-08-18T06:13:47Z"
+  },
+  {
+    "title": "NAVER DEVIEW 2023 홈페이지 오픈! 🎉",
+    "url": "https://www.youtube.com/watch?v=BYMYNt6TRVo",
+    "publishedAt": "2023-01-16T08:44:22Z"
+  },
+  {
+    "title": "Global Grid System(H3)를 이용한 Last Mile 분야의 공간데이터 관리와 Mapping",
+    "url": "https://www.youtube.com/watch?v=-z3DkQ2zrB4",
+    "publishedAt": "2023-03-16T04:36:33Z"
+  },
+  {
+    "title": "CLOVA Vision: 네이버 AI, Cloud, IP카메라의 만남. 일본 AI Cloud Camera 도전기",
+    "url": "https://www.youtube.com/watch?v=15ENrp19oB4",
+    "publishedAt": "2023-03-16T04:36:33Z"
+  },
+  {
+    "title": "축산 현장에서의 Deep-tech: 터프하지만 매력적인 이 산업에서의 공대생 생존기",
+    "url": "https://www.youtube.com/watch?v=1DZf4q9n-8E",
+    "publishedAt": "2023-03-16T04:36:33Z"
+  },
+  {
+    "title": "Noir: 메일검색 서버를 반의 반으로 줄여준 신규 검색엔진 제작기",
+    "url": "https://www.youtube.com/watch?v=23_tNjIzUPM",
+    "publishedAt": "2023-03-16T04:36:33Z"
+  },
+  {
+    "title": "AiSuite: 안정적으로 멀티 테넌트 AI 플랫폼 제공하기",
+    "url": "https://www.youtube.com/watch?v=6lGCmLkgPjY",
+    "publishedAt": "2023-03-16T04:36:33Z"
+  },
+  {
+    "title": "그 여자 APP, 그 남자 SDK: Kotlin Multiplatform 적용기",
+    "url": "https://www.youtube.com/watch?v=B27Yu9uQvqY",
+    "publishedAt": "2023-03-16T04:36:33Z"
+  },
+  {
+    "title": "Transformer 기반의 Global pLACE(GLACE) Matching 개발기",
+    "url": "https://www.youtube.com/watch?v=HF6JGgm9dgA",
+    "publishedAt": "2023-03-16T04:36:33Z"
+  },
+  {
+    "title": "파파고의 빨간펜 선생님: 자동 번역 품질 평가 모델 구축과 응용",
+    "url": "https://www.youtube.com/watch?v=N8BNMCSTPno",
+    "publishedAt": "2023-03-16T04:36:33Z"
+  },
+  {
+    "title": "값비싼 Diffusion model을 받드는 저비용 MLOps",
+    "url": "https://www.youtube.com/watch?v=Se62pRpk9A0",
+    "publishedAt": "2023-03-16T04:36:33Z"
+  },
+  {
+    "title": "WebtoonMe 개발기: 내가 웹툰 안으로 들어가면 여신강림 임주경 보다 이쁠까 안이쁠까?",
+    "url": "https://www.youtube.com/watch?v=TGtz_SRwOkI",
+    "publishedAt": "2023-03-16T04:36:33Z"
+  },
+  {
+    "title": "LiveOps : 네이버앱의 실시간 운영과 크래시 핸들링 솔루션",
+    "url": "https://www.youtube.com/watch?v=Wh03CX9ONHg",
+    "publishedAt": "2023-03-16T04:36:33Z"
+  },
+  {
+    "title": "루다, 눈을 뜨다! AI 챗봇 서비스에 이미지 대화 기술 적용시키기.",
+    "url": "https://www.youtube.com/watch?v=Ww27i0Wx2OQ",
+    "publishedAt": "2023-03-16T04:36:33Z"
+  },
+  {
+    "title": "'더' 잘 읽히고 자연스러운 이미지 번역을 위해 (파파고 텍스트 렌더링 개발기)",
+    "url": "https://www.youtube.com/watch?v=YeeYXFtEsjg",
+    "publishedAt": "2023-03-16T04:36:33Z"
+  },
+  {
+    "title": "동형암호 기반 프라이버시 보존 CNN 알고리즘 개발 꿀팁 대방출",
+    "url": "https://www.youtube.com/watch?v=_JI0KBfH0FQ",
+    "publishedAt": "2023-03-16T04:36:33Z"
+  },
+  {
+    "title": "실시간 추천 시스템을 위한 Feature Store 구현기",
+    "url": "https://www.youtube.com/watch?v=_tXV_l581KI",
+    "publishedAt": "2023-03-16T04:36:33Z"
+  },
+  {
+    "title": "ML/AI 개발자를 위한 단계별 Python 최적화 가이드라인",
+    "url": "https://www.youtube.com/watch?v=b0kFuRho27U",
+    "publishedAt": "2023-03-16T04:36:33Z"
+  },
+  {
+    "title": "클로바노트의 두뇌: NAVER의 End-to-End 음성인식 엔진 소개",
+    "url": "https://www.youtube.com/watch?v=bQ3JHj1rOSQ",
+    "publishedAt": "2023-03-16T04:36:33Z"
+  },
+  {
+    "title": "Remember Me: 맞춤 케어를 위한 기억하기 챗봇",
+    "url": "https://www.youtube.com/watch?v=d8g3D3Xf1Gw",
+    "publishedAt": "2023-03-16T04:36:33Z"
+  },
+  {
+    "title": "싸늘하다, 메신저에 경보가 날아와 꽂힌다 - 네이버 검색 SRE 시스템 개선기",
+    "url": "https://www.youtube.com/watch?v=j_5HOboU3lk",
+    "publishedAt": "2023-03-16T04:36:33Z"
+  },
+  {
+    "title": "런타임 데드 코드 분석 도구 Scavenger - 당신의 코드는 생각보다 많이 죽어있다.",
+    "url": "https://www.youtube.com/watch?v=qE7HY7Y-5vs",
+    "publishedAt": "2023-03-16T04:36:33Z"
+  },
+  {
+    "title": "사실적인 AR 오브젝트 렌더링을 위한 도전 : AR Viewer 개발기",
+    "url": "https://www.youtube.com/watch?v=sgKj-2GeI68",
+    "publishedAt": "2023-03-16T04:36:33Z"
+  },
+  {
+    "title": "이해, 생성, 효율: 세 마리 토끼 다 잡는 Seq2Seq HyperCLOVA",
+    "url": "https://www.youtube.com/watch?v=upL76wu1EVQ",
+    "publishedAt": "2023-03-16T04:36:33Z"
+  },
+  {
+    "title": "자바스크립트 화이트박스 암호와 크롬 라인 메신저의 보안 강화",
+    "url": "https://www.youtube.com/watch?v=w44YoS_q0H8",
+    "publishedAt": "2023-03-16T04:36:33Z"
+  },
+  {
+    "title": "SNOW AI Filter : 나인듯 나같지 않은 나보다 이쁜 나",
+    "url": "https://www.youtube.com/watch?v=xnsW_s7A6L8",
+    "publishedAt": "2023-03-16T04:36:33Z"
+  },
+  {
+    "title": "SSR환경에서의 Micro-Frontend 구현과 퍼포먼스 향상을 위한 캐시전략",
+    "url": "https://www.youtube.com/watch?v=-4aYqPV9PM8",
+    "publishedAt": "2023-03-16T04:38:07Z"
+  },
+  {
+    "title": "언어 모델 기반의 범용 유저 임베딩과 이를 활용한 추천시스템 및 광고 타겟팅",
+    "url": "https://www.youtube.com/watch?v=29TdBzI3ENQ",
+    "publishedAt": "2023-03-16T04:38:07Z"
+  },
+  {
+    "title": "GraphQL 잘 쓰고 계신가요? (Production-ready GraphQL)",
+    "url": "https://www.youtube.com/watch?v=9G2vT4C4sAY",
+    "publishedAt": "2023-03-16T04:38:07Z"
+  },
+  {
+    "title": "클라우드 환경 기반 실시간 데이터 처리의 유실 없는 Geo-Replication 구축",
+    "url": "https://www.youtube.com/watch?v=LuHuXhIcjRc",
+    "publishedAt": "2023-03-16T04:38:07Z"
+  },
+  {
+    "title": "네이버 스케일로 카프카 컨슈머 사용하기",
+    "url": "https://www.youtube.com/watch?v=OxMdru93E6k",
+    "publishedAt": "2023-03-16T04:38:07Z"
+  },
+  {
+    "title": "초등학생 AI모델 고등학교 보내기: Continual Learning으로 지속적으로 성장하는 AI 시스템 만들기",
+    "url": "https://www.youtube.com/watch?v=P7hT5KP03WY",
+    "publishedAt": "2023-03-16T04:38:07Z"
+  },
+  {
+    "title": "지금까지 이런 검색은 없었다. 이것은 검색인가 추천인가 - 네이버 스마트블록 개인화 검색",
+    "url": "https://www.youtube.com/watch?v=RciSINC7Ae8",
+    "publishedAt": "2023-03-16T04:38:07Z"
+  },
+  {
+    "title": "CQuery : 우당탕탕 Trino와 썸타기",
+    "url": "https://www.youtube.com/watch?v=aFswuTGzU4s",
+    "publishedAt": "2023-03-16T04:38:07Z"
+  },
+  {
+    "title": "중요한 건 꺾이지 않는 마음: 스마트에디터의 도전",
+    "url": "https://www.youtube.com/watch?v=jRdIoxi_xIU",
+    "publishedAt": "2023-03-16T04:38:07Z"
+  },
+  {
+    "title": "눈으로 보며 듣는 음성 기록, 클로바노트 서비스의 웹 기술 톺아보기",
+    "url": "https://www.youtube.com/watch?v=jrhFGeWqLGg",
+    "publishedAt": "2023-03-16T04:38:07Z"
+  },
+  {
+    "title": "네이버 검색은 어떻게 나보다 더 내 의도를 잘 아는가? : AiRSearch 반응형 추천",
+    "url": "https://www.youtube.com/watch?v=nDIdXFhIbYE",
+    "publishedAt": "2023-03-16T04:38:07Z"
+  },
+  {
+    "title": "바닥까지 파보는! Hbase random read 성능 개선기",
+    "url": "https://www.youtube.com/watch?v=tUT_bDPYg3k",
+    "publishedAt": "2023-03-16T04:38:07Z"
+  },
+  {
+    "title": "하나의 코드로 React, Vue, Svelte 등 모든 프레임워크를 지원할 수 있는 CFCs Reactive",
+    "url": "https://www.youtube.com/watch?v=wyuQ9na8r40",
+    "publishedAt": "2023-03-16T04:38:07Z"
+  },
+  {
+    "title": "이제는 AI가 읽고(Language), 보고(Vision), 생성하는 Large-scale Multimodal의 시대입니다",
+    "url": "https://www.youtube.com/watch?v=yKLdynSGAzs",
+    "publishedAt": "2023-03-16T04:38:07Z"
+  },
+  {
+    "title": "UI 빌더를 지탱하는 레고 블록 같은 아키텍처 만들기",
+    "url": "https://www.youtube.com/watch?v=zncmO90s0sk",
+    "publishedAt": "2023-03-16T04:38:07Z"
+  },
+  {
+    "title": "HyperCLOVA 요약 서비스: Long-Form Open-Domain Dialogue Summarization",
+    "url": "https://www.youtube.com/watch?v=FpWjzMNYA3s",
+    "publishedAt": "2023-03-16T04:39:31Z"
+  },
+  {
+    "title": "NSML: 대규모 HPC 클러스터의 효율적 활용을 위한 Scheduler, Monitoring, Diagnostics",
+    "url": "https://www.youtube.com/watch?v=POkc2PR9TCU",
+    "publishedAt": "2023-03-16T04:39:36Z"
+  },
+  {
+    "title": "VictoriaMetrics: 시계열 데이터 대혼돈의 멀티버스",
+    "url": "https://www.youtube.com/watch?v=OUyXPgVcdw4",
+    "publishedAt": "2023-03-16T04:39:39Z"
+  },
+  {
+    "title": "웨일 브라우저 오픈 소스 생존기",
+    "url": "https://www.youtube.com/watch?v=RXUHjDL4cRw",
+    "publishedAt": "2023-03-16T04:39:43Z"
+  },
+  {
+    "title": "검출과 인식 모델을 하나로? : challenge 우승 OCR 서비스 모델 새 출시!",
+    "url": "https://www.youtube.com/watch?v=Oii7E---52M",
+    "publishedAt": "2023-03-16T04:39:52Z"
+  },
+  {
+    "title": "상황에 맞는 취향 장소 발견하기. HyperLocal 추천 시스템 A to Z",
+    "url": "https://www.youtube.com/watch?v=VafDadKX82E",
+    "publishedAt": "2023-03-16T07:53:47Z"
+  },
+  {
+    "title": "SCDF로 하루 N만곡 이상 VIBE 메타 데이터 실시간으로 적재하기!",
+    "url": "https://www.youtube.com/watch?v=eXZ3W7zlpmk",
+    "publishedAt": "2023-03-16T11:33:55Z"
+  },
+  {
+    "title": "DEVIEW 2023 - 스케치영상 Full Version.",
+    "url": "https://www.youtube.com/watch?v=lIeFq6Llf9M",
+    "publishedAt": "2023-03-20T06:59:36Z"
+  },
+  {
+    "title": "DEVIEW 2023 - 스케치영상 Short Version.",
+    "url": "https://www.youtube.com/watch?v=YmVNIttAZQA",
+    "publishedAt": "2023-03-20T06:59:39Z"
+  },
+  {
+    "title": "DEVIEW CAMPUS 2023 - 스케치영상",
+    "url": "https://www.youtube.com/watch?v=BjG-5k7P-RA",
+    "publishedAt": "2023-03-22T08:40:12Z"
+  },
+  {
+    "title": "DEVIEW 2023 - 키노트 영상",
+    "url": "https://www.youtube.com/watch?v=3wG0aAKMaOA",
+    "publishedAt": "2023-03-24T05:59:23Z"
+  },
+  {
+    "title": "NAVER의 글로벌플레이스 개발을 소개합니다",
+    "url": "https://www.youtube.com/watch?v=EubxFQ219-4",
+    "publishedAt": "2023-03-28T02:23:39Z"
+  },
+  {
+    "title": "[Trailer] 성능 하면 빠질 수 없는 메모이제이션, 네가 궁금해",
+    "url": "https://www.youtube.com/watch?v=kByHbltCldI",
+    "publishedAt": "2023-08-01T01:42:45Z"
+  },
+  {
+    "title": "뭣? 딸깍 몇 번에 웹 E2E 테스트 코드를 생성하고 수행한다고? 에러도 잡아준다고? 영상도 뽑아준다고? - 조문기_NEDAY 23.07",
+    "url": "https://www.youtube.com/watch?v=HoTaFzIRH-w",
+    "publishedAt": "2023-08-01T05:19:06Z"
+  },
+  {
+    "title": "[Trailer] 스마트 동기화 - File Provider를 사용한 똑똑한 동기화",
+    "url": "https://www.youtube.com/watch?v=N2lS_4vDZx8",
+    "publishedAt": "2023-08-04T02:00:59Z"
+  },
+  {
+    "title": "대규모 언어모델 너도 나도 업무에 사용해보자: To Beginner - 이주성_NEDAY 23.07",
+    "url": "https://www.youtube.com/watch?v=II8R3lu6cTo",
+    "publishedAt": "2023-08-08T01:05:40Z"
+  },
+  {
+    "title": "[Trailer] React 파이버 아키텍처 분석",
+    "url": "https://www.youtube.com/watch?v=kY2awKngC_M",
+    "publishedAt": "2023-08-10T05:35:00Z"
+  },
+  {
+    "title": "분산디비지만 노출은 하고싶어 - mongo로 노출 전용 DB 만들기 - 이태원_NEDAY 23.07",
+    "url": "https://www.youtube.com/watch?v=Jpvh9oOyNVM",
+    "publishedAt": "2023-08-16T02:06:11Z"
+  },
+  {
+    "title": "[Trailer] ZGC의 기본 개념 이해하기",
+    "url": "https://www.youtube.com/watch?v=_j0PUmU7K2A",
+    "publishedAt": "2023-08-17T03:19:42Z"
+  },
+  {
+    "title": "입만 가지고 떠드는 개발자가 ChatGPT에게 외주줘서 만든 Mysql 복제지연 모니터링 - 최정오",
+    "url": "https://www.youtube.com/watch?v=BLjWPAi47ns",
+    "publishedAt": "2023-08-21T23:49:25Z"
+  },
+  {
+    "title": "[Trailer] \"나는 네이버 프런트엔드 개발자입니다\" 출간 여정기",
+    "url": "https://www.youtube.com/watch?v=lymUTJM8zog",
+    "publishedAt": "2023-08-25T02:08:24Z"
+  },
+  {
+    "title": "flatMap만 사용하기는 그만! Reactor 오퍼레이터 파헤치기 - 최정수_NE DAY 23. 07",
+    "url": "https://www.youtube.com/watch?v=9Cm_ag3fah4",
+    "publishedAt": "2023-08-29T02:18:07Z"
+  },
+  {
+    "title": "[Trailer] 시니어 개발자가 대화형 인공지능(ChatGPT)과 페어 프로그래밍하는 법(feat. DEVIEW 2023 코드 구현하기)",
+    "url": "https://www.youtube.com/watch?v=xmfUSQ5L8cQ",
+    "publishedAt": "2023-09-11T04:24:20Z"
+  },
+  {
+    "title": "[Trailer] flatMap만 사용하기는 그만! Reactor 오퍼레이터 파헤치기",
+    "url": "https://www.youtube.com/watch?v=wsjh1MhCw_c",
+    "publishedAt": "2023-09-22T10:16:30Z"
+  },
+  {
+    "title": "[Trailer] AOP in TypeScript",
+    "url": "https://www.youtube.com/watch?v=IRp0iMGTSbQ",
+    "publishedAt": "2023-10-17T06:47:47Z"
+  },
+  {
+    "title": "[Trailer] Kafka에서 파티션 증가 없이 동시 처리량을 늘리는 방법 - Parallel Consumer",
+    "url": "https://www.youtube.com/watch?v=4rOiH7OAqog",
+    "publishedAt": "2023-10-24T00:33:28Z"
+  },
+  {
+    "title": "AI 경량화: 더 빠르고 저렴한 AI 서비스 - 백동원_NE DAY 23. 10",
+    "url": "https://www.youtube.com/watch?v=NVNCPGWe5Ss",
+    "publishedAt": "2023-10-31T02:03:21Z"
+  },
+  {
+    "title": "Local key-value 스토리지가 고민일땐 RocksDB 어때? - 이동규_NE DAY 23.10",
+    "url": "https://www.youtube.com/watch?v=NsKvCCMuJdY",
+    "publishedAt": "2023-11-06T23:47:25Z"
+  },
+  {
+    "title": "Kotlin으로 Cli를 만든다고? - 박준민 _NE DAY 23. 10",
+    "url": "https://www.youtube.com/watch?v=oFqfyjuLt88",
+    "publishedAt": "2023-11-14T01:29:35Z"
+  },
+  {
+    "title": "[Trailer] 데이터 품질 이슈로 발생하는 Data Downtime을 줄이자",
+    "url": "https://www.youtube.com/watch?v=PgGgbKU9cs4",
+    "publishedAt": "2023-11-16T05:45:40Z"
+  },
+  {
+    "title": "App Crash? 0.1초 만에 분석해 드릴게요, 고품질 고성능 Crash 분석 시스템 NCrashlytics - 김만기_NE DAY 23. 10",
+    "url": "https://www.youtube.com/watch?v=RupdskqplU8",
+    "publishedAt": "2023-11-21T02:18:05Z"
+  },
+  {
+    "title": "Terraform을 활용한 네이버 클라우드 플랫폼 IaC(Infrastructure as Code) 적용하기",
+    "url": "https://www.youtube.com/watch?v=CzeGryjIono",
+    "publishedAt": "2023-11-28T01:20:16Z"
+  },
+  {
+    "title": "Awesome Terraform Overview   HCL Deep Dive & Terraform Expansion",
+    "url": "https://www.youtube.com/watch?v=ZKFB5EmqiEU",
+    "publishedAt": "2023-11-28T01:20:19Z"
+  },
+  {
+    "title": "[Trailer] 거기 말고 이 호텔 어때? (호텔 서비스 추천 시스템 도입기)",
+    "url": "https://www.youtube.com/watch?v=LB-CU3e1wUM",
+    "publishedAt": "2023-12-01T04:05:26Z"
+  },
+  {
+    "title": "중요한 것은 사용자의 의도를 꺾지 않으려는 마음 (동시편집에서 Text.Style Operation 개선 및 Multi User Undo/Redo 구현하기)",
+    "url": "https://www.youtube.com/watch?v=CZxHd1rjJHg",
+    "publishedAt": "2023-12-05T01:52:07Z"
+  },
+  {
+    "title": "One-Source Multi-Use, 스마트플레이스 일본 진출 작업기",
+    "url": "https://www.youtube.com/watch?v=_r8Ug43AJN0",
+    "publishedAt": "2023-12-12T03:46:25Z"
+  },
+  {
+    "title": "[Trailer] AI 플랫폼을 위한 스토리지 JuiceFS 도입기",
+    "url": "https://www.youtube.com/watch?v=TmU7HqLHXVM",
+    "publishedAt": "2023-12-12T05:44:51Z"
+  },
+  {
+    "title": "[Trailer] HDFS 쓰기 파이프라인을 활용한 HBase의 WAL 쓰기 최적화",
+    "url": "https://www.youtube.com/watch?v=e2XaBwu6uIc",
+    "publishedAt": "2023-12-19T04:07:17Z"
+  },
+  {
+    "title": "[Trailer] Tech Radio🎙 네이버 사내 기술 팟캐스트 - 보안편",
+    "url": "https://www.youtube.com/watch?v=mbsM3ocEEZM",
+    "publishedAt": "2023-12-20T01:32:46Z"
+  },
+  {
+    "title": "[Trailer]  프로파일링 적용기: 당신의 Go 어플리케이션은 좀 더 나아질 수 있다",
+    "url": "https://www.youtube.com/watch?v=A51v9hBKZ_8",
+    "publishedAt": "2024-01-17T06:26:34Z"
+  },
+  {
+    "title": "[Trailer] 네이버 검색 SRE의 시계열 데이터베이스 운영기 - VictoriaMetrics로 수천만 개의 시계열 데이터 다루기",
+    "url": "https://www.youtube.com/watch?v=bRGo41XZin8",
+    "publishedAt": "2024-02-07T04:38:55Z"
+  },
+  {
+    "title": "팀 네이버 한해의 혁신 기술을 응원하는 N INNOVATION AWARD을 소개합니다.",
+    "url": "https://www.youtube.com/watch?v=Hhg3mUHCC70",
+    "publishedAt": "2024-03-04T05:31:14Z"
+  },
+  {
+    "title": "[Trailer] Virtual Thread의 기본 개념 이해하기",
+    "url": "https://www.youtube.com/watch?v=h3-joJS9gEs",
+    "publishedAt": "2024-03-05T00:57:48Z"
+  },
+  {
+    "title": "[Trailer] 일 3,000만 건의 네이버페이 주문 메시지를 처리하는 Kafka 시스템의 무중단 전환 사례",
+    "url": "https://www.youtube.com/watch?v=aAbl9jfYyR0",
+    "publishedAt": "2024-03-06T03:00:10Z"
+  },
+  {
+    "title": "[Trailer] Golang, 그대들은 어떻게 할 것인가 - 1. 들어가며",
+    "url": "https://www.youtube.com/watch?v=UykuDPeNYZI",
+    "publishedAt": "2024-03-27T06:52:45Z"
+  },
+  {
+    "title": "[Trailer] Golang, 그대들은 어떻게 할 것인가 - 2. MongoDB Go Driver 추상화",
+    "url": "https://www.youtube.com/watch?v=eaE_adsI9CM",
+    "publishedAt": "2024-03-27T07:11:48Z"
+  },
+  {
+    "title": "[Trailer] Golang, 그대들은 어떻게 할 것인가 - 3. error 래핑",
+    "url": "https://www.youtube.com/watch?v=v3jL5UJlOpI",
+    "publishedAt": "2024-03-29T10:25:04Z"
+  },
+  {
+    "title": "[Trailer] Golang, 그대들은 어떻게 할 것인가 - 4. error 핸들링",
+    "url": "https://www.youtube.com/watch?v=eWosRQYNAsE",
+    "publishedAt": "2024-03-29T10:26:19Z"
+  },
+  {
+    "title": "[Trailer] 숏클립 생성을 위한 하이라이트 검출 기술 개발기",
+    "url": "https://www.youtube.com/watch?v=joimQ-pq8D0",
+    "publishedAt": "2024-04-25T05:25:00Z"
+  },
+  {
+    "title": "[Trailer] 네이버 통합 검색의 웹 성능 - 모니터링과 성능 개선",
+    "url": "https://www.youtube.com/watch?v=BeWMHPooF78",
+    "publishedAt": "2024-04-30T07:09:26Z"
+  },
+  {
+    "title": "[Trailer] 네이버 통합 검색의 웹 성능 - 데이터 수집과 시각화",
+    "url": "https://www.youtube.com/watch?v=WfwIGMyg7D8",
+    "publishedAt": "2024-05-09T02:42:15Z"
+  },
+  {
+    "title": "[Trailer] UX 원칙에 따른 NELO 4.0 개발기",
+    "url": "https://www.youtube.com/watch?v=KYrFxYog6QY",
+    "publishedAt": "2024-05-17T06:37:26Z"
+  },
+  {
+    "title": "[특집 인터뷰] SNOW AI 세계를 흔들다!",
+    "url": "https://www.youtube.com/watch?v=kqI2kD62Gq8",
+    "publishedAt": "2024-06-05T02:57:45Z"
+  },
+  {
+    "title": "쿠버네티스 네이티브 사이드카 컨테이너 (Sidecar Containers)",
+    "url": "https://www.youtube.com/watch?v=r3CezY82EJY",
+    "publishedAt": "2024-06-05T05:10:47Z"
+  },
+  {
+    "title": "infer, never만 보면 두려워지는 당신을 위한 고급 TypeScript",
+    "url": "https://www.youtube.com/watch?v=xesy1i67OWI",
+    "publishedAt": "2024-06-07T02:52:41Z"
+  },
+  {
+    "title": "실시간 광고 사용자 ID 매핑",
+    "url": "https://www.youtube.com/watch?v=LQxAMHhWNrE",
+    "publishedAt": "2024-06-11T02:27:53Z"
+  },
+  {
+    "title": "DESIGN SYSTEM FOR Android: From Figma to Jetpack Compose",
+    "url": "https://www.youtube.com/watch?v=0ZZ9fC35-Go",
+    "publishedAt": "2024-06-13T01:23:12Z"
+  },
+  {
+    "title": "디자인시스템을 개발에서 적용 하는법",
+    "url": "https://www.youtube.com/watch?v=I5777LqYDP8",
+    "publishedAt": "2024-06-18T01:27:39Z"
+  },
+  {
+    "title": "Writing Path: MBTI J처럼 체계적으로 글쓰는 AI",
+    "url": "https://www.youtube.com/watch?v=Ct-zyRguTws",
+    "publishedAt": "2024-06-20T02:01:19Z"
+  },
+  {
+    "title": "Kubernetes에서 DNS 다루는 방법 - 도메인을 찾아서",
+    "url": "https://www.youtube.com/watch?v=1UBgSARBdBc",
+    "publishedAt": "2024-06-25T01:35:42Z"
+  },
+  {
+    "title": "보낼 로그가 1000개가 되는동안 겪었던 고민들",
+    "url": "https://www.youtube.com/watch?v=lSIB2MdpHVQ",
+    "publishedAt": "2024-06-27T05:39:03Z"
+  },
+  {
+    "title": "시간은 금이다: LLM을 이용한 AI 코드 리뷰 도입기",
+    "url": "https://www.youtube.com/watch?v=7cwFhX14nkg",
+    "publishedAt": "2024-07-02T01:50:14Z"
+  },
+  {
+    "title": "서비스 장애를 예방하는 방법: Chaos Engineering",
+    "url": "https://www.youtube.com/watch?v=U6Jyx9fzsCA",
+    "publishedAt": "2024-07-30T05:57:51Z"
+  },
+  {
+    "title": "네이버 검색 클라이언트 로그 수집   Beacon API 전환기 가로형",
+    "url": "https://www.youtube.com/watch?v=TnO2M_9VIqI",
+    "publishedAt": "2024-10-25T02:50:01Z"
+  },
+  {
+    "title": "경량화 레시피: Teacher 지식 조린 소형 모델, 근데 성능을 곁들인",
+    "url": "https://www.youtube.com/watch?v=R7v4wR89PY4",
+    "publishedAt": "2024-11-04T07:42:40Z"
+  },
+  {
+    "title": "HCX-VLM과 함께 홈피드를 더 예쁘게 바꿔보자!",
+    "url": "https://www.youtube.com/watch?v=i1WKpOIfAmI",
+    "publishedAt": "2024-11-06T02:46:39Z"
+  },
+  {
+    "title": "신규 프로젝트 Hazelcast 도입기",
+    "url": "https://www.youtube.com/watch?v=Ox2ehB8obx8",
+    "publishedAt": "2024-11-08T01:38:45Z"
+  },
+  {
+    "title": "13년 된 네이버 캘린더 안드로이드 앱, 멀티 플랫폼 기반 모듈화 적용",
+    "url": "https://www.youtube.com/watch?v=j5KbFw-jsGA",
+    "publishedAt": "2024-11-14T04:34:51Z"
+  },
+  {
+    "title": "C++에서 Kotlin, Swift 까지?! Bazel을 활용한 Android / iOS 모노레포 도입기",
+    "url": "https://www.youtube.com/watch?v=Qn5kL3IPdSM",
+    "publishedAt": "2024-11-18T06:00:30Z"
+  },
+  {
+    "title": "[UX개선 장기 로드맵] 수립기 - \"VOC많은 순\"으로만 일하지 않기 위하여",
+    "url": "https://www.youtube.com/watch?v=N6aRgKFjz0E",
+    "publishedAt": "2024-11-20T07:01:52Z"
+  },
+  {
+    "title": "타입시스템 기반 도메인 모델링 - 보이지 않는 오류를 막아라",
+    "url": "https://www.youtube.com/watch?v=6IjMx3C14ic",
+    "publishedAt": "2024-11-22T04:45:52Z"
+  },
+  {
+    "title": "대규모 AI 서비스 운영을 위한 Kubernetes GPU 클러스터 도입기",
+    "url": "https://www.youtube.com/watch?v=cUn5KjNGiuI",
+    "publishedAt": "2024-11-26T06:08:42Z"
+  },
+  {
+    "title": "일잘러 연구소: 소프트 스킬을 키우는 효과적인 방법",
+    "url": "https://www.youtube.com/watch?v=9CRfywZvs7s",
+    "publishedAt": "2024-11-28T02:37:31Z"
+  }
+]

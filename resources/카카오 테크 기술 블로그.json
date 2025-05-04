@@ -1,0 +1,1947 @@
+[
+  {
+    "domain": "tech.kakao.com",
+    "title": "kakao의 Anycast 활용 사례",
+    "url": "https://tech.kakao.com/posts/307"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "L4 장비의 동작과 서비스 배포시 유의점",
+    "url": "https://tech.kakao.com/posts/308"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "kakao의 오픈소스 Ep1 - 대용량 분산 그래프DB “S2Graph”",
+    "url": "https://tech.kakao.com/posts/309"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오스토리 팀의 코드 리뷰 도입 사례 - 코드 리뷰, 어디까지 해봤니?",
+    "url": "https://tech.kakao.com/posts/310"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "kakao의 오픈소스 Ep2 - MRTE(MySQL Realtime Traffic Emulator)",
+    "url": "https://tech.kakao.com/posts/311"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "그래, 가끔 “Vim에서” GitHub을 보자!",
+    "url": "https://tech.kakao.com/posts/312"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Monad Programming with Scala Future",
+    "url": "https://tech.kakao.com/posts/313"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Redis의 SCAN은 어떻게 동작하는가?",
+    "url": "https://tech.kakao.com/posts/314"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "kakao의 오픈소스 Ep3 - HBase Region Inspector",
+    "url": "https://tech.kakao.com/posts/315"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "DNS 기반의 Redis HA 구현",
+    "url": "https://tech.kakao.com/posts/316"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "kakao의 오픈소스 Ep4 - HBase Tools",
+    "url": "https://tech.kakao.com/posts/317"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Weekly Links #1 - 2016년 4월 첫째주",
+    "url": "https://tech.kakao.com/posts/318"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "MySQL InnoDB의 Adaptive Hash Index 활용",
+    "url": "https://tech.kakao.com/posts/319"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "모빌(MoBiL) - kakao의 모바일앱 CI/CD 플랫폼",
+    "url": "https://tech.kakao.com/posts/320"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "CLOSE_WAIT & TIME_WAIT 최종 분석",
+    "url": "https://tech.kakao.com/posts/321"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Weekly Links #2 - 2016년 4월 넷째주",
+    "url": "https://tech.kakao.com/posts/322"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "루빅스(RUBICS) - kakao의 실시간 추천 시스템",
+    "url": "https://tech.kakao.com/posts/323"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "kakao의 오픈소스 Ep5 - Almighty Data Transmitter",
+    "url": "https://tech.kakao.com/posts/324"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "ADT 활용 예제1: MySQL Shard 데이터 재분배",
+    "url": "https://tech.kakao.com/posts/325"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "개발자를 위한 SSD (Coding for SSD) - Part 1 : 목차",
+    "url": "https://tech.kakao.com/posts/326"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "개발자를 위한 SSD (Coding for SSD) - Part 2 : SSD의 아키텍처와 벤치마킹",
+    "url": "https://tech.kakao.com/posts/327"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "개발자를 위한 SSD (Coding for SSD) - Part 3 : 페이지 & 블록 & FTL(Flash Translation Layer)",
+    "url": "https://tech.kakao.com/posts/328"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "개발자를 위한 SSD (Coding for SSD) - Part 4 : 고급 기능과 내부 병렬 처리",
+    "url": "https://tech.kakao.com/posts/329"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "개발자를 위한 SSD (Coding for SSD) - Part 5 : 접근 방법과 시스템 최적화",
+    "url": "https://tech.kakao.com/posts/330"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "개발자를 위한 SSD (Coding for SSD) - Part 6 : A Summary – What every programmer should know about solid-state drives",
+    "url": "https://tech.kakao.com/posts/331"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "CODING BATTLE 가위바위보! - 못다한 이야기",
+    "url": "https://tech.kakao.com/posts/332"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오의 전사 리소스 모니터링 시스템 - KEMI(Kakao Event Metering & monItoring)",
+    "url": "https://tech.kakao.com/posts/333"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "kakao의 오픈소스 Ep6 - Cite",
+    "url": "https://tech.kakao.com/posts/334"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "RxJS - Daum영화에 적용하다",
+    "url": "https://tech.kakao.com/posts/335"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "대규모 분산 스토리지(Kage)의 발전과정",
+    "url": "https://tech.kakao.com/posts/336"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "오픈소스 간단 리뷰 - nomad : 가벼운 스케쥴러, 강력한 성능",
+    "url": "https://tech.kakao.com/posts/337"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "kakao의 오픈소스 Ep7 - CMUX: CLI에 날개를 달자!",
+    "url": "https://tech.kakao.com/posts/338"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 코드 페스티벌 예선전 이야기",
+    "url": "https://tech.kakao.com/posts/339"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 블라인드 신입 개발자 공채를 실시합니다!",
+    "url": "https://tech.kakao.com/posts/340"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Parallel Programming and Applicative in Scala",
+    "url": "https://tech.kakao.com/posts/341"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 코드 페스티벌 본선 이야기",
+    "url": "https://tech.kakao.com/posts/342"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "kakao의 오픈소스 Ep8 - hbase-packet-inspector",
+    "url": "https://tech.kakao.com/posts/343"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 신입 공채 1차 코딩 테스트 문제 해설",
+    "url": "https://tech.kakao.com/posts/344"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "분산 웹 캐시 (Wcache)의 개선과정 - Part 1",
+    "url": "https://tech.kakao.com/posts/345"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "분산 웹 캐시 (Wcache)의 개선과정 - Part 2",
+    "url": "https://tech.kakao.com/posts/346"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 신입 공채 2차 코딩 테스트 문제 해설",
+    "url": "https://tech.kakao.com/posts/347"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 신입 공채 3차 코딩 테스트 문제 해설",
+    "url": "https://tech.kakao.com/posts/348"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "NumPy와 C++ Extensions의 성능 비교",
+    "url": "https://tech.kakao.com/posts/349"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "사용하면서 알게 된 Reactor, 예제 코드로 살펴보기",
+    "url": "https://tech.kakao.com/posts/350"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "MySQL Ascending index vs Descending index",
+    "url": "https://tech.kakao.com/posts/351"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "코드 페스티벌 2018 예선전 이야기",
+    "url": "https://tech.kakao.com/posts/352"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2019 카카오 블라인드 신입 개발자 공채가 시작됩니다!",
+    "url": "https://tech.kakao.com/posts/353"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "코드 페스티벌 2018 본선 이야기",
+    "url": "https://tech.kakao.com/posts/354"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2019 카카오 신입 공채 1차 코딩 테스트 문제 해설",
+    "url": "https://tech.kakao.com/posts/355"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "if kakao 2018 동영상을 공개합니다.",
+    "url": "https://tech.kakao.com/posts/356"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2019 카카오 블라인드 공채 2차 오프라인 코딩 테스트 문제 해설",
+    "url": "https://tech.kakao.com/posts/357"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "kakao의 오픈소스 Ep9 - Khaiii : 카카오의 딥러닝 기반 형태소 분석기",
+    "url": "https://tech.kakao.com/posts/358"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "문제 해결을 위한 머신러닝 오픈 플랫폼, 카카오 아레나",
+    "url": "https://tech.kakao.com/posts/359"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "kubernetes를 이용한 서비스 무중단 배포",
+    "url": "https://tech.kakao.com/posts/360"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 아레나 2회 대회",
+    "url": "https://tech.kakao.com/posts/361"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "참여 후기: Open Infrastructure & Cloud Native Days Korea 2019",
+    "url": "https://tech.kakao.com/posts/362"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "if(kakao) 개발자 컨퍼런스 2019에 여러분을 초대합니다.",
+    "url": "https://tech.kakao.com/posts/363"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "GraphQL 개념잡기",
+    "url": "https://tech.kakao.com/posts/364"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "kakao Tech 개편 안내",
+    "url": "https://tech.kakao.com/posts/365"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "KafkaKRU(Kafka 한국사용자 모임) 제3회 미니밋업",
+    "url": "https://tech.kakao.com/posts/366"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2020 신입 개발자 블라인드 채용 1차 코딩 테스트 문제 해설",
+    "url": "https://tech.kakao.com/posts/367"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2020 카카오 블라인드 공채 2차 오프라인 코딩 테스트 문제 해설",
+    "url": "https://tech.kakao.com/posts/368"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "kakao FE(Front end) meetup",
+    "url": "https://tech.kakao.com/posts/369"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "브라이언, 카카오의 다음 성장동력은 무엇인가요?",
+    "url": "https://tech.kakao.com/posts/370"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "kakao FE(Front end) meetup, 1st",
+    "url": "https://tech.kakao.com/posts/371"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "프렌즈타임 웹앱 삽질기",
+    "url": "https://tech.kakao.com/posts/372"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오커머스를 지탱하는 Angular",
+    "url": "https://tech.kakao.com/posts/373"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "바닥부터 시작하는 Vue 컴포넌트 테스트",
+    "url": "https://tech.kakao.com/posts/374"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "ESLint 조금 더 잘 활용하기",
+    "url": "https://tech.kakao.com/posts/375"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 서버 개발자 Bob의 성장기",
+    "url": "https://tech.kakao.com/posts/376"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "질병관리본부 챗봇 만들기",
+    "url": "https://tech.kakao.com/posts/377"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오가 신입 개발자 크루를 맞이하는 법",
+    "url": "https://tech.kakao.com/posts/378"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오의 신입 개발자 온보딩 과정 - 개발자로 거듭나기",
+    "url": "https://tech.kakao.com/posts/379"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "두 달 간의 신입 개발자 온보딩 과정을 돌아보며  - 신입 개발자들과의 인터뷰",
+    "url": "https://tech.kakao.com/posts/380"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2019 카카오 개발자 겨울 인턴십 코딩 테스트 문제 해설",
+    "url": "https://tech.kakao.com/posts/381"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "vivi의 카카오 겨울 개발자 인턴십 성장기",
+    "url": "https://tech.kakao.com/posts/382"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "fred의 카카오 겨울 인턴십을 돌아보며",
+    "url": "https://tech.kakao.com/posts/383"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "서버 개발 인턴 robin의 성장기",
+    "url": "https://tech.kakao.com/posts/384"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "멜론에서 음악 추천을 어떻게 할까? – 카카오 아레나 3회 대회(Part.1)",
+    "url": "https://tech.kakao.com/posts/385"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "멜론 플레이리스트 데이터 탐색 – 카카오 아레나 3회 대회(Part.2)",
+    "url": "https://tech.kakao.com/posts/386"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "코로나19를 이기는 슬기로운 지도생활, 카카오맵",
+    "url": "https://tech.kakao.com/posts/387"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "서비스 개발의 시작 - 클라우드플랫폼팀 이야기",
+    "url": "https://tech.kakao.com/posts/388"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오와 사용자의 첫 만남을 함께하는 ‘FE플랫폼팀 이야기’",
+    "url": "https://tech.kakao.com/posts/389"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "실시간 댓글 개발기(part.1) - DAU 60만 Alex 댓글의 실시간 댓글을 위한 이벤트 기반 아키텍처",
+    "url": "https://tech.kakao.com/posts/390"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "실시간 댓글 개발기(part.2) -  험난했지만 유익했던 웹소켓 스트레스 테스트 및 안정화 작업",
+    "url": "https://tech.kakao.com/posts/391"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "실시간 댓글 개발기(part.3) - Spring의 동시성 접근 제어에 발목 잡힌 이야기",
+    "url": "https://tech.kakao.com/posts/392"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "데이터를 기반으로 새로운 경험을 선사하는 추천팀 이야기",
+    "url": "https://tech.kakao.com/posts/393"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Cgroup Driver 선택하기",
+    "url": "https://tech.kakao.com/posts/394"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2020 카카오 인턴십 for Tech developers 문제해설",
+    "url": "https://tech.kakao.com/posts/395"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "인증아이템 : 카카오크루의 모바일사원증",
+    "url": "https://tech.kakao.com/posts/396"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오톡의 백엔드를 담당하는    '톡플랫폼개발팀' 이야기",
+    "url": "https://tech.kakao.com/posts/397"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 개발자가 카카오스럽게 일하는 방법 - 애자일코치파트",
+    "url": "https://tech.kakao.com/posts/398"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "다양한 서비스와 소통이 함께하는 '콘텐츠서비스개발팀' 이야기",
+    "url": "https://tech.kakao.com/posts/399"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 신입 공채가 들려주는 공채 이야기",
+    "url": "https://tech.kakao.com/posts/400"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2020 신입 개발자 Oli가 말하는 \"내가 DBA를 선택한 이유\"",
+    "url": "https://tech.kakao.com/posts/401"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "입사 후 6개월 동안 달라진 것들 - 2020 신입 온보딩 과정 그 후의 이야기",
+    "url": "https://tech.kakao.com/posts/402"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "포커, 어디까지 쳐봤니 - 서비스 개발에 플래닝 포커 도입 사례 (feat. 원격근무)",
+    "url": "https://tech.kakao.com/posts/403"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "FE플랫폼팀이 궁금하세요? - 함께 성장해가는 개발팀 이야기",
+    "url": "https://tech.kakao.com/posts/404"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오가 카카오 아레나를 하는 이유",
+    "url": "https://tech.kakao.com/posts/405"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "if(kakao)2020 코멘터리 01 : 카카오톡 캐싱 시스템의 진화 — Kubernetes와 Redis를 이용한 캐시 팜 구성",
+    "url": "https://tech.kakao.com/posts/406"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "if(kakao)2020 코멘터리 02 : Klaytn, Caver, KAS 가 만들어가는 쉽고 빠른 BApp 개발 환경",
+    "url": "https://tech.kakao.com/posts/407"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "if(kakao)2020 코멘터리 03 : Klip App2App API를 활용한 데모 앱 개발기",
+    "url": "https://tech.kakao.com/posts/408"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "FE개발자의 성장 스토리 01 : Judy, 첫 컨퍼런스에 가다(feat. JSConf korea 2020)",
+    "url": "https://tech.kakao.com/posts/409"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "if (kakao)2020 기술 세션 다시보기",
+    "url": "https://tech.kakao.com/posts/410"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "데이터 엔지니어링이란",
+    "url": "https://tech.kakao.com/posts/411"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "FE개발자의 성장 스토리 02 : Babel7과 corejs3 설정으로 전역 오염 없는 폴리필 사용하기",
+    "url": "https://tech.kakao.com/posts/412"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "FE개발자의 성장 스토리 03 : 카카오 어드민 UI 컴포넌트를 모노레포로 개발하여 얻은 것들",
+    "url": "https://tech.kakao.com/posts/413"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 서비스의 모든 시스템과 트래픽을 책임지는  ‘인프라팀’ 이야기",
+    "url": "https://tech.kakao.com/posts/414"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "세상의 모든 비즈니스를 완성하는 카카오톡채널 ‘비즈 클라이언트 개발’ 이야기",
+    "url": "https://tech.kakao.com/posts/415"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 크루의 일상을 더 이롭게 만드는  ‘플랫폼기술팀' 이야기",
+    "url": "https://tech.kakao.com/posts/416"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "FE개발자의 성장 스토리 04 : 공동체 FE 온라인 세션 후기",
+    "url": "https://tech.kakao.com/posts/417"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "FE개발자의 성장 스토리 05 : 의존관계를 이용해 구조적 리팩토링 포인트 찾기",
+    "url": "https://tech.kakao.com/posts/418"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "증오발언 근절을 위한 카카오의 원칙",
+    "url": "https://tech.kakao.com/posts/419"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2021 카카오 신입공채 1차 온라인 코딩 테스트 for Tech developers 문제해설",
+    "url": "https://tech.kakao.com/posts/420"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "FE개발자의 성장 스토리 06 : 2021년 Chrome의 새로운 변화 - Schemeful same-site을 대응하자",
+    "url": "https://tech.kakao.com/posts/421"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "드루와 드루와!! 카카오톡 개발자의 신년대응 스토리",
+    "url": "https://tech.kakao.com/posts/422"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2021 카카오 신입공채 2차 온라인 코딩 테스트 for Tech developers 문제해설",
+    "url": "https://tech.kakao.com/posts/423"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Olive Platform : 카카오에서 제공하는 오픈소스 관리 서비스",
+    "url": "https://tech.kakao.com/posts/424"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "FE개발자의 성장 스토리 07 : 100초 안에 FE플랫폼팀 파헤치기",
+    "url": "https://tech.kakao.com/posts/425"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Kubernetes의 네트워크 이슈를 해결할 수 있는 network-node-manager",
+    "url": "https://tech.kakao.com/posts/426"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "kakao Career Boost Program for Cloud - 클라우드 하고 싶지만, 잘 모르겠는 분 얼른 오세요!!!!",
+    "url": "https://tech.kakao.com/posts/427"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 AI 추천을 소개합니다.",
+    "url": "https://tech.kakao.com/posts/428"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오가 하면 다르다 - 코로나 시대 신입 개발자 언택트 온보딩",
+    "url": "https://tech.kakao.com/posts/429"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "온라인으로만 온보딩하기 - 카카오가 이걸 해냅니다",
+    "url": "https://tech.kakao.com/posts/430"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "뉴크루 온보딩 코드 리뷰어로 참여하기  - 카카오는 주니어와 함께 성장합니다.",
+    "url": "https://tech.kakao.com/posts/431"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 사내 기술 세미나 ‘Techtalk’  - 첫 번째 이야기",
+    "url": "https://tech.kakao.com/posts/432"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2021년 여름! 카카오 인턴십과 함께해야 할 특별한 이유 5가지",
+    "url": "https://tech.kakao.com/posts/433"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 사내 기술 세미나 ‘Techtalk’ – 두 번째 이야기",
+    "url": "https://tech.kakao.com/posts/434"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "5년 차 개발자의 카카오 적응기",
+    "url": "https://tech.kakao.com/posts/435"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오맵이 빠르게 길을 찾아주는 방법: CCH를 이용한 개편기",
+    "url": "https://tech.kakao.com/posts/436"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 사내 기술 세미나 ‘Techtalk’ – 세 번째 이야기",
+    "url": "https://tech.kakao.com/posts/437"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "FE개발자의 성장 스토리 08 : WebAssembly 개발기",
+    "url": "https://tech.kakao.com/posts/438"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 AI추천 : 카카오페이지와 멜론으로 살펴보는 카카오 연관 추천",
+    "url": "https://tech.kakao.com/posts/439"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "뉴크루의 카카오 백엔드 개발자 이야기",
+    "url": "https://tech.kakao.com/posts/440"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 사내 기술 세미나 ‘Techtalk’ – 네 번째 이야기",
+    "url": "https://tech.kakao.com/posts/441"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "FE개발자의 성장 스토리 09 : Offscreencanvas 적용기",
+    "url": "https://tech.kakao.com/posts/442"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 사내 기술 세미나 ‘Techtalk’ – 다섯 번째 이야기",
+    "url": "https://tech.kakao.com/posts/443"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "FE개발자의 성장 스토리 10 : 주니어 FE 개발자 오픈소스 성장기",
+    "url": "https://tech.kakao.com/posts/444"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 AI추천 : 토픽 모델링과 MAB를 이용한 카카오 개인화 추천",
+    "url": "https://tech.kakao.com/posts/445"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "OpenWork, 카카오의 일하는 방식",
+    "url": "https://tech.kakao.com/posts/446"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Open Work를 향한 작은 노력들 : 조직의 작은 변화 만들기",
+    "url": "https://tech.kakao.com/posts/447"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2021 카카오 인턴십 for Tech developers 코딩 테스트 해설",
+    "url": "https://tech.kakao.com/posts/448"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "실용주의 데브옵스 for MSA",
+    "url": "https://tech.kakao.com/posts/449"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[카.올.시.]  Android 개발자라면 카카오에 올 시간입니다.",
+    "url": "https://tech.kakao.com/posts/450"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[카.올.시.]  Front-End 개발자라면 카카오에 올 시간입니다.",
+    "url": "https://tech.kakao.com/posts/451"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Generative Adversarial Networks를 이용한 Nickface 개발",
+    "url": "https://tech.kakao.com/posts/452"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "FE개발자의 성장 스토리 11 : Electron, 저도 한번 해보겠습니다.",
+    "url": "https://tech.kakao.com/posts/453"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Techtalk - 음(mm)으로 시작하는 크고 작은 '개발' 이야기",
+    "url": "https://tech.kakao.com/posts/454"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "브라우저 Web Worker 다루기  with 오피스 문서 텍스트 추출 및 암호해제",
+    "url": "https://tech.kakao.com/posts/455"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "오픈소스 라이선스 변화의 흐름",
+    "url": "https://tech.kakao.com/posts/456"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "이모티콘 서비스는 왜 MSA를 선택했나?",
+    "url": "https://tech.kakao.com/posts/457"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Mocking으로 생산성까지 챙기는 FE 개발",
+    "url": "https://tech.kakao.com/posts/458"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Kubernetes에 컨트리뷰션 하는 아주 자세한 방법을 알려드립니다.",
+    "url": "https://tech.kakao.com/posts/459"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2021 카카오 여름 인턴십  (feat. 톡플랫폼개발팀)",
+    "url": "https://tech.kakao.com/posts/460"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Spark Shuffle Partition과 최적화",
+    "url": "https://tech.kakao.com/posts/461"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "문과생에서 서버 개발자 jaylene이 되기까지",
+    "url": "https://tech.kakao.com/posts/462"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 AI추천 : 협업 필터링 모델 선택 시의 기준에 대하여",
+    "url": "https://tech.kakao.com/posts/463"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "240 X kakao Meet Up 후기",
+    "url": "https://tech.kakao.com/posts/464"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Grace Hopper Celebration 참가기",
+    "url": "https://tech.kakao.com/posts/465"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2021 뉴크루의 인턴십 성장기",
+    "url": "https://tech.kakao.com/posts/466"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "if (kakao) 2021, Developers Recap",
+    "url": "https://tech.kakao.com/posts/467"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "if(kakao)2021 - 카카오 애자일상담소를 찾아주세요.",
+    "url": "https://tech.kakao.com/posts/468"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Preview AI(1) @if(kakao)2021",
+    "url": "https://tech.kakao.com/posts/469"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "charlie의 추천팀 인턴 생활기",
+    "url": "https://tech.kakao.com/posts/470"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Preview AI(2) @if(kakao)2021",
+    "url": "https://tech.kakao.com/posts/471"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Preview Back-end @if(kakao)2021",
+    "url": "https://tech.kakao.com/posts/472"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Preview BlockChain @if(kakao)2021",
+    "url": "https://tech.kakao.com/posts/473"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Preview Cloud_1 @if(kakao)2021",
+    "url": "https://tech.kakao.com/posts/474"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Preview Cloud_2 @if(kakao)2021",
+    "url": "https://tech.kakao.com/posts/475"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Preview Data @if(kakao)2021",
+    "url": "https://tech.kakao.com/posts/476"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Preview Web, Mobile @if(kakao)2021",
+    "url": "https://tech.kakao.com/posts/477"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Preview General @if(kakao)2021",
+    "url": "https://tech.kakao.com/posts/478"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "테스트 코드 한 줄을 작성하기까지의 고난",
+    "url": "https://tech.kakao.com/posts/479"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 비즈인프라FE파트 개발자는 어떻게 일할까? - 기술편",
+    "url": "https://tech.kakao.com/posts/480"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 비즈인프라FE파트 개발자는 어떻게 일할까? - 업무&문화편",
+    "url": "https://tech.kakao.com/posts/481"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "if(kakao)2021 - 고민보다?Code Game",
+    "url": "https://tech.kakao.com/posts/482"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "나의 페어 프로그래밍 탐험기",
+    "url": "https://tech.kakao.com/posts/483"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Kubernetes 운영을 위한 etcd 기본 동작 원리의 이해",
+    "url": "https://tech.kakao.com/posts/484"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 개발자들을  위한 공용 Message Streaming Platform - Kafka & RabbitMQ",
+    "url": "https://tech.kakao.com/posts/485"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 AI추천 : 카카오의 콘텐츠 기반 필터링 (Content-based Filtering in Kakao)",
+    "url": "https://tech.kakao.com/posts/486"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "if(kakao)2021 – 카카오 애자일상담소를 통해 얻은 교훈",
+    "url": "https://tech.kakao.com/posts/487"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2022 카카오 신입 공채 1차 온라인 코딩테스트 for Tech developers 문제해설",
+    "url": "https://tech.kakao.com/posts/488"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "AQE: Coalescing Post Shuffle Partitions",
+    "url": "https://tech.kakao.com/posts/489"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2022 카카오 신입 공채 2차 온라인 코딩 테스트 for Tech developers 문제해설",
+    "url": "https://tech.kakao.com/posts/490"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "쿠버네티스에 레디스 캐시 클러스터 구축기",
+    "url": "https://tech.kakao.com/posts/491"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "FE개발자의 성장 스토리 12 : Angular E2E 테스팅 경험기",
+    "url": "https://tech.kakao.com/posts/492"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2022, 카카오를 움직일 그들이 온다 (feat. 2022 신입 개발자 온보딩)",
+    "url": "https://tech.kakao.com/posts/493"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "성장할 수밖에 없었던 2022 신입 공채 FE 크루들의 기술 온보딩 이야기",
+    "url": "https://tech.kakao.com/posts/494"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2022 신입 공채 Android 직무 기술 온보딩 회고",
+    "url": "https://tech.kakao.com/posts/495"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2022 신입 공채 iOS 기술 온보딩을 소개합니다.",
+    "url": "https://tech.kakao.com/posts/496"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2022 신입 공채 서버 뉴크루들의 기술 온보딩 이야기",
+    "url": "https://tech.kakao.com/posts/497"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "효과적인 코드리뷰를 위한 리뷰어의 자세",
+    "url": "https://tech.kakao.com/posts/498"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[Ka-reer Up!] 클라이언트팀 iOS개발자로 지원해야 할 4가지 이유!",
+    "url": "https://tech.kakao.com/posts/499"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[Ka-reer Up!] 카카오 광고의 중심에 함께 할 Android 개발자를 기다립니다!",
+    "url": "https://tech.kakao.com/posts/500"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[Ka-reer Up!] 서비스와 개발자가 함께 성장하는 카카오 FE플랫폼팀입니다.",
+    "url": "https://tech.kakao.com/posts/501"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[Ka-reer Up!] 글을 읽고 쓰는 경험을 제공하는 창작자앱개발파트 이야기",
+    "url": "https://tech.kakao.com/posts/502"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[Ka-reer Up!] 카카오 콘텐츠의 시작 “카카오 하모니\" 하모니개발파트 이야기",
+    "url": "https://tech.kakao.com/posts/503"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "SUAPC 2022 Winter",
+    "url": "https://tech.kakao.com/posts/504"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2022년 여름! 카카오 인턴십과 함께해야 할 특별한 이유 5가지",
+    "url": "https://tech.kakao.com/posts/505"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "제네시스 - 광고추천팀의 카프카 기반 스트리밍 데이터 플랫폼",
+    "url": "https://tech.kakao.com/posts/506"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "APEACH - 혐오 발화 평가데이터를 만드는 새로운 방법",
+    "url": "https://tech.kakao.com/posts/507"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Client 기술, 어떤 직무가 나에게 딱 맞을까?",
+    "url": "https://tech.kakao.com/posts/508"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오의 Server 개발자가 된다면?",
+    "url": "https://tech.kakao.com/posts/509"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오의 Data는 어떻게 다를까?",
+    "url": "https://tech.kakao.com/posts/510"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Infra, 어떤 업무를 하게되나요?",
+    "url": "https://tech.kakao.com/posts/511"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2022 kakao Tech Internship  FAQ",
+    "url": "https://tech.kakao.com/posts/512"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "서비스 개발의 시작 - 클라우드플랫폼팀 이야기",
+    "url": "https://tech.kakao.com/posts/513"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[안내] kakao Career Boost Program for Cloud - 클라우드 하고 싶지만, 잘 모르겠는 분 얼른 오세요!",
+    "url": "https://tech.kakao.com/posts/514"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "kakao Career Boost Program for Cloud 참여 후기",
+    "url": "https://tech.kakao.com/posts/515"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오엔터프라이즈가 GitHub Actions를 사용하는 이유",
+    "url": "https://tech.kakao.com/posts/516"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오로 간 이론물리학자",
+    "url": "https://tech.kakao.com/posts/517"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "내가 하면 더 잘 만들 것 같아서 만들어 본 세상 귀여운 on-demand Atomic CSS Library. -Part.1",
+    "url": "https://tech.kakao.com/posts/518"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "내가 하면 더 잘 만들 것 같아서 만들어 본 세상 귀여운 on-demand Atomic CSS Library. -Part.2",
+    "url": "https://tech.kakao.com/posts/519"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 AI추천 : 카카오 음악 추천을 경험해보고 싶다면? Melon Playlist Dataset (feats. Kakao Arena)",
+    "url": "https://tech.kakao.com/posts/520"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Swift Package Manager 적용기",
+    "url": "https://tech.kakao.com/posts/521"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "오픈소스 검증 도구: OLIVE CLI 소개",
+    "url": "https://tech.kakao.com/posts/522"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "My구독의 React Query 전환기",
+    "url": "https://tech.kakao.com/posts/523"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "최고의 광고추천 서비스를 개발하는 카카오 광고추천팀을 소개합니다.",
+    "url": "https://tech.kakao.com/posts/524"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 생태계에서 발생하는 모든 데이터를 다루는 카카오 응용분석팀이 답해드립니다.",
+    "url": "https://tech.kakao.com/posts/525"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "데이터를 모으고 정보를 찾아내는 플랫폼을 만드는 카카오 데이터정보플랫폼팀입니다.",
+    "url": "https://tech.kakao.com/posts/526"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "'AI 추천 기술'을 선도하는 카카오 추천팀을 소개합니다.",
+    "url": "https://tech.kakao.com/posts/527"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "서버 개발자를 위한 운영툴 개발",
+    "url": "https://tech.kakao.com/posts/528"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "전자증명서 리액트 페이지 및 레이어 동적 라우팅",
+    "url": "https://tech.kakao.com/posts/529"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2022 테크 여름인턴십 코딩테스트 해설",
+    "url": "https://tech.kakao.com/posts/530"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "TSDB as a Service, TSCoke 개발기",
+    "url": "https://tech.kakao.com/posts/531"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Object Storage 구현을 위한 분산 Radix Tree",
+    "url": "https://tech.kakao.com/posts/532"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "신입 개발자라면, 카카오에 주목해야 하는 이유?! (feat. 2023 카카오 신입 개발자 블라인드 채용)",
+    "url": "https://tech.kakao.com/posts/533"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[get Server!] 카카오 비즈니스의 중심 공통플랫폼 개발파트",
+    "url": "https://tech.kakao.com/posts/534"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[get Server!] 광고개발팀 소개",
+    "url": "https://tech.kakao.com/posts/535"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[get Server!] 서비스와 개발자가 함께 성장하는 카카오 커머스플랫폼개발팀입니다.",
+    "url": "https://tech.kakao.com/posts/536"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[get Server!] [커머스CIC] 채널개발파트 소개 드려요!",
+    "url": "https://tech.kakao.com/posts/537"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[get Server!] 비즈플랫폼 개발팀에서 새로운 동료들을 애타게 찾고 있습니다.",
+    "url": "https://tech.kakao.com/posts/538"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "데이터 직무 찍먹하기!",
+    "url": "https://tech.kakao.com/posts/539"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 해커톤 24K reunion: Come back to Play!",
+    "url": "https://tech.kakao.com/posts/540"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[겨울인턴십 설명회] Data Platform Engineering(DB엔지니어링 / 하둡엔지니어링파트)",
+    "url": "https://tech.kakao.com/posts/541"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[겨울인턴십 설명회] ML, 통계 분야(응용분석 / 광고추천팀)",
+    "url": "https://tech.kakao.com/posts/542"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[post Server!] 당신의 상상은 현실이 된다! 계정플랫폼팀으로 어서 오세요~",
+    "url": "https://tech.kakao.com/posts/543"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[post Server!] 톡 안의 신분 증명, 카카오 지갑",
+    "url": "https://tech.kakao.com/posts/544"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[post Server!] 카카오의 유일한 SNS 카카오스토리와 신규 기록 서비스를 함께 만들어 나갈 동료를 찾습니다!",
+    "url": "https://tech.kakao.com/posts/545"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[post Server!] 포털개발팀에서 최고의 포털 서비스와 검색 서비스를 만들어 갈 동료를 찾고 있습니다.",
+    "url": "https://tech.kakao.com/posts/546"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[post Server!] 인증서개발파트에서 함께 개발하실 동료를 찾고 있습니다!",
+    "url": "https://tech.kakao.com/posts/547"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[post Server! ] 카카오 뷰와 동영상 서비스를 맡고 있는 뷰개발팀에서 함께 할 동료를 찾습니다.",
+    "url": "https://tech.kakao.com/posts/548"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[post Server!] 브런치개발파트에 대한 모든 것!",
+    "url": "https://tech.kakao.com/posts/549"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "(참여후기) 2022 부산대학교 정보컴퓨터공학부 산학교류회",
+    "url": "https://tech.kakao.com/posts/550"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "if kakao 2022 개발자 컨퍼런스를 개최합니다.",
+    "url": "https://tech.kakao.com/posts/551"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "if(kakao)dev 2022, 1일차 안내",
+    "url": "https://tech.kakao.com/posts/552"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "if(kakao)dev 2022, 2일차 안내",
+    "url": "https://tech.kakao.com/posts/553"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "if(kakao)dev 2022, 3일차 안내",
+    "url": "https://tech.kakao.com/posts/554"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "추천팀의 DDD 도입기",
+    "url": "https://tech.kakao.com/posts/555"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 자체 개발 하둡 플랫폼, Kakao Hadoop Platform(KHP)",
+    "url": "https://tech.kakao.com/posts/556"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "KHP 하둡 배포판 릴리즈 관리하기(feat. khp-package)",
+    "url": "https://tech.kakao.com/posts/557"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "AAAP - 작업환경 as a Service 개발기",
+    "url": "https://tech.kakao.com/posts/558"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "KHP 모니터링과 알림 - 1부",
+    "url": "https://tech.kakao.com/posts/559"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "KHP 모니터링과 알림 - 2부",
+    "url": "https://tech.kakao.com/posts/560"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "주니어의 시선에서 바라본 빅데이터 클러스터 이사과정 - Pojang24 개발기",
+    "url": "https://tech.kakao.com/posts/561"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "참여 후기: 한국소프트웨어종합학술대회 (KSC2022)",
+    "url": "https://tech.kakao.com/posts/562"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Promise는 왜 취소가 안 될까?",
+    "url": "https://tech.kakao.com/posts/563"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카프카 커넥트를 데이터 파이프라인으로 사용하는 이유? kafka-sink-connector 오픈소스 언빡싱!",
+    "url": "https://tech.kakao.com/posts/564"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "주니어 개발자의 우여곡절 소셜로그인 도입 과정",
+    "url": "https://tech.kakao.com/posts/565"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오톡 Java App Server Refactoring 후기",
+    "url": "https://tech.kakao.com/posts/566"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2023 카카오 신입 공채 1차 온라인 코딩 테스트 for Tech developers 문제해설",
+    "url": "https://tech.kakao.com/posts/567"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2023 카카오 신입 공채 2차 온라인 코딩 테스트 for Tech developers 문제해설",
+    "url": "https://tech.kakao.com/posts/568"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "대학생 멘토링: 우물 밖 내다보기",
+    "url": "https://tech.kakao.com/posts/569"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "쿠버네티스 프로비저닝 툴과의 만남부터 헤어짐까지 . . .",
+    "url": "https://tech.kakao.com/posts/570"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "파이썬과 러스트",
+    "url": "https://tech.kakao.com/posts/571"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "if(newKrew2023) onBoarding.start()",
+    "url": "https://tech.kakao.com/posts/572"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오의 신입 FE 개발자는 어떤 기술 교육을 받을까 (feat. 2023 신입 개발자 블라인드 채용)",
+    "url": "https://tech.kakao.com/posts/573"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2023 카카오 신입 공채 iOS 온보딩 회고",
+    "url": "https://tech.kakao.com/posts/574"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2023 신입 공채 Android 뉴크루들의 항해 일지 (직무 기술 온보딩 회고)",
+    "url": "https://tech.kakao.com/posts/575"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2023, 카카오 신입공채 온보딩의 모든 것",
+    "url": "https://tech.kakao.com/posts/576"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "구름과 카카오가 함께한 다섯 번째 구름톤 후기 (1편)",
+    "url": "https://tech.kakao.com/posts/577"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "제1회 kakao tech meet에 초대합니다!",
+    "url": "https://tech.kakao.com/posts/578"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "제1회 kakao tech meet 발표자와 발표 내용을 소개합니다!",
+    "url": "https://tech.kakao.com/posts/579"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "구름과 카카오가 함께한 다섯 번째 구름톤 후기 (2편)",
+    "url": "https://tech.kakao.com/posts/580"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "제1회 Kakao Tech Meet 후기",
+    "url": "https://tech.kakao.com/posts/581"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "ChatGPT로 달라진 개발자의 일상 / 제1회 kakao tech meet",
+    "url": "https://tech.kakao.com/posts/582"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "실전! 인공지능 챗봇 개발 / 제1회 kakao tech meet",
+    "url": "https://tech.kakao.com/posts/583"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Nocode, Serverless cloud Services for Generative AI : monokode stein / 제1회 kakao tech meet",
+    "url": "https://tech.kakao.com/posts/584"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "언어모델의 원리와 만들기",
+    "url": "https://tech.kakao.com/posts/585"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "FE 성능개선기 1부: 주문하기",
+    "url": "https://tech.kakao.com/posts/586"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "FE 성능개선기 2부: 카카오 비즈니스폼",
+    "url": "https://tech.kakao.com/posts/587"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "오픈소스 도전기(feat. Clymene 프로젝트, 공개SW 개발자 대회)",
+    "url": "https://tech.kakao.com/posts/588"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "제2회 kakao tech meet에 초대합니다!",
+    "url": "https://tech.kakao.com/posts/589"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "KCC 2023 후기 (1) 학회 스케치와 참여 소감",
+    "url": "https://tech.kakao.com/posts/590"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "오픈소스는 저희에게 맡겨주세요! OpenChain Korea Work Group 모임 후기",
+    "url": "https://tech.kakao.com/posts/591"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "KCC 2023 후기 (2) 카카오 크루들과 함께",
+    "url": "https://tech.kakao.com/posts/592"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오의 Next AI를 만들어가는 경험톤&해커톤(24K)",
+    "url": "https://tech.kakao.com/posts/593"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "제2회 카카오테크밋 후기 - Open, Share and Grow Together",
+    "url": "https://tech.kakao.com/posts/594"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오톡 Java App Server Refactoring 후기 / 제2회 Kakao Tech Meet",
+    "url": "https://tech.kakao.com/posts/595"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Spring Batch 애플리케이션 성능 향상을 위한 주요 팁 / 제2회 Kakao Tech Meet",
+    "url": "https://tech.kakao.com/posts/596"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "애자일로 개발하면 빨리 끝난다던데? / 제2회 Kakao Tech Meet",
+    "url": "https://tech.kakao.com/posts/597"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "제3회 Kakao Tech Meet에 초대합니다!",
+    "url": "https://tech.kakao.com/posts/598"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Trident: 딥러닝 모델 개발을 위한 도구",
+    "url": "https://tech.kakao.com/posts/599"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오 안정성 보고서(Kakao Reliability Report) 발간",
+    "url": "https://tech.kakao.com/posts/600"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "제3회 Kakao Tech Meet 후기 - 불확정성에서 감동까지",
+    "url": "https://tech.kakao.com/posts/601"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "신뢰성 있는 카프카 애플리케이션을 만드는 3가지 방법 / 제3회 Kakao Tech Meet",
+    "url": "https://tech.kakao.com/posts/602"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "폭증하는 카카오톡 트래픽에 대처하는 방법 / 제3회 Kakao Tech Meet",
+    "url": "https://tech.kakao.com/posts/603"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "DKAPTCHA: 지도 이미지와 음성을 활용한 어뷰징 방지 전략 / 제3회 Kakao Tech Meet",
+    "url": "https://tech.kakao.com/posts/604"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "CommonJS에서 ESM으로 전환하기",
+    "url": "https://tech.kakao.com/posts/605"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2024 카카오 채용 연계형 겨울 인턴십 Coming soon!",
+    "url": "https://tech.kakao.com/posts/606"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "제4회 Kakao Tech Meet에 초대합니다!",
+    "url": "https://tech.kakao.com/posts/607"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "JDK 21의 신기능 Virtual Thread 알아보기 / 제4회 Kakao Tech Meet",
+    "url": "https://tech.kakao.com/posts/608"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "큐라스: 메시지 광고 추천 플랫폼 / 제4회 Kakao Tech Meet",
+    "url": "https://tech.kakao.com/posts/609"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2024 카카오 겨울 인턴십 코딩테스트 문제해설",
+    "url": "https://tech.kakao.com/posts/610"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "OROR Forge: Figma to Code 도구 제작기 (1) 디자인을 코드로 만들어보자!",
+    "url": "https://tech.kakao.com/posts/611"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "OROR Forge: Figma to Code 도구 제작기 (2) 실전용으로 만들기",
+    "url": "https://tech.kakao.com/posts/612"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "테크밋 다시 달릴 준비!",
+    "url": "https://tech.kakao.com/posts/613"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "제5회 Kakao Tech Meet에 초대합니다!",
+    "url": "https://tech.kakao.com/posts/614"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[Phocus] 사용자 경험 중심 스벨트 이미지 뷰어 라이브러리 / 제5회 Kakao Tech Meet",
+    "url": "https://tech.kakao.com/posts/615"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "웹 텍스트 에디터 개발에 필요한 고민과 신규 에디터 소개 / 제5회 Kakao Tech Meet",
+    "url": "https://tech.kakao.com/posts/616"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Chrome Devtools를 활용하여 나만의 웹뷰 디버깅 환경 만들기 / 제5회 Kakao Tech Meet",
+    "url": "https://tech.kakao.com/posts/617"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Golang GC 튜닝 가이드",
+    "url": "https://tech.kakao.com/posts/618"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "제6회 Kakao Tech Meet에 초대합니다!",
+    "url": "https://tech.kakao.com/posts/619"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "구름톤유니브 2기 벚꽃톤! 현장 스케치",
+    "url": "https://tech.kakao.com/posts/620"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "KCC2024 “Kakao Tech Workshop”에서 만나요!",
+    "url": "https://tech.kakao.com/posts/621"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "코틀린을 활용한 안전한 효과 처리",
+    "url": "https://tech.kakao.com/posts/622"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "이미지 분류 모델 개발, 아직도 데이터만 기다려?",
+    "url": "https://tech.kakao.com/posts/623"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오의 스팸 메일 대응 전략: 문자열 변형 CASE STUDY / 제6회 Kakao Tech Meet",
+    "url": "https://tech.kakao.com/posts/624"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "이미지 기반 스팸 대응을 위한 카카오의 AI 기술 활용 / 제6회 Kakao Tech Meet",
+    "url": "https://tech.kakao.com/posts/625"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "스팸 콘텐츠 대응을 위한 카카오의 대규모 언어 모델(LLM) 도입 사례 / 제6회 Kakao Tech Meet",
+    "url": "https://tech.kakao.com/posts/626"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "주니어 FE 개발자의 색상 추출 라이브러리 개발기",
+    "url": "https://tech.kakao.com/posts/627"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오테크 부트캠프 2024 입과식, 인재들의 첫 걸음 🎊",
+    "url": "https://tech.kakao.com/posts/628"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2024 카카오 인턴십 뉴크루들의 기술온보딩 여정",
+    "url": "https://tech.kakao.com/posts/629"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "모든 기술은 처음이 있었다 - 카카오테크가 만난 Andi Gutmans",
+    "url": "https://tech.kakao.com/posts/630"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "AI 시대와 로봇 - 카카오테크가 만난 조규진 교수님",
+    "url": "https://tech.kakao.com/posts/631"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "아파치 플링크와 CDC의 만남. 플링크 CDC 맛보기",
+    "url": "https://tech.kakao.com/posts/632"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "LLM, 더 저렴하게, 더 빠르게, 더 똑똑하게",
+    "url": "https://tech.kakao.com/posts/633"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "효율적인 VMWare 인프라 운영을 위한 최적의 VM 집적도 테스트",
+    "url": "https://tech.kakao.com/posts/634"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Spring Boot Meet Up, 카카오테크가 만난 Josh Long",
+    "url": "https://tech.kakao.com/posts/635"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "모든 연결을 새롭게, if(kakaoAI)2024",
+    "url": "https://tech.kakao.com/posts/636"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "効率的な VMWare インフラ運用のための最適な VM 密度テスト",
+    "url": "https://tech.kakao.com/posts/637"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Optimal VM Density Testing for Efficient VMWare Infrastructure Operation",
+    "url": "https://tech.kakao.com/posts/638"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "KCC2024 후기(1) 첫 외부 발표 준비와 발표 PM 진행기",
+    "url": "https://tech.kakao.com/posts/639"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "KCC2024 후기(2) 무대의 주역, 발표 세션!",
+    "url": "https://tech.kakao.com/posts/640"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "if(kakaoAI)2024 기술 세션 찾아보기 (날짜별)",
+    "url": "https://tech.kakao.com/posts/641"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "if(kakao AI)2024 첫째 날, 기술 세션 소개",
+    "url": "https://tech.kakao.com/posts/642"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "if(kakaoAI)2024 둘째 날, 기술 세션 소개",
+    "url": "https://tech.kakao.com/posts/643"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "if(kakaoAI)2024 셋째 날, 기술 세션 소개",
+    "url": "https://tech.kakao.com/posts/644"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "if(kakaoAI)2024 크루 패널톡을 소개합니다",
+    "url": "https://tech.kakao.com/posts/645"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "if(kakaoAI)2024 기술 세션 찾아보기 (주제별)",
+    "url": "https://tech.kakao.com/posts/646"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "if(kakaoAI)2024, AI 기술 세션 소개",
+    "url": "https://tech.kakao.com/posts/647"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "if(kakaoAI)2024, Backend 기술 세션 소개",
+    "url": "https://tech.kakao.com/posts/648"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "if(kakaoAI)2024, Cloud 기술 세션 소개",
+    "url": "https://tech.kakao.com/posts/649"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "if(kakaoAI)2024, Data 기술 세션 소개",
+    "url": "https://tech.kakao.com/posts/650"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "if(kakaoAI)2024, DevOps 기술 세션 소개",
+    "url": "https://tech.kakao.com/posts/651"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "if(kakaoAI)2024, FrontEnd 기술 세션 소개",
+    "url": "https://tech.kakao.com/posts/652"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "if(kakaoAI)2024, Infra/Network, 그 외 세션 소개",
+    "url": "https://tech.kakao.com/posts/653"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "if(kakaoAI)2024, Mobile 기술 세션 소개",
+    "url": "https://tech.kakao.com/posts/654"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Kakao AI Native - CTO Keynote",
+    "url": "https://tech.kakao.com/posts/655"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Apache Iceberg와 Flink CDC 심층 탐구",
+    "url": "https://tech.kakao.com/posts/656"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[if(kakaoAI)2024] 내일의 경쟁력이 되는 카카오 AI 이야기 - AI Finance Panel Talk",
+    "url": "https://tech.kakao.com/posts/657"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[if(kakaoAI)2024] 새로운 유저 라이프를 연결하는 카카오 AI - AI Life Panel Talk",
+    "url": "https://tech.kakao.com/posts/658"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "베네딕트는 왜 이프카카오에서 안성재 성대모사를 했을까?",
+    "url": "https://tech.kakao.com/posts/659"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오의 AI 모델, 카나나 모델 패밀리를 소개합니다",
+    "url": "https://tech.kakao.com/posts/660"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "밑바닥부터 Kanana LLM 개발하기: Pre-training",
+    "url": "https://tech.kakao.com/posts/661"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "밑바닥부터 Kanana LLM 개발하기: Post-training",
+    "url": "https://tech.kakao.com/posts/662"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "나만의 프로필 이미지 생성 모델 개발기",
+    "url": "https://tech.kakao.com/posts/663"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오는 어떻게 AI를 일상의 언어로 만들까?",
+    "url": "https://tech.kakao.com/posts/664"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "추가배포 없이 API의 case 통일시키기",
+    "url": "https://tech.kakao.com/posts/665"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "대학생 참가자들의 if(kakaoAI)2024 후기",
+    "url": "https://tech.kakao.com/posts/666"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "이미지도 찰떡같이 이해하는 카카오의 멀티모달 언어모델 Kanana-v 알아보기",
+    "url": "https://tech.kakao.com/posts/667"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Deep Dive into Apache Iceberg with Flink CDC",
+    "url": "https://tech.kakao.com/posts/668"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "제7회 Kakao Tech Meet에 초대합니다!",
+    "url": "https://tech.kakao.com/posts/669"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "MongoDB WiredTiger의 파일 구조",
+    "url": "https://tech.kakao.com/posts/670"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Log Aggregation의 진화: 카카오의 Fluentd 대체기",
+    "url": "https://tech.kakao.com/posts/671"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[안정성 보고서] 1. 프롤로그: 끊김 없는 서비스를 위한 카카오의 안정성 전략",
+    "url": "https://tech.kakao.com/posts/672"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[안정성 보고서] 2. 안정성을 위한 인프라 구축",
+    "url": "https://tech.kakao.com/posts/673"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[안정성 보고서] 3. 안정성을 위한 클라우드 구축",
+    "url": "https://tech.kakao.com/posts/674"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[안정성 보고서] 4. 안정성을 위한 품질 관리",
+    "url": "https://tech.kakao.com/posts/675"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[안정성 보고서] 5. 안정성을 위한 복구 체계",
+    "url": "https://tech.kakao.com/posts/676"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "[안정성 보고서] 6. 안정성을 위한 보안과 정보보호",
+    "url": "https://tech.kakao.com/posts/677"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "실시간 메시징 시스템 개발기 - “삽질 과정”",
+    "url": "https://tech.kakao.com/posts/678"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "실시간 메시징 시스템 개발 - “성능 테스트 설계와 분석”",
+    "url": "https://tech.kakao.com/posts/679"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "실시간 메시징 시스템 개발기 - “성능 개선 레슨런“",
+    "url": "https://tech.kakao.com/posts/680"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Journey with Apache Flink & Flink CDC",
+    "url": "https://tech.kakao.com/posts/681"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "작지만 강한 Kanana Nano 효율적으로 개발하기",
+    "url": "https://tech.kakao.com/posts/682"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Ingress Nginx Controller의 Prometheus Metric 병목 현상: 원인 분석과 해결 (1부)",
+    "url": "https://tech.kakao.com/posts/683"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Ingress Nginx Controller의 Prometheus Metric 병목 현상: 원인 분석과 해결 (2부)",
+    "url": "https://tech.kakao.com/posts/684"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "대규모 앵귤러 웹 애플리케이션 성능 최적화: 카카오 챗봇 관리자센터 사례",
+    "url": "https://tech.kakao.com/posts/685"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "오픈채팅 Lite FE 성능 개선의 모든 것",
+    "url": "https://tech.kakao.com/posts/686"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "(후원 후기) 전국 장애/비장애 대학생 창업경진대회",
+    "url": "https://tech.kakao.com/posts/687"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "MongoDB WiredTiger의 B+Tree",
+    "url": "https://tech.kakao.com/posts/688"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "카카오의 언어모델, Kanana 테크니컬 리포트 공개",
+    "url": "https://tech.kakao.com/posts/689"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "LLM as a Judge를 활용한 CodeBuddy 성능 평가",
+    "url": "https://tech.kakao.com/posts/690"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "2025년 1분기 카카오테크 블로그 글 모음",
+    "url": "https://tech.kakao.com/posts/691"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "AI Agent와 개발자 - 카카오테크가 만난 Thomas Dohmke",
+    "url": "https://tech.kakao.com/posts/692"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "AI야, 문서 좀 대신 써 줘 - 1. 일단 시작!",
+    "url": "https://tech.kakao.com/posts/693"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "로그 유형별 Iceberg 테이블 적재 및 운영 전략",
+    "url": "https://tech.kakao.com/posts/694"
+  },
+  {
+    "domain": "tech.kakao.com",
+    "title": "Iceberg Operation Journey: Takeaways for DB & Server Logs",
+    "url": "https://tech.kakao.com/posts/695"
+  }
+]

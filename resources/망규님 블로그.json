@@ -1,0 +1,1622 @@
+[
+  {
+    "title": "[망나니 개발자]티스토리 시작!",
+    "url": "https://mangkyu.tistory.com/3"
+  },
+  {
+    "title": "프레임워크와 라이브러리의 차이점",
+    "url": "https://mangkyu.tistory.com/4"
+  },
+  {
+    "title": "[Spring] Spring MVC의 시작",
+    "url": "https://mangkyu.tistory.com/5"
+  },
+  {
+    "title": "[Spring] Maven 기반의 Spring 프로젝트 만들기",
+    "url": "https://mangkyu.tistory.com/6"
+  },
+  {
+    "title": "[Maven] Maven이란 무엇인가?",
+    "url": "https://mangkyu.tistory.com/8"
+  },
+  {
+    "title": "[IPC] 내부 프로세스간의 통신",
+    "url": "https://mangkyu.tistory.com/9"
+  },
+  {
+    "title": "[Spring] Spring 개발환경 설정",
+    "url": "https://mangkyu.tistory.com/10"
+  },
+  {
+    "title": "[Spring] web.xml 서블릿 버전 DTD 정리",
+    "url": "https://mangkyu.tistory.com/12"
+  },
+  {
+    "title": "[Spring] Dispatcher-Servlet 설정",
+    "url": "https://mangkyu.tistory.com/13"
+  },
+  {
+    "title": "[JSP] 서블릿(Servlet)이란?",
+    "url": "https://mangkyu.tistory.com/14"
+  },
+  {
+    "title": "[TCP/UDP] TCP와 UDP의 특징과 차이",
+    "url": "https://mangkyu.tistory.com/15"
+  },
+  {
+    "title": "[RAW Socket] RAW 소켓이란",
+    "url": "https://mangkyu.tistory.com/16"
+  },
+  {
+    "title": "[Web] GET과 POST의 비교 및 차이",
+    "url": "https://mangkyu.tistory.com/17"
+  },
+  {
+    "title": "[Spring] Dispatcher-Servlet(디스패처 서블릿)이란? 디스패처 서블릿의 개념과 동작 과정",
+    "url": "https://mangkyu.tistory.com/18"
+  },
+  {
+    "title": "[Database] 1. 데이터베이스 시스템",
+    "url": "https://mangkyu.tistory.com/19"
+  },
+  {
+    "title": "[Java] ORM이란? MyBatis와 JPA의 차이, MyBatis보다 JPA를 사용해야 하는 이유",
+    "url": "https://mangkyu.tistory.com/20"
+  },
+  {
+    "title": "[Database] 2. 관계데이터모델",
+    "url": "https://mangkyu.tistory.com/21"
+  },
+  {
+    "title": "[Spring] Mybatis, Datasource 설정",
+    "url": "https://mangkyu.tistory.com/22"
+  },
+  {
+    "title": "[Spring] DB에서 데이터 조회",
+    "url": "https://mangkyu.tistory.com/23"
+  },
+  {
+    "title": "[Database] 3. SQL 기초",
+    "url": "https://mangkyu.tistory.com/24"
+  },
+  {
+    "title": "[Database] 4. SQL 고급",
+    "url": "https://mangkyu.tistory.com/25"
+  },
+  {
+    "title": "[Database] 5. 데이터베이스 프로그래밍",
+    "url": "https://mangkyu.tistory.com/26"
+  },
+  {
+    "title": "[Database] 6. 데이터 모델링(Data Modeling)",
+    "url": "https://mangkyu.tistory.com/27"
+  },
+  {
+    "title": "[Database] 7. 정규화(Normalization)",
+    "url": "https://mangkyu.tistory.com/28"
+  },
+  {
+    "title": "[IDE] Eclipse에서 IntelliJ 단축키 사용하기",
+    "url": "https://mangkyu.tistory.com/29"
+  },
+  {
+    "title": "[Database] 8. 트랜잭션, 동시성 제어, 회복",
+    "url": "https://mangkyu.tistory.com/30"
+  },
+  {
+    "title": "[Machine Learning] 기계 학습이란?",
+    "url": "https://mangkyu.tistory.com/31"
+  },
+  {
+    "title": "[Machine Learning] 지도 학습과 비지도 학습",
+    "url": "https://mangkyu.tistory.com/32"
+  },
+  {
+    "title": "[Machine Learning] Model and Cost Function",
+    "url": "https://mangkyu.tistory.com/33"
+  },
+  {
+    "title": "[Machine Learning] Gradient Descent",
+    "url": "https://mangkyu.tistory.com/34"
+  },
+  {
+    "title": "[Machine Learning] Logistic Regression",
+    "url": "https://mangkyu.tistory.com/36"
+  },
+  {
+    "title": "[Machine Learning] Regularization",
+    "url": "https://mangkyu.tistory.com/37"
+  },
+  {
+    "title": "[Machine Learning] Neural Networks:Representation",
+    "url": "https://mangkyu.tistory.com/38"
+  },
+  {
+    "title": "[Machine Learning] Neural Networks:Learning",
+    "url": "https://mangkyu.tistory.com/39"
+  },
+  {
+    "title": "[Machine Learning] Advice for Applying Machine Learning",
+    "url": "https://mangkyu.tistory.com/40"
+  },
+  {
+    "title": "[Machine Learning] Machine Learning System Design",
+    "url": "https://mangkyu.tistory.com/41"
+  },
+  {
+    "title": "[리뷰] 클린 코드(Clean Code) 핵심 요약",
+    "url": "https://mangkyu.tistory.com/45"
+  },
+  {
+    "title": "[Server] Restful API란?",
+    "url": "https://mangkyu.tistory.com/46"
+  },
+  {
+    "title": "[Java] static변수와 static 메소드",
+    "url": "https://mangkyu.tistory.com/47"
+  },
+  {
+    "title": "[네트워크 프로그래밍] Http 프로그래밍과 Socket 프로그래밍 차이",
+    "url": "https://mangkyu.tistory.com/48"
+  },
+  {
+    "title": "[Spring] @Controller와 @RestController 차이",
+    "url": "https://mangkyu.tistory.com/49"
+  },
+  {
+    "title": "[Spring] Transaction(트랜잭션)이란?",
+    "url": "https://mangkyu.tistory.com/50"
+  },
+  {
+    "title": "[Web] Forward와 Redirect 차이",
+    "url": "https://mangkyu.tistory.com/51"
+  },
+  {
+    "title": "[Database] 쿼리 Query 최적화 및 튜닝 기술",
+    "url": "https://mangkyu.tistory.com/52"
+  },
+  {
+    "title": "[Database] MVCC(다중 버전 동시성 제어)란?",
+    "url": "https://mangkyu.tistory.com/53"
+  },
+  {
+    "title": "[Server] 토큰 기반 인증 VS 서버(세션) 기반 인증",
+    "url": "https://mangkyu.tistory.com/55"
+  },
+  {
+    "title": "[Server] JWT(Json Web Token)란?",
+    "url": "https://mangkyu.tistory.com/56"
+  },
+  {
+    "title": "[SpringBoot] SpringBoot로 SpringSecurity 기반의 JWT 토큰 구현하기",
+    "url": "https://mangkyu.tistory.com/57"
+  },
+  {
+    "title": "CNN(Convolutional Neural Network)란?",
+    "url": "https://mangkyu.tistory.com/58"
+  },
+  {
+    "title": "Deep Learning(딥러닝) vs Reinforcement Learning(강화학습)",
+    "url": "https://mangkyu.tistory.com/59"
+  },
+  {
+    "title": "[논문번역] Playing Atari with Deep Reinforcement Learning 논문 설명/요약",
+    "url": "https://mangkyu.tistory.com/60"
+  },
+  {
+    "title": "Q-Learning이란?",
+    "url": "https://mangkyu.tistory.com/61"
+  },
+  {
+    "title": "Stochastic Gradient Descent(SGD)란?",
+    "url": "https://mangkyu.tistory.com/62"
+  },
+  {
+    "title": "Experience Replay Memory란?",
+    "url": "https://mangkyu.tistory.com/63"
+  },
+  {
+    "title": "마르코프 의사결정 모델(MDP)이란?",
+    "url": "https://mangkyu.tistory.com/64"
+  },
+  {
+    "title": "E-Greedy Algorithm(입실론 그리디 알고리즘)이란?",
+    "url": "https://mangkyu.tistory.com/65"
+  },
+  {
+    "title": "[논문번역] Deep Reinforcement Learning with Double Q-learning 논문 설명/요약",
+    "url": "https://mangkyu.tistory.com/66"
+  },
+  {
+    "title": "[Fitbit] Fitbit이란?",
+    "url": "https://mangkyu.tistory.com/67"
+  },
+  {
+    "title": "기타 명령어 모음",
+    "url": "https://mangkyu.tistory.com/68"
+  },
+  {
+    "title": "[Server] Cache(캐시)란?",
+    "url": "https://mangkyu.tistory.com/69"
+  },
+  {
+    "title": "[Java] Optional이란? Optional 개념 및 사용법 - (1/2)",
+    "url": "https://mangkyu.tistory.com/70"
+  },
+  {
+    "title": "[PostgreSQL] PostgreSQL이란?",
+    "url": "https://mangkyu.tistory.com/71"
+  },
+  {
+    "title": "[Spring] @RequestBody, @ModelAttribute, @RequestParam의 차이",
+    "url": "https://mangkyu.tistory.com/72"
+  },
+  {
+    "title": "[Java] Enum 사용법 - 초급(Enum 입문하기)",
+    "url": "https://mangkyu.tistory.com/73"
+  },
+  {
+    "title": "[Java] Enum 사용법 - 고급(Enum 응용하기)",
+    "url": "https://mangkyu.tistory.com/74"
+  },
+  {
+    "title": "[Spring] 빈 등록을 위한 어노테이션 @Bean, @Configuration, @Component 차이 및 비교 - (1/2)",
+    "url": "https://mangkyu.tistory.com/75"
+  },
+  {
+    "title": "[SpringBoot] Spring Security란?",
+    "url": "https://mangkyu.tistory.com/76"
+  },
+  {
+    "title": "[SpringBoot] Spring Security 처리 과정 및 구현 예제",
+    "url": "https://mangkyu.tistory.com/77"
+  },
+  {
+    "title": "[Java] Lombok이란? 및 Lombok 활용법",
+    "url": "https://mangkyu.tistory.com/78"
+  },
+  {
+    "title": "[블록체인] 이더리움(Ethereum)에 크립토키티(CryptoKitties)와 같은 게임 개발하기",
+    "url": "https://mangkyu.tistory.com/79"
+  },
+  {
+    "title": "윈도우 새로만들기 메뉴에 .md(마크다운) 추가하기",
+    "url": "https://mangkyu.tistory.com/80"
+  },
+  {
+    "title": "[블록체인] NFT(Non-Fungible Token) ERC-721이란?",
+    "url": "https://mangkyu.tistory.com/81"
+  },
+  {
+    "title": "[Server] Xen Hypervisor(Xen 하이퍼바이저) 란? (1/2)",
+    "url": "https://mangkyu.tistory.com/82"
+  },
+  {
+    "title": "[Server] Xen Hypervisor 설치 및 가상머신 생성 예제 (2/2)",
+    "url": "https://mangkyu.tistory.com/83"
+  },
+  {
+    "title": "[CUDA] CUDA 개념 및 CUDA 초급 예제 (1/2)",
+    "url": "https://mangkyu.tistory.com/84"
+  },
+  {
+    "title": "[CUDA] CUDA 프로그래밍 고급 예제 (2/2)",
+    "url": "https://mangkyu.tistory.com/85"
+  },
+  {
+    "title": "[Server] 가상화(Virtualization)란? (1/2)",
+    "url": "https://mangkyu.tistory.com/86"
+  },
+  {
+    "title": "[Server] 하드웨어 가상화(Virtualization)의 종류 및 차이 (2/2)",
+    "url": "https://mangkyu.tistory.com/87"
+  },
+  {
+    "title": "[기술면접] CS 기술면접 질문 - 프로그래밍 공통 (1/8)",
+    "url": "https://mangkyu.tistory.com/88"
+  },
+  {
+    "title": "[기술면접] CS 기술면접 질문 - 자료구조 (2/8)",
+    "url": "https://mangkyu.tistory.com/89"
+  },
+  {
+    "title": "[기술면접] CS 기술면접 질문 - 알고리즘 (3/8)",
+    "url": "https://mangkyu.tistory.com/90"
+  },
+  {
+    "title": "[기술면접] CS 기술면접 질문 - 네트워크 (4/8)",
+    "url": "https://mangkyu.tistory.com/91"
+  },
+  {
+    "title": "[기술면접] CS 기술면접 질문 - 운영체제 (5/8)",
+    "url": "https://mangkyu.tistory.com/92"
+  },
+  {
+    "title": "[기술면접] CS 기술면접 질문 - 데이터베이스 (6/8)",
+    "url": "https://mangkyu.tistory.com/93"
+  },
+  {
+    "title": "[기술면접] CS 기술면접 질문 - 개발 언어 (7/8)",
+    "url": "https://mangkyu.tistory.com/94"
+  },
+  {
+    "title": "[기술면접] CS 기술면접 질문 - 백엔드 (8/8)",
+    "url": "https://mangkyu.tistory.com/95"
+  },
+  {
+    "title": "[Database] 인덱스(index)란?",
+    "url": "https://mangkyu.tistory.com/96"
+  },
+  {
+    "title": "[Database] 리플리케이션(Replication) vs 클러스터링(Clustering)",
+    "url": "https://mangkyu.tistory.com/97"
+  },
+  {
+    "title": "[Web] HTTP와 HTTPS의 개념 및 차이점",
+    "url": "https://mangkyu.tistory.com/98"
+  },
+  {
+    "title": "[기술면접] 기술 외 공통 면접 질문",
+    "url": "https://mangkyu.tistory.com/100"
+  },
+  {
+    "title": "[Java] equals와 hashCode 함수",
+    "url": "https://mangkyu.tistory.com/101"
+  },
+  {
+    "title": "[자료구조] 해시테이블(HashTable)이란?",
+    "url": "https://mangkyu.tistory.com/102"
+  },
+  {
+    "title": "[OS] 세마포어(Semaphore) vs 뮤텍스(Mutex) 차이",
+    "url": "https://mangkyu.tistory.com/104"
+  },
+  {
+    "title": "[Java] Pass By Value 실행 결과 예측해보기 (1/3)",
+    "url": "https://mangkyu.tistory.com/105"
+  },
+  {
+    "title": "[Java] 메모리 관리 및 Pass By Value의 동작 방식 (2/3)",
+    "url": "https://mangkyu.tistory.com/106"
+  },
+  {
+    "title": "[Java] Pass By Value와 Pass By Reference의 차이 및 이해 (3/3)",
+    "url": "https://mangkyu.tistory.com/107"
+  },
+  {
+    "title": "[Server] 마이크로 서비스 아키텍처(MSA, MicroService Architecture)란?",
+    "url": "https://mangkyu.tistory.com/108"
+  },
+  {
+    "title": "[XML] CDATA란 무엇인가?",
+    "url": "https://mangkyu.tistory.com/109"
+  },
+  {
+    "title": "[Database] 정규화(Normalization) 쉽게 이해하기",
+    "url": "https://mangkyu.tistory.com/110"
+  },
+  {
+    "title": "[프로그래밍] 함수형 프로그래밍(Functional Programming) 이란?",
+    "url": "https://mangkyu.tistory.com/111"
+  },
+  {
+    "title": "[Java] Stream API에 대한 이해 - (1/5)",
+    "url": "https://mangkyu.tistory.com/112"
+  },
+  {
+    "title": "[Java] 람다식(Lambda Expression)과 함수형 인터페이스(Functional Interface) - (2/5)",
+    "url": "https://mangkyu.tistory.com/113"
+  },
+  {
+    "title": "[Java] Stream API의 활용 및 사용법 - 기초 (3/5)",
+    "url": "https://mangkyu.tistory.com/114"
+  },
+  {
+    "title": "[Java] Stream API의 고급 활용 및 사용 시의 주의할 점 -  (4/5)",
+    "url": "https://mangkyu.tistory.com/115"
+  },
+  {
+    "title": "[Java] Stream API 연습문제 풀이 (5/5)",
+    "url": "https://mangkyu.tistory.com/116"
+  },
+  {
+    "title": "[Spring] Bean Scope(빈 스코프)의 종류",
+    "url": "https://mangkyu.tistory.com/117"
+  },
+  {
+    "title": "[Java] Garbage Collection(가비지 컬렉션)의 개념 및 동작 원리 (1/2)",
+    "url": "https://mangkyu.tistory.com/118"
+  },
+  {
+    "title": "[Java] 다양한 종류의 Garbage Collection(가비지 컬렉션) 알고리즘 (2/2)",
+    "url": "https://mangkyu.tistory.com/119"
+  },
+  {
+    "title": "[Java] Garbage Collection(가비지 컬렉션)의 성능을 높이는 코딩 방법",
+    "url": "https://mangkyu.tistory.com/120"
+  },
+  {
+    "title": "[SpringBoot] AOP(Aspect Oriented Programming, 관점 지향 프로그래밍)의 개념 및 사용 방법 예제 코드 - (2/3)",
+    "url": "https://mangkyu.tistory.com/121"
+  },
+  {
+    "title": "[Android] 안드로이드 프로그래밍 핵심 기술(MVVM 패턴과 RxJava)",
+    "url": "https://mangkyu.tistory.com/122"
+  },
+  {
+    "title": "[Frontend] VueJS 프로젝트 생성 및 설정하기",
+    "url": "https://mangkyu.tistory.com/123"
+  },
+  {
+    "title": "[SpringBoot] SpringBoot와 Retrofit2 연동 및 Retrofit2 사용법",
+    "url": "https://mangkyu.tistory.com/124"
+  },
+  {
+    "title": "[Spring] 다양한 의존성 주입 방법과 생성자 주입을 사용해야 하는 이유 - (2/2)",
+    "url": "https://mangkyu.tistory.com/125"
+  },
+  {
+    "title": "[Spring] 빈(Bean)의 생성과 소멸에 대한 관리(@PostConstruct초기화와 @PreDestroy소멸자)",
+    "url": "https://mangkyu.tistory.com/126"
+  },
+  {
+    "title": "[Hadoop] YARN의 구조와 동작 방식",
+    "url": "https://mangkyu.tistory.com/127"
+  },
+  {
+    "title": "[Spark] Apache Spark란?",
+    "url": "https://mangkyu.tistory.com/128"
+  },
+  {
+    "title": "[Hadoop] Hadoop의 구조와 MapReduce",
+    "url": "https://mangkyu.tistory.com/129"
+  },
+  {
+    "title": "[Java] Custom Annotation(커스텀 어노테이션) 만들기",
+    "url": "https://mangkyu.tistory.com/130"
+  },
+  {
+    "title": "[Java] 불변 객체(Immutable Object) 및 final을 사용해야 하는 이유",
+    "url": "https://mangkyu.tistory.com/131"
+  },
+  {
+    "title": "[개발서적] 클린 코드(Clean Code) 핵심 요약 및 정리",
+    "url": "https://mangkyu.tistory.com/132"
+  },
+  {
+    "title": "[개발서적] 이펙티브 자바(Effective Java) 핵심 요약 및 정리",
+    "url": "https://mangkyu.tistory.com/133"
+  },
+  {
+    "title": "[취업 과정] 네이버 웍스(웍스 모바일) 취업 과정",
+    "url": "https://mangkyu.tistory.com/134"
+  },
+  {
+    "title": "[회고 및 목표] 2021년 목표 설정",
+    "url": "https://mangkyu.tistory.com/135"
+  },
+  {
+    "title": "[개발서적] 클린 아키텍처(Clean Architecture) 내용 정리",
+    "url": "https://mangkyu.tistory.com/136"
+  },
+  {
+    "title": "[SpringBoot] 기존 SpringBoot 프로젝트 실무처럼 리팩토링 하기",
+    "url": "https://mangkyu.tistory.com/137"
+  },
+  {
+    "title": "[개발서적] 조엘 온 소프트웨어 (Joel on Software) 핵심 요약 및 정리",
+    "url": "https://mangkyu.tistory.com/138"
+  },
+  {
+    "title": "[IntelliJ] 자주 사용되는 인텔리제이 단축키 모음(맥북, Mac OS)",
+    "url": "https://mangkyu.tistory.com/139"
+  },
+  {
+    "title": "[개발서적] Professional 소프트웨어 개발 핵심 요약 및 정리",
+    "url": "https://mangkyu.tistory.com/140"
+  },
+  {
+    "title": "[개발서적] Test-Driven Development: By Example(테스트 주도 개발) 내용 정리 - 예시 (1)",
+    "url": "https://mangkyu.tistory.com/141"
+  },
+  {
+    "title": "[개발서적] Test-Driven Development: By Example(테스트 주도 개발) 내용 정리 - 방법 (2)",
+    "url": "https://mangkyu.tistory.com/142"
+  },
+  {
+    "title": "[TDD] 단위 테스트(Unit Test) 작성의 필요성 (1/3)",
+    "url": "https://mangkyu.tistory.com/143"
+  },
+  {
+    "title": "[Java] JUnit을 활용한 Java 단위 테스트 코드 작성법 (2/3)",
+    "url": "https://mangkyu.tistory.com/144"
+  },
+  {
+    "title": "[Spring] JUnit과 Mockito 기반의 Spring 단위 테스트 코드 작성법 (3/3)",
+    "url": "https://mangkyu.tistory.com/145"
+  },
+  {
+    "title": "[HTTP] HTTP 상태 401(Unauthorized) vs  403(Forbidden) 차이",
+    "url": "https://mangkyu.tistory.com/146"
+  },
+  {
+    "title": "[OOP] 디미터의 법칙(Law of Demeter)",
+    "url": "https://mangkyu.tistory.com/147"
+  },
+  {
+    "title": "[Spring] @Autowired 빈 탐색 전략과 @Qualifier와 @Primary",
+    "url": "https://mangkyu.tistory.com/148"
+  },
+  {
+    "title": "[클린코드] 좋은 코드는 어떤 코드일까? 좋은 코드에 대한 고찰",
+    "url": "https://mangkyu.tistory.com/149"
+  },
+  {
+    "title": "[Spring] 의존성 주입(Dependency Injection, DI)이란? 및 Spring이 의존성 주입을 지원하는 이유",
+    "url": "https://mangkyu.tistory.com/150"
+  },
+  {
+    "title": "[Spring] 애플리케이션 컨텍스트(Application Context)와 스프링의 싱글톤(Singleton)",
+    "url": "https://mangkyu.tistory.com/151"
+  },
+  {
+    "title": "[Java] 체크 예외(Check Exception)와 언체크 예외/런타임 예외 (Uncheck Exception, Runtime Exception)의 차이와 올바른 예외 처리 방법",
+    "url": "https://mangkyu.tistory.com/152"
+  },
+  {
+    "title": "[디자인 패턴] 싱글톤이 안티 패턴이 될 수 있는 이유와 자바 싱글톤과 스프링 싱글톤의 차이",
+    "url": "https://mangkyu.tistory.com/153"
+  },
+  {
+    "title": "[Spring] 트랜잭션에 대한 이해와 Spring이 제공하는 Transaction(트랜잭션) 핵심 기술 - (1/3)",
+    "url": "https://mangkyu.tistory.com/154"
+  },
+  {
+    "title": "[Spring] 스프링(Spring)과 롬복(Lombok)의 결합, @RequiredArgsConstructor를 사용한 생성자 주입",
+    "url": "https://mangkyu.tistory.com/155"
+  },
+  {
+    "title": "[Spring] Spring에 대한 이해와 입문, Spring의 3가지 핵심 특징(IoC/DI, PSA, AOP)와 3가지 계층 구조(Controller, Service, Repository)",
+    "url": "https://mangkyu.tistory.com/156"
+  },
+  {
+    "title": "[업무] 일론 머스크의 생산성을 위한 법칙들",
+    "url": "https://mangkyu.tistory.com/157"
+  },
+  {
+    "title": "[Spring] XML 설정보다 Java 설정을 사용해야 하는 이유",
+    "url": "https://mangkyu.tistory.com/158"
+  },
+  {
+    "title": "[Spring] 올바른 단위 테스트 작성 - 독립적인 테스트",
+    "url": "https://mangkyu.tistory.com/159"
+  },
+  {
+    "title": "[Spring] 도메인 주도 설계 및 개발과 도메인 계층(도메인 객체 중심 개발)",
+    "url": "https://mangkyu.tistory.com/160"
+  },
+  {
+    "title": "[Spring] AOP(Aspect Oriented Programming, 관점 지향 프로그래밍)의 이해 - (1/3)",
+    "url": "https://mangkyu.tistory.com/161"
+  },
+  {
+    "title": "[준비물] 전문연구요원 훈련소 준비물",
+    "url": "https://mangkyu.tistory.com/162"
+  },
+  {
+    "title": "[Java] 빌더 패턴(Builder Pattern)을 사용해야 하는 이유",
+    "url": "https://mangkyu.tistory.com/163"
+  },
+  {
+    "title": "[Java] Map보다 DTO 클래스를 사용해야 하는 이유",
+    "url": "https://mangkyu.tistory.com/164"
+  },
+  {
+    "title": "[클린코드] 변경을 최소화하는 개발, 관심사의 분리와 변하는 것과 변하지 않는 것의 분리",
+    "url": "https://mangkyu.tistory.com/165"
+  },
+  {
+    "title": "[Terminal] 자주 사용되는 ITerm 단축키 모음(Mac OS)",
+    "url": "https://mangkyu.tistory.com/166"
+  },
+  {
+    "title": "[Spring] 설정 값 분리의 필요성과 @Value의 사용법 및 동작 과정",
+    "url": "https://mangkyu.tistory.com/167"
+  },
+  {
+    "title": "[Spring] 빈을 찾기 위한 다양한 의존성 검색 방법, DL(Dependency LookUp)",
+    "url": "https://mangkyu.tistory.com/168"
+  },
+  {
+    "title": "[Spring] Spring 트랜잭션의 세부 설정(전파 속성, 격리수준, 읽기전용, 롤백/커밋 예외 등) - (2/3)",
+    "url": "https://mangkyu.tistory.com/169"
+  },
+  {
+    "title": "[Spring] Spring에서 트랜잭션의 사용법 - (3/3)",
+    "url": "https://mangkyu.tistory.com/170"
+  },
+  {
+    "title": "[취업준비] 신입 개발자 취업 준비 시작하는법",
+    "url": "https://mangkyu.tistory.com/171"
+  },
+  {
+    "title": "[Spring] 필터(Filter) vs 인터셉터(Interceptor) 차이 및 용도 - (1)",
+    "url": "https://mangkyu.tistory.com/173"
+  },
+  {
+    "title": "[Spring] @Valid와 @Validated를 이용한 유효성 검증의 동작 원리 및 사용법 예시 - (1/2)",
+    "url": "https://mangkyu.tistory.com/174"
+  },
+  {
+    "title": "[Spring] Spring의 AOP 프록시 구현 방법(JDK 동적 프록시,  CGLib 프록시)과 @EnableAspectJAutoProxy의 proxyTargetClass - (3/3)",
+    "url": "https://mangkyu.tistory.com/175"
+  },
+  {
+    "title": "[Spring] 설정 자동화와 설정의 변경, @EnableWebMvc와 WebMvcConfigurer",
+    "url": "https://mangkyu.tistory.com/176"
+  },
+  {
+    "title": "[Spring] BeanFactoryPostProcessor 타입의 빈(PropertySourcesPlaceholderConfigurer) 생성 메소드를 static으로 선언해야 하는 이유",
+    "url": "https://mangkyu.tistory.com/177"
+  },
+  {
+    "title": "[Spring] 활성 프로파일(Profile)의 관리를 위한 @Profile과 @ActiveProfiles",
+    "url": "https://mangkyu.tistory.com/178"
+  },
+  {
+    "title": "[Spring] 캐시(Cache) 추상화와 사용법(@Cacheable, @CachePut, @CacheEvict)",
+    "url": "https://mangkyu.tistory.com/179"
+  },
+  {
+    "title": "[Spring] 디스패처 서블릿(Dispatcher Servlert)이 HTTP 요청을 처리하는 방법과 핸들러 메소드(HandlerMethod)",
+    "url": "https://mangkyu.tistory.com/180"
+  },
+  {
+    "title": "[취업 준비] 신입 개발자 알고리즘 팁 정리 및 문제 추천",
+    "url": "https://mangkyu.tistory.com/181"
+  },
+  {
+    "title": "[TDD] 단위 테스트와 TDD(테스트 주도 개발) 프로그래밍 방법 소개 - (1/5)",
+    "url": "https://mangkyu.tistory.com/182"
+  },
+  {
+    "title": "[Spring] TDD 연습문제 소개와 요구사항 분석 및 SpringBoot 프로젝트 설정 - (2/5)",
+    "url": "https://mangkyu.tistory.com/183"
+  },
+  {
+    "title": "[Spring] TDD로 멤버십 등록 API 구현 예제 - (3/5)",
+    "url": "https://mangkyu.tistory.com/184"
+  },
+  {
+    "title": "[Spring] TDD로 멤버십 전체/상세 조회 API 구현 예제 - (4/5)",
+    "url": "https://mangkyu.tistory.com/185"
+  },
+  {
+    "title": "[Spring] TDD로 멤버십 삭제 및 포인트 적립 API 구현 예제 - (5/5)",
+    "url": "https://mangkyu.tistory.com/186"
+  },
+  {
+    "title": "[개발서적] 클린 코더(Clean Coder) 핵심 요약 및 정리",
+    "url": "https://mangkyu.tistory.com/187"
+  },
+  {
+    "title": "[TSDB] 시계열 데이터베이스(TSDB, Time Series Database) 란? - (1/2)",
+    "url": "https://mangkyu.tistory.com/188"
+  },
+  {
+    "title": "[SpringBoot] final 변수를 갖는 클래스에 프로퍼티(Properties) 설정 값 불러오기, 생성자 바인딩(Constructor Binding)",
+    "url": "https://mangkyu.tistory.com/189"
+  },
+  {
+    "title": "[TSDB] InfluxDB란? 핵심 개념, 내부 구조 및 특징  - (2/2)",
+    "url": "https://mangkyu.tistory.com/190"
+  },
+  {
+    "title": "[Spring] @ConfigurationPropertiesScan을 이용한 설정 프로퍼티 클래스(@Configuration Properties)의 빈 등록",
+    "url": "https://mangkyu.tistory.com/191"
+  },
+  {
+    "title": "[Spring] 엔티티(Entity) 또는 도메인 객체(Domain Object)와 DTO를 분리해야 하는 이유",
+    "url": "https://mangkyu.tistory.com/192"
+  },
+  {
+    "title": "[Java] 메소드 오버라이딩/ 메소드 오버로딩을 통한 상속 다형성에 대한 이해와 Self 참조",
+    "url": "https://mangkyu.tistory.com/193"
+  },
+  {
+    "title": "[OOP] 객체지향 프로그래밍의 5가지 설계 원칙, 실무 코드로 살펴보는 SOLID",
+    "url": "https://mangkyu.tistory.com/194"
+  },
+  {
+    "title": "[OOP] 객체지향 캡슐화(Encapsulation), 응집도(Cohension)와 결합도(Coupling)",
+    "url": "https://mangkyu.tistory.com/195"
+  },
+  {
+    "title": "[Docker] Linux 서버에 Docker와 Docker Compose 설치 및 Docker 명령어",
+    "url": "https://mangkyu.tistory.com/196"
+  },
+  {
+    "title": "[ELK] Docker Compose로 ELK 모니터링 서버 구축 및 Filebeat로 로그 전송",
+    "url": "https://mangkyu.tistory.com/197"
+  },
+  {
+    "title": "[Spring] 빈 설정 메타정보(BeanDefinition)와 다양한 종류의 Spring Application Context(스프링 애플리케이션 컨텍스트)",
+    "url": "https://mangkyu.tistory.com/198"
+  },
+  {
+    "title": "[OOP] 코드의 재사용, 상속(Inheritance)보다 합성(Composition)을 사용해야 하는 이유",
+    "url": "https://mangkyu.tistory.com/199"
+  },
+  {
+    "title": "[회고 및 목표] 2021년 회고 및 2022년 목표 설정",
+    "url": "https://mangkyu.tistory.com/201"
+  },
+  {
+    "title": "[Spring] 스프링 테스트 컨텍스트(Spring Test Context)와 트랜잭션 지원",
+    "url": "https://mangkyu.tistory.com/202"
+  },
+  {
+    "title": "[Java] 언제 Optional을 사용해야 하는가? 올바른 Optional 사용법 가이드 - (2/2)",
+    "url": "https://mangkyu.tistory.com/203"
+  },
+  {
+    "title": "[Spring] 스프링의 다양한 예외 처리 방법(ExceptionHandler, ControllerAdvice 등) 완벽하게 이해하기 - (1/2)",
+    "url": "https://mangkyu.tistory.com/204"
+  },
+  {
+    "title": "[Spring] @RestControllerAdvice를 이용한 Spring 예외 처리 방법 - (2/2)",
+    "url": "https://mangkyu.tistory.com/205"
+  },
+  {
+    "title": "[Spring] 커스텀 애노테이션(Custom Annotation) 만들어 직접 Validation 유효성 검사하기 - (2/2)",
+    "url": "https://mangkyu.tistory.com/206"
+  },
+  {
+    "title": "[Spring] @Value와 @ConfigurationProperties의 사용법 및 차이",
+    "url": "https://mangkyu.tistory.com/207"
+  },
+  {
+    "title": "[Spring] SpringBoot 소스 코드 분석하기, SpringBoot의 장점과 특징 - (1)",
+    "url": "https://mangkyu.tistory.com/208"
+  },
+  {
+    "title": "[ELK] 엘라스틱 서치의 인덱스 라이프사이클 정책(Index Lifecycle Policy) 설정하기",
+    "url": "https://mangkyu.tistory.com/209"
+  },
+  {
+    "title": "[Spring] SpringBoot 소스 코드 분석하기, 애플리케이션 컨텍스트(Application Context)와 빈팩토리(BeanFactory) - (2)",
+    "url": "https://mangkyu.tistory.com/210"
+  },
+  {
+    "title": "[Spring] SpringBoot 소스 코드 분석하기, @SpringBootApplication 어노테이션의 속성과 구성요소 - (3)",
+    "url": "https://mangkyu.tistory.com/211"
+  },
+  {
+    "title": "[Spring] SpringBoot 소스 코드 분석하기, SpringBootApplication의 생성과 초기화 과정  - (4)",
+    "url": "https://mangkyu.tistory.com/212"
+  },
+  {
+    "title": "[Spring] SpringBoot 소스 코드 분석하기, SpringBootApplication의 run 메소드와 실행과정  - (5)",
+    "url": "https://mangkyu.tistory.com/213"
+  },
+  {
+    "title": "[Spring] SpringBoot 소스 코드 분석하기, 애플리케이션 컨텍스트(ApplicationContext)의 refreshContext 동작 과정 - (6)",
+    "url": "https://mangkyu.tistory.com/214"
+  },
+  {
+    "title": "[오픈소스] SpringBoot 오픈 소스 프로젝트에 컨트리뷰트 하기",
+    "url": "https://mangkyu.tistory.com/215"
+  },
+  {
+    "title": "[Spring] SpringBoot 소스 코드 분석하기, DispatcherServlet(디스패처 서블릿) 동작 과정 - (7)",
+    "url": "https://mangkyu.tistory.com/216"
+  },
+  {
+    "title": "[Java] try-with-resources란? try-with-resources 사용법 예시와 try-with-resources를 사용해야 하는 이유",
+    "url": "https://mangkyu.tistory.com/217"
+  },
+  {
+    "title": "[HTTP] HTML 폼(form) 요청이 GET, POST만 가능하고 PATCH, PUT, DELETE은 불가능한 이유",
+    "url": "https://mangkyu.tistory.com/218"
+  },
+  {
+    "title": "[Spring] Spring에서 API에 매핑되는 컨트롤러와 메소드 조회하여 직접 호출하기(HandlerMapping과 HandlerMethod)",
+    "url": "https://mangkyu.tistory.com/219"
+  },
+  {
+    "title": "[Tick] Kapacitor(캐패시터) 알림 전송이 실패하는 경우와 Chronograf(크로노크라프) HostList에 불필요한 Host가 노출되는 경우",
+    "url": "https://mangkyu.tistory.com/220"
+  },
+  {
+    "title": "[Spring] 필터(Filter)가 스프링 빈 등록과 주입이 가능한 이유(DelegatingFilterProxy의 등장) - (2)",
+    "url": "https://mangkyu.tistory.com/221"
+  },
+  {
+    "title": "[GitHub] GitHub PR(Pull Request) 머지 후에 브랜치 자동 삭제하기",
+    "url": "https://mangkyu.tistory.com/222"
+  },
+  {
+    "title": "[Spring] ObjectMapper의 동작 방식과 SpringBoot가 제공하는 추가 기능들",
+    "url": "https://mangkyu.tistory.com/223"
+  },
+  {
+    "title": "[Spring] 여러 값을 1개의 쿼리 파라미터로 처리해야하는 경우와 Spring에서 자동으로 콤마 구분자가 처리되는 이유",
+    "url": "https://mangkyu.tistory.com/224"
+  },
+  {
+    "title": "[Spring] 뒤늦게 등장한 HTTP PATCH 메소드와 스프링의 디스패처 서블릿에 미친 영향",
+    "url": "https://mangkyu.tistory.com/225"
+  },
+  {
+    "title": "[OOP] 의존성(Dependency)이란? 컴파일타임 의존성과 런타임 의존성의 차이 및 비교",
+    "url": "https://mangkyu.tistory.com/226"
+  },
+  {
+    "title": "[Java] 익명 객체(Anonymous Object)를 통해 인터페이스와 추상 클래스의 객체를 바로 생성하기",
+    "url": "https://mangkyu.tistory.com/227"
+  },
+  {
+    "title": "[Java] 부모 클래스의 메소드 오버라이딩이 더 큰 범위의 접근 제어자만 가능한 이유 or 더 좁은 범위로 변경할 수 없는 이유",
+    "url": "https://mangkyu.tistory.com/228"
+  },
+  {
+    "title": "[Server] 소나큐브(SonarQube) 커뮤니티 무료 버전에서 PR 데코레이션(Pull Request Decoration) 설정 적용하기",
+    "url": "https://mangkyu.tistory.com/229"
+  },
+  {
+    "title": "[Spring] Spring Cloud Gateway(스프링 클라우드 게이트웨이) 공식 문서 간단히 살펴보기 및 리서치 후기",
+    "url": "https://mangkyu.tistory.com/230"
+  },
+  {
+    "title": "[Spring] AOP Aspect에서 어노테이션 정보나 메소드의 파라미터값 가져오는 방법",
+    "url": "https://mangkyu.tistory.com/231"
+  },
+  {
+    "title": "[Spring] 스프링 첫 요청이 처리되는데 오래 걸리는 이유(서블릿 초기화와 JIT 컴파일러)와 해결 방법(웜업, Warm-Up)",
+    "url": "https://mangkyu.tistory.com/232"
+  },
+  {
+    "title": "[Spring] SpringBoot 실행 후에 초기화 코드를 넣는 3가지 방법과 이벤트 리스너(CommandLineRunner, ApplicationRunner, EventListener)",
+    "url": "https://mangkyu.tistory.com/233"
+  },
+  {
+    "title": "[Spring] @Configuration 안에 @Bean을 사용해야 하는 이유, proxyBeanMethods - (2/2)",
+    "url": "https://mangkyu.tistory.com/234"
+  },
+  {
+    "title": "[Java] Private 메소드를 테스트하는 방법과 이를 지양해야 하는 이유",
+    "url": "https://mangkyu.tistory.com/235"
+  },
+  {
+    "title": "[나의 공부방] 나만의 오픈 소스 만들어서 Maven Central에 배포하기",
+    "url": "https://mangkyu.tistory.com/237"
+  },
+  {
+    "title": "[Spring] 스프링이 제공하는 다양한 유틸성 클래스들(StringUtils, PatternMatchUtils, ReflectionUtils 등)",
+    "url": "https://mangkyu.tistory.com/238"
+  },
+  {
+    "title": "[Java] 제네릭과 와일드카드 타입에 대해 쉽고 완벽하게 이해하기(공변과 불공변, 상한 타입과 하한 타입)",
+    "url": "https://mangkyu.tistory.com/241"
+  },
+  {
+    "title": "[Spring] 스프링부트 테스트를 위한 의존성과 어노테이션, 애플리케이션 컨택스트 캐싱(@SpringBootTest, @WebMvcTest, @DataJpaTest)",
+    "url": "https://mangkyu.tistory.com/242"
+  },
+  {
+    "title": "[Spring] 스프링 부트 설정/테스트 작성 시의 주의사항(스프링 부트 테스트가 오래 걸리는 이유)",
+    "url": "https://mangkyu.tistory.com/243"
+  },
+  {
+    "title": "[Spring] @WebMvcTest에 의해 느려지는 테스트 속도와 해결 방법(컨트롤러에 대한 단위 테스트 작성하기)",
+    "url": "https://mangkyu.tistory.com/244"
+  },
+  {
+    "title": "[Spring] @WebMvcTest와 @MockBean에 의한 테스트 성능 문제 해결을 위한 커스텀 라이브러리 구현 및 소개(feat. AutoMock)",
+    "url": "https://mangkyu.tistory.com/245"
+  },
+  {
+    "title": "[Spring] ControllerAdvice는 AOP로 구현되어 있을까? ControllerAdvice의 동작 과정 살펴보기",
+    "url": "https://mangkyu.tistory.com/246"
+  },
+  {
+    "title": "[개발서적] 함께자라기 핵심 내용 정리 및 요약",
+    "url": "https://mangkyu.tistory.com/248"
+  },
+  {
+    "title": "[생각정리] 우아한 형제들의 \"잡담이 경쟁력이다\"와 함께 자라기의 \"심리작 안전감\"",
+    "url": "https://mangkyu.tistory.com/249"
+  },
+  {
+    "title": "[Spring] @RequestBody에 ArgumentResolver(아규먼트 리졸버)가 동작하지 않는 이유, RequestBodyAdvice로 @RequestBody에 부가 기능 구현하기",
+    "url": "https://mangkyu.tistory.com/250"
+  },
+  {
+    "title": "[HTTP] HTTP 메소드의 멱등성(Idempotence)과 Delete 메소드가 멱등한 이유",
+    "url": "https://mangkyu.tistory.com/251"
+  },
+  {
+    "title": "[Spring] if-else를 사용하지 않는 유연한 팩토리 클래스 구현하기",
+    "url": "https://mangkyu.tistory.com/252"
+  },
+  {
+    "title": "[Spring] Spring Cloud Config 도입하기 및 private 레포지토리 SSL로 연결 설정 및 privateKey 암호화",
+    "url": "https://mangkyu.tistory.com/253"
+  },
+  {
+    "title": "[Spring] Spring Cloud Config 설정 파일 내용을 갱신하는 방법, Spring Cloud Bus 없이 자동 갱신하기(AutoRefresh)",
+    "url": "https://mangkyu.tistory.com/254"
+  },
+  {
+    "title": "[Spring] RestTemplate 타임아웃(Timeout), 재시도(Retry), 로깅(Logging) 등 설정하기",
+    "url": "https://mangkyu.tistory.com/256"
+  },
+  {
+    "title": "[Spring] WebMVC와 WebFlux 의존성이 모두 존재하는 경우의 동작 방식",
+    "url": "https://mangkyu.tistory.com/257"
+  },
+  {
+    "title": "[Java] Thread와 Runnable에 대한 이해 및 사용법",
+    "url": "https://mangkyu.tistory.com/258"
+  },
+  {
+    "title": "[Java] Callable, Future 및 Executors, Executor, ExecutorService, ScheduledExecutorService에 대한 이해 및 사용법",
+    "url": "https://mangkyu.tistory.com/259"
+  },
+  {
+    "title": "[소프트스킬] 성과있는 팀 회고를 위한 7가지 포맷",
+    "url": "https://mangkyu.tistory.com/260"
+  },
+  {
+    "title": "[디자인패턴] 서킷 브레이커 패턴(Circuit Breaker Pattern)의 필요성 및 동작 원리",
+    "url": "https://mangkyu.tistory.com/261"
+  },
+  {
+    "title": "[Spring] Spring Cloud Config 사용 시의 주의사항 및 에러 해결 (Internal Server Error, RSA key with SHA-1)",
+    "url": "https://mangkyu.tistory.com/262"
+  },
+  {
+    "title": "[Java] CompletableFuture에 대한 이해 및 사용법",
+    "url": "https://mangkyu.tistory.com/263"
+  },
+  {
+    "title": "[Spring] @SpringBootTest 테스트 격리시키기(TestExecutionListener를 활용한 H2 데이터베이스 Truncate 초기화)",
+    "url": "https://mangkyu.tistory.com/264"
+  },
+  {
+    "title": "[회고] 2022년 회고 및 2023년 목표 설정",
+    "url": "https://mangkyu.tistory.com/265"
+  },
+  {
+    "title": "[Spring] 멀티쓰레드 환경에서 MDC를 사용해 요청 별로 식별가능한 로그 남기기",
+    "url": "https://mangkyu.tistory.com/266"
+  },
+  {
+    "title": "[강연] 마틴 파울러의 강연 정리 - 리팩토링 시점과 절차, 리팩토링이 필요한 이유",
+    "url": "https://mangkyu.tistory.com/268"
+  },
+  {
+    "title": "[Spring] 스프링의 트랜잭션 전파 속성(Transaction propagation) 완벽하게 이해하기",
+    "url": "https://mangkyu.tistory.com/269"
+  },
+  {
+    "title": "[IntelliJ] 유용한 인텔리제이 설정 및 플러그인 정리",
+    "url": "https://mangkyu.tistory.com/270"
+  },
+  {
+    "title": "[개발서적] 클린 아키텍처 1부 소개 - 내용 정리 및 요약",
+    "url": "https://mangkyu.tistory.com/271"
+  },
+  {
+    "title": "[개발서적] 클린 아키텍처 2부 벽돌부터 시작하기: 프로그래밍 패러다임 - 내용 정리 및 요약",
+    "url": "https://mangkyu.tistory.com/272"
+  },
+  {
+    "title": "[Java] Integer.valueOf(127) == Integer.valueOf(127)가 True인 이유, Integer 캐시",
+    "url": "https://mangkyu.tistory.com/273"
+  },
+  {
+    "title": "[개발서적] 클린 아키텍처 3부 설계 원칙 - 내용 정리 및 요약",
+    "url": "https://mangkyu.tistory.com/274"
+  },
+  {
+    "title": "[개발서적] 클린 아키텍처 4부 컴포넌트 원칙 - 내용 정리 및 요약",
+    "url": "https://mangkyu.tistory.com/275"
+  },
+  {
+    "title": "[개발서적] 클린 아키텍처 5부 아키텍처 - 내용 정리 및 요약",
+    "url": "https://mangkyu.tistory.com/276"
+  },
+  {
+    "title": "[개발서적] 클린 아키텍처 6부 세부사항 - 내용 정리 및 요약",
+    "url": "https://mangkyu.tistory.com/277"
+  },
+  {
+    "title": "[Spring] OpenFeign이란? OpenFeign 소개 및 사용법",
+    "url": "https://mangkyu.tistory.com/278"
+  },
+  {
+    "title": "[Spring] OpenFeign 타임아웃(Timeout), 재시도(Retry), 로깅(Logging) 등 설정하기",
+    "url": "https://mangkyu.tistory.com/279"
+  },
+  {
+    "title": "[Java] JUnit의 진화 과정과 public 접근 제어자",
+    "url": "https://mangkyu.tistory.com/280"
+  },
+  {
+    "title": "[Spring] POJO 프로그래밍과 스프링 프레임워크의 탄생",
+    "url": "https://mangkyu.tistory.com/281"
+  },
+  {
+    "title": "[ELK] ELK(Elasticsearch, Logstash, Kibana)에 대한 간단한 소개 및 구성 예시",
+    "url": "https://mangkyu.tistory.com/282"
+  },
+  {
+    "title": "[ELK] 파일비트(Filebeat)와 로그스태시(Logstash)에 대한 설정 예시",
+    "url": "https://mangkyu.tistory.com/283"
+  },
+  {
+    "title": "[Spring] Jasypt를 이용한 Yaml 또는 Properties 프로퍼티 설정 파일의 리소스 암호화",
+    "url": "https://mangkyu.tistory.com/284"
+  },
+  {
+    "title": "[MySQL] 프라이머리 키(PK, Primary Key)에 대해 쉽고 완벽하게 이해하기",
+    "url": "https://mangkyu.tistory.com/285"
+  },
+  {
+    "title": "[MySQL] B-Tree로 인덱스(Index)에 대해 쉽고 완벽하게 이해하기",
+    "url": "https://mangkyu.tistory.com/286"
+  },
+  {
+    "title": "[Database] 자연키(Natural key)와 대체키(Surrogate Key), PK(기본키)를 대체키로 설정해야 하는 이유",
+    "url": "https://mangkyu.tistory.com/287"
+  },
+  {
+    "title": "[MySQL] MVCC(다중 버전 동시성 제어)와 데이터베이스가 트랜잭션을 지원하는 방법과 동작 과정",
+    "url": "https://mangkyu.tistory.com/288"
+  },
+  {
+    "title": "[Spring] OpenFeign에 Resilence4J 서킷 브레이커 적용하는 방법과 예시 및 주의사항",
+    "url": "https://mangkyu.tistory.com/289"
+  },
+  {
+    "title": "[Spring] RestTemplate에 Resilence4J 서킷 브레이커 적용하는 방법과 예시",
+    "url": "https://mangkyu.tistory.com/290"
+  },
+  {
+    "title": "[Spring] Spring6에 등장한 HttpInterface에 대한 소개와 다양한 HTTP 도구들",
+    "url": "https://mangkyu.tistory.com/291"
+  },
+  {
+    "title": "[Spring] 스프링에서 이벤트의 발행과 구독 방법과 주의사항, 이벤트 사용의 장/단점과 사용 예시",
+    "url": "https://mangkyu.tistory.com/292"
+  },
+  {
+    "title": "[MySQL] The last packet successfully received from the server was 12,345,678 milliseconds ago 에러 대응하기",
+    "url": "https://mangkyu.tistory.com/293"
+  },
+  {
+    "title": "[Nginx] Nginx 예시/샘플 설정 공유 및 설정 시의 주의사항",
+    "url": "https://mangkyu.tistory.com/294"
+  },
+  {
+    "title": "[Spring] 스프링 부트(SpringBoot)의 탄생 배경, 컨테이너리스(Containerless) 웹 애플리케이션 아키텍처",
+    "url": "https://mangkyu.tistory.com/295"
+  },
+  {
+    "title": "[Gradle] Gradle Java 플러그인과 implementation와 api의 차이",
+    "url": "https://mangkyu.tistory.com/296"
+  },
+  {
+    "title": "[Java] 자바의 컨테이너 환경을 위한 XX:+UseContainerSupport 옵션",
+    "url": "https://mangkyu.tistory.com/297"
+  },
+  {
+    "title": "[MySQL] 스토리지 엔진 수준의 락의 종류(레코드 락, 갭 락, 넥스트 키 락, 자동 증가 락)",
+    "url": "https://mangkyu.tistory.com/298"
+  },
+  {
+    "title": "[MySQL] 트랜잭션의 격리 수준(Isolation Level)에 대해 쉽고 완벽하게 이해하기",
+    "url": "https://mangkyu.tistory.com/299"
+  },
+  {
+    "title": "[MySQL] 트랜잭션 격리 수준과 부정합 문제들(Dirty Read, Non-Repeatable Read, Phantom Read) 실습해보기",
+    "url": "https://mangkyu.tistory.com/300"
+  },
+  {
+    "title": "[Java] Hotspot VM의 한계(JIT, Just-In-Time 컴파일러)와 이를 극복하기 위한 GraalVM의 등장",
+    "url": "https://mangkyu.tistory.com/301"
+  },
+  {
+    "title": "[Java] GraalVM이 제공하는 네이티브 이미지(Native Image)",
+    "url": "https://mangkyu.tistory.com/302"
+  },
+  {
+    "title": "[Spring] Spring Boot3.2에 새롭게 추가될 RestClient",
+    "url": "https://mangkyu.tistory.com/303"
+  },
+  {
+    "title": "[Server] 멀티 모듈을 설계하는 관점과 고려사항 with Spring & Gradle",
+    "url": "https://mangkyu.tistory.com/304"
+  },
+  {
+    "title": "[Post Mortem] 데이터독 장애 포스트모템(2023-03-08 Incident: Infrastructure connectivity issue affecting multiple regions)",
+    "url": "https://mangkyu.tistory.com/305"
+  },
+  {
+    "title": "[Post Mortem] 로블록스 장애 포스트모템(Roblox Return to Service 10/28-10/31 2021)",
+    "url": "https://mangkyu.tistory.com/306"
+  },
+  {
+    "title": "[Infra] 서비스 메시(Service Mesh)의 등장과 쿠버네티스(Kubernetes)의 SidecarContainers",
+    "url": "https://mangkyu.tistory.com/307"
+  },
+  {
+    "title": "[Java] Java 21에 추가될 새로운 기능들(Java 21 Features)",
+    "url": "https://mangkyu.tistory.com/308"
+  },
+  {
+    "title": "[Java] 기존 자바 스레드 모델의 한계와 자바 21의 가상 스레드(Virtual Thread)의 도입",
+    "url": "https://mangkyu.tistory.com/309"
+  },
+  {
+    "title": "[Spring] @PathVariable 또는 @RequestParam 등의 값을 변환하여 받기(암호화된 @PathVaraible 값 복호화)",
+    "url": "https://mangkyu.tistory.com/310"
+  },
+  {
+    "title": "[Redis] 레디스가 제공하는 분산락(RedLock)의 특징과 한계",
+    "url": "https://mangkyu.tistory.com/311"
+  },
+  {
+    "title": "[Spring] 예제 코드를 통해 스프링 @Transactional의 동작 방식에 대해 완벽하게 이해하기(parallelStream에서 @Transactional을 사용하는 경우)",
+    "url": "https://mangkyu.tistory.com/312"
+  },
+  {
+    "title": "[개발서적] 프로그래머의 뇌 핵심 내용 정리 및 요약",
+    "url": "https://mangkyu.tistory.com/313"
+  },
+  {
+    "title": "[Slack] JIRA 티켓 생성 워크플로우(Workflow) 만들기",
+    "url": "https://mangkyu.tistory.com/314"
+  },
+  {
+    "title": "[개발서적] 실용주의 프로그래머 핵심 내용 정리 및 요약",
+    "url": "https://mangkyu.tistory.com/315"
+  },
+  {
+    "title": "[문화] Project Oxygen, 관리자의 필요성에 대한 구글의 실험(How Google Sold its Engineers on Management)",
+    "url": "https://mangkyu.tistory.com/316"
+  },
+  {
+    "title": "[Spring] 가상 스레드(Virtual Thread)를 지원하기 위한 스프링의 작업들과 마이그레이션 시의 주의 사항",
+    "url": "https://mangkyu.tistory.com/317"
+  },
+  {
+    "title": "[Spring] 스프링이 구현한 Aggregate Root(애그리거트 루트)와 도메인 이벤트",
+    "url": "https://mangkyu.tistory.com/318"
+  },
+  {
+    "title": "[Spring] EmptyResultDataAccessException 예외가 발생한 SQL 쿼리와 파라미터 로깅하기",
+    "url": "https://mangkyu.tistory.com/319"
+  },
+  {
+    "title": "[Java] JVM의 체크포인트 생성과 복구를 위한 CRaC(Coordinated Restore at Checkpoint) 프로젝트",
+    "url": "https://mangkyu.tistory.com/320"
+  },
+  {
+    "title": "[Java] 언제 추상 클래스(Abstract Class) 또는 인터페이스(Interface)를 사용해야 하는가?",
+    "url": "https://mangkyu.tistory.com/321"
+  },
+  {
+    "title": "[Java] 자바는 Call By Value(Pass By Value) 방식으로만 동작한다",
+    "url": "https://mangkyu.tistory.com/322"
+  },
+  {
+    "title": "[회고] 2023년 회고 및 2024년 목표 설정",
+    "url": "https://mangkyu.tistory.com/323"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #1",
+    "url": "https://mangkyu.tistory.com/324"
+  },
+  {
+    "title": "[Java] 기존 동시성 프로그래밍의 한계와 새롭게 도입될 구조적 동시성(Structured Concurrency)",
+    "url": "https://mangkyu.tistory.com/325"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #2",
+    "url": "https://mangkyu.tistory.com/326"
+  },
+  {
+    "title": "[Java] 중복 문자열 제거를 통한 메모리 절약을 위한 -XX:+UseStringDeduplication GC 옵션",
+    "url": "https://mangkyu.tistory.com/328"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #3",
+    "url": "https://mangkyu.tistory.com/329"
+  },
+  {
+    "title": "[Java] Nested Class(중첩 클래스)에 대한 자바 스펙 문서 정리",
+    "url": "https://mangkyu.tistory.com/330"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #4",
+    "url": "https://mangkyu.tistory.com/331"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #5",
+    "url": "https://mangkyu.tistory.com/332"
+  },
+  {
+    "title": "[Java] 스레드 로컬(ThreadLocal)과 상속 가능한 스레드 로컬( InheritableThreadLocal)에 대하여",
+    "url": "https://mangkyu.tistory.com/333"
+  },
+  {
+    "title": "[비개발서적] 책은 도끼다 내용 정리 및 독서 후기",
+    "url": "https://mangkyu.tistory.com/334"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #6",
+    "url": "https://mangkyu.tistory.com/335"
+  },
+  {
+    "title": "[JVM] Async-Profiler 소개 및 IntelliJ에서 프로파일링 결과 분석하는 방법",
+    "url": "https://mangkyu.tistory.com/336"
+  },
+  {
+    "title": "[Kotlin] 인텔리제이(IntelliJ)에서 코틀린 move instance method(다른 클래스로 메소드 옮기기) 리팩토링 기능 활성화하기",
+    "url": "https://mangkyu.tistory.com/337"
+  },
+  {
+    "title": "[TechNews] 개발 관련 아티클 및 영상 #7",
+    "url": "https://mangkyu.tistory.com/338"
+  },
+  {
+    "title": "[Spring] SpringBoot3에 추가된 Content-Disposition 헤더의 일반 filename 파라미터(Regular Parameters)",
+    "url": "https://mangkyu.tistory.com/339"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #8",
+    "url": "https://mangkyu.tistory.com/340"
+  },
+  {
+    "title": "[비개발서적] 행복의 기원 내용 정리 및 독서 후기",
+    "url": "https://mangkyu.tistory.com/341"
+  },
+  {
+    "title": "[JVM] 예시로 살펴보는 IntelliJ 프로파일링 결과 분석 및 성능 최적화 방법",
+    "url": "https://mangkyu.tistory.com/342"
+  },
+  {
+    "title": "[JVM] JIT 컴파일러(Just-In Time Compiler)의 다양한 최적화 기술들 알아보기(Optionazation techniques)",
+    "url": "https://mangkyu.tistory.com/343"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #9",
+    "url": "https://mangkyu.tistory.com/344"
+  },
+  {
+    "title": "[JVM] JIT 컴파일러(Just-In Time Compiler)의 최적화 과정 자세히 살펴보기",
+    "url": "https://mangkyu.tistory.com/345"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #10",
+    "url": "https://mangkyu.tistory.com/346"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #11",
+    "url": "https://mangkyu.tistory.com/347"
+  },
+  {
+    "title": "[Kotlin] 공식문서로 Kotest에 대해 알아보기",
+    "url": "https://mangkyu.tistory.com/348"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #12",
+    "url": "https://mangkyu.tistory.com/349"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #13",
+    "url": "https://mangkyu.tistory.com/350"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #14",
+    "url": "https://mangkyu.tistory.com/351"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #15",
+    "url": "https://mangkyu.tistory.com/352"
+  },
+  {
+    "title": "[취업준비] 개발자 취업 또는 이직 준비 방법(합격 이력서로 살펴보는 이력서 작성법)",
+    "url": "https://mangkyu.tistory.com/353"
+  },
+  {
+    "title": "[JVM] 리플렉션(Reflection)을 포함한 다양한 코드 접근 방식들의 성능",
+    "url": "https://mangkyu.tistory.com/354"
+  },
+  {
+    "title": "[JVM] Jackson ObjectMapper의 성능을 높여줄 Blackbird 모듈",
+    "url": "https://mangkyu.tistory.com/355"
+  },
+  {
+    "title": "[Server] Redis와 LuaScript(레디스와 루아스크립트)를 활용한 슬라이딩 윈도우 구현하기",
+    "url": "https://mangkyu.tistory.com/356"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #16",
+    "url": "https://mangkyu.tistory.com/357"
+  },
+  {
+    "title": "[Kotlin] 코틀린을 입문할 때 알면 좋은 내용들 모음",
+    "url": "https://mangkyu.tistory.com/358"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #17",
+    "url": "https://mangkyu.tistory.com/359"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #18",
+    "url": "https://mangkyu.tistory.com/360"
+  },
+  {
+    "title": "[비개발서적] 1만 시간의 재발견 내용 정리 및 독서 후기",
+    "url": "https://mangkyu.tistory.com/361"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #19",
+    "url": "https://mangkyu.tistory.com/362"
+  },
+  {
+    "title": "[개발서적] 좋은 코드, 나쁜 코드 핵심 내용 정리 및 요약",
+    "url": "https://mangkyu.tistory.com/363"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #20",
+    "url": "https://mangkyu.tistory.com/364"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #21",
+    "url": "https://mangkyu.tistory.com/365"
+  },
+  {
+    "title": "[JVM] JVM의 init 메서드, 객체의 초기화를 위한 인스턴스 초기화 메서드(instance initialization method)",
+    "url": "https://mangkyu.tistory.com/366"
+  },
+  {
+    "title": "[Java] H2 데이터베이스에서 @Transactional(readOnly=true)일때  save를 호출하는 경우",
+    "url": "https://mangkyu.tistory.com/367"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #22",
+    "url": "https://mangkyu.tistory.com/368"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #23",
+    "url": "https://mangkyu.tistory.com/369"
+  },
+  {
+    "title": "[Spring] 스프링이 제공하는 Cache와 CacheManager 쉽고 완벽하게 이해하기",
+    "url": "https://mangkyu.tistory.com/370"
+  },
+  {
+    "title": "[Spring] 로컬 캐시와 레디스를 함께 사용하는 2-Level Cache(2계층 캐시) 구현하기",
+    "url": "https://mangkyu.tistory.com/371"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #25",
+    "url": "https://mangkyu.tistory.com/372"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #24",
+    "url": "https://mangkyu.tistory.com/373"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #26",
+    "url": "https://mangkyu.tistory.com/374"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #27",
+    "url": "https://mangkyu.tistory.com/375"
+  },
+  {
+    "title": "[SpringBoot] 스프링부트3 Name for argument of type not specified 에러(Parameter Name Retention)",
+    "url": "https://mangkyu.tistory.com/376"
+  },
+  {
+    "title": "[SpringBoot] Java 17 & SpringBoot 2.7 버전업(자바 17 & 스프링부트 2.7 버전업)",
+    "url": "https://mangkyu.tistory.com/377"
+  },
+  {
+    "title": "[SpringBoot] SpringBoot 3 Migration 내용 정리 및 공유(스프링부트 3 마이그레이션)",
+    "url": "https://mangkyu.tistory.com/378"
+  },
+  {
+    "title": "[SpringBoot] 스프링 부트3.2(SpringBoot3.2)에 추가된 유효성 검사 기능(MethodValidator) 파헤치기",
+    "url": "https://mangkyu.tistory.com/379"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #28",
+    "url": "https://mangkyu.tistory.com/380"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #29",
+    "url": "https://mangkyu.tistory.com/381"
+  },
+  {
+    "title": "[IntelliJ] 유용한 인텔리제이 기능 모음(IntelliJ)",
+    "url": "https://mangkyu.tistory.com/382"
+  },
+  {
+    "title": "[Data Analysis] Four pitfalls of hill climbing(A/B 테스트의 4가지 함정)",
+    "url": "https://mangkyu.tistory.com/383"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #30",
+    "url": "https://mangkyu.tistory.com/384"
+  },
+  {
+    "title": "[개발서적] 프로그래머, 열정을 말하다 핵심 내용 정리 및 요약",
+    "url": "https://mangkyu.tistory.com/385"
+  },
+  {
+    "title": "[개발서적] 오브젝트 핵심 내용 정리 및 요약",
+    "url": "https://mangkyu.tistory.com/386"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #31",
+    "url": "https://mangkyu.tistory.com/387"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #32",
+    "url": "https://mangkyu.tistory.com/388"
+  },
+  {
+    "title": "[Spring] AttributeConverter registered multiple times 에러 (JPA, Hibernate)",
+    "url": "https://mangkyu.tistory.com/389"
+  },
+  {
+    "title": "[Spring] @PostConstruct 내부에서 @Bean 메서드 호출로 인해 발생하는 circular dependencies 문제 해결하기",
+    "url": "https://mangkyu.tistory.com/390"
+  },
+  {
+    "title": "[Spring] @Transactional에서 첫 쿼리 실행까지(실제 Connection이 필요할 때까지) 커넥션 점유를 늦추는 LazyConnectionDataSourceProxy",
+    "url": "https://mangkyu.tistory.com/391"
+  },
+  {
+    "title": "[TechNews] 유용한 개발 관련 아티클 및 영상 #33",
+    "url": "https://mangkyu.tistory.com/392"
+  },
+  {
+    "title": "[개발서적] 스트리트 코더(Street Coder) 핵심 내용 정리 및 요약",
+    "url": "https://mangkyu.tistory.com/393"
+  },
+  {
+    "title": "[Spring] 트랜잭션 관리를 위한 TransactionTemplate의 활용",
+    "url": "https://mangkyu.tistory.com/394"
+  },
+  {
+    "title": "[Tool] 유용한 MacOS 앱 및 크롬 익스텐션(Chrome Extensions) 정리",
+    "url": "https://mangkyu.tistory.com/395"
+  },
+  {
+    "title": "[Architecture] 헥사고날 아키텍처를 통한 의미 수준과 구현 수준에 대한 이해(semantic and implementation level with hexagonal architecture)",
+    "url": "https://mangkyu.tistory.com/396"
+  },
+  {
+    "title": "[개발서적] 단위 테스트(Unit Testing) 핵심 내용 정리 및 요약",
+    "url": "https://mangkyu.tistory.com/397"
+  },
+  {
+    "title": "[Server] 비즈니스 정책과 입력 데이터, 서로 다른 데이터 검증 및 유효성 검사(Validation)",
+    "url": "https://mangkyu.tistory.com/398"
+  },
+  {
+    "title": "[Server] 진짜 중복과 가짜 중복의 구분(중복 여부를 판단하는 기준)",
+    "url": "https://mangkyu.tistory.com/399"
+  },
+  {
+    "title": "[Server] 객체에게 역할과 책임을 부여하는 객체 지향 프로그래밍(Object-Oriented Programming)",
+    "url": "https://mangkyu.tistory.com/400"
+  },
+  {
+    "title": "[Server] 데이터 중심의 세상과 객체 지향 프로그래밍(Data-Oriented and Object-Oriented Programming)",
+    "url": "https://mangkyu.tistory.com/401"
+  },
+  {
+    "title": "[Spring] 스프링이 제공하는 레디스 직렬화/역직렬화(Redis Serializer/Deserializer)의 종류와 한계",
+    "url": "https://mangkyu.tistory.com/402"
+  },
+  {
+    "title": "[Java] 오늘날의 제네릭이 되기까지 제네릭의 발전과 소거(Generic and Erasure) from Brian Goetz",
+    "url": "https://mangkyu.tistory.com/403"
+  },
+  {
+    "title": "[Java] 스프링 톰캣의 스레드 덤프를 통한 스레드 상태에 대한 이해(Thread State with Spring Application Tomcat Thread Dump)",
+    "url": "https://mangkyu.tistory.com/404"
+  },
+  {
+    "title": "[개발서적] 구글 엔지니어는 이렇게 일한다 핵심 내용 정리 및 요약",
+    "url": "https://mangkyu.tistory.com/405"
+  },
+  {
+    "title": "[Kotlin] 값 객체(Value Object)와 불변성(Immutablity) 그리고 코틀린 value 클래스",
+    "url": "https://mangkyu.tistory.com/406"
+  },
+  {
+    "title": "[MySQL] 실무 사례로 살펴보는 MySQL VARCHAR와 TEXT의 차이",
+    "url": "https://mangkyu.tistory.com/407"
+  },
+  {
+    "title": "[회고] 2024년 회고 및 2025년 목표 설정",
+    "url": "https://mangkyu.tistory.com/408"
+  },
+  {
+    "title": "[비개발서적] 전진의 법칙",
+    "url": "https://mangkyu.tistory.com/409"
+  },
+  {
+    "title": "[Java] 자바 9에 개선 및 최적화된 String 내부 구조(JEP254: Compact Strings)",
+    "url": "https://mangkyu.tistory.com/410"
+  },
+  {
+    "title": "[Spring] 스프링에서 레디스 설정 및 직렬화/역직렬화(Redis Serializer/Deserializer) 고도화하기",
+    "url": "https://mangkyu.tistory.com/411"
+  },
+  {
+    "title": "[JVM] 올바른 자바/코틀린(Java/Kotlin) 애플리케이션 JVM 메모리 설정 가이드",
+    "url": "https://mangkyu.tistory.com/412"
+  },
+  {
+    "title": "[Spring] 데이터베이스 커넥션 풀 및 JPA, 하이버네이트 설정 최적화(Database Connection Pool and JPA, Hibernate properties optimization)",
+    "url": "https://mangkyu.tistory.com/413"
+  },
+  {
+    "title": "[Slack] 슬랙봇 DM 및 채널 메시지 연동하여 운영 자동화하기",
+    "url": "https://mangkyu.tistory.com/414"
+  },
+  {
+    "title": "[Java] 시스템의 성능과 volatile 키워드를 통한 메모리 가시성에 대한 이해(Memory Visiblilty)",
+    "url": "https://mangkyu.tistory.com/415"
+  },
+  {
+    "title": "[SpringBoot] 톰캣(Tomcat)에서 server.compression.min-response-size가 제대로 동작하지 않는 이유 분석하기",
+    "url": "https://mangkyu.tistory.com/416"
+  },
+  {
+    "title": "[Server] Redis 메모리 사용량 추정하기(Redis Memory Usage Estimation)",
+    "url": "https://mangkyu.tistory.com/417"
+  },
+  {
+    "title": "[MySQL] 데이터베이스 대소문자 구분을 위한 콜레이션(Collcation), utf8mb4_unicode_ci와 utf8mb4_general_ci 그리고 utf8mb4_bin",
+    "url": "https://mangkyu.tistory.com/418"
+  },
+  {
+    "title": "[Redis] Lettuce를 사용하는 경우에 MGET 동작 방식에 대해 이해하기",
+    "url": "https://mangkyu.tistory.com/419"
+  },
+  {
+    "title": "[Server] K6 부하 테스트 시나리오 작성하고 결과 지표 분석하기(K6 Load Testing)",
+    "url": "https://mangkyu.tistory.com/420"
+  },
+  {
+    "title": "[LLM] MCP(Model Context Protocol)에 대하여 알아보고 IntelliJ와 Claude를 MCP로 연동하기",
+    "url": "https://mangkyu.tistory.com/421"
+  },
+  {
+    "title": "[SpringBoot] 멀티 스레드 기반으로 다중 요청을 처리하는 톰캣(Tomcat)의 구조와 동작 방식",
+    "url": "https://mangkyu.tistory.com/422"
+  },
+  {
+    "title": "[SpringBoot] 올바른 스프링 부트 톰캣 애플리케이션 설정 가이드(SpringBoot Tomcat Configuration)",
+    "url": "https://mangkyu.tistory.com/423"
+  },
+  {
+    "title": "[SpringBoot] 스프링 부트 톰캣 애플리케이션의 Graceful Shutdown 동작 방식(Spring Boot Tomcat Graceful Shutdown)",
+    "url": "https://mangkyu.tistory.com/424"
+  },
+  {
+    "title": "[Spring] @Async를 활용한 비동기 처리를 위한 올바른 설정 가이드",
+    "url": "https://mangkyu.tistory.com/425"
+  }
+]
