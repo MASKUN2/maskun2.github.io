@@ -1,18 +1,15 @@
 [
   {
-    "title": "[우아한테크세미나] 190425 TDD 리팩토링 by 자바지기 박재성님",
-    "url": "https://www.youtube.com/watch?v=bIeqAlmNRrA",
-    "publishedAt": "2019-05-20T06:38:37Z"
-  },
-  {
-    "title": "먼데이프로젝트 리뷰 현장을 공개합니다!",
-    "url": "https://www.youtube.com/watch?v=tB9TGODfSDg",
-    "publishedAt": "2019-05-27T05:20:30Z"
-  },
-  {
     "title": "[우아한테크토크] 선착순 이벤트 서버 생존기! 47만 RPM에서 살아남다?!",
     "url": "https://www.youtube.com/watch?v=MTSn93rNPPE",
-    "publishedAt": "2019-06-24T09:06:46Z"
+    "publishedAt": "2019-06-24T09:06:46Z",
+    "read": true,
+    "note": [
+      "RPM과 TPS 차이",
+      "대기열로 순간 트래픽을 소화",
+      "대기열 큐로 Redis. 자료구조로 Sorted Set(Olog(n)) 사용. 순서-> ZADD 스코어, 대기순번 -> ZRANK, 일정수 -> ZRANGE. 레디스 사용시 Key 명령어 사용금지 시간복잡도 On",
+      "라우트에서 회원 정보Rule에 따라 프로모션 대상자를 다른 대기열 큐 서버로 라우팅함. 라우팅 서버는 WebFulx + Netty 논블로킹서버로 10K TPS 처리가능"
+    ]
   },
   {
     "title": "[우아한테크토크] 엔드게임 이벤트 긴급 대응기  개발자 어!셈블?",
