@@ -14,7 +14,11 @@
   {
     "title": "[우아한테크토크] 엔드게임 이벤트 긴급 대응기  개발자 어!셈블?",
     "url": "https://www.youtube.com/watch?v=uWcn7omddxs",
-    "publishedAt": "2019-06-28T06:05:43Z"
+    "publishedAt": "2019-06-28T06:05:43Z",
+    "read": true,
+    "note": [
+      "jedis 에서 lettuce로", "청크단위로 redis에 넣는 대기열 시스템"
+    ]
   },
   {
     "title": "[우아한테크세미나] 190620 우아한객체지향 by 우아한형제들 개발실장 조영호님",
