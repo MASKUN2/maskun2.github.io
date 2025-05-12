@@ -23,152 +23,24 @@
   {
     "title": "[우아한테크세미나] 190620 우아한객체지향 by 우아한형제들 개발실장 조영호님",
     "url": "https://www.youtube.com/watch?v=dJ5C4qRqAgA",
-    "publishedAt": "2019-07-02T06:14:01Z"
+    "publishedAt": "2019-07-02T06:14:01Z",
+    "read": true
   },
   {
     "title": "[10분 테코톡] 🦊🦆닉&러너덕의 점심봇",
     "url": "https://www.youtube.com/watch?v=NfJjaGjVceo",
-    "publishedAt": "2019-07-10T07:51:56Z"
-  },
-  {
-    "title": "[10분 테코톡] 👾베디의 OCP와 전략패턴",
-    "url": "https://www.youtube.com/watch?v=90ZDvHl8ROE",
-    "publishedAt": "2019-07-10T08:49:52Z"
-  },
-  {
-    "title": "[10분 테코톡] 🤠루피의 우아한테크코스 도서관리시스템",
-    "url": "https://www.youtube.com/watch?v=PCXlgnYekBg",
-    "publishedAt": "2019-07-10T09:21:59Z"
-  },
-  {
-    "title": "[10분 테코톡] 👨🏻‍💻👨🏻‍💻지노&비모의 DTO vs VO",
-    "url": "https://www.youtube.com/watch?v=EeJnNaiMy3U",
-    "publishedAt": "2019-07-22T01:30:57Z"
-  },
-  {
-    "title": "[10분 테코톡] 👩🏻‍💻👨🏻‍💻해리&션의 MVC 패턴",
-    "url": "https://www.youtube.com/watch?v=uoVNJkyXX0I",
-    "publishedAt": "2019-07-23T05:36:47Z"
-  },
-  {
-    "title": "[10분 테코톡] 🤦‍♂️🤦‍♂️슬로스&이바의 우리는 왜 실패했는가",
-    "url": "https://www.youtube.com/watch?v=wE40LuEMxx0",
-    "publishedAt": "2019-07-24T06:50:30Z"
-  },
-  {
-    "title": "[10분 테코톡] 🦆러너덕의 Springboot autoConfiguration",
-    "url": "https://www.youtube.com/watch?v=OXILjfY8edw",
-    "publishedAt": "2019-07-25T06:47:06Z"
-  },
-  {
-    "title": "[10분 테코톡] 🐻큰곰의 Cache",
-    "url": "https://www.youtube.com/watch?v=c33ojJ7kE7M",
-    "publishedAt": "2019-07-26T06:30:00Z"
-  },
-  {
-    "title": "[10분 테코톡] 🙋‍♂️제이의 시간복잡도",
-    "url": "https://www.youtube.com/watch?v=IEH3YA2Nn4Q",
-    "publishedAt": "2019-07-28T10:04:58Z"
-  },
-  {
-    "title": "[10분 테코톡]  🙆‍♂️올레의 JPA와 JDBC",
-    "url": "https://www.youtube.com/watch?v=Ppqc3qN75EE",
-    "publishedAt": "2019-07-29T11:52:46Z"
-  },
-  {
-    "title": "[10분x3 테코톡] 👨‍🏫안돌의 Git branches",
-    "url": "https://www.youtube.com/watch?v=MIGliPrUMGE",
-    "publishedAt": "2019-07-30T05:29:26Z"
-  },
-  {
-    "title": "[10분 테코톡] 🙋‍♂️이지의 RESTful",
-    "url": "https://www.youtube.com/watch?v=xY7cpMuWh4w",
-    "publishedAt": "2019-07-31T09:34:53Z"
-  },
-  {
-    "title": "[10분 테코톡] 🍩도넛의 함수형 프로그래밍",
-    "url": "https://www.youtube.com/watch?v=ii5hnSCE6No",
-    "publishedAt": "2019-08-01T00:39:33Z"
-  },
-  {
-    "title": "[10분 테코톡] 🤠루피의 인증과 인가",
-    "url": "https://www.youtube.com/watch?v=JZgD8aPkHSc",
-    "publishedAt": "2019-08-02T14:20:55Z"
-  },
-  {
-    "title": "[10분 테코톡] 🦊닉의 Spring vs Spring Boot",
-    "url": "https://www.youtube.com/watch?v=6h9qmKWK6Io",
-    "publishedAt": "2019-08-05T12:33:31Z"
-  },
-  {
-    "title": "[10분 테코톡] 👩‍🦰희봉의 웹서버 vs WAS",
-    "url": "https://www.youtube.com/watch?v=NyhbNtOq0Bc",
-    "publishedAt": "2019-08-21T10:57:01Z"
-  },
-  {
-    "title": "[10분 테코톡] 👩‍🦰에헴의 빌드용어",
-    "url": "https://www.youtube.com/watch?v=JgRCaVwkPE8",
-    "publishedAt": "2019-08-22T10:44:25Z"
-  },
-  {
-    "title": "[10분 테코톡] 👨‍🏫안돌의 INDEX",
-    "url": "https://www.youtube.com/watch?v=NkZ6r6z2pBg",
-    "publishedAt": "2019-08-26T07:41:39Z"
-  },
-  {
-    "title": "[우테코 인터뷰 챌린지] 👾베디가 🙋‍♂️제이에게",
-    "url": "https://www.youtube.com/watch?v=gjXBsIW4KYw",
-    "publishedAt": "2019-08-26T14:14:36Z"
-  },
-  {
-    "title": "[미니프로젝트] w3팀의 woostagram",
-    "url": "https://www.youtube.com/watch?v=z__lVXIjDOw",
-    "publishedAt": "2019-09-05T07:23:47Z"
-  },
-  {
-    "title": "[미니프로젝트] 우아한구조대 team의 fakebook",
-    "url": "https://www.youtube.com/watch?v=pIQQxW4tXJw",
-    "publishedAt": "2019-09-07T08:34:52Z"
-  },
-  {
-    "title": "[미니프로젝트] Zzazan team의 zzazanstagram",
-    "url": "https://www.youtube.com/watch?v=lltWISAg3BU",
-    "publishedAt": "2019-09-07T12:08:06Z"
-  },
-  {
-    "title": "[미니프로젝트] 칠면조 team의 TurkeyBook",
-    "url": "https://www.youtube.com/watch?v=7b0xSwC-Oc8",
-    "publishedAt": "2019-09-10T07:44:04Z"
-  },
-  {
-    "title": "[미니프로젝트] EDD team의 Wootube",
-    "url": "https://www.youtube.com/watch?v=BmbWEdGQZhw",
-    "publishedAt": "2019-09-10T07:54:08Z"
-  },
-  {
-    "title": "[미니프로젝트] SunShine team의 Sunbook",
-    "url": "https://www.youtube.com/watch?v=Arb29ai26GU",
-    "publishedAt": "2019-09-10T08:12:02Z"
+    "publishedAt": "2019-07-10T07:51:56Z",
+    "read": true,
+    "note": "성능개선"
   },
   {
     "title": "[우아한테크세미나] 190829 우아한멀티모듈 by 우아한형제들 권용근님",
     "url": "https://www.youtube.com/watch?v=nH382BcycHc",
-    "publishedAt": "2019-09-11T01:50:07Z"
-  },
-  {
-    "title": "[미니프로젝트] 찐브로스 team의 wootecobook",
-    "url": "https://www.youtube.com/watch?v=jdUaHB5hjP4",
-    "publishedAt": "2019-09-19T05:30:53Z"
-  },
-  {
-    "title": "[미니프로젝트] IOI team의 Wootube",
-    "url": "https://www.youtube.com/watch?v=aFqw6a7gvyE",
-    "publishedAt": "2019-09-23T09:31:43Z"
-  },
-  {
-    "title": "[미니프로젝트] 자료구조 team의 woostagram",
-    "url": "https://www.youtube.com/watch?v=6KLoR21XFWk",
-    "publishedAt": "2019-09-27T00:06:22Z"
+    "publishedAt": "2019-09-11T01:50:07Z",
+    "read": true,
+    "note": [
+      "https://blog.kingbbode.com/", "https://resume.kingbbode.com/","https://www.slideshare.net/slideshow/ss-167401606/167401606"
+    ]
   },
   {
     "title": "[우아한테크세미나] 190926 우아한스프링배치 by 우아한형제들 이동욱님",
@@ -176,109 +48,10 @@
     "publishedAt": "2019-10-07T06:27:35Z"
   },
   {
-    "title": "[10분 테코톡] 👨‍🏫르윈의 TCP UDP",
-    "url": "https://www.youtube.com/watch?v=ikDVGYp5dhg",
-    "publishedAt": "2019-10-07T12:38:44Z"
-  },
-  {
-    "title": "[10분 테코톡] 🙆‍♀️티버의 API vs Library vs Framework",
-    "url": "https://www.youtube.com/watch?v=We8JKbNQeLo",
-    "publishedAt": "2019-11-04T01:01:49Z"
-  },
-  {
     "title": "[10분 테코톡] 👩‍🏫코니의 #️⃣Hash Function",
     "url": "https://www.youtube.com/watch?v=Rpbj6jMYKag",
-    "publishedAt": "2019-11-04T02:49:14Z"
-  },
-  {
-    "title": "[10분 테코톡] 🐳김고래 Process & Thread",
-    "url": "https://www.youtube.com/watch?v=LLiV5Yz1AWg",
-    "publishedAt": "2019-11-05T08:43:08Z"
-  },
-  {
-    "title": "[10분 테코톡] 👨‍🏫철시의 요청 응답 흐름 과정",
-    "url": "https://www.youtube.com/watch?v=4SaW9BbtL3k",
-    "publishedAt": "2019-11-05T08:58:10Z"
-  },
-  {
-    "title": "[10분 테코톡] 🙇‍♂️코맥의 Interrupt와 Context Switching",
-    "url": "https://www.youtube.com/watch?v=-4HKhwlH3FQ",
-    "publishedAt": "2019-11-13T13:54:58Z"
-  },
-  {
-    "title": "[10분 테코톡] 🙋‍♂️제이엠의 MVC",
-    "url": "https://www.youtube.com/watch?v=nMolWzTT-dU",
-    "publishedAt": "2019-11-13T23:59:53Z"
-  },
-  {
-    "title": "[우아한테크세미나] 191024 우아한항해 by 김형준님",
-    "url": "https://www.youtube.com/watch?v=zdYXqC0xo3I",
-    "publishedAt": "2019-11-15T04:02:22Z"
-  },
-  {
-    "title": "[10분 테코톡] 👨‍🎨규동의 Servlet & Spring",
-    "url": "https://www.youtube.com/watch?v=cmwmamOQmPc",
-    "publishedAt": "2019-11-27T04:36:16Z"
-  },
-  {
-    "title": "[10분 테코톡] 🍪쿠기의 Connection Pool & Keep-Alive",
-    "url": "https://www.youtube.com/watch?v=MBgEhSUOlXo",
-    "publishedAt": "2019-11-27T05:58:30Z"
-  },
-  {
-    "title": "[10분 테코톡] 🤝쉐이크반의 Forward Proxy vs Reverse Proxy",
-    "url": "https://www.youtube.com/watch?v=lg-wHikZg0Q",
-    "publishedAt": "2019-11-27T06:26:27Z"
-  },
-  {
-    "title": "[10분 테코톡] 👶에단의 TLS",
-    "url": "https://www.youtube.com/watch?v=EPcQqkqqouk",
-    "publishedAt": "2019-11-28T05:23:49Z"
-  },
-  {
-    "title": "[10분 테코톡] 🎙️효오의 Latency & Bandwidth",
-    "url": "https://www.youtube.com/watch?v=mFBIwEhvZUY",
-    "publishedAt": "2019-11-28T08:41:01Z"
-  },
-  {
-    "title": "[10분 테코톡] 🙆‍♂️아이크의 HTTP 2.0",
-    "url": "https://www.youtube.com/watch?v=uhlvXrDpM-Y",
-    "publishedAt": "2019-11-28T09:17:39Z"
-  },
-  {
-    "title": "[10분 테코톡] 👌던의 JVM의 Garbage Collector",
-    "url": "https://www.youtube.com/watch?v=vZRmCbl871I",
-    "publishedAt": "2019-11-29T05:22:13Z"
-  },
-  {
-    "title": "[10분 테코톡] 😎유니의 Web polling vs Web push",
-    "url": "https://www.youtube.com/watch?v=v11dxmc5a0I",
-    "publishedAt": "2019-11-29T05:53:17Z"
-  },
-  {
-    "title": "[10분 테코톡] 👃미스터코의 Apache MPM vs NGINX vs Node.js",
-    "url": "https://www.youtube.com/watch?v=QeBqwwbsBbM",
-    "publishedAt": "2019-11-29T05:54:24Z"
-  },
-  {
-    "title": "[10분 테코톡] 🎅무민의 JVM Stack & Heap",
-    "url": "https://www.youtube.com/watch?v=UzaGOXKVhwU",
-    "publishedAt": "2019-12-01T16:00:07Z"
-  },
-  {
-    "title": "[10분 테코톡] ⚽코나스의 CORS",
-    "url": "https://www.youtube.com/watch?v=_sLjXviYivM",
-    "publishedAt": "2019-12-02T04:12:48Z"
-  },
-  {
-    "title": "[10분 테코톡] 🍇포도당의 scale up vs scale out, SPOF",
-    "url": "https://www.youtube.com/watch?v=6wPr2jgdDxM",
-    "publishedAt": "2019-12-03T08:00:00Z"
-  },
-  {
-    "title": "[10분 테코톡] 🙋‍♂️로비의 SQL 인젝션",
-    "url": "https://www.youtube.com/watch?v=qzas_-u4Nxk",
-    "publishedAt": "2019-12-05T00:10:34Z"
+    "publishedAt": "2019-11-04T02:49:14Z",
+    "read": true
   },
   {
     "title": "[우아한테크세미나] 191121 우아한레디스 by 강대명님",
