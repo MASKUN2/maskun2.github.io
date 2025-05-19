@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "RestAssured로 Spring Data Page 응답 역직렬화 시 겪는 난관과 해결책"
-date:   2024-05-19 00:00:00 +0900
+title:  "RestAssured로 Page 응답 역직렬화 시 겪는 난관과 해결책"
+date:   2025-05-19 00:00:00 +0900
 categories: 
 ---
 ## RestAssured로 Spring Data Page 응답 역직렬화 시 겪는 난관과 해결책
