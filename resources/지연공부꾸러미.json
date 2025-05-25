@@ -1,0 +1,10 @@
+{
+  "lazyStudyPocket": [
+    {
+      "title": "LinkedBlockingQueue 와 ConcurrentLinkedQueue",
+      "context": [
+        "큐 무한 증가 방지를 위해 LinkedBlockingQueue 사용을 최우선으로 고려해야 합니다. 이는 크기 제한을 통해 메모리 부족(OOM)을 막고, 생산자-소비자 패턴에서 생산자 속도 제어(백프레셔)를 자동 제공하기 때문입니다. 또한, AtomicInteger로 큐 크기를 추적하거나 주기적인 모니터링을 스케줄러로 구현하여 성능 오버헤드를 줄이는 방법을 함께 고려하면 좋습니다. ConcurrentLinkedQueue는 높은 처리량에 유리하지만, 크기 제한이 없어 무한 증가 위험이 있습니다."
+      ]
+    }
+  ]
+}
