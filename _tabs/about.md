@@ -6,9 +6,10 @@ order: 4
 
 
 
-<img alt="증명사진.png" height="130" src="/img/증명사진.png" width="100"/>  
 
 ## 정인호 이력서
+<img alt="증명사진.png" height="130" src="/img/증명사진.png" width="100"/>  
+
 - 1994.02
 - Contact
   - [Linked In](https://www.linkedin.com/in/inho-jeong-068663304)
