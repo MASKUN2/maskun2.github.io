@@ -13,10 +13,10 @@ categories: "Spring Cloud Stream"
 ### 5분 레시피
 스프링 클라우드 스트림의 컨셉을 이해하기 위한 메세지 수신로깅 학습 테스트가 있다. 스프링 이니셜라이저로 Cloud Stream과 원하는 RabbitMQ 의존성을 추가해 프로젝트를 빌드한다. 아래와 같이 빈을 작성하면 자동으로 수신핸들러로 등록된다.
 ```java
-  @Bean
-	public Consumer<Person> log() {
-	    return person -> System.out.println("Received: " + person); //Person은 name 필드를 가지는 DTO
-	}
+@Bean
+public Consumer<Person> log() {
+    return person -> System.out.println("Received: " + person); //Person은 name 필드를 가지는 DTO
+}
 ```
 이제 RabbitMQ가 실행된 상태에서 스프링부트를 실행하고 메세지를 보내면 콘솔로그가 프린트된다.
 
