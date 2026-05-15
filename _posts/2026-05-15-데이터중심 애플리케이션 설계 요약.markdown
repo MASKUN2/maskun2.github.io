@@ -4,7 +4,7 @@ categories: [Architecture]
 ---
 # 데이터 중심 애플리케이션 설계
 
-<img alt="책표지" height="400" src="/img/데이터중심%20애플리케이션%20설계%20책표지.png" width="300"/>
+<img alt="책표지" height="586" src="/img/데이터중심%20애플리케이션%20설계%20책표지.png" width="458"/>
 
 읽고 요약한다.
 
