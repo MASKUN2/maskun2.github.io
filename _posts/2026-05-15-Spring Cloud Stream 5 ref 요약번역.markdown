@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Spring Cloud Stream 5 레퍼런스 요약 번역"
-categories: "Spring Cloud Stream"
+categories: [Spring Cloud Stream]
 ---
 # Spring Cloud Stream 5 레퍼런스 요약 번역
 읽고 공부하고 요약하여 내 지식으로 만들기
