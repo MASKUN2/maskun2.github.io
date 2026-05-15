@@ -1,0 +1,20 @@
+# Tombstone Records
+
+When using compacted topics, a record with a `null` value (also called a tombstone record) represents the deletion of a key.
+To receive such messages in a Spring Cloud Stream function, you can use the following strategy.
+
+```
+@Bean
+public Function<Message<Person>, String> myFunction() {
+    return value -> {
+        Object v = value.getPayload();
+        String className = v.getClass().getName();
+        if (className.isEqualTo("org.springframework.kafka.support.KafkaNull")) {
+            // this is a tombstone record
+        }
+        else {
+            // continue with processing
+        }
+    };
+}
+```

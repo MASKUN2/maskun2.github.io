@@ -1,0 +1,9 @@
+# Overview
+
+|  |  |
+| --- | --- |
+|  | As of Spring Cloud Stream version 4.3.0, the reactive Kafka binder is deprecated and will be completely removed in a future release. See the related updates in [Reactor Kafka Discontinued Blog Post](https://spring.io/blog/2025/05/20/reactor-kafka-discontinued). Please continue to use the regular message channel based Kafka binder with reactive types. Keep in mind that the applications will need to handle the various reactive use cases explicitly using the reactor programming model and support from the Project Reactor directly. |
+
+Kafka binder ecosystem in Spring Cloud Stream provides a dedicated reactive binder based on the [Reactor Kafka](https://projectreactor.io/docs/kafka/release/reference/) project.
+This reactive Kafka binder enables full end-to-end reactive capabilities such as backpressure, reactive streams, etc. in applications based on Apache Kafka.
+When your Spring Cloud Stream Kafka application is written using reactive types (`Flux`, `Mono` etc.), it is recommended to use this reactive Kafka binder instead of the regular message channel based Kafka binder.
