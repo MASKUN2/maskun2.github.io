@@ -6,7 +6,7 @@ categories: "Spring Cloud Stream"
 # Spring Cloud Stream 5 레퍼런스 요약 번역
 읽고 공부하고 요약하여 내 지식으로 만들기
 
-## [001 preface.md](../spring_cloud_stream_docs-5.0.1/001_preface.md)
+## A Brief History of Spring’s Data Integration Journey
 
 클라우드 마이크로서비스가 엔터프라이즈에 중요해짐에 따라 스프링 데이터 통합과 스프링부트가 합쳤고 스프링 클라우드 스트림이 생겨나게 되었다. 스프링 클라우드 스트림은 개발자에게 데이터 중심의 마이크로서비스 아키텍쳐에서 서비스를 개발하는데에 여러 편의를 제공한다.
 
