@@ -34,11 +34,11 @@ spring.cloud.stream.bindings.<bindingName>
 ```
 
 ### Consumer Groups
-![SCSt groups](images/SCSt-groups.png)
+![SCSt groups](/spring_cloud_stream_docs-5.0.1/images/SCSt-groups.png)
 스케일업이 필요한 환경에서 특정 메세지를 처리하고자하는 컨슈머가 늘어나게 되면 일종의 경쟁구조를 가지게된다. 이에 스프링 클라우드 스트림은 한 컨슈머 그룹안에서는 한 멤버 컨슈머만 메세지를 전달받도록 하여 이 문제를 해결한다. 프로퍼티 설정은 `spring.cloud.stream.bindings.<bindingName>.group={groupName}`로 지정한다. 지정되지 않은 바인더는 독립 그룹으로 자동 지정된다.
 
 ### Partitioning
-![SCSt partitioning](images/SCSt-partitioning.png)
+![SCSt partitioning](/spring_cloud_stream_docs-5.0.1/images/SCSt-partitioning.png)
 스프링 클라우드 스트림은 데이터의 특징에 따라 동일 컨슈머가 처리하도록 할 수 있는 파티셔닝과 추상화를 제공한다. 특별히 타임원도우 계산과 같은 유즈케이스에서는 파티셔닝이 중요하고 데이터의 I/O를 모두 그것에 맞도록 설정해야한다.
 
 #### Configuring Output Bindings for Partitioning
