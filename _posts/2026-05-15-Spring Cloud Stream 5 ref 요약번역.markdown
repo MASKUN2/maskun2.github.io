@@ -3,8 +3,9 @@ layout: post
 title:  "Spring Cloud Stream 5 레퍼런스 요약 번역"
 categories: [Spring Cloud Stream]
 ---
-# Spring Cloud Stream 5 레퍼런스 요약 번역
+# Spring Cloud Stream 5
 https://docs.spring.io/spring-cloud-stream/reference/index.html
+
 원문을 읽고 공부하고 요약하여 내 지식으로 만들기
 
 ## A Brief History of Spring’s Data Integration Journey
@@ -24,6 +25,8 @@ public Consumer<Person> log() {
 
 ### Spring Expression Language 사용 주의
 스프링 클라우드 스트림에서 메세지는 Message<byte[]> 타입으로 수신된다. raw 타입이니 여기에 SpEL로 페이로드를 조회하여 라우팅하거나 하지말자. 메세지 헤더에 읽기 좋은 문자열 정보를 넣고 이것을 SpEL로 읽는 것이 더 안전하고 업계표준이다.
+
+## Main Concepts and Abstractions
 
 ### The Binder Abstraction
 스프링 클라우드 스트림은 커스텀 구현이 가능한 바인더 추상을 정의하고 카프카와 레빗MQ에 대해 테스트를 포함하는 바인딩 구현체를 제공한다. 관련 설정이 스프링부트 방식으로 동적 적용이 가능하며 스프링부트가 바인더를 클래스 패스에서 찾기 때문에 복수의 미들웨어에 대한 통합도 가능하다.
