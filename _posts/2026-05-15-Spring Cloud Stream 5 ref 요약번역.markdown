@@ -17,7 +17,8 @@ https://docs.spring.io/spring-cloud-stream/reference/index.html
 ```java
 @Bean
 public Consumer<Person> log() {
-    return person -> System.out.println("Received: " + person); //Person은 name 필드를 가지는 DTO
+    //Person은 name 필드를 가지는 DTO
+    return person -> System.out.println("Received: " + person);
 }
 ```
 이제 RabbitMQ가 실행된 상태에서 스프링부트를 실행하고 메세지를 보내면 콘솔로그가 프린트된다.
@@ -47,8 +48,8 @@ spring.cloud.stream.bindings.<bindingName>
 #### Configuring Output Bindings for Partitioning
 아웃바인더의 파티셔닝 설정은 `partitionKeyExpression` 와 `partitionKeyExtractorName` 중 하나를 이용하고 `partitionCount`를 지정하면 됩니다.
 ```yaml
-# 예시
-spring.cloud.stream.bindings.func-out-0.producer.partitionKeyExpression=headers.id # SpEL
+# SpEL 을 사용하는 경우
+spring.cloud.stream.bindings.func-out-0.producer.partitionKeyExpression=headers.id
 # org.springframework.cloud.stream.binder.PartitionKeyExtractorStrategy 구현체 bean을 사용하는 경우
 # spring.cloud.stream.bindings.func-out-0.producer.partitionKeyExtractorName=customPartitionKeyExtractor
 spring.cloud.stream.bindings.func-out-0.producer.partitionCount=5 # 파티션 갯수
