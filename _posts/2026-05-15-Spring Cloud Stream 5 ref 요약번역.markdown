@@ -125,3 +125,25 @@ public SanitizingFunction sanitizingFunction() {
 	};
 }
 ```
+
+### Producing and Consuming Messages
+스프링 클라우드 스트림은 `Function` and `Consumer`와 같은 함수형 구현을 추천한다. 함수형 싱글 빈들은 기본적으로 `spring.cloud.stream.function.autodetect=true`자동 감지되어 `toUpperCase-in-0`와 같은 자동생성이름으로 바인더에 등록되긴 하지만 혼란을 줄이기 위해서 명시적으로 `spring.cloud.function.definition`프로퍼티로 지정하는 것도 권장된다.
+
+#### Suppliers (Sources)
+`Function` and `Consumer`와 다르게 `Supplier`는 in 으로 바인딩이 되는 것이 아니다. 대신 프레임워크의 default polling mechanism에 따라 `1초` 마다 invoked 된다. 이러한 풀링은 커스텀도 가능하다.
+
+그리고 `Flux<String>`을 반환하는 서플라이어 타입인 경우 처음 1회만 호출된다. 무한 스트림인경우에는 호출 후 그것이 유지될 것이고 유한 스트림인 경우에는 폴링이 필요한 경우가 있어서 `@PollableBean`을 사용하여 폴링이 이뤄지도록 지원한다. 이경우 애노테이션에 기본으로 `splittable=true`으로 유한 스트림을 모아서 하나의 메세지로 보낼지 여부를 선택 가능한다.
+
+서플라이어 빈은 태생상 요청 스레드에 의해 제어되지 않으므로 스레드 문제가 발생할 여지가 있다. 이를 명시적으로 관리하기 위해서는 서플라이어 빈을 지정하는 대신 `StreamBridge`로 같은 기능을 직접 관리하는 것이 권장된다.
+
+#### Consumer (Reactive)
+리액티브 컨슈머는 반환타입이 void이기 때문에 함수바디가 구독 `.subscribe()`을 하지 않아도 작성이 가능해서 잘못하면 혼란이 발생할 수 있다. 대신 명시적으로 `flux -> flux.map(..).filter(..).then()` 처럼 `Function<Flux<?>, Mono<Void>>` 로 작성하는게 권장된다.
+
+##### Polling Configuration Properties
+`spring.integration.poller.`로 시작하는 프로퍼티로 기본 폴러의 인터벌,cron 설정이 가능하다. 개별 바인더에 대한 폴러는 `spring.cloud.stream.bindings.supply-out-0.producer.poller.`로 시작하는 설정을 추가함으로서 가능하다.
+
+#### Sending arbitrary data to an output (e.g. Foreign event-driven sources)
+만약 REST API로 전달받은 데이터를 이벤트 스트림에 푸시해야하는 경우. 웹 스코프에서 `streamBridge.send(바인딩이름, obj)`과 같이 사용할 수 있다.
+바인딩 이름은 있고 함수가 없어도 프레임워크가 동적으로 이를 대신하여 푸시한다. 바인딩 이름을 사전에 지정하지 않는 경우에도 바인딩 이름을 토픽으로 간주하고 푸시를 진행하긴하는데 권장되진 않는다.
+인자로 전달되는 메세지 타입은 오브젝트이고 POJO or `Message`타입으로 보낼 수 있다.
+
