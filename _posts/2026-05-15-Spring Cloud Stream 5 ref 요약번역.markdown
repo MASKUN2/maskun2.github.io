@@ -84,6 +84,8 @@ spring.cloud.stream.instanceCount=5 # 처리 가능한 인스턴스 갯수
 
 특정 바인딩 네임에 대해 별칭을 줄수도 있다. `spring.cloud.stream.function.bindings.uppercase-in-0=input`으로 지정하면 `spring.cloud.stream.bindings.input.destination=my-topic`으로 참조할 수 있게 된다. 다만 `explicit binding name` 방식과 혼동될 수 있으므로 추천하지는 않는다.
 
+두개 이상의 함수 빈 인스턴스를 먼저 `spring.cloud.function.definition`에 `;` 구분자로 지정하면 자동으로 바인딩 규칙에 따른 in-0 , out-0 바인딩이 된다.
+
 ### Explicit binding creation
 함수형 바인딩은 보통 메세지 수신이 트리거가 되는데 메세지 스트림을 직접 조작해야할 일이 생긴다. 예를 들어 HTTP 요청을 받아서 이를 메세지 스트림에 발행해야하는 경우가 있겠다. 스프링 클라우드 스트림은 명시적 바인더이름을 선언하면 `StreamBridge`으로 조작가능한 바인더를 자동으로 만들어준다.
 ```yaml
@@ -127,7 +129,7 @@ public SanitizingFunction sanitizingFunction() {
 ```
 
 ### Producing and Consuming Messages
-스프링 클라우드 스트림은 `Function` and `Consumer`와 같은 함수형 구현을 추천한다. 함수형 싱글 빈들은 기본적으로 `spring.cloud.stream.function.autodetect=true`자동 감지되어 `toUpperCase-in-0`와 같은 자동생성이름으로 바인더에 등록되긴 하지만 혼란을 줄이기 위해서 명시적으로 `spring.cloud.function.definition`프로퍼티로 지정하는 것도 권장된다.
+스프링 클라우드 스트림은 `Function` and `Consumer`와 같은 함수형 구현을 추천한다. 함수형 싱글 빈들은 기본적으로 `spring.cloud.stream.function.autodetect=true`자동 감지되어 함수이름을 조합하여 `toUpperCase-in-0`와 같은 자동생성이름으로 바인더에 등록되긴 하지만 혼란을 줄이기 위해서 명시적으로 `spring.cloud.function.definition`프로퍼티로 함수이름을 지정하는 것도 권장된다.
 
 #### Suppliers (Sources)
 `Function` and `Consumer`와 다르게 `Supplier`는 in 으로 바인딩이 되는 것이 아니다. 대신 프레임워크의 default polling mechanism에 따라 `1초` 마다 invoked 된다. 이러한 풀링은 커스텀도 가능하다.
@@ -147,3 +149,24 @@ public SanitizingFunction sanitizingFunction() {
 바인딩 이름은 있고 함수가 없어도 프레임워크가 동적으로 이를 대신하여 푸시한다. 바인딩 이름을 사전에 지정하지 않는 경우에도 바인딩 이름을 토픽으로 간주하고 푸시를 진행하긴하는데 권장되진 않는다.
 인자로 전달되는 메세지 타입은 오브젝트이고 POJO or `Message`타입으로 보낼 수 있다.
 
+
+streamBridge는 기본적으로 호출하는 스레드를 사용하지만 비동기로 보내야하는 경우 관련 옵션을 사용할 수 있다. 비동기 전송의 관측가능성을 위해 micrometer의 context-propagation을 사용할 수도 있다.
+
+스프링클라우드 스트림은 StreamBridge.send() 로 전달하는 바인딩 이름이 없는 경우 자동으로 그것을 바인더로 생성하고 동일한 이름의 destination(topic)으로 매핑한다. 다만 캐시 용량이 기본적으로 제한되어있고 크기를 제어할 수 있으나 메모리 리크 우려가 있어 권장되지 않는다.
+
+public boolean send(String bindingName, Object data, MimeType outputContentType) 메서드를 사용하여 컨텐츠 타입 지정이 가능하다.
+
+기본적으로 `spring.cloud.stream.output-bindings` 와 같이 바인더를 지정한것과는 별개로 StreamBridge에서 동적 바인더 생성시에는 명시적으로 바인더 타입을 지정해줄 수도 있다. `public boolean send(String bindingName, @Nullable String binderType, Object data)` 와같은 메서드를 사용하면 된다. 단 바인더 이름은 프로퍼티를 우선한다.
+
+StreamBridge은 아웃 바인딩을 만들때 (글로벌/커스텀)채널 인터셉터를 지정해줄 수도 있다.
+
+#### Reactive Functions support
+기본적으로 스프링 클라우드 스트림은 리액티브를 지원하긴한다. 다만 imperative와는 패러다임이 다르므로 프레임워크에 덜 의지하는 방식의 코드 작성이 필요하다
+
+스트림 복수를 하나의 핸들러에서 처리하거나 하나의 핸들러에서 여러 핸들러로 메세지를 수신하는 방법이 있다. 리액터와 튜플자료형을 사용하는데 이 요약본에서는 정리하지 않기로 했다.
+
+#### Functional Composition
+함수형 메세지 핸들러를 조합한 방식의 바인딩도 제공한다. `spring.cloud.function.definition=toUpperCase|wrapInQuotes` 처럼 파이프라인으로 두개의 함수형 핸들러를 묶을 수 있고 저 선언 자체를 바인딩 이름처럼 쓸 수 있다. 이러한 방식은 횡단 관심사를 처리하기 위한 어드바이스를 마치 함수형 핸들러로 적용하는 것처럼 쓸 수도 있다.
+
+#### Batch Consumers
+`pring.cloud.stream.bindings.<binding-name>.consumer.batch-mode`를  `true`로 하면 `Function<List<Person>, Person>`와 같이 배치 컨슈머를 사용할 수 있다.
