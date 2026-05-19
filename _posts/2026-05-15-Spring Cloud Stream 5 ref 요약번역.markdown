@@ -219,7 +219,7 @@ The fail-control of message conversion is depending on the function's signature 
 
 When its payload fails for conversion, the framework tries to invoke your function with the raw message. If the function is expected POJO as arguments, it'll be thrown an exception. In a batch process, a failed payload is removed and effectively reduces the batch size without any exception.
 
-And the default implementations of `MessageConverterHelper` for Kafka and Rabbit automatically remove the header from its header set.
+And the default implementations of `MessageConverterHelper` for Kafka and Rabbit automatically remove the header of the failed to conversion message from its header set.
 
 #### Batch Producers
 
