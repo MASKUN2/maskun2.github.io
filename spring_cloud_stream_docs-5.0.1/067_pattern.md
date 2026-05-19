@@ -1,4 +1,0 @@
-# Destination is Pattern
-
-Starting with version 4.0.3, the `destination-is-pattern` Kafka binding consumer property is now supported.
-The receiver options are configured with a regex `Pattern`, allowing the binding to consume from any topic that matches the pattern.
