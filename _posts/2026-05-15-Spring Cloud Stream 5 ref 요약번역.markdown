@@ -256,3 +256,28 @@ By default, an error channel is configured for the pollable source; if the callb
 You can subscribe either with `@ServiceActivator`. If neither channel is subscribed, the error will be simply logged and acknowledged as successful. If the activator service throws `RequeueCurrentMessageException, the message will be re-queued. When the other exceptions are thrown, it'll be rejected by default.
 
 Since Error handling is important, I recommend following the best practice or convention of your industry.
+
+
+### Event Routing
+write `spring.cloud.stream.function.routing.enabled=true` or providing `spring.cloud.function.routing-expression` enables to rely on `RoutingFunction` for route events. The binding name of default routing function is `functionRouter-in-0`.
+
+Here is an example using a dynamic route with SpEL.
+```java
+@SpringBootApplication
+public class RoutingStreamApplication {
+
+  public static void main(String[] args) {
+      SpringApplication.run(RoutingStreamApplication.class,
+	  "--spring.cloud.function.routing-expression="
+	  + "T(java.lang.System).nanoTime() % 2 == 0 ? 'even' : 'odd'");
+  }
+  @Bean
+  public Consumer<Integer> even() { return value -> System.out.println("EVEN: " + value); }
+
+  @Bean
+  public Consumer<Integer> odd() {return value -> System.out.println("ODD: " + value);}
+}
+```
+
+`RoutingFunction` works unlike `Function`. If you let it route to Consumer, it works like Consumer (No output). If you let it route Function, it'll be got output.
+
