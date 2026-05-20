@@ -29,10 +29,10 @@ Spring Integration is guided by the following principles:
 
 #### Message
 
-![](si-message.png)
+![](../img/si-message.png)
 
 #### Message Channel
-![](si-message-channel.png)
+![](../img/si-message-channel.png)
 
 a message channel represents the `pipe` of `Pipe-and-filters model`.
 
