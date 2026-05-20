@@ -261,6 +261,8 @@ Since Error handling is important, I recommend following the best practice or co
 
 
 ### Event Routing
+
+#### routing TO ...
 write `spring.cloud.stream.function.routing.enabled=true` or providing `spring.cloud.function.routing-expression` enables to rely on `RoutingFunction` for route events. The binding name of default routing function is `functionRouter-in-0`.
 
 Here is an example using a dynamic route with SpEL.
@@ -283,3 +285,23 @@ public class RoutingStreamApplication {
 
 `RoutingFunction` works unlike `Function`. If you let it route to Consumer, it works like Consumer (No output). If you let it route Function, it'll be got output.
 
+#### routing FROM ...
+Spring Cloud Stream lets it can send a message to dynamical bound destinations.
+
+First way: Let Function returnType `Message<T>` and setHeader "spring.cloud.stream.sendto.destination" your destination name. When you want congifure this work, you can register `NewDestinationBindingCallback<>`bean like this.
+
+```java
+@Bean
+public NewDestinationBindingCallback<RabbitProducerProperties> dynamicConfigurer() {
+    return (name, channel, props, extended) -> {
+        props.setRequiredGroups("bindThisQueue");
+        extended.setQueueNameGroupOnly(true);
+        extended.setAutoBindDlq(true);
+        extended.setDeadLetterQueueName("myDLQ");
+    };
+}
+```
+
+
+### Post-processing (after sending message)
+`PostProcessingFunction` is useful for adding some tasks after completion of sending a message.
