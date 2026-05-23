@@ -305,3 +305,43 @@ public NewDestinationBindingCallback<RabbitProducerProperties> dynamicConfigurer
 
 ### Post-processing (after sending message)
 `PostProcessingFunction` is useful for adding some tasks after completion of sending a message.
+You can add a new side effect by implementing its `postProcess(Message>)` method. Or you can concatenate a new `PostProcessingFunction` after the target function like function definition `foo|yourPostFuntion`.
+
+note: If the last function is not an instance of PostProcessingFunction, then no post-processing functionality will be performed.
+
+
+## Binder abstraction
+Spring Cloud Stream provides a Binder abstraction for use in connecting to physical destinations at the external middleware
+
+### Producers and Consumers
+![](Figure%201.%20Producers%20and%20Consumers%20.png)
+
+### Binder SPI(Service Provider Interface)
+
+The Binder SPI provides a pluggable mechanism for connecting to external middleware. The key point of the SPI is the Binder interface, which is a strategy for connecting to external middleware.
+```java
+public interface Binder<T, C extends ConsumerProperties, P extends ProducerProperties> {
+    Binding<T> bindConsumer(String bindingName, String group, T inboundBindTarget, C consumerProperties);
+
+    Binding<T> bindProducer(String bindingName, T outboundBindTarget, P producerProperties);
+}
+```
+
+### Binder Detection
+By default, Spring Cloud Stream relies on Spring Boot’s auto-configuration to configure the binding process. If a single Binder implementation is found on the classpath, Spring Cloud Stream automatically uses it.
+
+### Multiple Binders on the Classpath, Connecting to Multiple Systems
+I will skip it. When I need this knowledge, I'll search.
+
+## Error Handling
+Note, the techniques are dependent on binder implementation and the capability of the underlying messaging middleware as well as programming model
+
+By default, it will retry by three times. If all fail finally, it is up to the error handling mechanism. It may drop, re-queue or send to DLQ.
+
+Since the Reactive API provides its own mechanism to handle errors, this section focuses on the Message handlers (i.e., imperative functions).
+
+
+### Drop Failed Messages
+By default, if no additional Error handlings, it will drop the Message occurred an error after logging.
+
+### Handle Error Messages
