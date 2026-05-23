@@ -314,7 +314,7 @@ note: If the last function is not an instance of PostProcessingFunction, then no
 Spring Cloud Stream provides a Binder abstraction for use in connecting to physical destinations at the external middleware
 
 ### Producers and Consumers
-![](Figure%201.%20Producers%20and%20Consumers%20.png)
+![Figure 1. Producers and Consumers .png](../img/Figure%201.%20Producers%20and%20Consumers%20.png)
 
 ### Binder SPI(Service Provider Interface)
 
