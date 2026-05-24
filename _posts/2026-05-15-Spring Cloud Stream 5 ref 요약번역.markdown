@@ -345,3 +345,159 @@ Since the Reactive API provides its own mechanism to handle errors, this section
 By default, if no additional Error handlings, it will drop the Message occurred an error after logging.
 
 ### Handle Error Messages
+Note: Custom error handler is mutually exclusive with the framework's configuration. If you add a new Custom error handler, configured handlers like DLQ settings won't work as before.
+
+You can do so by adding Consumer designed to accept `ErrorMessage` which contains the original message and error information. And you need to prvide property `spring.cloud.stream.bindings.<binding-name>.error-handler-definition=myErrorHandler`.
+
+If you want to have a single error handler for all function beans, you can use properties `spring.cloud.stream.default.error-handler-definition=myErrorHandler`
+
+### DLQ - Dead Letter Queue
+You can configure like this :
+```yaml
+spring:
+  cloud:
+    # 1. 공통 바인딩 설정
+    stream:
+      bindings:
+        uppercase-in-0: # 사용하는 함수명 또는 바인딩 이름
+          destination: input-topic
+          group: my-consumer-group
+
+      # 2. 카프카 바인더 전용 확장 설정
+      kafka.bindings:
+          uppercase-in-0:
+            consumer:
+              # DLQ 활성화 (기본값은 false)
+              enable-dlq: true #destination은 function.그룹.dlq로 자동지정됨
+```
+
+### Retry Template
+The RetryTemplate is part of the Spring Retry library. I'll introduce its default properties shortly.
+
+- maxAttempts: The number of attempts to process the message. Default: 3.
+- backOffInitialInterval:The backoff initial interval on retry. Default 1000 milliseconds.
+- backOffMaxInterval: The maximum backoff interval. Default 10000 milliseconds.
+- backOffMultiplier: The backoff multiplier. Default 2.0.
+- defaultRetryable: Whether exceptions thrown by the listener that are not listed in the retryableExceptions are retryable. Default: true.
+- retryableExceptions: A map of Throwable class names in the key and a boolean in the value. Specify those exceptions (and subclasses) that will or won’t be retried. Also see defaultRetriable. Example: spring.cloud.stream.bindings.input.consumer.retryable-exceptions.java.lang.IllegalStateException=false. Default: empty.
+
+You can override it with registering an annotated `@StreamRetryTemplate` instance or defining `spring.cloud.stream.bindings.<foo>.consumer.retry-template-name=<your-retry-template-bean-name>`
+
+## Observability
+Spring provides support for Observability via Micrometer.
+```xml
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-actuator</artifactId>
+</dependency>
+<dependency>
+	<groupId>io.projectreactor</groupId>
+	<artifactId>reactor-core-micrometer</artifactId>
+</dependency>
+```
+
+### Imperative Functions
+mperative functions are wrapped with the observation wrapper `ObservationFunctionAroundWrapper`which interact each invocation.
+
+### Reactive Functions
+I'll skip it.
+
+
+## Configuration Options
+### Binding Service Properties
+These properties are exposed via `org.springframework.cloud.stream.config.BindingServiceProperties`
+
+- spring.cloud.stream.instanceCount: The number of deployed instances. Must be set for partitioning on the producer side. Must be set on the consumer side if autoRebalanceEnabled=false. Default: 1.
+
+- spring.cloud.stream.instanceIndex: The instance index of the application: A number from 0. Used for partitioning if autoRebalanceEnabled=false.
+
+- spring.cloud.stream.dynamicDestinations: A list of destinations that can be bound dynamically. If set, only listed destinations can be bound. Default: empty (letting any destination be bound).
+
+- spring.cloud.stream.defaultBinder: The default binder to use, if multiple binders are configured. See Multiple Binders on the Classpath. Default: empty.
+
+- spring.cloud.stream.overrideCloudConnectors: This property is only applicable when the cloud profile is active and Spring Cloud Connectors are provided with the application. When set to true, this property instructs binders to completely ignore the bound services and rely on Spring Boot properties. The typical usage of this property is to be nested in a customized environment when connecting to multiple systems. Default: false.
+
+- spring.cloud.stream.bindingRetryInterval: The interval (in seconds) between retrying binding creation when, for example, the binder does not support late binding and the broker is down. Set it to zero to treat such conditions as fatal, preventing the application from starting. Default: 30
+
+### Binding Properties
+Binding properties are supplied by using the format of `spring.cloud.stream.bindings.<bindingName>.<property>=<value>`. The `<bindingName>` represents the name of the binding being configured.
+
+#### Common Binding Properties
+The following binding properties are available for both input and output bindings and must be prefixed with `spring.cloud.stream.bindings.<bindingName>.`
+
+Default values can be set by using the `spring.cloud.stream.default` prefix
+- destination: The target destination of a binding on the bound middleware. If binding represents a consumer binding (input), it could be bound to multiple destinations, and the destination names can be specified as comma-separated String values. If not, the actual binding name is used instead. The default value of this property cannot be overridden.
+
+- group: The consumer group of the binding. Applies only to inbound bindings. Default: null (indicating an anonymous consumer).
+
+- contentType: The content type of this binding. See Content Type Negotiation. Default: application/json.
+
+- binder: The binder used by this binding. See Multiple Binders on the Classpath for details. Default: null (the default binder is used, if it exists).
+
+#### Consumer Properties
+The following binding properties are available for input bindings only and must be prefixed with spring.cloud.stream.bindings.<bindingName>.consumer. (for example, spring.cloud.stream.bindings.input.consumer.concurrency=3).
+
+Default values can be set by using the spring.cloud.stream.default.consumer prefix (for example, spring.cloud.stream.default.consumer.headerMode=none).
+
+- autoStartup: Signals if this consumer needs to be started automatically Default: true.
+
+- concurrency: The concurrency of the inbound consumer. Default: 1.
+
+- partitioned: Whether the consumer receives data from a partitioned producer. Default: false.
+
+- headerMode: When set to none, disables header parsing on input. Effective only for messaging middleware that does not support message headers natively. When set to headers, it uses the middleware’s native header mechanism. When set to embeddedHeaders, it embeds headers into the message payload. Default: depends on the binder implementation.
+
+- maxAttempts: If processing fails, the number of attempts to process the message (including the first). Set to 1 to disable retry. Default: 3.
+
+- backOffInitialInterval: The backoff initial interval on retry. Default: 1000.
+
+- backOffMaxInterval: The maximum backoff interval. Default: 10000.
+
+- backOffMultiplier: The backoff multiplier. Default: 2.0.
+
+- defaultRetryable: Whether exceptions thrown by the listener that are not listed in the retryableExceptions are retryable. Default: true.
+
+- instanceCount: When set to a value greater than equal to zero, it allows customizing the instance count of this consumer. Default: -1.
+
+- instanceIndex: When set to a value greater than equal to zero, it allows customizing the instance index of this consumer. Default: -1.
+
+- instanceIndexList: Used with binders that do not support native partitioning (such as RabbitMQ); allows an application instance to consume from more than one partition. Default: empty.
+
+- retryableExceptions: A map of Throwable class names in the key and a boolean in the value. Specify those exceptions (and subclasses) that will or won’t be retried. Also see defaultRetryable. Example: spring.cloud.stream.bindings.input.consumer.retryable-exceptions.java.lang.IllegalStateException=false. Default: empty.
+
+- useNativeDecoding: When set to true, the inbound message is deserialized directly by the client library, which must be configured correspondingly (for example, setting an appropriate Kafka producer value deserializer). Default: false.
+
+- multiplex: When set to true, the underlying binder will natively multiplex destinations on the same input binding. Default: false.
+
+#### Advanced Consumer Configuration
+For advanced configuration of the underlying message listener container for message-driven consumers, add a single ListenerContainerCustomizer bean to the application context.
+
+#### Producer Properties
+The following binding properties are available for output bindings only and must be prefixed with spring.cloud.stream.bindings.<bindingName>.producer. (for example, spring.cloud.stream.bindings.func-out-0.producer.partitionKeyExpression=headers.id).
+
+Default values can be set by using the prefix spring.cloud.stream.default.producer (for example, spring.cloud.stream.default.producer.partitionKeyExpression=headers.id).
+
+- autoStartup: Signals if this consumer needs to be started automatically Default: true.
+
+- partitionKeyExpression: A SpEL expression that determines how to partition outbound data. If set, outbound data on this binding is partitioned. partitionCount must be set to a value greater than 1 to be effective. See Partitioning. Default: null.
+
+- partitionKeyExtractorName: The name of the bean that implements PartitionKeyExtractorStrategy. Used to extract a key used to compute the partition id (see 'partitionSelector*'). Mutually exclusive with 'partitionKeyExpression'. Default: null.
+
+- partitionSelectorName: The name of the bean that implements PartitionSelectorStrategy. Used to determine partition id based on partition key (see 'partitionKeyExtractor*'). Mutually exclusive with 'partitionSelectorExpression'. Default: null.
+
+- partitionSelectorExpression: A SpEL expression for customizing partition selection. If neither is set, the partition is selected as the hashCode(key) % partitionCount, where key is computed through either partitionKeyExpression. Default: null.
+
+- partitionCount: The number of target partitions for the data, if partitioning is enabled. Must be set to a value greater than 1 if the producer is partitioned. On Kafka, it is interpreted as a hint. The larger of this and the partition count of the target topic is used instead. Default: 1.
+
+- requiredGroups: A comma-separated list of groups to which the producer must ensure message delivery even if they start after it has been created (for example, by pre-creating durable queues in RabbitMQ).
+
+- headerMode: When set to none, it disables header embedding on output. It is effective only for messaging middleware that does not support message headers natively and requires header embedding. Default: Depends on the binder implementation.
+
+- useNativeEncoding: When set to true, the outbound message is serialized directly by the client library, which must be configured correspondingly (for example, setting an appropriate Kafka producer value serializer). Default: false.
+
+- errorChannelEnabled: When set to true, if the binder supports asynchronous send results, send failures are sent to an error channel for the destination. See Error Handling for more information. Default: false.
+
+#### Advanced Producer Configuration
+In some cases, you may prefer a programmatic approach while configuring such producing MessageHandler. spring-cloud-stream provides ProducerMessageHandlerCustomizer to accomplish it.
+
+## Content Type Negotiation
