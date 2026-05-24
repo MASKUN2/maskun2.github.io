@@ -1,4 +1,5 @@
 User-agent: *
-Allow: /
+
+Disallow: /norobots/
 
 Sitemap: https://maskun2.github.io/sitemap.xml
