@@ -501,3 +501,13 @@ Default values can be set by using the prefix spring.cloud.stream.default.produc
 In some cases, you may prefer a programmatic approach while configuring such producing MessageHandler. spring-cloud-stream provides ProducerMessageHandlerCustomizer to accomplish it.
 
 ## Content Type Negotiation
+In Spring Cloud Stream, message transformation is accomplished with an org.springframework.messaging.converter.MessageConverter.
+
+### Mechanics
+Spring Cloud Stream provides three mechanisms to define contentType:
+*in order of precedence*
+- HEADER: The contentType can be communicated through the Message itself. By providing a contentType header.
+- BINDING: The contentType can be set per destination binding by setting the spring.cloud.stream.bindings.input.content-type property.
+- DEFAULT: application/json.
+
+when the return value is not a `Message`, the new `Message` is constructed with the return value as the payload while inheriting headers from the input `Message` minus the headers defined or filtered by `SpringIntegrationProperties.messageHandlerNotPropagatedHeaders.`then also `contentType`. In this case, `contentType` will be evaluated when about to send by framework.
