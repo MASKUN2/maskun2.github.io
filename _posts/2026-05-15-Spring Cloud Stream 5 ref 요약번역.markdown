@@ -511,3 +511,20 @@ Spring Cloud Stream provides three mechanisms to define contentType:
 - DEFAULT: application/json.
 
 when the return value is not a `Message`, the new `Message` is constructed with the return value as the payload while inheriting headers from the input `Message` minus the headers defined or filtered by `SpringIntegrationProperties.messageHandlerNotPropagatedHeaders.`then also `contentType`. In this case, `contentType` will be evaluated when about to send by framework.
+
+#### Message Converter
+MessageConverter defines 2 methods.
+```java
+Object fromMessage(Message<?> message, Class<?> targetClass);
+
+Message<?> toMessage(Object payload, @Nullable MessageHeaders headers);
+```
+
+### Provided MessageConverters
+- JsonMessageConverter: (DEFAULT).
+
+- ByteArrayMessageConverter
+
+- ObjectStringMessageConverter: Supports conversion of any type to a String when contentType is text/plain. It invokes Object’s toString() method or, if the payload is byte[], a new String(byte[]).
+
+When no appropiate conveter is found, the framework throws an exception.
