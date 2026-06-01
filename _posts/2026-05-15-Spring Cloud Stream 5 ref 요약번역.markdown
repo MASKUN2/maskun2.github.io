@@ -528,3 +528,64 @@ Message<?> toMessage(Object payload, @Nullable MessageHeaders headers);
 - ObjectStringMessageConverter: Supports conversion of any type to a String when contentType is text/plain. It invokes Object’s toString() method or, if the payload is byte[], a new String(byte[]).
 
 When no appropiate conveter is found, the framework throws an exception.
+
+
+### User-defined Message Converters
+Implement `org.springframework.messaging.converter.MessageConverter`, configure it as a `@Bean`. It is then appended to the existing stack of `MessageConverter`s.
+
+Custom `MessageConverter` implementations take precedence over the existing ones, which lets you override as well as add to the existing converters.
+
+## Inter-Application Communication
+### Connecting Multiple Application Instances
+### Partitioning
+#### Configuring Output Bindings for Partitioning
+You can configure an output binding to send partitioned data by setting one and only one of its `partitionKeyExpression`(SpEL) or `partitionKeyExtractorName`(implementation of `org.springframework.cloud.stream.binder.PartitionKeyExtractorStrategy`) properties, as well as its `partitionCount` property.
+
+## Testing
+https://docs.spring.io/spring-cloud-stream/reference/spring-cloud-stream/spring_integration_test_binder.html
+
+#### Spring Integration Test Binder
+Spring Cloud Stream comes with a test binder which you can use for testing the various application components without requiring an actual real-world binder implementation or a message broker.
+
+To enable Test binder, add dependency and use `@EnableTestBinder`
+
+```java
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+	<artifactId>spring-cloud-stream-test-binder</artifactId>
+	<scope>test</scope>
+</dependency> 
+```
+
+#### Test Binder and PollableMessageSource
+If `@EnableTestBinder` is set, `PollableMessageSource#poll` return a message contain payload "POLLED DATA" as default. You can orride this action by register `MessageSource` bean. When you want multi-sourced, plz find configuration about input destination.
+
+### Health Indicator
+
+
+Spring Cloud Stream provides a health indicator for binders. It is registered under the name binders and can be enabled or disabled by setting the management.health.binders.enabled property.
+
+To enable health check you first need to enable both "web" and "actuator" by including its dependencies
+
+You can access the health indicator `/actuator/health`. In order to browse the full details, you need to include the property `management.endpoint.health.show-details` with the value `ALWAYS`. 
+
+If you use Multiple binder implementations in your app, you need more consideration for health checks of binders. https://docs.spring.io/spring-cloud-stream/reference/spring-cloud-stream/health-indicator.html
+
+### sample
+https://github.com/spring-cloud/spring-cloud-stream-samples
+
+## Spring Cloud Stream Schema Registry
+
+### overview
+A schema registry lets you store schema information in a textual format (typically JSON) and makes that information accessible to various applications that need it to receive and send data in binary format. A schema is referenceable as a tuple consisting of:
+
+- A subject that is the logical name of the schema
+-  The schema version
+-  The schema format, which describes the binary format of the data
+
+Spring Cloud Stream Schema Registry provides the following components
+- Standalone Schema Registry Server : By default, it is using H2, but configuration is able.
+- Schema registry client : the client can communicate to the standalone schema registry or the Confluent Schema Registry.
+
+### Schema Registry Client
+
