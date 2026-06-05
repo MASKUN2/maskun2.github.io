@@ -606,42 +606,21 @@ Spring Cloud Stream auto-configures an Apache Avro message converter for schema 
 
 For outbound messages, if the content type of the binding is set to `application/*+avro`, the MessageConverter is activated.
 
-During the outbound conversion, the message converter tries to infer the schema of each outbound messages (based on its type) and register it to a subject (based on the payload type) by using the SchemaRegistryClient. If an identical schema is already found, then a reference to it is retrieved. If not, the schema is registered, and a new version number is provided. The message is sent with a contentType header by using the following scheme: application/[prefix].[subject].v[version]+avro, where prefix is configurable and subject is deduced from the payload type.
+The message converter tries to infer the schema of each outbound messages (based on its type) and register it to a subject (based on the payload type) by using the SchemaRegistryClient. The message is sent with a contentType header by using the following scheme: application/[prefix].[subject].v[version]+avro.
 
-For example, a message of the type User might be sent as a binary payload with a content type of application/vnd.user.v2+avro, where user is the subject and 2 is the version number.
+#### Avro Schema Registry Message Converter Properties
 
-When receiving messages, the converter infers the schema reference from the header of the incoming message and tries to retrieve it. The schema is used as the writer schema in the deserialization process.
-Avro Schema Registry Message Converter Properties
+If you have enabled Avro based schema registry client by setting `spring.cloud.stream.stream.bindings.<output-binding-name>.contentType=application/*+avro`, you can customize the behavior of the registration by setting the following properties.
 
-If you have enabled Avro based schema registry client by setting spring.cloud.stream.stream.bindings.<output-binding-name>.contentType=application/*+avro, you can customize the behavior of the registration by setting the following properties.
+- spring.cloud.stream.schema.avro.dynamicSchemaGenerationEnabled : Enable if you want the converter to use reflection to infer a Schema from a POJO. Default: false
 
-spring.cloud.stream.schema.avro.dynamicSchemaGenerationEnabled
+- spring.cloud.stream.schema.avro.readerSchema :  If set, this overrides any lookups at the schema server and uses the local schema as the reader schema. Default: null
+- spring.cloud.stream.schema.avro.schemaLocations : Registers any .avsc files listed in this property with the Schema Server.  Default: empty
 
-    Enable if you want the converter to use reflection to infer a Schema from a POJO.
+- spring.cloud.stream.schema.avro.prefix :  The prefix to be used on the Content-Type header.  Default: vnd
 
-    Default: false
-spring.cloud.stream.schema.avro.readerSchema
+- spring.cloud.stream.schema.avro.subjectNamingStrategy:  Determines the subject name used to register the Avro schema in the schema registry.  Default: org.springframework.cloud.stream.schema.avro.DefaultSubjectNamingStrategy
 
-    Avro compares schema versions by looking at a writer schema (origin payload) and a reader schema (your application payload). See the Avro documentation for more information. If set, this overrides any lookups at the schema server and uses the local schema as the reader schema. Default: null
-spring.cloud.stream.schema.avro.schemaLocations
-
-    Registers any .avsc files listed in this property with the Schema Server.
-
-    Default: empty
-spring.cloud.stream.schema.avro.prefix
-
-    The prefix to be used on the Content-Type header.
-
-    Default: vnd
-spring.cloud.stream.schema.avro.subjectNamingStrategy
-
-    Determines the subject name used to register the Avro schema in the schema registry. Two implementations are available, org.springframework.cloud.stream.schema.avro.DefaultSubjectNamingStrategy, where the subject is the schema name, and org.springframework.cloud.stream.schema.avro.QualifiedSubjectNamingStrategy, which returns a fully qualified subject using the Avro schema namespace and name. Custom strategies can be created by implementing org.springframework.cloud.stream.schema.avro.SubjectNamingStrategy.
-
-    Default: org.springframework.cloud.stream.schema.avro.DefaultSubjectNamingStrategy
-spring.cloud.stream.schema.avro.ignoreSchemaRegistryServer
-
-    Ignore any schema registry communication. Useful for testing purposes so that when running a unit test, it does not unnecessarily try to connect to a Schema Registry server.
-
-    Default: false
+- spring.cloud.stream.schema.avro.ignoreSchemaRegistryServer Ignore any schema registry communication. Useful for testing purposes so that when running a unit test, it does not unnecessarily try to connect to a Schema Registry server.  Default: false
 
 
