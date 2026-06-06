@@ -621,6 +621,61 @@ If you have enabled Avro based schema registry client by setting `spring.cloud.s
 
 - spring.cloud.stream.schema.avro.subjectNamingStrategy:  Determines the subject name used to register the Avro schema in the schema registry.  Default: org.springframework.cloud.stream.schema.avro.DefaultSubjectNamingStrategy
 
-- spring.cloud.stream.schema.avro.ignoreSchemaRegistryServer Ignore any schema registry communication. Useful for testing purposes so that when running a unit test, it does not unnecessarily try to connect to a Schema Registry server.  Default: false
+- spring.cloud.stream.schema.avro.ignoreSchemaRegistryServer : Ignore any schema registry communication. Useful for testing purposes so that when running a unit test, it does not unnecessarily try to connect to a Schema Registry server.  Default: false
 
+#### Coverters with Schema Support
+If you provide a custom converter, then the default AvroSchemaMessageConverter bean is not created. 
+
+#### Schema Registry Server
+Spring Cloud Stream provides a schema registry server implementation. To use it, you can download latest spring-cloud-stream-schema-registry-server release.
+
+#### Schema Registry Server API
+
+The Schema Registry Server API consists of the following operations:
+
+- POST / — see Registering a New Schema
+- GET /{subject}/{format}/{version} — see Retrieving an Existing Schema by Subject, Format, and Version
+- GET /{subject}/{format} — see Retrieving an Existing Schema by Subject and Format
+- GET /schemas/{id} — see Retrieving an Existing Schema by ID
+- DELETE /{subject}/{format}/{version} — see Deleting a Schema by Subject, Format, and Version
+- DELETE /schemas/{id} — see Deleting a Schema by ID
+- DELETE /{subject} — see Deleting a Schema by Subject
+
+#### Registering a New Schema
+
+To register a new schema, send a POST request to the / endpoint.
+
+The / accepts a JSON payload with the following fields:
+
+subject: The schema subject 
+format: The schema format
+definition: The schema definition
+
+Its response is a schema object in JSON, with the following fields:
+
+id: The schema ID
+subject: The schema subject
+format: The schema format
+version: The schema version
+definition: The schema definition
+
+#### Schema Registry Server API others
+see https://docs.spring.io/spring-cloud-stream/reference/schema-registry/spring-cloud-stream-schema-registry.html
+
+## Apache Kafka.Kafka Binder
+### Usage
+o use Apache Kafka binder, you need to add spring-cloud-stream-binder-kafka as a dependency to your Spring Cloud Stream application, as shown in the following example for Maven:
+```
+<dependency>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-stream-binder-kafka</artifactId>
+</dependency>
+````
+Alternatively, you can also use the Spring Cloud Stream Kafka Starter, as shown in the following example for Maven:
+```
+<dependency>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-starter-stream-kafka</artifactId>
+</dependency>
+```
 
