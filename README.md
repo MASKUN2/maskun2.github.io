@@ -1,7 +1,8 @@
-# Document
-개발하며 발견하는 지식의 파편들을 정리해서 모아두는 곳입니다.  
-길고 방대한 문서보다 용어와 추상화된 개념을 중심으로 구조화된 실무적 지식을 기록하고자합니다.
+# maskun2.github.io (archived)
 
-이력서와 및 프로젝트 협업에 대한 경험, 노하우도 저장하고자 합니다.
-2023년 11월 11일 정인호(MASKUN2)
+이 블로그는 **[inhology.jwih.org](https://inhology.jwih.org/)** 로 이전했습니다.
 
+- 모든 글은 새 블로그로 이관 완료. 이 사이트(`maskun2.github.io`)는 새 블로그로
+  자동 리다이렉트하는 정적 페이지만 배포합니다 (`site/`, `.github/workflows/pages-deploy.yml`).
+- 예전 Jekyll(Chirpy) 원본은 **git 히스토리**에 보존되어 있습니다.
+- 리포는 read-only로 **아카이브**되었습니다.
